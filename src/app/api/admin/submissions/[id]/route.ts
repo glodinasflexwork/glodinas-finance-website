@@ -21,10 +21,9 @@ const verifyToken = (request: NextRequest) => {
   }
 };
 
-// Using the correct type definition for Next.js 15 App Router
+// Using URL-based parameter extraction for Next.js 15 compatibility
 export async function PATCH(
-  request: NextRequest,
-  { params }: { params: { id: string } }
+  request: NextRequest
 ) {
   // Verify authentication
   const user = verifyToken(request);
@@ -36,7 +35,11 @@ export async function PATCH(
   }
   
   try {
-    const id = parseInt(params.id);
+    // Extract ID from URL path
+    const pathParts = request.nextUrl.pathname.split('/');
+    const idStr = pathParts[pathParts.length - 1];
+    const id = parseInt(idStr);
+    
     if (isNaN(id)) {
       return NextResponse.json(
         { error: 'Invalid submission ID' },
