@@ -1,5 +1,6 @@
 // Components;
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Blog() {
   return (
@@ -19,10 +20,12 @@ export default function Blog() {
             {/* Blog Post 1 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-200">
               <div className="h-48 bg-gray-200 relative">
-                {/* Placeholder for blog post image */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-gray-500 text-lg">VAT Article Image</span>
-                </div>
+                <Image 
+                  src="/images/blog/vat-dutch-businesses.png" 
+                  alt="Understanding VAT for Dutch Businesses" 
+                  fill
+                  className="object-cover"
+                />
               </div>
               <div className="p-6">
                 <div className="text-sm text-gray-500 mb-2">May 15, 2025</div>
@@ -39,10 +42,12 @@ export default function Blog() {
             {/* Blog Post 2 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-200">
               <div className="h-48 bg-gray-200 relative">
-                {/* Placeholder for blog post image */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-gray-500 text-lg">Business Structure Image</span>
-                </div>
+                <Image 
+                  src="/images/blog/business-structure.png" 
+                  alt="Choosing the Right Business Structure in the Netherlands" 
+                  fill
+                  className="object-cover"
+                />
               </div>
               <div className="p-6">
                 <div className="text-sm text-gray-500 mb-2">April 28, 2025</div>
@@ -59,10 +64,12 @@ export default function Blog() {
             {/* Blog Post 3 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-200">
               <div className="h-48 bg-gray-200 relative">
-                {/* Placeholder for blog post image */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-gray-500 text-lg">ZZP Planning Image</span>
-                </div>
+                <Image 
+                  src="/images/blog/zzp-planning.png" 
+                  alt="Financial Planning for ZZP Professionals" 
+                  fill
+                  className="object-cover"
+                />
               </div>
               <div className="p-6">
                 <div className="text-sm text-gray-500 mb-2">April 10, 2025</div>
@@ -79,10 +86,12 @@ export default function Blog() {
             {/* Blog Post 4 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-200">
               <div className="h-48 bg-gray-200 relative">
-                {/* Placeholder for blog post image */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-gray-500 text-lg">Tax Deductions Image</span>
-                </div>
+                <Image 
+                  src="/images/services/bookkeeping.png" 
+                  alt="Top Tax Deductions for Dutch Entrepreneurs" 
+                  fill
+                  className="object-cover"
+                />
               </div>
               <div className="p-6">
                 <div className="text-sm text-gray-500 mb-2">March 22, 2025</div>
@@ -99,16 +108,18 @@ export default function Blog() {
             {/* Blog Post 5 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-200">
               <div className="h-48 bg-gray-200 relative">
-                {/* Placeholder for blog post image */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-gray-500 text-lg">Moneybird Image</span>
-                </div>
+                <Image 
+                  src="/images/partners/moneybird.png" 
+                  alt="Maximizing Efficiency with Moneybird" 
+                  fill
+                  className="object-cover"
+                />
               </div>
               <div className="p-6">
                 <div className="text-sm text-gray-500 mb-2">March 5, 2025</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Maximizing Efficiency with Moneybird</h3>
                 <p className="text-gray-600 mb-4">
-                  Learn how to leverage Moneybird's features to streamline your bookkeeping processes and save valuable time.
+                  Learn how to leverage Moneybird&apos;s features to streamline your bookkeeping processes and save valuable time.
                 </p>
                 <Link href="/blog/maximizing-efficiency-with-moneybird" className="text-blue-600 hover:text-blue-800 font-medium">
                   Read More &rarr;
@@ -119,10 +130,12 @@ export default function Blog() {
             {/* Blog Post 6 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-200">
               <div className="h-48 bg-gray-200 relative">
-                {/* Placeholder for blog post image */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-gray-500 text-lg">Personal Loans Image</span>
-                </div>
+                <Image 
+                  src="/images/services/personal-loans.png" 
+                  alt="Navigating Personal Loans in the Netherlands" 
+                  fill
+                  className="object-cover"
+                />
               </div>
               <div className="p-6">
                 <div className="text-sm text-gray-500 mb-2">February 18, 2025</div>
@@ -147,6 +160,16 @@ export default function Blog() {
           <article className="bg-white p-8 rounded-lg shadow-md">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Understanding VAT for Dutch Businesses</h3>
             <div className="text-sm text-gray-500 mb-6">May 15, 2025 • 8 min read</div>
+            
+            <div className="mb-6">
+              <Image 
+                src="/images/blog/vat-dutch-businesses.png" 
+                alt="Understanding VAT for Dutch Businesses" 
+                width={800}
+                height={400}
+                className="rounded-lg w-full"
+              />
+            </div>
             
             <div className="prose prose-blue max-w-none">
               <p>
