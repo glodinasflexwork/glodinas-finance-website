@@ -23,8 +23,9 @@ const verifyToken = (request: NextRequest) => {
 
 export async function PATCH(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  context: { params: { id: string } }
 ) {
+  const { params } = context;
   // Verify authentication
   const user = verifyToken(request);
   if (!user) {
