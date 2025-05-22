@@ -21,11 +21,11 @@ const verifyToken = (request: NextRequest) => {
   }
 };
 
+// Using the correct type definition for Next.js 15 App Router
 export async function PATCH(
   request: NextRequest,
-  context: { params: { id: string } }
+  { params }: { params: { id: string } }
 ) {
-  const { params } = context;
   // Verify authentication
   const user = verifyToken(request);
   if (!user) {
