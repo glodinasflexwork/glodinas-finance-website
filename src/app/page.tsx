@@ -213,36 +213,36 @@ export default function Home() {
               <Image 
                 src="/images/partners/moneybird.png" 
                 alt="Moneybird - Bookkeeping Software" 
-                width={200} 
-                height={100} 
-                className="h-16 w-auto"
+                width={300} 
+                height={150} 
+                className="h-24 w-auto"
               />
             </div>
             <div className="flex justify-center">
               <Image 
                 src="/images/partners/employes.png" 
                 alt="Employes - Payroll Services" 
-                width={200} 
-                height={100} 
-                className="h-16 w-auto"
+                width={300} 
+                height={150} 
+                className="h-24 w-auto"
               />
             </div>
             <div className="flex justify-center">
               <Image 
                 src="/images/partners/firm24.png" 
                 alt="Firm24 - Business Formation Services" 
-                width={200} 
-                height={100} 
-                className="h-16 w-auto"
+                width={300} 
+                height={150} 
+                className="h-24 w-auto"
               />
             </div>
             <div className="flex justify-center">
               <Image 
                 src="/images/services/personal-loans.png" 
                 alt="Dutch Banks - Personal Loans" 
-                width={200} 
-                height={100} 
-                className="h-16 w-auto"
+                width={300} 
+                height={150} 
+                className="h-24 w-auto"
               />
             </div>
           </div>
