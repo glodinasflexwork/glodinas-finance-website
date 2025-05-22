@@ -1,5 +1,6 @@
-// Components;
+// Components
 import Link from 'next/link';
+import ContactForm from '@/components/ContactForm';
 
 export default function Contact() {
   return (
@@ -99,105 +100,14 @@ export default function Contact() {
             </div>
             
             {/* Contact Form */}
-            <div className="bg-gray-50 p-8 rounded-lg">
+            <div className="bg-gray-50 p-8 rounded-lg shadow-lg">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Request a Consultation</h2>
-              <form>
-                <div className="grid grid-cols-1 gap-6">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                      Full Name
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                      required
-                    />
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                      Email Address
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                      required
-                    />
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
-                      Phone Number
-                    </label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                    />
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-1">
-                      Service of Interest
-                    </label>
-                    <select
-                      id="service"
-                      name="service"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                      required
-                    >
-                      <option value="">Select a service</option>
-                      <option value="bookkeeping-zzp">Bookkeeping for ZZP'ers</option>
-                      <option value="bookkeeping-bv">Bookkeeping for BVs</option>
-                      <option value="payroll">Payroll Services</option>
-                      <option value="business-formation">Business Formation</option>
-                      <option value="personal-loans">Personal Loan Assistance</option>
-                      <option value="tax-preparation">Tax Preparation</option>
-                      <option value="other">Other</option>
-                    </select>
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                      Message
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      rows={4}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                      required
-                    ></textarea>
-                  </div>
-                  
-                  <div className="flex items-start">
-                    <input
-                      id="privacy"
-                      name="privacy"
-                      type="checkbox"
-                      className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded mt-1"
-                      required
-                    />
-                    <label htmlFor="privacy" className="ml-2 block text-sm text-gray-700">
-                      I agree to the <Link href="/privacy-policy" className="text-blue-600 hover:text-blue-800">privacy policy</Link> and consent to being contacted regarding my inquiry.
-                    </label>
-                  </div>
-                  
-                  <div>
-                    <button
-                      type="submit"
-                      className="w-full bg-blue-600 text-white hover:bg-blue-700 px-6 py-3 rounded-md font-medium"
-                    >
-                      Submit Request
-                    </button>
-                  </div>
-                </div>
-              </form>
+              
+              {/* Import ContactForm component */}
+              <div className="contact-form-container">
+                {/* @ts-ignore */}
+                <ContactForm />
+              </div>
             </div>
           </div>
         </div>
