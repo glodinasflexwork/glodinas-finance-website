@@ -46,8 +46,8 @@
 - [x] Implement language persistence across pages
 
 ## Deployment
-- [ ] Build optimized production version
-- [ ] Deploy to GitHub Pages
+- [x] Build optimized production version
+- [x] Deploy to GitHub Pages
 - [ ] Verify all pages and functionality
 - [ ] Test multilingual support
 - [ ] Validate SEO implementation
