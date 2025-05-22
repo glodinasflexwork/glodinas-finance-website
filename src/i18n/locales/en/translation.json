@@ -1,0 +1,322 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Professional Bookkeeping Services in the Netherlands",
+      "subtitle": "Glodinas Finance B.V. offers comprehensive bookkeeping services for ZZP'ers and BVs starting at €130 per month (ex VAT).",
+      "requestConsultation": "Request Consultation",
+      "ourServices": "Our Services"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive financial solutions for your business",
+      "bookkeepingZZP": {
+        "title": "Bookkeeping for ZZP'ers",
+        "description": "Complete bookkeeping services for self-employed professionals starting at €130/month (ex VAT).",
+        "learnMore": "Learn more"
+      },
+      "bookkeepingBV": {
+        "title": "Bookkeeping for BVs",
+        "description": "Comprehensive bookkeeping services for limited companies starting at €150/month (ex VAT).",
+        "learnMore": "Learn more"
+      },
+      "payroll": {
+        "title": "Payroll Services",
+        "description": "Efficient payroll distribution through Employes for your business needs.",
+        "learnMore": "Learn more"
+      },
+      "businessFormation": {
+        "title": "Business Formation",
+        "description": "Complete business formation services through Firm24 for new entrepreneurs.",
+        "learnMore": "Learn more"
+      },
+      "personalLoans": {
+        "title": "Personal Loan Assistance",
+        "description": "Assistance with personal loans at major Dutch banks including ING, ABN AMRO, RABOBANK, and SNS.",
+        "learnMore": "Learn more"
+      },
+      "taxPreparation": {
+        "title": "Tax Preparation",
+        "description": "Expert tax preparation and filing services for individuals and businesses.",
+        "learnMore": "Learn more"
+      }
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Glodinas Finance",
+      "subtitle": "We provide reliable financial services tailored to your needs",
+      "expertise": {
+        "title": "Expertise",
+        "description": "Our team of financial experts has years of experience in providing bookkeeping services to businesses of all sizes."
+      },
+      "timeSaving": {
+        "title": "Time-Saving",
+        "description": "We handle your financial administration so you can focus on growing your business and serving your customers."
+      },
+      "costEffective": {
+        "title": "Cost-Effective",
+        "description": "Our affordable pricing plans ensure you get professional financial services without breaking the bank."
+      }
+    },
+    "partners": {
+      "title": "Our Partners",
+      "subtitle": "We work with trusted partners to provide you with the best services"
+    },
+    "cta": {
+      "title": "Ready to get started?",
+      "subtitle": "Contact us today to learn how Glodinas Finance B.V. can help with your bookkeeping and financial needs.",
+      "contactUs": "Contact Us"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Glodinas Finance B.V.",
+      "subtitle": "Your trusted partner for professional bookkeeping and financial services in the Netherlands."
+    },
+    "company": {
+      "title": "Our Company",
+      "description1": "Glodinas Finance B.V. is a professional bookkeeping firm based in the Netherlands, dedicated to providing high-quality financial services to entrepreneurs and businesses.",
+      "description2": "We specialize in comprehensive bookkeeping solutions for ZZP'ers (self-employed professionals) and BVs (private limited companies), offering competitive rates starting at €130 per month (excluding VAT) for ZZP'ers and €150 per month (excluding VAT) for BVs.",
+      "description3": "Our mission is to help businesses maintain accurate financial records, comply with Dutch tax regulations, and make informed financial decisions to support their growth and success."
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "Meet the experts behind Glodinas Finance B.V."
+    },
+    "partners": {
+      "title": "Our Partners",
+      "subtitle": "We collaborate with trusted partners to deliver comprehensive financial solutions",
+      "bankingPartners": "Banking Partners"
+    },
+    "cta": {
+      "title": "Ready to work with us?",
+      "subtitle": "Contact Glodinas Finance B.V. today to discuss how we can support your business's financial needs.",
+      "getInTouch": "Get in Touch"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive financial solutions for entrepreneurs and businesses in the Netherlands"
+    },
+    "bookkeepingZZP": {
+      "title": "Bookkeeping for ZZP'ers",
+      "description1": "Our comprehensive bookkeeping service for self-employed professionals (ZZP'ers) starts at just €130 per month (excluding VAT).",
+      "description2": "We handle all aspects of your financial administration using Moneybird, allowing you to focus on your core business activities.",
+      "included": "What's included:",
+      "items": [
+        "Monthly bookkeeping and financial administration",
+        "VAT (BTW) return preparation and filing",
+        "Annual financial statements",
+        "Income tax return preparation",
+        "Ongoing financial advice and support"
+      ],
+      "requestQuote": "Request a Quote"
+    },
+    "bookkeepingBV": {
+      "title": "Bookkeeping for BVs",
+      "description1": "Our bookkeeping service for private limited companies (BVs) starts at €150 per month (excluding VAT).",
+      "description2": "We provide comprehensive financial administration services tailored to the specific needs of Dutch BVs.",
+      "included": "What's included:",
+      "items": [
+        "Monthly bookkeeping and financial administration",
+        "VAT (BTW) return preparation and filing",
+        "Annual financial statements",
+        "Corporate income tax return preparation",
+        "Director's salary administration",
+        "Dividend planning and administration"
+      ],
+      "requestQuote": "Request a Quote"
+    },
+    "payroll": {
+      "title": "Payroll Services",
+      "description1": "We offer efficient payroll services through our partnership with Employes, ensuring accurate and timely salary administration for your employees.",
+      "description2": "Our payroll services help you comply with Dutch employment regulations and tax requirements.",
+      "included": "What's included:",
+      "items": [
+        "Monthly salary calculations",
+        "Payslip generation and distribution",
+        "Tax and social security contributions",
+        "Annual statements and reporting",
+        "Leave and absence administration"
+      ],
+      "requestQuote": "Request a Quote"
+    },
+    "businessFormation": {
+      "title": "Business Formation",
+      "description1": "Through our partnership with Firm24, we offer comprehensive business formation services for entrepreneurs looking to establish their business in the Netherlands.",
+      "description2": "We guide you through the entire process, from choosing the right business structure to registering with the Dutch Chamber of Commerce (KVK).",
+      "included": "What's included:",
+      "items": [
+        "Business structure consultation (ZZP, Eenmanszaak, BV)",
+        "Company name verification",
+        "Registration with the Dutch Chamber of Commerce (KVK)",
+        "VAT registration",
+        "Notarial services for BV formation",
+        "Initial financial setup and administration"
+      ],
+      "requestQuote": "Request a Quote"
+    },
+    "personalLoans": {
+      "title": "Personal Loan Assistance",
+      "description1": "We provide assistance with personal loan applications at major Dutch banks, including ING, ABN AMRO, RABOBANK, and SNS.",
+      "description2": "Our team helps you navigate the loan application process, ensuring you have the best chance of approval with favorable terms.",
+      "included": "What's included:",
+      "items": [
+        "Loan options assessment based on your financial situation",
+        "Application preparation and documentation",
+        "Liaison with banking partners",
+        "Interest rate and term negotiation",
+        "Ongoing support throughout the approval process"
+      ],
+      "requestConsultation": "Request a Consultation"
+    },
+    "taxPreparation": {
+      "title": "Tax Preparation",
+      "description1": "Our tax preparation services ensure that your business and personal tax filings are accurate, compliant, and optimized to minimize your tax burden.",
+      "description2": "We stay up-to-date with the latest Dutch tax regulations to provide you with expert advice and support.",
+      "included": "What's included:",
+      "items": [
+        "Income tax return preparation for individuals",
+        "Corporate tax return preparation for businesses",
+        "VAT (BTW) return preparation and filing",
+        "Tax planning and optimization strategies",
+        "Representation in tax matters with the Dutch Tax Authority"
+      ],
+      "requestQuote": "Request a Quote"
+    },
+    "pricing": {
+      "title": "Pricing Overview",
+      "subtitle": "Transparent pricing for our core services",
+      "zzpPackage": {
+        "title": "ZZP Package",
+        "price": "€130",
+        "period": "/month ex VAT",
+        "features": [
+          "Monthly bookkeeping",
+          "VAT returns",
+          "Annual financial statements",
+          "Income tax return"
+        ],
+        "getStarted": "Get Started"
+      },
+      "bvPackage": {
+        "title": "BV Package",
+        "price": "€150",
+        "period": "/month ex VAT",
+        "mostPopular": "Most Popular",
+        "features": [
+          "Monthly bookkeeping",
+          "VAT returns",
+          "Annual financial statements",
+          "Corporate tax return",
+          "Director's salary administration"
+        ],
+        "getStarted": "Get Started"
+      },
+      "customPackage": {
+        "title": "Custom Package",
+        "price": "Custom",
+        "period": "pricing",
+        "features": [
+          "Tailored bookkeeping services",
+          "Business formation",
+          "Payroll services",
+          "Personal loan assistance"
+        ],
+        "contactUs": "Contact Us"
+      }
+    },
+    "cta": {
+      "title": "Ready to get started?",
+      "subtitle": "Contact us today to discuss your specific needs and how Glodinas Finance B.V. can help your business thrive.",
+      "requestConsultation": "Request a Consultation"
+    }
+  },
+  "blog": {
+    "hero": {
+      "title": "Our Blog",
+      "subtitle": "Insights and updates on financial matters for Dutch businesses"
+    },
+    "readMore": "Read More",
+    "featuredArticle": "Featured Article",
+    "minRead": "min read",
+    "newsletter": {
+      "title": "Stay Updated",
+      "subtitle": "Subscribe to our newsletter for the latest financial insights and updates relevant to Dutch businesses.",
+      "placeholder": "Your email address",
+      "subscribe": "Subscribe"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Get in touch with Glodinas Finance B.V. for professional bookkeeping and financial services"
+    },
+    "getInTouch": {
+      "title": "Get In Touch",
+      "description": "We're here to answer your questions and provide the financial support your business needs. Reach out to us using the contact information below or fill out the form.",
+      "address": "Address",
+      "email": "Email",
+      "phone": "Phone",
+      "businessHours": "Business Hours",
+      "weekdays": "Monday - Friday: 9:00 AM - 5:00 PM",
+      "weekend": "Saturday - Sunday: Closed"
+    },
+    "form": {
+      "title": "Request a Consultation",
+      "fullName": "Full Name",
+      "emailAddress": "Email Address",
+      "phoneNumber": "Phone Number",
+      "serviceInterest": "Service of Interest",
+      "selectService": "Select a service",
+      "message": "Message",
+      "privacyConsent": "I agree to the privacy policy and consent to being contacted regarding my inquiry.",
+      "submitRequest": "Submit Request"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to common questions about our services",
+      "questions": [
+        {
+          "question": "What are your bookkeeping rates?",
+          "answer": "Our bookkeeping services start at €130 per month (excluding VAT) for ZZP'ers and €150 per month (excluding VAT) for BVs. The exact rate depends on the complexity and volume of your financial administration."
+        },
+        {
+          "question": "How often will we communicate about my finances?",
+          "answer": "We provide monthly updates on your financial status, including profit and loss statements and cash flow reports. Additionally, we're available for questions and consultations throughout the month as needed."
+        },
+        {
+          "question": "Can you help with business registration?",
+          "answer": "Yes, through our partnership with Firm24, we offer comprehensive business formation services, including registration with the Dutch Chamber of Commerce (KVK), VAT registration, and setting up the appropriate legal structure for your business."
+        },
+        {
+          "question": "Do you offer services in languages other than Dutch?",
+          "answer": "Yes, we provide our services in multiple languages including Dutch, English, Romanian, Turkish, and Russian to accommodate our diverse client base."
+        },
+        {
+          "question": "How do I switch my bookkeeping to Glodinas Finance?",
+          "answer": "Switching is simple. We'll handle the transition process, including gathering your financial history, setting up your accounts in our systems, and ensuring a smooth handover from your previous bookkeeper or accountant."
+        }
+      ]
+    }
+  },
+  "footer": {
+    "companyInfo": "Glodinas Finance B.V.",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "bookkeepingZZP": "Bookkeeping for ZZP'ers",
+    "bookkeepingBV": "Bookkeeping for BVs",
+    "payrollServices": "Payroll Services",
+    "businessFormation": "Business Formation",
+    "personalLoans": "Personal Loan Assistance",
+    "copyright": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  }
+}

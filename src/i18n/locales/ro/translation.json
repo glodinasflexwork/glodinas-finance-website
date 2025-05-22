@@ -1,0 +1,322 @@
+{
+  "navigation": {
+    "home": "Acasă",
+    "about": "Despre Noi",
+    "services": "Servicii",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Servicii Profesionale de Contabilitate în Olanda",
+      "subtitle": "Glodinas Finance B.V. oferă servicii complete de contabilitate pentru ZZP-uri și BV-uri începând de la 130€ pe lună (fără TVA).",
+      "requestConsultation": "Solicită o Consultație",
+      "ourServices": "Serviciile Noastre"
+    },
+    "services": {
+      "title": "Serviciile Noastre",
+      "subtitle": "Soluții financiare complete pentru afacerea dumneavoastră",
+      "bookkeepingZZP": {
+        "title": "Contabilitate pentru ZZP-uri",
+        "description": "Servicii complete de contabilitate pentru profesioniști independenți începând de la 130€/lună (fără TVA).",
+        "learnMore": "Află mai multe"
+      },
+      "bookkeepingBV": {
+        "title": "Contabilitate pentru BV-uri",
+        "description": "Servicii complete de contabilitate pentru companii cu răspundere limitată începând de la 150€/lună (fără TVA).",
+        "learnMore": "Află mai multe"
+      },
+      "payroll": {
+        "title": "Servicii de Salarizare",
+        "description": "Distribuție eficientă a salariilor prin Employes pentru nevoile afacerii dumneavoastră.",
+        "learnMore": "Află mai multe"
+      },
+      "businessFormation": {
+        "title": "Înființare de Companii",
+        "description": "Servicii complete de înființare a companiilor prin Firm24 pentru antreprenorii noi.",
+        "learnMore": "Află mai multe"
+      },
+      "personalLoans": {
+        "title": "Asistență pentru Împrumuturi Personale",
+        "description": "Asistență pentru împrumuturi personale la băncile olandeze majore, inclusiv ING, ABN AMRO, RABOBANK și SNS.",
+        "learnMore": "Află mai multe"
+      },
+      "taxPreparation": {
+        "title": "Pregătirea Taxelor",
+        "description": "Servicii profesionale de pregătire și depunere a taxelor pentru persoane fizice și companii.",
+        "learnMore": "Află mai multe"
+      }
+    },
+    "whyChooseUs": {
+      "title": "De Ce Să Alegeți Glodinas Finance",
+      "subtitle": "Oferim servicii financiare de încredere adaptate nevoilor dumneavoastră",
+      "expertise": {
+        "title": "Expertiză",
+        "description": "Echipa noastră de experți financiari are ani de experiență în furnizarea de servicii de contabilitate pentru afaceri de toate dimensiunile."
+      },
+      "timeSaving": {
+        "title": "Economie de Timp",
+        "description": "Ne ocupăm de administrația financiară pentru ca dumneavoastră să vă puteți concentra pe dezvoltarea afacerii și deservirea clienților."
+      },
+      "costEffective": {
+        "title": "Eficient din Punct de Vedere al Costurilor",
+        "description": "Planurile noastre de prețuri accesibile vă asigură că primiți servicii financiare profesionale fără a depăși bugetul."
+      }
+    },
+    "partners": {
+      "title": "Partenerii Noștri",
+      "subtitle": "Colaborăm cu parteneri de încredere pentru a vă oferi cele mai bune servicii"
+    },
+    "cta": {
+      "title": "Gata să începeți?",
+      "subtitle": "Contactați-ne astăzi pentru a afla cum Glodinas Finance B.V. vă poate ajuta cu nevoile de contabilitate și financiare.",
+      "contactUs": "Contactați-ne"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Despre Glodinas Finance B.V.",
+      "subtitle": "Partenerul dumneavoastră de încredere pentru servicii profesionale de contabilitate și financiare în Olanda."
+    },
+    "company": {
+      "title": "Compania Noastră",
+      "description1": "Glodinas Finance B.V. este o firmă profesională de contabilitate cu sediul în Olanda, dedicată furnizării de servicii financiare de înaltă calitate pentru antreprenori și companii.",
+      "description2": "Ne specializăm în soluții complete de contabilitate pentru ZZP-uri (profesioniști independenți) și BV-uri (companii cu răspundere limitată), oferind tarife competitive începând de la 130€ pe lună (fără TVA) pentru ZZP-uri și 150€ pe lună (fără TVA) pentru BV-uri.",
+      "description3": "Misiunea noastră este de a ajuta companiile să mențină evidențe financiare precise, să respecte reglementările fiscale olandeze și să ia decizii financiare informate pentru a-și susține creșterea și succesul."
+    },
+    "team": {
+      "title": "Echipa Noastră",
+      "subtitle": "Cunoașteți experții din spatele Glodinas Finance B.V."
+    },
+    "partners": {
+      "title": "Partenerii Noștri",
+      "subtitle": "Colaborăm cu parteneri de încredere pentru a oferi soluții financiare complete",
+      "bankingPartners": "Parteneri Bancari"
+    },
+    "cta": {
+      "title": "Gata să lucrați cu noi?",
+      "subtitle": "Contactați Glodinas Finance B.V. astăzi pentru a discuta cum putem sprijini nevoile financiare ale afacerii dumneavoastră.",
+      "getInTouch": "Contactați-ne"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Serviciile Noastre",
+      "subtitle": "Soluții financiare complete pentru antreprenori și companii din Olanda"
+    },
+    "bookkeepingZZP": {
+      "title": "Contabilitate pentru ZZP-uri",
+      "description1": "Serviciul nostru complet de contabilitate pentru profesioniști independenți (ZZP-uri) începe de la doar 130€ pe lună (fără TVA).",
+      "description2": "Ne ocupăm de toate aspectele administrației financiare folosind Moneybird, permițându-vă să vă concentrați pe activitățile de bază ale afacerii.",
+      "included": "Ce este inclus:",
+      "items": [
+        "Contabilitate lunară și administrație financiară",
+        "Pregătirea și depunerea declarațiilor de TVA (BTW)",
+        "Situații financiare anuale",
+        "Pregătirea declarațiilor de impozit pe venit",
+        "Consultanță financiară continuă și asistență"
+      ],
+      "requestQuote": "Solicitați o Ofertă"
+    },
+    "bookkeepingBV": {
+      "title": "Contabilitate pentru BV-uri",
+      "description1": "Serviciul nostru de contabilitate pentru companii cu răspundere limitată (BV-uri) începe de la 150€ pe lună (fără TVA).",
+      "description2": "Oferim servicii complete de administrație financiară adaptate nevoilor specifice ale BV-urilor olandeze.",
+      "included": "Ce este inclus:",
+      "items": [
+        "Contabilitate lunară și administrație financiară",
+        "Pregătirea și depunerea declarațiilor de TVA (BTW)",
+        "Situații financiare anuale",
+        "Pregătirea declarațiilor de impozit pe profit",
+        "Administrarea salariilor directorilor",
+        "Planificarea și administrarea dividendelor"
+      ],
+      "requestQuote": "Solicitați o Ofertă"
+    },
+    "payroll": {
+      "title": "Servicii de Salarizare",
+      "description1": "Oferim servicii eficiente de salarizare prin parteneriatul nostru cu Employes, asigurând administrarea precisă și la timp a salariilor pentru angajații dumneavoastră.",
+      "description2": "Serviciile noastre de salarizare vă ajută să respectați reglementările olandeze privind angajarea și cerințele fiscale.",
+      "included": "Ce este inclus:",
+      "items": [
+        "Calculul lunar al salariilor",
+        "Generarea și distribuirea fluturașilor de salariu",
+        "Contribuții fiscale și de asigurări sociale",
+        "Declarații și raportări anuale",
+        "Administrarea concediilor și absențelor"
+      ],
+      "requestQuote": "Solicitați o Ofertă"
+    },
+    "businessFormation": {
+      "title": "Înființare de Companii",
+      "description1": "Prin parteneriatul nostru cu Firm24, oferim servicii complete de înființare a companiilor pentru antreprenorii care doresc să-și stabilească afacerea în Olanda.",
+      "description2": "Vă ghidăm prin întregul proces, de la alegerea structurii potrivite a afacerii până la înregistrarea la Camera de Comerț olandeză (KVK).",
+      "included": "Ce este inclus:",
+      "items": [
+        "Consultanță privind structura afacerii (ZZP, Eenmanszaak, BV)",
+        "Verificarea numelui companiei",
+        "Înregistrarea la Camera de Comerț olandeză (KVK)",
+        "Înregistrarea TVA",
+        "Servicii notariale pentru înființarea BV",
+        "Configurarea și administrarea financiară inițială"
+      ],
+      "requestQuote": "Solicitați o Ofertă"
+    },
+    "personalLoans": {
+      "title": "Asistență pentru Împrumuturi Personale",
+      "description1": "Oferim asistență pentru cererile de împrumuturi personale la băncile olandeze majore, inclusiv ING, ABN AMRO, RABOBANK și SNS.",
+      "description2": "Echipa noastră vă ajută să navigați prin procesul de solicitare a împrumutului, asigurându-vă că aveți cele mai bune șanse de aprobare cu termeni favorabili.",
+      "included": "Ce este inclus:",
+      "items": [
+        "Evaluarea opțiunilor de împrumut în funcție de situația dumneavoastră financiară",
+        "Pregătirea cererii și documentația",
+        "Legătura cu partenerii bancari",
+        "Negocierea ratei dobânzii și a termenului",
+        "Sprijin continuu pe parcursul procesului de aprobare"
+      ],
+      "requestConsultation": "Solicitați o Consultație"
+    },
+    "taxPreparation": {
+      "title": "Pregătirea Taxelor",
+      "description1": "Serviciile noastre de pregătire a taxelor asigură că declarațiile fiscale ale afacerii și personale sunt precise, conforme și optimizate pentru a minimiza povara fiscală.",
+      "description2": "Ne menținem la curent cu cele mai recente reglementări fiscale olandeze pentru a vă oferi consultanță și asistență de specialitate.",
+      "included": "Ce este inclus:",
+      "items": [
+        "Pregătirea declarațiilor de impozit pe venit pentru persoane fizice",
+        "Pregătirea declarațiilor de impozit pe profit pentru companii",
+        "Pregătirea și depunerea declarațiilor de TVA (BTW)",
+        "Planificarea fiscală și strategii de optimizare",
+        "Reprezentare în probleme fiscale cu Autoritatea Fiscală Olandeză"
+      ],
+      "requestQuote": "Solicitați o Ofertă"
+    },
+    "pricing": {
+      "title": "Prezentare Generală a Prețurilor",
+      "subtitle": "Prețuri transparente pentru serviciile noastre de bază",
+      "zzpPackage": {
+        "title": "Pachet ZZP",
+        "price": "€130",
+        "period": "/lună fără TVA",
+        "features": [
+          "Contabilitate lunară",
+          "Declarații TVA",
+          "Situații financiare anuale",
+          "Declarație de impozit pe venit"
+        ],
+        "getStarted": "Începeți"
+      },
+      "bvPackage": {
+        "title": "Pachet BV",
+        "price": "€150",
+        "period": "/lună fără TVA",
+        "mostPopular": "Cel Mai Popular",
+        "features": [
+          "Contabilitate lunară",
+          "Declarații TVA",
+          "Situații financiare anuale",
+          "Declarație de impozit pe profit",
+          "Administrarea salariilor directorilor"
+        ],
+        "getStarted": "Începeți"
+      },
+      "customPackage": {
+        "title": "Pachet Personalizat",
+        "price": "Personalizat",
+        "period": "prețuri",
+        "features": [
+          "Servicii de contabilitate personalizate",
+          "Înființare de companii",
+          "Servicii de salarizare",
+          "Asistență pentru împrumuturi personale"
+        ],
+        "contactUs": "Contactați-ne"
+      }
+    },
+    "cta": {
+      "title": "Gata să începeți?",
+      "subtitle": "Contactați-ne astăzi pentru a discuta nevoile dumneavoastră specifice și cum Glodinas Finance B.V. poate ajuta afacerea dumneavoastră să prospere.",
+      "requestConsultation": "Solicitați o Consultație"
+    }
+  },
+  "blog": {
+    "hero": {
+      "title": "Blogul Nostru",
+      "subtitle": "Perspective și actualizări privind aspectele financiare pentru companiile olandeze"
+    },
+    "readMore": "Citiți Mai Mult",
+    "featuredArticle": "Articol Recomandat",
+    "minRead": "min de citit",
+    "newsletter": {
+      "title": "Rămâneți la Curent",
+      "subtitle": "Abonați-vă la newsletter-ul nostru pentru cele mai recente perspective financiare și actualizări relevante pentru companiile olandeze.",
+      "placeholder": "Adresa dumneavoastră de email",
+      "subscribe": "Abonați-vă"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contactați-ne",
+      "subtitle": "Luați legătura cu Glodinas Finance B.V. pentru servicii profesionale de contabilitate și financiare"
+    },
+    "getInTouch": {
+      "title": "Luați Legătura",
+      "description": "Suntem aici pentru a răspunde la întrebările dumneavoastră și pentru a oferi sprijinul financiar de care afacerea dumneavoastră are nevoie. Contactați-ne folosind informațiile de contact de mai jos sau completați formularul.",
+      "address": "Adresă",
+      "email": "Email",
+      "phone": "Telefon",
+      "businessHours": "Program de Lucru",
+      "weekdays": "Luni - Vineri: 9:00 - 17:00",
+      "weekend": "Sâmbătă - Duminică: Închis"
+    },
+    "form": {
+      "title": "Solicitați o Consultație",
+      "fullName": "Nume Complet",
+      "emailAddress": "Adresă de Email",
+      "phoneNumber": "Număr de Telefon",
+      "serviceInterest": "Serviciu de Interes",
+      "selectService": "Selectați un serviciu",
+      "message": "Mesaj",
+      "privacyConsent": "Sunt de acord cu politica de confidențialitate și îmi dau consimțământul pentru a fi contactat în legătură cu solicitarea mea.",
+      "submitRequest": "Trimiteți Solicitarea"
+    },
+    "faq": {
+      "title": "Întrebări Frecvente",
+      "subtitle": "Găsiți răspunsuri la întrebările comune despre serviciile noastre",
+      "questions": [
+        {
+          "question": "Care sunt tarifele dumneavoastră de contabilitate?",
+          "answer": "Serviciile noastre de contabilitate încep de la 130€ pe lună (fără TVA) pentru ZZP-uri și 150€ pe lună (fără TVA) pentru BV-uri. Tariful exact depinde de complexitatea și volumul administrației dumneavoastră financiare."
+        },
+        {
+          "question": "Cât de des vom comunica despre finanțele mele?",
+          "answer": "Oferim actualizări lunare privind situația dumneavoastră financiară, inclusiv situații de profit și pierdere și rapoarte de flux de numerar. În plus, suntem disponibili pentru întrebări și consultații pe parcursul lunii, după cum este necesar."
+        },
+        {
+          "question": "Puteți ajuta cu înregistrarea afacerii?",
+          "answer": "Da, prin parteneriatul nostru cu Firm24, oferim servicii complete de înființare a companiilor, inclusiv înregistrarea la Camera de Comerț olandeză (KVK), înregistrarea TVA și configurarea structurii juridice adecvate pentru afacerea dumneavoastră."
+        },
+        {
+          "question": "Oferiți servicii în alte limbi decât olandeza?",
+          "answer": "Da, oferim serviciile noastre în mai multe limbi, inclusiv olandeză, engleză, română, turcă și rusă pentru a acomoda baza noastră diversă de clienți."
+        },
+        {
+          "question": "Cum îmi transfer contabilitatea la Glodinas Finance?",
+          "answer": "Transferul este simplu. Ne vom ocupa de procesul de tranziție, inclusiv colectarea istoricului dumneavoastră financiar, configurarea conturilor în sistemele noastre și asigurarea unei predări line de la contabilul sau expertul contabil anterior."
+        }
+      ]
+    }
+  },
+  "footer": {
+    "companyInfo": "Glodinas Finance B.V.",
+    "quickLinks": "Link-uri Rapide",
+    "ourServices": "Serviciile Noastre",
+    "bookkeepingZZP": "Contabilitate pentru ZZP-uri",
+    "bookkeepingBV": "Contabilitate pentru BV-uri",
+    "payrollServices": "Servicii de Salarizare",
+    "businessFormation": "Înființare de Companii",
+    "personalLoans": "Asistență pentru Împrumuturi Personale",
+    "copyright": "Toate drepturile rezervate.",
+    "privacyPolicy": "Politica de Confidențialitate",
+    "termsOfService": "Termeni și Condiții"
+  }
+}
