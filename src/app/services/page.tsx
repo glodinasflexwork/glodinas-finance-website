@@ -41,10 +41,11 @@ export default function Services() {
                 </div>
               </div>
               <div className="flex justify-center">
-                {/* Placeholder for service image */}
-                <div className="h-80 w-full bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500 text-lg">ZZP Bookkeeping Image</span>
-                </div>
+                <img 
+                  src="/images/zzp-bookkeeping.png" 
+                  alt="ZZP Bookkeeping Services" 
+                  className="h-auto w-full rounded-lg object-cover shadow-md"
+                />
               </div>
             </div>
           </div>
@@ -53,10 +54,11 @@ export default function Services() {
           <div id="bookkeeping-bv" className="mb-16 scroll-mt-20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1 flex justify-center">
-                {/* Placeholder for service image */}
-                <div className="h-80 w-full bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500 text-lg">BV Bookkeeping Image</span>
-                </div>
+                <img 
+                  src="/images/bv-bookkeeping.png" 
+                  alt="BV Bookkeeping Services" 
+                  className="h-auto w-full rounded-lg object-cover shadow-md"
+                />
               </div>
               <div className="order-1 md:order-2">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Bookkeeping for BVs</h2>
@@ -110,10 +112,11 @@ export default function Services() {
                 </div>
               </div>
               <div className="flex justify-center">
-                {/* Placeholder for service image */}
-                <div className="h-80 w-full bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500 text-lg">Payroll Services Image</span>
-                </div>
+                <img 
+                  src="/images/payroll-services.png" 
+                  alt="Payroll Services" 
+                  className="h-auto w-full rounded-lg object-cover shadow-md"
+                />
               </div>
             </div>
           </div>
@@ -122,10 +125,11 @@ export default function Services() {
           <div id="business-formation" className="mb-16 scroll-mt-20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1 flex justify-center">
-                {/* Placeholder for service image */}
-                <div className="h-80 w-full bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500 text-lg">Business Formation Image</span>
-                </div>
+                <img 
+                  src="/images/business-formation.png" 
+                  alt="Business Formation Services" 
+                  className="h-auto w-full rounded-lg object-cover shadow-md"
+                />
               </div>
               <div className="order-1 md:order-2">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Business Formation</h2>
@@ -179,10 +183,11 @@ export default function Services() {
                 </div>
               </div>
               <div className="flex justify-center">
-                {/* Placeholder for service image */}
-                <div className="h-80 w-full bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500 text-lg">Personal Loan Image</span>
-                </div>
+                <img 
+                  src="/images/personal-loan.png" 
+                  alt="Personal Loan Assistance" 
+                  className="h-auto w-full rounded-lg object-cover shadow-md"
+                />
               </div>
             </div>
           </div>
@@ -191,10 +196,11 @@ export default function Services() {
           <div id="tax-preparation" className="scroll-mt-20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1 flex justify-center">
-                {/* Placeholder for service image */}
-                <div className="h-80 w-full bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500 text-lg">Tax Preparation Image</span>
-                </div>
+                <img 
+                  src="/images/tax-preparation.png" 
+                  alt="Tax Preparation Services" 
+                  className="h-auto w-full rounded-lg object-cover shadow-md"
+                />
               </div>
               <div className="order-1 md:order-2">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Tax Preparation</h2>
@@ -223,6 +229,51 @@ export default function Services() {
         </div>
       </section>
 
+      {/* Moneybird Integration */}
+      <section className="py-16 bg-blue-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900">Get Started with Moneybird</h2>
+            <p className="mt-4 text-xl text-gray-600">Sign up directly for our bookkeeping services through Moneybird</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            {/* ZZP Bookkeeping Signup */}
+            <div className="bg-white p-8 rounded-lg shadow-md border border-blue-200 hover:shadow-lg transition-all">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">ZZP Bookkeeping</h3>
+              <div className="flex items-baseline mb-6">
+                <span className="text-5xl font-extrabold text-blue-600">€130</span>
+                <span className="ml-2 text-gray-500">/month ex VAT</span>
+              </div>
+              <p className="text-gray-600 mb-6">Complete bookkeeping service for self-employed professionals (ZZP'ers)</p>
+              <a 
+                href="https://mnbrd.com/s/2wjljeEQnQOe" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="block w-full bg-blue-600 text-white text-center hover:bg-blue-700 px-6 py-3 rounded-md font-medium transition-colors"
+              >
+                Sign Up Now
+              </a>
+            </div>
+            
+            {/* Loan Administration Signup */}
+            <div className="bg-white p-8 rounded-lg shadow-md border border-blue-200 hover:shadow-lg transition-all">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Loan Administration</h3>
+              <p className="text-gray-600 mb-6">Streamline your loan application process with our specialized administration service</p>
+              <p className="text-gray-600 mb-6">We help you navigate the loan application process with major Dutch banks, ensuring you have the best chance of approval with favorable terms.</p>
+              <a 
+                href="https://mnbrd.com/s/QJ8yy5ZYRYXR" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="block w-full bg-blue-600 text-white text-center hover:bg-blue-700 px-6 py-3 rounded-md font-medium transition-colors"
+              >
+                Get Started
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
       {/* Pricing Overview */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
