@@ -23,7 +23,7 @@
       },
       "bookkeepingBV": {
         "title": "BV'ler için Muhasebe",
-        "description": "Limited şirketler için aylık 150€/ay (KDV hariç) başlayan kapsamlı muhasebe hizmetleri.",
+        "description": "Limited şirketler için aylık 250€/ay (KDV hariç) başlayan kapsamlı muhasebe hizmetleri, DGA bordro yönetimi dahil.",
         "learnMore": "Daha fazla bilgi"
       },
       "payroll": {
@@ -156,7 +156,7 @@
     },
     "bookkeepingBV": {
       "title": "BV'ler için Muhasebe",
-      "description1": "Limited şirketler (BV'ler) için muhasebe hizmetimiz aylık 150€'dan (KDV hariç) başlamaktadır.",
+      "description1": "Limited şirketler (BV'ler) için muhasebe hizmetimiz aylık 250€'dan (KDV hariç) başlamaktadır, DGA için bordro yönetimi dahildir.",
       "description2": "Hollanda BV'lerinin özel ihtiyaçlarına göre uyarlanmış kapsamlı finansal yönetim hizmetleri sunuyoruz.",
       "included": "Dahil olanlar:",
       "items": [
@@ -164,7 +164,7 @@
         "KDV (BTW) beyannamesi hazırlama ve dosyalama",
         "Yıllık finansal tablolar",
         "Kurumlar vergisi beyannamesi hazırlama",
-        "Direktör maaş yönetimi",
+        "Direktör maaş yönetimi (DGA bordrosu)",
         "Temettü planlaması ve yönetimi"
       ],
       "requestQuote": "Teklif İsteyin"
@@ -243,7 +243,7 @@
       },
       "bvPackage": {
         "title": "BV Paketi",
-        "price": "€150",
+        "price": "€250",
         "period": "/ay KDV hariç",
         "mostPopular": "En Popüler",
         "features": [
@@ -272,6 +272,21 @@
       "title": "Başlamaya hazır mısınız?",
       "subtitle": "Özel ihtiyaçlarınızı ve Glodinas Finance B.V.'nin işletmenizin gelişmesine nasıl yardımcı olabileceğini görüşmek için bugün bizimle iletişime geçin.",
       "requestConsultation": "Danışma Talep Et"
+    },
+    "moneybird": {
+      "title": "Moneybird ile Başlayın",
+      "subtitle": "Moneybird aracılığıyla doğrudan muhasebe hizmetlerimize kaydolun",
+      "zzpBookkeeping": {
+        "title": "ZZP Muhasebesi",
+        "description": "Serbest çalışanlar (ZZP'ler) için eksiksiz muhasebe hizmeti",
+        "signUp": "Şimdi Kaydolun"
+      },
+      "loanAdministration": {
+        "title": "Kredi Yönetimi",
+        "description": "Özel yönetim hizmetimizle kredi başvuru sürecinizi kolaylaştırın",
+        "description2": "Büyük Hollanda bankalarında kredi başvuru sürecinde size yardımcı oluyoruz, böylece uygun koşullarla onay alma şansınızı en üst düzeye çıkarıyoruz.",
+        "getStarted": "Başlayın"
+      }
     }
   },
   "blog": {
@@ -282,6 +297,76 @@
     "readMore": "Daha Fazla Oku",
     "featuredArticle": "Öne Çıkan Makale",
     "minRead": "dk okuma",
+    "posts": {
+      "vat": {
+        "title": "Hollanda İşletmeleri için KDV'yi Anlamak",
+        "date": "15 Mayıs 2025",
+        "excerpt": "Hollanda'da Katma Değer Vergisi (KDV) için oranlar, dosyalama gereksinimleri ve kaçınılması gereken yaygın tuzaklar dahil kapsamlı bir rehber.",
+        "imageAlt": "Hollanda İşletmeleri için KDV'yi Anlamak"
+      },
+      "businessStructure": {
+        "title": "Hollanda'da Doğru İşletme Yapısını Seçmek",
+        "date": "28 Nisan 2025",
+        "excerpt": "ZZP, Eenmanszaak ve BV yapıları arasındaki farkları keşfedin ve işletme hedefleriniz için hangi seçeneğin en uygun olduğunu öğrenin.",
+        "imageAlt": "Hollanda'da Doğru İşletme Yapısını Seçmek"
+      },
+      "zzpPlanning": {
+        "title": "ZZP Profesyonelleri için Finansal Planlama",
+        "date": "10 Nisan 2025",
+        "excerpt": "Hollanda'daki serbest çalışanlar için vergi optimizasyonu ve emeklilik planlaması dahil temel finansal planlama ipuçları.",
+        "imageAlt": "ZZP Profesyonelleri için Finansal Planlama"
+      },
+      "taxDeductions": {
+        "title": "Hollandalı Girişimciler için En İyi Vergi İndirimleri",
+        "date": "22 Mart 2025",
+        "excerpt": "Hollanda'daki girişimciler için mevcut en değerli vergi indirimlerini ve bunları nasıl doğru şekilde talep edeceğinizi keşfedin.",
+        "imageAlt": "Hollandalı Girişimciler için En İyi Vergi İndirimleri"
+      },
+      "moneybird": {
+        "title": "Moneybird ile Verimliliği En Üst Düzeye Çıkarmak",
+        "date": "5 Mart 2025",
+        "excerpt": "Muhasebe süreçlerinizi kolaylaştırmak ve değerli zaman kazanmak için Moneybird'ün özelliklerinden nasıl yararlanacağınızı öğrenin.",
+        "imageAlt": "Moneybird ile Verimliliği En Üst Düzeye Çıkarmak"
+      },
+      "personalLoans": {
+        "title": "Hollanda'da Kişisel Kredilerde Yol Almak",
+        "date": "18 Şubat 2025",
+        "excerpt": "Büyük Hollanda bankalarından kişisel kredi seçeneklerinin karşılaştırması ve onay şansınızı artırmak için ipuçları.",
+        "imageAlt": "Hollanda'da Kişisel Kredilerde Yol Almak"
+      }
+    },
+    "featuredContent": {
+      "title": "Hollanda İşletmeleri için KDV'yi Anlamak",
+      "date": "15 Mayıs 2025",
+      "readTime": "8 dk okuma",
+      "imageAlt": "Hollanda İşletmeleri için KDV'yi Anlamak",
+      "intro": "Katma Değer Vergisi (KDV), Hollanda'da BTW (Belasting Toegevoegde Waarde) olarak bilinen, ürün ve hizmetlere uygulanan bir tüketim vergisidir. Hollanda'da bir işletme sahibi olarak, KDV'yi anlamak, uygun finansal yönetim ve Hollanda vergi düzenlemelerine uyum için çok önemlidir.",
+      "rates": {
+        "title": "Hollanda'da KDV Oranları",
+        "intro": "Hollanda'da şu anda üç KDV oranı bulunmaktadır:",
+        "standard": "21% (standart oran): Çoğu mal ve hizmete uygulanır",
+        "reduced": "9% (indirimli oran): Gıda, kitap, ilaç ve belirli hizmetler gibi temel ihtiyaçlara uygulanır",
+        "zero": "0% (sıfır oran): İhracat ve belirli uluslararası hizmetlere uygulanır"
+      },
+      "filing": {
+        "title": "KDV Dosyalama Gereksinimleri",
+        "paragraph1": "Hollanda işletmeleri genellikle üç ayda bir KDV beyannamesi vermekle yükümlüdür. Ancak, yıllık KDV yükümlülüğünüz 15.000€'yu aşıyorsa, aylık dosyalama yapmanız gerekebilir. Tersine, yıllık KDV yükümlülüğünüz 1.883€'dan azsa, yıllık dosyalama için uygun olabilirsiniz.",
+        "paragraph2": "KDV dosyalama ve ödeme son tarihi genellikle raporlama döneminin bitiminden sonraki ayın son günüdür. Örneğin, Q1 (Ocak-Mart) için son tarih 30 Nisan olacaktır."
+      },
+      "pitfalls": {
+        "title": "Kaçınılması Gereken Yaygın KDV Tuzakları",
+        "intro": "Birçok Hollanda işletmesi KDV uyumluluğu konusunda zorluklarla karşılaşmaktadır. İşte kaçınılması gereken bazı yaygın tuzaklar:",
+        "items": [
+          "Gerektiğinde KDV için kayıt olmamak",
+          "Ürün veya hizmetlere yanlış KDV oranları uygulamak",
+          "Dosyalama son tarihlerini kaçırmak",
+          "KDV amaçları için yetersiz kayıt tutma",
+          "Harcamalar üzerinden KDV'yi yanlış talep etmek"
+        ],
+        "conclusion": "Glodinas Finance B.V.'de, işletmelerin Hollanda KDV düzenlemelerinin karmaşıklıklarında yol almalarına yardımcı oluyoruz, uyumluluğu sağlarken vergi pozisyonunuzu optimize ediyoruz."
+      },
+      "contactLink": "Profesyonel KDV yardımı için bizimle iletişime geçin"
+    },
     "newsletter": {
       "title": "Güncel Kalın",
       "subtitle": "Hollanda işletmeleri için en son finansal içgörüler ve güncellemeler için bültenimize abone olun.",
@@ -302,18 +387,43 @@
       "phone": "Telefon",
       "businessHours": "Çalışma Saatleri",
       "weekdays": "Pazartesi - Cuma: 9:00 - 17:00",
-      "weekend": "Cumartesi - Pazar: Kapalı"
+      "weekend": "Cumartesi - Pazar: Kapalı",
+      "googleMaps": "Google Haritalar Konumu"
     },
     "form": {
       "title": "Danışma Talep Et",
       "fullName": "Tam Ad",
       "emailAddress": "E-posta Adresi",
       "phoneNumber": "Telefon Numarası",
+      "company": "Şirket Adı",
       "serviceInterest": "İlgilenilen Hizmet",
       "selectService": "Bir hizmet seçin",
       "message": "Mesaj",
       "privacyConsent": "Gizlilik politikasını kabul ediyorum ve sorgulamla ilgili olarak benimle iletişime geçilmesine izin veriyorum.",
-      "submitRequest": "Talebi Gönder"
+      "submitRequest": "Talebi Gönder",
+      "steps": {
+        "personal": "Kişisel Bilgiler",
+        "details": "Detaylar",
+        "message": "Mesaj",
+        "review": "İnceleme",
+        "success": "Başarılı"
+      },
+      "validation": {
+        "nameRequired": "Ad gereklidir",
+        "nameLength": "Ad en az 2 karakter olmalıdır",
+        "emailRequired": "E-posta gereklidir",
+        "emailValid": "Lütfen geçerli bir e-posta adresi girin",
+        "phoneValid": "Lütfen geçerli bir telefon numarası girin",
+        "serviceRequired": "Lütfen bir hizmet seçin",
+        "messageRequired": "Mesaj gereklidir",
+        "messageLength": "Mesaj en az 10 karakter olmalıdır",
+        "privacyRequired": "Gizlilik politikasını kabul etmelisiniz"
+      },
+      "success": {
+        "title": "Talebiniz için teşekkürler!",
+        "message": "Talebinizi aldık ve 24 saat içinde sizinle iletişime geçeceğiz.",
+        "button": "Ana Sayfaya Dön"
+      }
     },
     "faq": {
       "title": "Sık Sorulan Sorular",
@@ -321,7 +431,7 @@
       "questions": [
         {
           "question": "Muhasebe ücretleriniz nedir?",
-          "answer": "Muhasebe hizmetlerimiz ZZP'ler için aylık 130€ (KDV hariç) ve BV'ler için aylık 150€ (KDV hariç) başlamaktadır. Kesin ücret, finansal yönetiminizin karmaşıklığına ve hacmine bağlıdır."
+          "answer": "Muhasebe hizmetlerimiz ZZP'ler için aylık 130€ (KDV hariç) ve BV'ler için aylık 250€ (KDV hariç) başlamaktadır, DGA bordro yönetimi dahildir. Kesin ücret, finansal yönetiminizin karmaşıklığına ve hacmine bağlıdır."
         },
         {
           "question": "Finanslarım hakkında ne sıklıkta iletişim kuracağız?",
@@ -353,6 +463,6 @@
     "personalLoans": "Kişisel Kredi Yardımı",
     "copyright": "Tüm hakları saklıdır.",
     "privacyPolicy": "Gizlilik Politikası",
-    "termsOfService": "Hizmet Şartları"
+    "termsOfService": "Kullanım Şartları"
   }
 }
