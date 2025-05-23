@@ -291,14 +291,7 @@ export default function TermsOfService() {
       </section>
     </div>
   );
-}
-            </p>
-
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">16. Dispute Resolution</h2>
-            <p className="text-gray-600 mb-4">
-              In the event of any dispute arising out of or in connection with these Terms or the Services:
-            </p>
-            <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
+}>
               <li>The parties will first attempt to resolve the dispute through good-faith negotiations</li>
               <li>If the dispute cannot be resolved through negotiations within 30 days, either party may initiate legal proceedings</li>
             </ul>
