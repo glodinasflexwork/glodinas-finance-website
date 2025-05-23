@@ -6,6 +6,210 @@
     "blog": "Blog",
     "contact": "İletişim"
   },
+  "privacyPolicy": {
+    "hero": {
+      "title": "Gizlilik Politikası",
+      "subtitle": "Glodinas Finance B.V.'nin kişisel verilerinizi nasıl koruduğu"
+    },
+    "lastUpdated": "Son Güncelleme: 23 Mayıs 2025",
+    "sections": {
+      "introduction": {
+        "title": "1. Giriş",
+        "paragraph1": "Schiphol Boulevard 127, Schiphol 1118 BG, Hollanda adresinde bulunan Glodinas Finance B.V. (\"biz,\" \"bizim\" veya \"bize\"), gizliliğinizi ve kişisel verilerinizi korumayı taahhüt eder. Bu Gizlilik Politikası, hizmetlerimizi kullandığınızda, www.glodinasfinance.nl adresindeki web sitemizi ziyaret ettiğinizde veya başka şekillerde bizimle etkileşimde bulunduğunuzda bilgilerinizi nasıl topladığımızı, kullandığımızı, paylaştığımızı ve koruduğumuzu açıklar.",
+        "paragraph2": "Kişisel verileri Genel Veri Koruma Yönetmeliği (GDPR) ve Hollanda Uygulama Yasası (Uitvoeringswet AVG) uyarınca işliyoruz. Bu politika, kişisel verilerinizle ilgili haklarınızı ve yükümlülüklerimizi özetler."
+      },
+      "dataController": {
+        "title": "2. Veri Sorumlusu",
+        "paragraph": "Glodinas Finance B.V., kişisel verilerinizden sorumlu veri sorumlusudur:",
+        "companyName": "Şirket Adı: Glodinas Finance B.V.",
+        "address": "Adres: Schiphol Boulevard 127, Schiphol 1118 BG, Hollanda",
+        "email": "E-posta: privacy@glodinasfinance.nl",
+        "phone": "Telefon: +31 20 123 4567",
+        "kvk": "Ticaret Odası (KVK) Numarası: 81805810"
+      },
+      "personalData": {
+        "title": "3. Topladığımız Kişisel Veriler",
+        "paragraph": "Aşağıdaki kişisel veri kategorilerini topluyor ve işliyoruz:",
+        "clientData": {
+          "title": "3.1 Müşteri Verileri",
+          "items": [
+            "Kimlik bilgileri: ad, unvan, doğum tarihi, cinsiyet, uyruk",
+            "İletişim bilgileri: e-posta adresi, telefon numarası, fiziksel adres",
+            "İş bilgileri: şirket adı, iş unvanı, iş sektörü, KVK numarası, KDV numarası",
+            "Finansal bilgiler: banka hesap bilgileri, vergi kimlik numaraları, finansal tablolar, gelir detayları, gider kayıtları",
+            "Hizmet verileri: kullandığınız hizmetler, hesap ayarları, tercihler hakkında bilgiler",
+            "İletişim verileri: e-postalar, mektuplar, telefon görüşmeleri ve bizimle diğer iletişimler"
+          ]
+        },
+        "websiteVisitorData": {
+          "title": "3.2 Web Sitesi Ziyaretçi Verileri",
+          "items": [
+            "Teknik veriler: IP adresi, tarayıcı türü ve sürümü, saat dilimi ayarı, tarayıcı eklenti türleri ve sürümleri, işletim sistemi ve platform",
+            "Kullanım verileri: web sitemizi, ürünlerimizi ve hizmetlerimizi nasıl kullandığınıza dair bilgiler",
+            "Çerez verileri: çerezlerde saklanan bilgiler (detaylar için Çerez Politikamıza bakın)",
+            "İletişim formu verileri: iletişim formlarımızı kullanırken sağladığınız bilgiler"
+          ]
+        }
+      },
+      "howWeCollect": {
+        "title": "4. Kişisel Verilerinizi Nasıl Topluyoruz",
+        "paragraph": "Kişisel verileri çeşitli kanallar aracılığıyla topluyoruz:",
+        "items": [
+          "Doğrudan etkileşimler: hizmetlerimizi kullandığınızda, hesap oluşturduğunuzda, formları doldurduğunuzda veya bizimle yazıştığınızda",
+          "Otomatik teknolojiler: web sitemizi ziyaret ettiğinizde, çerezler ve benzer teknolojiler aracılığıyla",
+          "Üçüncü taraflar: iş ortakları, alt yükleniciler, ödeme sağlayıcıları ve kamuya açık kaynaklar gibi üçüncü taraflardan kişisel veriler alabiliriz"
+        ]
+      },
+      "legalBasis": {
+        "title": "5. İşleme için Yasal Dayanak",
+        "paragraph": "Kişisel verilerinizi aşağıdaki yasal dayanaklar üzerinde işliyoruz:",
+        "items": [
+          "Sözleşme performansı: Sizinle olan sözleşmemizin yerine getirilmesi veya bir sözleşmeye girmeden önce talebiniz üzerine adımlar atmak için gerekli işleme",
+          "Yasal yükümlülük: Yasal yükümlülüklerimize uymak için gerekli işleme (örn. vergi yasaları, kara para aklamayla mücadele düzenlemeleri)",
+          "Meşru menfaatler: Çıkarlarınızın ve temel haklarınızın bu çıkarları geçersiz kılmaması koşuluyla, bizim veya üçüncü bir tarafın meşru menfaatleri için gerekli işleme",
+          "Onay: Belirli onayınıza dayalı işleme"
+        ]
+      },
+      "howWeUse": {
+        "title": "6. Kişisel Verilerinizi Nasıl Kullanıyoruz",
+        "paragraph": "Kişisel verilerinizi aşağıdaki amaçlar için kullanıyoruz:",
+        "serviceProvision": {
+          "title": "6.1 Hizmet Sağlama",
+          "items": [
+            "Muhasebe, finansal yönetim ve vergi hizmetleri sağlamak için",
+            "Hesabınızı ve bizimle olan ilişkinizi yönetmek için",
+            "Finansal işlemleri ve ödemeleri işlemek için",
+            "Finansal tablolar, vergi beyannameleri ve diğer finansal belgeleri hazırlamak için",
+            "Hizmetlerimiz hakkında sizinle iletişim kurmak için"
+          ]
+        },
+        "compliance": {
+          "title": "6.2 Yasal ve Düzenleyici Uyum",
+          "items": [
+            "Vergi yasaları ve kara para aklamayla mücadele düzenlemeleri dahil olmak üzere yasal ve düzenleyici yükümlülüklere uymak için",
+            "Kimliğinizi doğrulamak ve durum tespiti kontrolleri yapmak için",
+            "Yasaların gerektirdiği şekilde kayıtları tutmak için"
+          ]
+        },
+        "operations": {
+          "title": "6.3 İş Operasyonları",
+          "items": [
+            "Hizmetlerimizi geliştirmek ve yeni teklifler geliştirmek için",
+            "İş operasyonlarımızı ve yönetimimizi yönetmek için",
+            "Sistemlerimizin güvenliğini sağlamak ve dolandırıcılığı önlemek için",
+            "Kullanım modellerini ve eğilimleri analiz etmek için"
+          ]
+        },
+        "marketing": {
+          "title": "6.4 Pazarlama ve İletişim",
+          "items": [
+            "Size güncellemeler, bültenler ve hizmetlerimiz hakkında bilgiler göndermek için (gerektiğinde onayınızla)",
+            "Sizi ilginizi çekebilecek etkinliklere veya webinarlara davet etmek için",
+            "Memnuniyet anketleri yapmak ve geri bildirim toplamak için"
+          ]
+        }
+      },
+      "dataRetention": {
+        "title": "7. Veri Saklama",
+        "paragraph1": "Kişisel verilerinizi yalnızca toplandığı amaçları yerine getirmek için gerekli olan süre boyunca saklıyoruz, bu süre yasal, muhasebe veya raporlama gerekliliklerini karşılamak için gereken süreleri de içerir.",
+        "paragraph2": "Finansal ve vergi ile ilgili veriler için, Hollanda yasaları uyarınca kayıtları en az 7 yıl süreyle saklamakla yükümlüyüz. Diğer veri türleri için, saklama süresi verilerin niteliğine ve işleme amacına bağlı olarak değişebilir.",
+        "paragraph3": "Kişisel verilere artık ihtiyaç duyulmadığında, bunları güvenli bir şekilde sileceğiz veya anonimleştireceğiz."
+      },
+      "dataSharing": {
+        "title": "8. Veri Paylaşımı ve Transferleri",
+        "paragraph1": "Kişisel verilerinizi aşağıdaki alıcı kategorileriyle paylaşabiliriz:",
+        "recipients": [
+          "Hizmet sağlayıcılar: BT sağlayıcıları, bulut depolama sağlayıcıları, ödeme işlemcileri ve profesyonel danışmanlar gibi bizim adımıza hizmet sunan üçüncü taraf hizmet sağlayıcılar",
+          "Düzenleyici kurumlar: Vergi makamları, finansal düzenleyiciler ve yasaların gerektirdiği diğer devlet kurumları",
+          "İş ortakları: Ortak markalı hizmetler veya ortak pazarlama faaliyetleri sunduğumuz ortaklar, gerektiğinde onayınızla",
+          "Profesyonel danışmanlar: Danışmanlık, bankacılık, hukuk, sigorta ve muhasebe hizmetleri sunan avukatlar, bankacılar, denetçiler ve sigortacılar"
+        ],
+        "paragraph2": "Tüm üçüncü tarafların kişisel verilerinizin güvenliğine saygı göstermesini ve bunları yasalara uygun şekilde işlemesini sağlıyoruz. Üçüncü taraf hizmet sağlayıcılarımızın kişisel verilerinizi kendi amaçları için kullanmasına izin vermiyoruz.",
+        "paragraph3": "Kişisel verileri Avrupa Ekonomik Alanı (AEA) dışına aktardığımızda, aşağıdaki önlemlerden en az birini uygulayarak benzer bir koruma düzeyi sağlıyoruz:",
+        "safeguards": [
+          "Avrupa Komisyonu tarafından yeterli koruma düzeyi sağladığı kabul edilen ülkelere yapılan transferler",
+          "Avrupa Komisyonu tarafından onaylanan belirli sözleşmelerin kullanımı (Standart Sözleşme Maddeleri)",
+          "Bir kurumsal grup içindeki transferler için bağlayıcı kurumsal kuralların uygulanması"
+        ]
+      },
+      "dataSecurity": {
+        "title": "9. Veri Güvenliği",
+        "paragraph1": "Kişisel verilerinizin kazara kaybolmasını, kullanılmasını veya yetkisiz erişimini, değiştirilmesini veya ifşa edilmesini önlemek için uygun güvenlik önlemleri uyguladık. Bu önlemler şunları içerir:",
+        "measures": [
+          "Hassas verilerin şifrelenmesi",
+          "Güvenli ağlar ve sistemler",
+          "Erişim kontrolleri ve kimlik doğrulama prosedürleri",
+          "Düzenli güvenlik değerlendirmeleri ve testleri",
+          "Veri koruma ve güvenlik konusunda personel eğitimi"
+        ],
+        "paragraph2": "Herhangi bir şüpheli kişisel veri ihlaliyle başa çıkmak için prosedürlerimiz var ve yasal olarak gerekli olduğunda sizi ve ilgili düzenleyiciyi bir ihlal konusunda bilgilendireceğiz."
+      },
+      "yourRights": {
+        "title": "10. Haklarınız",
+        "paragraph1": "GDPR kapsamında, kişisel verilerinizle ilgili aşağıdaki haklara sahipsiniz:",
+        "rights": [
+          "Erişim hakkı: Hakkınızda tuttuğumuz kişisel verilerin bir kopyasını talep edebilirsiniz",
+          "Düzeltme hakkı: Yanlış veya eksik kişisel verilerin düzeltilmesini talep edebilirsiniz",
+          "Silme hakkı: Belirli durumlarda kişisel verilerinizin silinmesini talep edebilirsiniz",
+          "İşlemeyi kısıtlama hakkı: Belirli durumlarda kişisel verilerinizin işlenmesinin kısıtlanmasını talep edebilirsiniz",
+          "Veri taşınabilirliği hakkı: Kişisel verilerinizin yapılandırılmış, yaygın olarak kullanılan, makine tarafından okunabilir bir formatta size veya üçüncü bir tarafa aktarılmasını talep edebilirsiniz",
+          "İtiraz hakkı: Özellikle doğrudan pazarlama için belirli durumlarda kişisel verilerinizin işlenmesine itiraz edebilirsiniz",
+          "Otomatik karar verme ile ilgili haklar: Otomatik karar verme ve profil oluşturmada insan müdahalesi talep edebilirsiniz",
+          "Onayı geri çekme hakkı: Kişisel verilerinizi işlemek için onaya dayandığımızda, onayınızı istediğiniz zaman geri çekebilirsiniz"
+        ],
+        "paragraph2": "Bu haklardan herhangi birini kullanmak için lütfen privacy@glodinasfinance.nl adresinden bizimle iletişime geçin. Talebinize bir ay içinde yanıt vereceğiz. Haklarınızı kullanmak için herhangi bir ücret yoktur, ancak talebiniz açıkça temelsiz, tekrarlayan veya aşırı ise makul bir ücret talep edebiliriz."
+      },
+      "cookies": {
+        "title": "11. Çerezler ve Benzer Teknolojiler",
+        "paragraph1": "Web sitemiz, sizi diğer kullanıcılardan ayırt etmek için çerezler ve benzer teknolojiler kullanır. Bu, web sitemizi gezdiğinizde size iyi bir deneyim sunmamıza ve sitemizi geliştirmemize yardımcı olur.",
+        "paragraph2": "Aşağıdaki çerez türlerini kullanıyoruz:",
+        "cookieTypes": [
+          "Kesinlikle gerekli çerezler: Web sitemizin çalışması için gereklidir",
+          "Analitik/performans çerezleri: Ziyaretçileri tanımamızı ve saymamızı ve ziyaretçilerin web sitemizde nasıl dolaştığını görmemizi sağlar",
+          "İşlevsellik çerezleri: Web sitemize döndüğünüzde sizi tanımak için kullanılır",
+          "Hedefleme çerezleri: Web sitemizi ziyaretinizi, ziyaret ettiğiniz sayfaları ve takip ettiğiniz bağlantıları kaydeder"
+        ],
+        "paragraph3": "Tarayıcınızı tüm veya bazı tarayıcı çerezlerini reddetmek veya web siteleri çerezleri ayarladığında veya eriştiğinde sizi uyarmak için ayarlayabilirsiniz. Çerezleri devre dışı bırakır veya reddederseniz, web sitemizin bazı bölümlerinin erişilemez hale gelebileceğini veya düzgün çalışmayabileceğini lütfen unutmayın."
+      },
+      "childrenPrivacy": {
+        "title": "12. Çocukların Gizliliği",
+        "paragraph": "Hizmetlerimiz 16 yaşın altındaki çocuklar için tasarlanmamıştır ve bilerek çocuklardan kişisel veri toplamıyoruz. Ebeveyn veya vasi iseniz ve çocuğunuz hakkında bilgi topladığımızı düşünüyorsanız, lütfen hemen bizimle iletişime geçin."
+      },
+      "changes": {
+        "title": "13. Bu Gizlilik Politikasındaki Değişiklikler",
+        "paragraph1": "Bu Gizlilik Politikasını, uygulamalarımızdaki değişiklikleri yansıtmak veya diğer operasyonel, yasal veya düzenleyici nedenlerle zaman zaman güncelleyebiliriz. Önemli değişiklikleri, yeni Gizlilik Politikasını bu sayfada yayınlayarak ve \"Son Güncelleme\" tarihini güncelleyerek size bildireceğiz.",
+        "paragraph2": "Kişisel verilerinizi nasıl koruduğumuz hakkında bilgi sahibi olmak için bu Gizlilik Politikasını düzenli olarak gözden geçirmenizi öneririz."
+      },
+      "complaints": {
+        "title": "14. Şikayetler",
+        "paragraph1": "Kişisel verilerinizi nasıl ele aldığımız konusunda endişeleriniz varsa, lütfen önce privacy@glodinasfinance.nl adresinden bizimle iletişime geçin, endişelerinizi çözmek için elimizden geleni yapacağız.",
+        "paragraph2": "Veri koruma yasalarına uymadığımızı düşünüyorsanız, Hollanda Veri Koruma Kurumu'na (Autoriteit Persoonsgegevens) şikayette bulunma hakkına da sahipsiniz. Onlara şu adresten ulaşabilirsiniz:",
+        "authority": {
+          "name": "Autoriteit Persoonsgegevens",
+          "address1": "Postbus 93374",
+          "address2": "2509 AJ DEN HAAG",
+          "website": "Web sitesi: autoriteitpersoonsgegevens.nl"
+        }
+      },
+      "contactUs": {
+        "title": "15. Bize Ulaşın",
+        "paragraph": "Bu Gizlilik Politikası veya veri uygulamalarımız hakkında sorularınız varsa, lütfen bizimle şu adresten iletişime geçin:",
+        "contact": {
+          "company": "Glodinas Finance B.V.",
+          "address1": "Schiphol Boulevard 127",
+          "address2": "Schiphol 1118 BG",
+          "country": "Hollanda",
+          "email": "E-posta: privacy@glodinasfinance.nl",
+          "phone": "Telefon: +31 20 123 4567"
+        }
+      }
+    },
+    "cta": {
+      "title": "Verileriniz Hakkında Sorularınız mı Var?",
+      "paragraph": "Kişisel bilgilerinizi nasıl ele aldığımız konusunda herhangi bir soru veya endişeniz için veri koruma ekibimizle iletişime geçin.",
+      "button": "Bize Ulaşın"
+    }
+  },
   "home": {
     "hero": {
       "title": "Hollanda'da Profesyonel Muhasebe Hizmetleri",

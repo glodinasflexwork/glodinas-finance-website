@@ -6,6 +6,210 @@
     "blog": "Blog",
     "contact": "Contact"
   },
+  "privacyPolicy": {
+    "hero": {
+      "title": "Politica de Confidențialitate",
+      "subtitle": "Cum Glodinas Finance B.V. protejează datele dumneavoastră personale"
+    },
+    "lastUpdated": "Ultima actualizare: 23 mai 2025",
+    "sections": {
+      "introduction": {
+        "title": "1. Introducere",
+        "paragraph1": "Glodinas Finance B.V. („noi", „nostru" sau „noastră"), cu sediul în Schiphol Boulevard 127, Schiphol 1118 BG, Olanda, se angajează să protejeze confidențialitatea și datele dumneavoastră personale. Această Politică de Confidențialitate explică modul în care colectăm, utilizăm, divulgăm și protejăm informațiile dumneavoastră atunci când utilizați serviciile noastre, vizitați site-ul nostru web la www.glodinasfinance.nl sau interacționați în alt mod cu noi.",
+        "paragraph2": "Procesăm datele personale în conformitate cu Regulamentul General privind Protecția Datelor (GDPR) și Legea de Implementare Olandeză (Uitvoeringswet AVG). Această politică prezintă drepturile dumneavoastră și obligațiile noastre cu privire la datele dumneavoastră personale."
+      },
+      "dataController": {
+        "title": "2. Operator de Date",
+        "paragraph": "Glodinas Finance B.V. este operatorul de date responsabil pentru datele dumneavoastră personale:",
+        "companyName": "Numele companiei: Glodinas Finance B.V.",
+        "address": "Adresa: Schiphol Boulevard 127, Schiphol 1118 BG, Olanda",
+        "email": "Email: privacy@glodinasfinance.nl",
+        "phone": "Telefon: +31 20 123 4567",
+        "kvk": "Număr Camera de Comerț (KVK): 81805810"
+      },
+      "personalData": {
+        "title": "3. Datele Personale pe care le Colectăm",
+        "paragraph": "Colectăm și procesăm următoarele categorii de date personale:",
+        "clientData": {
+          "title": "3.1 Date Client",
+          "items": [
+            "Informații de identitate: nume, titlu, data nașterii, gen, naționalitate",
+            "Informații de contact: adresă de email, număr de telefon, adresă fizică",
+            "Informații de afaceri: numele companiei, funcția, sectorul de activitate, număr KVK, număr TVA",
+            "Informații financiare: detalii cont bancar, numere de identificare fiscală, situații financiare, detalii venituri, înregistrări cheltuieli",
+            "Date servicii: informații despre serviciile pe care le utilizați, setări cont, preferințe",
+            "Date comunicare: emailuri, scrisori, apeluri telefonice și alte comunicări cu noi"
+          ]
+        },
+        "websiteVisitorData": {
+          "title": "3.2 Date Vizitator Website",
+          "items": [
+            "Date tehnice: adresă IP, tip și versiune browser, setare fus orar, tipuri și versiuni plugin-uri browser, sistem de operare și platformă",
+            "Date utilizare: informații despre cum utilizați website-ul nostru, produsele și serviciile",
+            "Date cookie: informații stocate în cookie-uri (consultați Politica noastră de Cookie-uri pentru detalii)",
+            "Date formular contact: informații pe care le furnizați când utilizați formularele noastre de contact"
+          ]
+        }
+      },
+      "howWeCollect": {
+        "title": "4. Cum Colectăm Datele Dumneavoastră Personale",
+        "paragraph": "Colectăm date personale prin diverse canale:",
+        "items": [
+          "Interacțiuni directe: când utilizați serviciile noastre, creați un cont, completați formulare sau corespondați cu noi",
+          "Tehnologii automatizate: când vizitați website-ul nostru, prin cookie-uri și tehnologii similare",
+          "Terțe părți: putem primi date personale de la terțe părți precum parteneri de afaceri, subcontractori, furnizori de servicii de plată și surse disponibile public"
+        ]
+      },
+      "legalBasis": {
+        "title": "5. Baza Legală pentru Procesare",
+        "paragraph": "Procesăm datele dumneavoastră personale pe următoarele baze legale:",
+        "items": [
+          "Executarea contractului: Procesare necesară pentru executarea contractului nostru cu dumneavoastră sau pentru a lua măsuri la cererea dumneavoastră înainte de încheierea unui contract",
+          "Obligație legală: Procesare necesară pentru respectarea obligațiilor noastre legale (de ex., legi fiscale, reglementări anti-spălare de bani)",
+          "Interese legitime: Procesare necesară pentru interesele noastre legitime sau ale unei terțe părți, cu condiția ca interesele și drepturile dumneavoastră fundamentale să nu prevaleze asupra acestor interese",
+          "Consimțământ: Procesare bazată pe consimțământul dumneavoastră specific"
+        ]
+      },
+      "howWeUse": {
+        "title": "6. Cum Utilizăm Datele Dumneavoastră Personale",
+        "paragraph": "Utilizăm datele dumneavoastră personale în următoarele scopuri:",
+        "serviceProvision": {
+          "title": "6.1 Furnizarea Serviciilor",
+          "items": [
+            "Pentru a furniza servicii de contabilitate, administrare financiară și fiscale",
+            "Pentru a gestiona contul și relația dumneavoastră cu noi",
+            "Pentru a procesa tranzacții financiare și plăți",
+            "Pentru a pregăti situații financiare, declarații fiscale și alte documente financiare",
+            "Pentru a comunica cu dumneavoastră despre serviciile noastre"
+          ]
+        },
+        "compliance": {
+          "title": "6.2 Conformitate Legală și Reglementară",
+          "items": [
+            "Pentru a respecta obligațiile legale și de reglementare, inclusiv legile fiscale și reglementările anti-spălare de bani",
+            "Pentru a verifica identitatea dumneavoastră și a efectua verificări de diligență",
+            "Pentru a păstra înregistrări conform cerințelor legale"
+          ]
+        },
+        "operations": {
+          "title": "6.3 Operațiuni de Afaceri",
+          "items": [
+            "Pentru a îmbunătăți serviciile noastre și a dezvolta noi oferte",
+            "Pentru a gestiona operațiunile și administrarea afacerii noastre",
+            "Pentru a asigura securitatea sistemelor noastre și a preveni frauda",
+            "Pentru a analiza modele și tendințe de utilizare"
+          ]
+        },
+        "marketing": {
+          "title": "6.4 Marketing și Comunicări",
+          "items": [
+            "Pentru a vă trimite actualizări, buletine informative și informații despre serviciile noastre (cu consimțământul dumneavoastră unde este necesar)",
+            "Pentru a vă invita la evenimente sau webinarii care ar putea fi de interes pentru dumneavoastră",
+            "Pentru a efectua sondaje de satisfacție și a colecta feedback"
+          ]
+        }
+      },
+      "dataRetention": {
+        "title": "7. Păstrarea Datelor",
+        "paragraph1": "Păstrăm datele dumneavoastră personale doar atât timp cât este necesar pentru a îndeplini scopurile pentru care au fost colectate, inclusiv în scopul satisfacerii oricăror cerințe legale, contabile sau de raportare.",
+        "paragraph2": "Pentru date financiare și fiscale, suntem obligați de legea olandeză să păstrăm înregistrări pentru cel puțin 7 ani. Pentru alte tipuri de date, perioada de păstrare poate varia în funcție de natura datelor și scopul procesării.",
+        "paragraph3": "Când datele personale nu mai sunt necesare, le vom șterge sau anonimiza în mod securizat."
+      },
+      "dataSharing": {
+        "title": "8. Partajarea și Transferurile de Date",
+        "paragraph1": "Putem partaja datele dumneavoastră personale cu următoarele categorii de destinatari:",
+        "recipients": [
+          "Furnizori de servicii: Furnizori terți de servicii care efectuează servicii în numele nostru, cum ar fi furnizori IT, furnizori de stocare în cloud, procesatori de plăți și consultanți profesionali",
+          "Autorități de reglementare: Autorități fiscale, autorități de reglementare financiară și alte organisme guvernamentale când este cerut de lege",
+          "Parteneri de afaceri: Parteneri cu care oferim servicii co-branded sau activități de marketing comune, cu consimțământul dumneavoastră unde este necesar",
+          "Consultanți profesionali: Avocați, bancheri, auditori și asigurători care furnizează servicii de consultanță, bancare, juridice, de asigurare și contabilitate"
+        ],
+        "paragraph2": "Ne asigurăm că toate terțele părți respectă securitatea datelor dumneavoastră personale și le tratează în conformitate cu legea. Nu permitem furnizorilor noștri terți de servicii să utilizeze datele dumneavoastră personale în propriile lor scopuri.",
+        "paragraph3": "Când transferăm date personale în afara Spațiului Economic European (SEE), asigurăm un grad similar de protecție prin implementarea a cel puțin uneia dintre următoarele măsuri de protecție:",
+        "safeguards": [
+          "Transferuri către țări care au fost considerate că oferă un nivel adecvat de protecție de către Comisia Europeană",
+          "Utilizarea contractelor specifice aprobate de Comisia Europeană (Clauze Contractuale Standard)",
+          "Implementarea regulilor corporative obligatorii pentru transferuri în cadrul unui grup corporativ"
+        ]
+      },
+      "dataSecurity": {
+        "title": "9. Securitatea Datelor",
+        "paragraph1": "Am implementat măsuri de securitate adecvate pentru a preveni pierderea accidentală, utilizarea sau accesarea neautorizată, modificarea sau divulgarea datelor dumneavoastră personale. Aceste măsuri includ:",
+        "measures": [
+          "Criptarea datelor sensibile",
+          "Rețele și sisteme securizate",
+          "Controale de acces și proceduri de autentificare",
+          "Evaluări și testări regulate de securitate",
+          "Instruirea personalului privind protecția și securitatea datelor"
+        ],
+        "paragraph2": "Avem proceduri pentru a gestiona orice suspiciune de încălcare a datelor personale și vă vom notifica pe dumneavoastră și orice autoritate de reglementare aplicabilă despre o încălcare atunci când suntem obligați legal să facem acest lucru."
+      },
+      "yourRights": {
+        "title": "10. Drepturile Dumneavoastră",
+        "paragraph1": "În conformitate cu GDPR, aveți următoarele drepturi cu privire la datele dumneavoastră personale:",
+        "rights": [
+          "Dreptul de acces: Puteți solicita o copie a datelor personale pe care le deținem despre dumneavoastră",
+          "Dreptul la rectificare: Puteți solicita corectarea oricăror date personale inexacte sau incomplete",
+          "Dreptul la ștergere: Puteți solicita ștergerea datelor dumneavoastră personale în anumite circumstanțe",
+          "Dreptul la restricționarea procesării: Puteți solicita restricționarea procesării datelor dumneavoastră personale în anumite circumstanțe",
+          "Dreptul la portabilitatea datelor: Puteți solicita transferul datelor dumneavoastră personale către dumneavoastră sau către o terță parte într-un format structurat, utilizat în mod obișnuit și care poate fi citit automat",
+          "Dreptul la opoziție: Puteți obiecta la procesarea datelor dumneavoastră personale în anumite circumstanțe, în special pentru marketing direct",
+          "Drepturi legate de luarea deciziilor automatizate: Puteți solicita intervenție umană în luarea deciziilor automatizate și profilare",
+          "Dreptul de a retrage consimțământul: Puteți retrage consimțământul în orice moment când ne bazăm pe consimțământ pentru a procesa datele dumneavoastră personale"
+        ],
+        "paragraph2": "Pentru a exercita oricare dintre aceste drepturi, vă rugăm să ne contactați la privacy@glodinasfinance.nl. Vom răspunde la solicitarea dumneavoastră în termen de o lună. Nu există nicio taxă pentru exercitarea drepturilor dumneavoastră, dar putem percepe o taxă rezonabilă dacă solicitarea dumneavoastră este în mod clar nefondată, repetitivă sau excesivă."
+      },
+      "cookies": {
+        "title": "11. Cookie-uri și Tehnologii Similare",
+        "paragraph1": "Website-ul nostru utilizează cookie-uri și tehnologii similare pentru a vă distinge de alți utilizatori. Acest lucru ne ajută să vă oferim o experiență bună atunci când navigați pe website-ul nostru și ne permite să îmbunătățim site-ul nostru.",
+        "paragraph2": "Utilizăm următoarele tipuri de cookie-uri:",
+        "cookieTypes": [
+          "Cookie-uri strict necesare: Necesare pentru funcționarea website-ului nostru",
+          "Cookie-uri analitice/de performanță: Ne permit să recunoaștem și să numărăm vizitatorii și să vedem cum se deplasează vizitatorii pe website-ul nostru",
+          "Cookie-uri de funcționalitate: Utilizate pentru a vă recunoaște când reveniți pe website-ul nostru",
+          "Cookie-uri de targeting: Înregistrează vizita dumneavoastră pe website-ul nostru, paginile pe care le vizitați și link-urile pe care le urmați"
+        ],
+        "paragraph3": "Puteți seta browserul dumneavoastră să refuze toate sau unele cookie-uri de browser sau să vă alerteze când website-urile setează sau accesează cookie-uri. Dacă dezactivați sau refuzați cookie-urile, vă rugăm să rețineți că unele părți ale website-ului nostru pot deveni inaccesibile sau pot să nu funcționeze corect."
+      },
+      "childrenPrivacy": {
+        "title": "12. Confidențialitatea Copiilor",
+        "paragraph": "Serviciile noastre nu sunt destinate copiilor sub 16 ani, și nu colectăm cu bună știință date personale de la copii. Dacă sunteți părinte sau tutore și credeți că am colectat informații despre copilul dumneavoastră, vă rugăm să ne contactați imediat."
+      },
+      "changes": {
+        "title": "13. Modificări ale acestei Politici de Confidențialitate",
+        "paragraph1": "Putem actualiza această Politică de Confidențialitate din când în când pentru a reflecta modificări în practicile noastre sau din alte motive operaționale, legale sau de reglementare. Vă vom notifica despre orice modificări materiale prin postarea noii Politici de Confidențialitate pe această pagină și actualizarea datei „Ultima actualizare".",
+        "paragraph2": "Vă încurajăm să revizuiți periodic această Politică de Confidențialitate pentru a rămâne informat despre modul în care protejăm datele dumneavoastră personale."
+      },
+      "complaints": {
+        "title": "14. Reclamații",
+        "paragraph1": "Dacă aveți preocupări cu privire la modul în care gestionăm datele dumneavoastră personale, vă rugăm să ne contactați mai întâi la privacy@glodinasfinance.nl, și vom face tot posibilul pentru a rezolva preocupările dumneavoastră.",
+        "paragraph2": "De asemenea, aveți dreptul de a depune o plângere la Autoritatea Olandeză pentru Protecția Datelor (Autoriteit Persoonsgegevens) dacă credeți că nu am respectat legile privind protecția datelor. Îi puteți contacta la:",
+        "authority": {
+          "name": "Autoriteit Persoonsgegevens",
+          "address1": "Postbus 93374",
+          "address2": "2509 AJ DEN HAAG",
+          "website": "Website: autoriteitpersoonsgegevens.nl"
+        }
+      },
+      "contactUs": {
+        "title": "15. Contactați-ne",
+        "paragraph": "Dacă aveți întrebări despre această Politică de Confidențialitate sau practicile noastre privind datele, vă rugăm să ne contactați la:",
+        "contact": {
+          "company": "Glodinas Finance B.V.",
+          "address1": "Schiphol Boulevard 127",
+          "address2": "Schiphol 1118 BG",
+          "country": "Olanda",
+          "email": "Email: privacy@glodinasfinance.nl",
+          "phone": "Telefon: +31 20 123 4567"
+        }
+      }
+    },
+    "cta": {
+      "title": "Aveți întrebări despre datele dumneavoastră?",
+      "paragraph": "Contactați echipa noastră de protecție a datelor pentru orice întrebări sau preocupări despre modul în care gestionăm informațiile dumneavoastră personale.",
+      "button": "Contactați-ne"
+    }
+  },
   "home": {
     "hero": {
       "title": "Servicii Profesionale de Contabilitate în Olanda",

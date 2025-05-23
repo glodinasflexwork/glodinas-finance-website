@@ -6,6 +6,210 @@
     "blog": "Blog",
     "contact": "Contact"
   },
+  "privacyPolicy": {
+    "hero": {
+      "title": "Privacybeleid",
+      "subtitle": "Hoe Glodinas Finance B.V. uw persoonsgegevens beschermt"
+    },
+    "lastUpdated": "Laatst bijgewerkt: 23 mei 2025",
+    "sections": {
+      "introduction": {
+        "title": "1. Inleiding",
+        "paragraph1": "Glodinas Finance B.V. (\"wij,\" \"onze,\" of \"ons\"), gevestigd aan Schiphol Boulevard 127, Schiphol 1118 BG, Nederland, zet zich in voor het beschermen van uw privacy en persoonsgegevens. Dit Privacybeleid legt uit hoe wij uw gegevens verzamelen, gebruiken, delen en beveiligen wanneer u gebruik maakt van onze diensten, onze website www.glodinasfinance.nl bezoekt, of anderszins met ons communiceert.",
+        "paragraph2": "Wij verwerken persoonsgegevens in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG) en de Uitvoeringswet AVG. Dit beleid beschrijft uw rechten en onze verplichtingen met betrekking tot uw persoonsgegevens."
+      },
+      "dataController": {
+        "title": "2. Verwerkingsverantwoordelijke",
+        "paragraph": "Glodinas Finance B.V. is de verwerkingsverantwoordelijke voor uw persoonsgegevens:",
+        "companyName": "Bedrijfsnaam: Glodinas Finance B.V.",
+        "address": "Adres: Schiphol Boulevard 127, Schiphol 1118 BG, Nederland",
+        "email": "E-mail: privacy@glodinasfinance.nl",
+        "phone": "Telefoon: +31 20 123 4567",
+        "kvk": "Kamer van Koophandel (KVK) Nummer: 81805810"
+      },
+      "personalData": {
+        "title": "3. Persoonsgegevens die wij verzamelen",
+        "paragraph": "Wij verzamelen en verwerken de volgende categorieën persoonsgegevens:",
+        "clientData": {
+          "title": "3.1 Klantgegevens",
+          "items": [
+            "Identiteitsgegevens: naam, titel, geboortedatum, geslacht, nationaliteit",
+            "Contactgegevens: e-mailadres, telefoonnummer, fysiek adres",
+            "Bedrijfsgegevens: bedrijfsnaam, functie, bedrijfssector, KVK-nummer, BTW-nummer",
+            "Financiële gegevens: bankrekeninggegevens, fiscale identificatienummers, financiële overzichten, inkomensgegevens, uitgavenregistraties",
+            "Servicegegevens: informatie over de diensten die u gebruikt, accountinstellingen, voorkeuren",
+            "Communicatiegegevens: e-mails, brieven, telefoongesprekken en andere communicatie met ons"
+          ]
+        },
+        "websiteVisitorData": {
+          "title": "3.2 Website Bezoekersgegevens",
+          "items": [
+            "Technische gegevens: IP-adres, browsertype en -versie, tijdzone-instelling, browser plug-in types en versies, besturingssysteem en platform",
+            "Gebruiksgegevens: informatie over hoe u onze website, producten en diensten gebruikt",
+            "Cookie-gegevens: informatie opgeslagen in cookies (zie ons Cookiebeleid voor details)",
+            "Contactformuliergegevens: informatie die u verstrekt bij het gebruik van onze contactformulieren"
+          ]
+        }
+      },
+      "howWeCollect": {
+        "title": "4. Hoe wij uw persoonsgegevens verzamelen",
+        "paragraph": "Wij verzamelen persoonsgegevens via verschillende kanalen:",
+        "items": [
+          "Directe interacties: wanneer u gebruik maakt van onze diensten, een account aanmaakt, formulieren invult of met ons correspondeert",
+          "Geautomatiseerde technologieën: wanneer u onze website bezoekt, via cookies en vergelijkbare technologieën",
+          "Derden: wij kunnen persoonsgegevens ontvangen van derden zoals zakenpartners, onderaannemers, betalingsdienstaanbieders en openbaar beschikbare bronnen"
+        ]
+      },
+      "legalBasis": {
+        "title": "5. Rechtsgrond voor verwerking",
+        "paragraph": "Wij verwerken uw persoonsgegevens op basis van de volgende rechtsgronden:",
+        "items": [
+          "Uitvoering van overeenkomst: Verwerking die noodzakelijk is voor de uitvoering van onze overeenkomst met u of om op uw verzoek stappen te ondernemen voordat u een overeenkomst aangaat",
+          "Wettelijke verplichting: Verwerking die noodzakelijk is om te voldoen aan onze wettelijke verplichtingen (bijv. belastingwetten, anti-witwasregelgeving)",
+          "Gerechtvaardigd belang: Verwerking die noodzakelijk is voor onze gerechtvaardigde belangen of die van een derde, mits uw belangen en fundamentele rechten niet zwaarder wegen dan deze belangen",
+          "Toestemming: Verwerking op basis van uw specifieke toestemming"
+        ]
+      },
+      "howWeUse": {
+        "title": "6. Hoe wij uw persoonsgegevens gebruiken",
+        "paragraph": "Wij gebruiken uw persoonsgegevens voor de volgende doeleinden:",
+        "serviceProvision": {
+          "title": "6.1 Dienstverlening",
+          "items": [
+            "Voor het leveren van boekhoudkundige, financiële administratie- en belastingdiensten",
+            "Voor het beheren van uw account en relatie met ons",
+            "Voor het verwerken van financiële transacties en betalingen",
+            "Voor het opstellen van financiële overzichten, belastingaangiften en andere financiële documenten",
+            "Voor communicatie met u over onze diensten"
+          ]
+        },
+        "compliance": {
+          "title": "6.2 Wettelijke en regelgevende naleving",
+          "items": [
+            "Om te voldoen aan wettelijke en regelgevende verplichtingen, waaronder belastingwetten en anti-witwasregelgeving",
+            "Om uw identiteit te verifiëren en due diligence-controles uit te voeren",
+            "Om gegevens bij te houden zoals vereist door de wet"
+          ]
+        },
+        "operations": {
+          "title": "6.3 Bedrijfsactiviteiten",
+          "items": [
+            "Om onze diensten te verbeteren en nieuwe aanbiedingen te ontwikkelen",
+            "Om onze bedrijfsactiviteiten en administratie te beheren",
+            "Om de veiligheid van onze systemen te waarborgen en fraude te voorkomen",
+            "Om gebruikspatronen en trends te analyseren"
+          ]
+        },
+        "marketing": {
+          "title": "6.4 Marketing en communicatie",
+          "items": [
+            "Om u updates, nieuwsbrieven en informatie over onze diensten te sturen (met uw toestemming waar vereist)",
+            "Om u uit te nodigen voor evenementen of webinars die voor u interessant kunnen zijn",
+            "Om tevredenheidsonderzoeken uit te voeren en feedback te verzamelen"
+          ]
+        }
+      },
+      "dataRetention": {
+        "title": "7. Gegevensbewaring",
+        "paragraph1": "Wij bewaren uw persoonsgegevens alleen zo lang als nodig is om de doeleinden waarvoor ze zijn verzameld te vervullen, inclusief het voldoen aan wettelijke, boekhoudkundige of rapportageverplichtingen.",
+        "paragraph2": "Voor financiële en belastinggerelateerde gegevens zijn wij volgens de Nederlandse wetgeving verplicht om gegevens minimaal 7 jaar te bewaren. Voor andere soorten gegevens kan de bewaartermijn variëren op basis van de aard van de gegevens en het doel van de verwerking.",
+        "paragraph3": "Wanneer persoonsgegevens niet langer nodig zijn, zullen wij deze veilig verwijderen of anonimiseren."
+      },
+      "dataSharing": {
+        "title": "8. Gegevensdeling en -overdracht",
+        "paragraph1": "Wij kunnen uw persoonsgegevens delen met de volgende categorieën ontvangers:",
+        "recipients": [
+          "Dienstverleners: Externe dienstverleners die diensten namens ons uitvoeren, zoals IT-providers, cloudopslagproviders, betalingsverwerkers en professionele adviseurs",
+          "Regelgevende instanties: Belastingautoriteiten, financiële toezichthouders en andere overheidsinstanties wanneer dit wettelijk vereist is",
+          "Zakenpartners: Partners met wie wij co-branded diensten of gezamenlijke marketingactiviteiten aanbieden, met uw toestemming waar vereist",
+          "Professionele adviseurs: Advocaten, bankiers, accountants en verzekeraars die consultancy-, bank-, juridische, verzekerings- en accountancydiensten verlenen"
+        ],
+        "paragraph2": "Wij zorgen ervoor dat alle derden de veiligheid van uw persoonsgegevens respecteren en deze in overeenstemming met de wet behandelen. Wij staan onze externe dienstverleners niet toe uw persoonsgegevens voor hun eigen doeleinden te gebruiken.",
+        "paragraph3": "Wanneer wij persoonsgegevens buiten de Europese Economische Ruimte (EER) overdragen, zorgen wij voor een vergelijkbaar beschermingsniveau door ten minste een van de volgende waarborgen te implementeren:",
+        "safeguards": [
+          "Overdrachten naar landen waarvan de Europese Commissie heeft bepaald dat ze een adequaat beschermingsniveau bieden",
+          "Gebruik van specifieke contracten goedgekeurd door de Europese Commissie (Standaard Contractuele Bepalingen)",
+          "Implementatie van bindende bedrijfsvoorschriften voor overdrachten binnen een bedrijfsgroep"
+        ]
+      },
+      "dataSecurity": {
+        "title": "9. Gegevensbeveiliging",
+        "paragraph1": "Wij hebben passende beveiligingsmaatregelen geïmplementeerd om te voorkomen dat uw persoonsgegevens per ongeluk verloren gaan, worden gebruikt of toegankelijk worden gemaakt op een ongeautoriseerde manier, worden gewijzigd of openbaar worden gemaakt. Deze maatregelen omvatten:",
+        "measures": [
+          "Versleuteling van gevoelige gegevens",
+          "Beveiligde netwerken en systemen",
+          "Toegangscontroles en authenticatieprocedures",
+          "Regelmatige veiligheidsbeoordelingen en -tests",
+          "Personeelstraining op het gebied van gegevensbescherming en -beveiliging"
+        ],
+        "paragraph2": "Wij hebben procedures om om te gaan met vermoedelijke inbreuken op persoonsgegevens en zullen u en de toepasselijke toezichthouder op de hoogte stellen van een inbreuk wanneer wij wettelijk verplicht zijn dit te doen."
+      },
+      "yourRights": {
+        "title": "10. Uw rechten",
+        "paragraph1": "Onder de AVG heeft u de volgende rechten met betrekking tot uw persoonsgegevens:",
+        "rights": [
+          "Recht op inzage: U kunt een kopie opvragen van de persoonsgegevens die wij over u bewaren",
+          "Recht op rectificatie: U kunt correctie vragen van onjuiste of onvolledige persoonsgegevens",
+          "Recht op verwijdering: U kunt in bepaalde omstandigheden verwijdering van uw persoonsgegevens vragen",
+          "Recht op beperking van de verwerking: U kunt in bepaalde omstandigheden beperking van de verwerking van uw persoonsgegevens vragen",
+          "Recht op gegevensoverdraagbaarheid: U kunt overdracht van uw persoonsgegevens aan u of een derde vragen in een gestructureerd, algemeen gebruikt, machineleesbaar formaat",
+          "Recht van bezwaar: U kunt bezwaar maken tegen de verwerking van uw persoonsgegevens in bepaalde omstandigheden, met name voor direct marketing",
+          "Rechten met betrekking tot geautomatiseerde besluitvorming: U kunt menselijke tussenkomst vragen bij geautomatiseerde besluitvorming en profilering",
+          "Recht om toestemming in te trekken: U kunt uw toestemming op elk moment intrekken wanneer wij op toestemming vertrouwen om uw persoonsgegevens te verwerken"
+        ],
+        "paragraph2": "Om een van deze rechten uit te oefenen, kunt u contact met ons opnemen via privacy@glodinasfinance.nl. Wij zullen binnen een maand op uw verzoek reageren. Er zijn geen kosten verbonden aan het uitoefenen van uw rechten, maar wij kunnen een redelijke vergoeding vragen als uw verzoek duidelijk ongegrond, repetitief of buitensporig is."
+      },
+      "cookies": {
+        "title": "11. Cookies en vergelijkbare technologieën",
+        "paragraph1": "Onze website maakt gebruik van cookies en vergelijkbare technologieën om u te onderscheiden van andere gebruikers. Dit helpt ons om u een goede ervaring te bieden wanneer u onze website bezoekt en stelt ons in staat om onze site te verbeteren.",
+        "paragraph2": "Wij gebruiken de volgende soorten cookies:",
+        "cookieTypes": [
+          "Strikt noodzakelijke cookies: Vereist voor de werking van onze website",
+          "Analytische/prestatiecookies: Stellen ons in staat om bezoekers te herkennen en te tellen en te zien hoe bezoekers zich door onze website bewegen",
+          "Functionaliteitscookies: Worden gebruikt om u te herkennen wanneer u terugkeert naar onze website",
+          "Targeting cookies: Registreren uw bezoek aan onze website, de pagina's die u bezoekt en de links die u volgt"
+        ],
+        "paragraph3": "U kunt uw browser instellen om alle of sommige browsercookies te weigeren of om u te waarschuwen wanneer websites cookies plaatsen of openen. Als u cookies uitschakelt of weigert, houd er dan rekening mee dat sommige delen van onze website mogelijk ontoegankelijk worden of niet goed functioneren."
+      },
+      "childrenPrivacy": {
+        "title": "12. Privacy van kinderen",
+        "paragraph": "Onze diensten zijn niet bedoeld voor kinderen onder de 16 jaar, en wij verzamelen niet bewust persoonsgegevens van kinderen. Als u een ouder of voogd bent en denkt dat wij mogelijk informatie over uw kind hebben verzameld, neem dan onmiddellijk contact met ons op."
+      },
+      "changes": {
+        "title": "13. Wijzigingen in dit Privacybeleid",
+        "paragraph1": "Wij kunnen dit Privacybeleid van tijd tot tijd bijwerken om veranderingen in onze praktijken weer te geven of om andere operationele, juridische of regelgevende redenen. Wij zullen u op de hoogte stellen van materiële wijzigingen door het nieuwe Privacybeleid op deze pagina te plaatsen en de datum \"Laatst bijgewerkt\" bij te werken.",
+        "paragraph2": "Wij moedigen u aan om dit Privacybeleid regelmatig te bekijken om op de hoogte te blijven van hoe wij uw persoonsgegevens beschermen."
+      },
+      "complaints": {
+        "title": "14. Klachten",
+        "paragraph1": "Als u zorgen heeft over hoe wij met uw persoonsgegevens omgaan, neem dan eerst contact met ons op via privacy@glodinasfinance.nl, en wij zullen ons best doen om uw zorgen op te lossen.",
+        "paragraph2": "U heeft ook het recht om een klacht in te dienen bij de Autoriteit Persoonsgegevens als u van mening bent dat wij niet hebben voldaan aan de wetgeving inzake gegevensbescherming. U kunt contact met hen opnemen via:",
+        "authority": {
+          "name": "Autoriteit Persoonsgegevens",
+          "address1": "Postbus 93374",
+          "address2": "2509 AJ DEN HAAG",
+          "website": "Website: autoriteitpersoonsgegevens.nl"
+        }
+      },
+      "contactUs": {
+        "title": "15. Contact met ons opnemen",
+        "paragraph": "Als u vragen heeft over dit Privacybeleid of onze gegevenspraktijken, neem dan contact met ons op via:",
+        "contact": {
+          "company": "Glodinas Finance B.V.",
+          "address1": "Schiphol Boulevard 127",
+          "address2": "Schiphol 1118 BG",
+          "country": "Nederland",
+          "email": "E-mail: privacy@glodinasfinance.nl",
+          "phone": "Telefoon: +31 20 123 4567"
+        }
+      }
+    },
+    "cta": {
+      "title": "Vragen over uw gegevens?",
+      "paragraph": "Neem contact op met ons gegevensbeschermingsteam voor vragen of zorgen over hoe wij met uw persoonlijke informatie omgaan.",
+      "button": "Contact opnemen"
+    }
+  },
   "home": {
     "hero": {
       "title": "Professionele Boekhoudkundige Diensten in Nederland",
