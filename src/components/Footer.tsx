@@ -16,8 +16,8 @@ const Footer = () => {
             <p className="mb-2">Schiphol Boulevard 127</p>
             <p className="mb-2">Schiphol 1118 BG</p>
             <p className="mb-2">Netherlands</p>
-            <p className="mb-2">info@glodinasfinance.com</p>
-            <p className="mb-2">+31 20 123 4567</p>
+            <p className="mb-2">cihatkaya@glodinas.nl</p>
+            <p className="mb-2">(6) 81 34 85 51</p>
           </div>
           
           {/* Quick Links */}
@@ -38,6 +38,9 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/contact" className="hover:text-blue-300">{t('navigation.contact')}</Link>
+              </li>
+              <li>
+                <Link href="/getting-started" className="hover:text-blue-300">{t('navigation.gettingStarted', 'Get Started')}</Link>
               </li>
             </ul>
           </div>
@@ -75,6 +78,13 @@ const Footer = () => {
                 <Link href="/terms-of-service" className="hover:text-blue-300">{t('footer.termsOfService')}</Link>
               </li>
             </ul>
+            
+            {/* Get Started CTA in footer */}
+            <div className="mt-6 pt-4 border-t border-blue-700">
+              <Link href="/getting-started" className="inline-block px-4 py-2 bg-white text-blue-800 rounded-md hover:bg-blue-100 transition-colors font-medium">
+                {t('navigation.gettingStarted', 'Get Started')}
+              </Link>
+            </div>
           </div>
         </div>
         

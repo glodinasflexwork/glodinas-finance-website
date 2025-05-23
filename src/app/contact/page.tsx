@@ -56,8 +56,8 @@ export default function Contact() {
                   <div className="ml-3 text-gray-700">
                     <h3 className="text-lg font-medium">{t('contact.getInTouch.email')}</h3>
                     <p className="mt-1">
-                      <a href="mailto:info@glodinas-finance.nl" className="text-blue-600 hover:text-blue-800">
-                        info@glodinas-finance.nl
+                      <a href="mailto:cihatkaya@glodinas.nl" className="text-blue-600 hover:text-blue-800">
+                        cihatkaya@glodinas.nl
                       </a>
                     </p>
                   </div>
@@ -72,8 +72,8 @@ export default function Contact() {
                   <div className="ml-3 text-gray-700">
                     <h3 className="text-lg font-medium">{t('contact.getInTouch.phone')}</h3>
                     <p className="mt-1">
-                      <a href="tel:+31201234567" className="text-blue-600 hover:text-blue-800">
-                        +31 20 123 4567
+                      <a href="tel:+31681348551" className="text-blue-600 hover:text-blue-800">
+                        (6) 81 34 85 51
                       </a>
                     </p>
                   </div>

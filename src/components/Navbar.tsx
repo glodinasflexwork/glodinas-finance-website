@@ -27,6 +27,16 @@ const Navbar = () => {
             </Link>
           </div>
           
+          {/* Phone number in top navigation */}
+          <div className="hidden md:flex items-center mr-4">
+            <a href="tel:+31681348551" className="flex items-center text-blue-600 hover:text-blue-800 font-medium">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              (6) 81 34 85 51
+            </a>
+          </div>
+          
           {/* Desktop menu */}
           <div className="hidden md:flex items-center space-x-4">
             <Link href="/" className="px-3 py-2 text-blue-600 hover:text-blue-800 font-medium">
@@ -43,6 +53,9 @@ const Navbar = () => {
             </Link>
             <Link href="/contact" className="px-3 py-2 text-blue-600 hover:text-blue-800 font-medium">
               {t('navigation.contact')}
+            </Link>
+            <Link href="/getting-started" className="ml-2 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors font-medium">
+              {t('navigation.gettingStarted', 'Get Started')}
             </Link>
             <LanguageSwitcher />
           </div>
@@ -95,6 +108,13 @@ const Navbar = () => {
       {/* Mobile menu, show/hide based on menu state */}
       <div className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          {/* Phone number in mobile menu */}
+          <a href="tel:+31681348551" className="flex items-center px-3 py-2 text-blue-600 hover:text-blue-800 font-medium">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+            (6) 81 34 85 51
+          </a>
           <Link href="/" className="block px-3 py-2 text-blue-600 hover:text-blue-800 font-medium">
             {t('navigation.home')}
           </Link>
@@ -109,6 +129,9 @@ const Navbar = () => {
           </Link>
           <Link href="/contact" className="block px-3 py-2 text-blue-600 hover:text-blue-800 font-medium">
             {t('navigation.contact')}
+          </Link>
+          <Link href="/getting-started" className="block px-3 py-2 mt-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors font-medium">
+            {t('navigation.gettingStarted', 'Get Started')}
           </Link>
           <div className="mt-4">
             <LanguageSwitcher />
