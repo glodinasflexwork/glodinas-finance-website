@@ -1,3 +1,5 @@
+'use client';
+
 // Components;
 import Link from 'next/link';
 import Image from 'next/image';
@@ -184,9 +186,14 @@ export default function Blog() {
                 {t('blog.featuredArticle.section1.content')}
               </p>
               <ul>
-                {(t('blog.featuredArticle.section1.items', { returnObjects: true }) as Array<{rate: string, description: string}>).map((item, index) => (
-                  <li key={index}><strong>{item.rate}</strong> {item.description}</li>
-                ))}
+                {(() => {
+                  const items = t('blog.featuredArticle.section1.items', { returnObjects: true });
+                  return Array.isArray(items) 
+                    ? items.map((item, index) => (
+                        <li key={index}><strong>{item.rate}</strong> {item.description}</li>
+                      ))
+                    : <li>Loading...</li>
+                })()}
               </ul>
               
               <h4>{t('blog.featuredArticle.section2.title')}</h4>
@@ -203,9 +210,14 @@ export default function Blog() {
                 {t('blog.featuredArticle.section3.content')}
               </p>
               <ul>
-                {(t('blog.featuredArticle.section3.items', { returnObjects: true }) as Array<string>).map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
+                {(() => {
+                  const items = t('blog.featuredArticle.section3.items', { returnObjects: true });
+                  return Array.isArray(items) 
+                    ? items.map((item, index) => (
+                        <li key={index}>{item}</li>
+                      ))
+                    : <li>Loading...</li>
+                })()}
               </ul>
               
               <p>

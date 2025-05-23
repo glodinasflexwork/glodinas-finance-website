@@ -135,6 +135,323 @@
       "buttonText": "Neem Contact Op"
     }
   },
+  "services": {
+    "hero": {
+      "title": "Onze Diensten",
+      "subtitle": "Uitgebreide financiële oplossingen voor ondernemers en bedrijven in Nederland"
+    },
+    "bookkeepingZZP": {
+      "title": "Boekhouding voor ZZP'ers",
+      "description1": "Onze uitgebreide boekhoudservice voor zelfstandige professionals (ZZP'ers) begint bij slechts €130 per maand (exclusief BTW).",
+      "description2": "Wij verzorgen alle aspecten van uw financiële administratie met behulp van Moneybird, zodat u zich kunt concentreren op uw kernactiviteiten.",
+      "included": "Wat is inbegrepen:",
+      "items": [
+        "Maandelijkse boekhouding en financiële administratie",
+        "BTW-aangifte voorbereiden en indienen",
+        "Jaarlijkse financiële overzichten",
+        "Inkomstenbelastingaangifte",
+        "Doorlopend financieel advies en ondersteuning"
+      ],
+      "requestQuote": "Offerte Aanvragen"
+    },
+    "bookkeepingBV": {
+      "title": "Boekhouding voor BV's",
+      "description1": "Onze boekhoudservice voor besloten vennootschappen (BV's) begint bij €250 per maand (exclusief BTW), inclusief salarisadministratie voor DGA.",
+      "description2": "Wij bieden uitgebreide financiële administratiediensten op maat voor de specifieke behoeften van Nederlandse BV's.",
+      "included": "Wat is inbegrepen:",
+      "items": [
+        "Maandelijkse boekhouding en financiële administratie",
+        "BTW-aangifte voorbereiden en indienen",
+        "Jaarlijkse financiële overzichten",
+        "Vennootschapsbelastingaangifte",
+        "Directeurssalarisadministratie (DGA-salaris)",
+        "Dividendplanning en -administratie"
+      ],
+      "requestQuote": "Offerte Aanvragen"
+    },
+    "payroll": {
+      "title": "Salarisadministratie",
+      "description1": "Wij bieden efficiënte salarisadministratie via onze samenwerking met Employes, voor een nauwkeurige en tijdige salarisverwerking voor uw werknemers.",
+      "description2": "Onze salarisadministratiediensten helpen u te voldoen aan Nederlandse arbeidsvoorschriften en belastingvereisten.",
+      "included": "Wat is inbegrepen:",
+      "items": [
+        "Maandelijkse salarisberekeningen",
+        "Genereren en versturen van loonstroken",
+        "Belasting- en sociale zekerheidsbijdragen",
+        "Jaaropgaven en rapportages",
+        "Verlof- en verzuimadministratie"
+      ],
+      "requestQuote": "Offerte Aanvragen"
+    },
+    "businessFormation": {
+      "title": "Bedrijfsoprichting",
+      "description1": "Via onze samenwerking met Firm24 bieden wij uitgebreide diensten voor bedrijfsoprichting aan ondernemers die hun bedrijf in Nederland willen vestigen.",
+      "description2": "Wij begeleiden u door het hele proces, van het kiezen van de juiste bedrijfsstructuur tot het inschrijven bij de Kamer van Koophandel (KVK).",
+      "included": "Wat is inbegrepen:",
+      "items": [
+        "Advies over bedrijfsstructuur (ZZP, Eenmanszaak, BV)",
+        "Verificatie van bedrijfsnaam",
+        "Inschrijving bij de Kamer van Koophandel (KVK)",
+        "BTW-registratie",
+        "Notariële diensten voor BV-oprichting",
+        "Initiële financiële setup en administratie"
+      ],
+      "requestQuote": "Offerte Aanvragen"
+    },
+    "personalLoans": {
+      "title": "Persoonlijke Leningassistentie",
+      "description1": "Wij bieden hulp bij persoonlijke leningaanvragen bij grote Nederlandse banken, waaronder ING, ABN AMRO, RABOBANK en SNS.",
+      "description2": "Ons team helpt u bij het navigeren door het leningaanvraagproces, zodat u de beste kans op goedkeuring heeft met gunstige voorwaarden.",
+      "included": "Wat is inbegrepen:",
+      "items": [
+        "Beoordeling van leningopties op basis van uw financiële situatie",
+        "Voorbereiding van aanvraag en documentatie",
+        "Contact met bankpartners",
+        "Onderhandeling over rentetarieven en looptijd",
+        "Doorlopende ondersteuning tijdens het goedkeuringsproces"
+      ],
+      "requestConsultation": "Consultatie Aanvragen"
+    },
+    "taxPreparation": {
+      "title": "Belastingaangifte",
+      "description1": "Onze belastingaangiftediensten zorgen ervoor dat uw zakelijke en persoonlijke belastingaangiften nauwkeurig, compliant en geoptimaliseerd zijn om uw belastingdruk te minimaliseren.",
+      "description2": "Wij blijven op de hoogte van de nieuwste Nederlandse belastingvoorschriften om u van deskundig advies en ondersteuning te voorzien.",
+      "included": "Wat is inbegrepen:",
+      "items": [
+        "Inkomstenbelastingaangifte voor particulieren",
+        "Vennootschapsbelastingaangifte voor bedrijven",
+        "BTW-aangifte voorbereiden en indienen",
+        "Belastingplanning en optimalisatiestrategieën",
+        "Vertegenwoordiging in belastingzaken bij de Nederlandse Belastingdienst"
+      ],
+      "requestQuote": "Offerte Aanvragen"
+    },
+    "pricing": {
+      "title": "Prijsoverzicht",
+      "subtitle": "Transparante prijzen voor onze kerndiensten",
+      "zzpPackage": {
+        "title": "ZZP Pakket",
+        "price": "€130",
+        "period": "/maand ex BTW",
+        "features": [
+          "Maandelijkse boekhouding",
+          "BTW-aangiftes",
+          "Jaarlijkse financiële overzichten",
+          "Inkomstenbelastingaangifte"
+        ],
+        "getStarted": "Aan de slag"
+      },
+      "bvPackage": {
+        "title": "BV Pakket",
+        "price": "€250",
+        "period": "/maand ex BTW",
+        "mostPopular": "Meest Gekozen",
+        "features": [
+          "Maandelijkse boekhouding",
+          "BTW-aangiftes",
+          "Jaarlijkse financiële overzichten",
+          "Vennootschapsbelastingaangifte",
+          "Directeurssalarisadministratie"
+        ],
+        "getStarted": "Aan de slag"
+      },
+      "customPackage": {
+        "title": "Aangepast Pakket",
+        "price": "Aangepaste",
+        "period": "prijzen",
+        "features": [
+          "Op maat gemaakte boekhoudkundige diensten",
+          "Bedrijfsoprichting",
+          "Salarisadministratie",
+          "Persoonlijke leningassistentie"
+        ],
+        "contactUs": "Neem Contact Op"
+      }
+    },
+    "cta": {
+      "title": "Klaar om te beginnen?",
+      "subtitle": "Neem vandaag nog contact met ons op om uw specifieke behoeften te bespreken en hoe Glodinas Finance B.V. uw bedrijf kan helpen groeien.",
+      "requestConsultation": "Consultatie Aanvragen"
+    },
+    "moneybird": {
+      "title": "Aan de slag met Moneybird",
+      "subtitle": "Schrijf u direct in voor onze boekhoudkundige diensten via Moneybird",
+      "zzpBookkeeping": {
+        "title": "ZZP Boekhouding",
+        "description": "Complete boekhoudservice voor zelfstandige professionals (ZZP'ers)",
+        "signUp": "Nu Inschrijven"
+      },
+      "loanAdministration": {
+        "title": "Leningadministratie",
+        "description": "Stroomlijn uw leningaanvraagproces met onze gespecialiseerde administratiedienst",
+        "description2": "Wij helpen u bij het navigeren door het leningaanvraagproces bij grote Nederlandse banken, zodat u de beste kans op goedkeuring heeft met gunstige voorwaarden.",
+        "getStarted": "Aan de slag"
+      }
+    }
+  },
+  "blog": {
+    "hero": {
+      "title": "Onze Blog",
+      "subtitle": "Inzichten en updates over financiële zaken voor Nederlandse bedrijven"
+    },
+    "readMore": "Lees Meer",
+    "featuredArticle": "Uitgelicht Artikel",
+    "minRead": "min leestijd",
+    "posts": {
+      "vat": {
+        "title": "BTW begrijpen voor Nederlandse bedrijven",
+        "date": "15 mei 2025",
+        "excerpt": "Een uitgebreide gids voor Belasting Toegevoegde Waarde (BTW) in Nederland, inclusief tarieven, aangiftevereisten en veelvoorkomende valkuilen om te vermijden.",
+        "imageAlt": "BTW begrijpen voor Nederlandse bedrijven"
+      },
+      "businessStructure": {
+        "title": "De juiste bedrijfsstructuur kiezen in Nederland",
+        "date": "28 april 2025",
+        "excerpt": "Ontdek de verschillen tussen ZZP, Eenmanszaak en BV-structuren, en leer welke optie het beste past bij uw bedrijfsdoelen.",
+        "imageAlt": "De juiste bedrijfsstructuur kiezen in Nederland"
+      },
+      "zzpPlanning": {
+        "title": "Financiële planning voor ZZP-professionals",
+        "date": "10 april 2025",
+        "excerpt": "Essentiële financiële planningstips voor zelfstandige professionals in Nederland, inclusief belastingoptimalisatie en pensioenplanning.",
+        "imageAlt": "Financiële planning voor ZZP-professionals"
+      },
+      "taxDeductions": {
+        "title": "Topbelastingaftrekposten voor Nederlandse ondernemers",
+        "date": "22 maart 2025",
+        "excerpt": "Ontdek de meest waardevolle belastingaftrekposten die beschikbaar zijn voor ondernemers in Nederland en hoe u deze correct kunt claimen.",
+        "imageAlt": "Topbelastingaftrekposten voor Nederlandse ondernemers"
+      },
+      "moneybird": {
+        "title": "Efficiëntie maximaliseren met Moneybird",
+        "date": "5 maart 2025",
+        "excerpt": "Leer hoe u de functies van Moneybird kunt benutten om uw boekhoudprocessen te stroomlijnen en waardevolle tijd te besparen.",
+        "imageAlt": "Efficiëntie maximaliseren met Moneybird"
+      },
+      "personalLoans": {
+        "title": "Navigeren door persoonlijke leningen in Nederland",
+        "date": "18 februari 2025",
+        "excerpt": "Een vergelijking van persoonlijke leningopties van grote Nederlandse banken en tips om uw kansen op goedkeuring te verbeteren.",
+        "imageAlt": "Navigeren door persoonlijke leningen in Nederland"
+      }
+    },
+    "featuredContent": {
+      "title": "BTW begrijpen voor Nederlandse bedrijven",
+      "date": "15 mei 2025",
+      "readTime": "8 min leestijd",
+      "imageAlt": "BTW begrijpen voor Nederlandse bedrijven",
+      "intro": "Belasting Toegevoegde Waarde (BTW) is een verbruiksbelasting die wordt geheven op producten en diensten. Als bedrijfseigenaar in Nederland is het begrijpen van BTW cruciaal voor goed financieel beheer en naleving van Nederlandse belastingvoorschriften.",
+      "rates": {
+        "title": "BTW-tarieven in Nederland",
+        "intro": "Nederland heeft momenteel drie BTW-tarieven:",
+        "standard": "21% (standaardtarief): Van toepassing op de meeste goederen en diensten",
+        "reduced": "9% (verlaagd tarief): Van toepassing op essentiële zaken zoals voedsel, boeken, medicijnen en bepaalde diensten",
+        "zero": "0% (nultarief): Van toepassing op export en bepaalde internationale diensten"
+      },
+      "filing": {
+        "title": "BTW-aangiftevereisten",
+        "paragraph1": "Nederlandse bedrijven moeten doorgaans per kwartaal BTW-aangifte doen. Als uw jaarlijkse BTW-verplichting echter meer dan €15.000 bedraagt, moet u mogelijk maandelijks aangifte doen. Omgekeerd, als uw jaarlijkse BTW-verplichting minder dan €1.883 bedraagt, komt u mogelijk in aanmerking voor jaarlijkse aangifte.",
+        "paragraph2": "De deadline voor het indienen en betalen van BTW is over het algemeen de laatste dag van de maand na het einde van de aangifteperiode. Voor Q1 (januari-maart) zou de deadline bijvoorbeeld 30 april zijn."
+      },
+      "pitfalls": {
+        "title": "Veelvoorkomende BTW-valkuilen om te vermijden",
+        "intro": "Veel Nederlandse bedrijven ondervinden uitdagingen met BTW-compliance. Hier zijn enkele veelvoorkomende valkuilen om te vermijden:",
+        "items": [
+          "Niet registreren voor BTW wanneer dit vereist is",
+          "Onjuiste BTW-tarieven toepassen op producten of diensten",
+          "Indieningsdeadlines missen",
+          "Onvoldoende administratie voor BTW-doeleinden",
+          "Onjuist BTW claimen op uitgaven"
+        ],
+        "conclusion": "Bij Glodinas Finance B.V. helpen we bedrijven bij het navigeren door de complexiteit van Nederlandse BTW-voorschriften, waarbij we zorgen voor compliance en tegelijkertijd uw belastingpositie optimaliseren."
+      },
+      "contactLink": "Neem contact met ons op voor professionele BTW-assistentie"
+    },
+    "newsletter": {
+      "title": "Blijf op de hoogte",
+      "subtitle": "Abonneer u op onze nieuwsbrief voor de nieuwste financiële inzichten en updates relevant voor Nederlandse bedrijven.",
+      "placeholder": "Uw e-mailadres",
+      "subscribe": "Abonneren"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact",
+      "subtitle": "Neem contact op met Glodinas Finance B.V. voor professionele boekhouding en financiële diensten"
+    },
+    "getInTouch": {
+      "title": "Neem Contact Op",
+      "description": "Wij zijn er om uw vragen te beantwoorden en de financiële ondersteuning te bieden die uw bedrijf nodig heeft. Neem contact met ons op via de onderstaande contactgegevens of vul het formulier in.",
+      "address": "Adres",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "businessHours": "Openingstijden",
+      "weekdays": "Maandag - Vrijdag: 9:00 - 17:00",
+      "weekend": "Zaterdag - Zondag: Gesloten",
+      "googleMaps": "Google Maps Locatie"
+    },
+    "form": {
+      "title": "Consultatie Aanvragen",
+      "fullName": "Volledige Naam",
+      "emailAddress": "E-mailadres",
+      "phoneNumber": "Telefoonnummer",
+      "company": "Bedrijfsnaam",
+      "serviceInterest": "Interesse in Dienst",
+      "selectService": "Selecteer een dienst",
+      "message": "Bericht",
+      "privacyConsent": "Ik ga akkoord met het privacybeleid en geef toestemming om gecontacteerd te worden met betrekking tot mijn aanvraag.",
+      "submitRequest": "Aanvraag Indienen",
+      "steps": {
+        "personal": "Persoonlijke Informatie",
+        "details": "Details",
+        "message": "Bericht",
+        "review": "Beoordelen",
+        "success": "Succes"
+      },
+      "validation": {
+        "nameRequired": "Naam is verplicht",
+        "nameLength": "Naam moet minimaal 2 tekens bevatten",
+        "emailRequired": "E-mail is verplicht",
+        "emailValid": "Voer een geldig e-mailadres in",
+        "phoneValid": "Voer een geldig telefoonnummer in",
+        "serviceRequired": "Selecteer een dienst",
+        "messageRequired": "Bericht is verplicht",
+        "messageLength": "Bericht moet minimaal 10 tekens bevatten",
+        "privacyRequired": "U moet akkoord gaan met het privacybeleid"
+      },
+      "success": {
+        "title": "Bedankt voor uw aanvraag!",
+        "message": "We hebben uw aanvraag ontvangen en zullen binnen 24 uur contact met u opnemen.",
+        "button": "Terug naar Home"
+      }
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen",
+      "subtitle": "Vind antwoorden op veelgestelde vragen over onze diensten",
+      "questions": [
+        {
+          "question": "Wat zijn uw boekhoudtarieven?",
+          "answer": "Onze boekhoudkundige diensten beginnen bij €130 per maand (exclusief BTW) voor ZZP'ers en €250 per maand (exclusief BTW) voor BV's, inclusief DGA-salarisadministratie. Het exacte tarief is afhankelijk van de complexiteit en het volume van uw financiële administratie."
+        },
+        {
+          "question": "Hoe vaak communiceren we over mijn financiën?",
+          "answer": "Wij geven maandelijkse updates over uw financiële status, inclusief winst- en verliesrekeningen en kasstroomoverzichten. Daarnaast zijn we gedurende de maand beschikbaar voor vragen en consultaties indien nodig."
+        },
+        {
+          "question": "Kunt u helpen bij bedrijfsregistratie?",
+          "answer": "Ja, via onze samenwerking met Firm24 bieden wij uitgebreide diensten voor bedrijfsoprichting, inclusief registratie bij de Kamer van Koophandel (KVK), BTW-registratie en het opzetten van de juiste juridische structuur voor uw bedrijf."
+        },
+        {
+          "question": "Biedt u diensten aan in andere talen dan Nederlands?",
+          "answer": "Ja, wij bieden onze diensten aan in meerdere talen, waaronder Nederlands, Engels, Roemeens, Turks en Russisch, om tegemoet te komen aan onze diverse klantenkring."
+        },
+        {
+          "question": "Hoe schakel ik mijn boekhouding over naar Glodinas Finance?",
+          "answer": "Overschakelen is eenvoudig. Wij verzorgen het overgangsproces, inclusief het verzamelen van uw financiële geschiedenis, het opzetten van uw accounts in onze systemen en het zorgen voor een soepele overdracht van uw vorige boekhouder of accountant."
+        }
+      ]
+    }
+  },
   "footer": {
     "companyInfo": "Glodinas Finance B.V.",
     "quickLinks": "Snelle Links",

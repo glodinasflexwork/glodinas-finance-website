@@ -42,7 +42,7 @@ export default function PrivacyPolicy() {
               <li>Address: Schiphol Boulevard 127, Schiphol 1118 BG, Netherlands</li>
               <li>Email: privacy@glodinasfinance.nl</li>
               <li>Phone: +31 20 123 4567</li>
-              <li>Chamber of Commerce (KVK) Number: [KVK Number]</li>
+              <li>Chamber of Commerce (KVK) Number: 81805810</li>
             </ul>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">3. Personal Data We Collect</h2>
