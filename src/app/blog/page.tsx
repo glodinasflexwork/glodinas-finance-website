@@ -184,7 +184,7 @@ export default function Blog() {
                 {t('blog.featuredArticle.section1.content')}
               </p>
               <ul>
-                {t('blog.featuredArticle.section1.items', { returnObjects: true }).map((item, index) => (
+                {(t('blog.featuredArticle.section1.items', { returnObjects: true }) as Array<{rate: string, description: string}>).map((item, index) => (
                   <li key={index}><strong>{item.rate}</strong> {item.description}</li>
                 ))}
               </ul>
@@ -203,7 +203,7 @@ export default function Blog() {
                 {t('blog.featuredArticle.section3.content')}
               </p>
               <ul>
-                {t('blog.featuredArticle.section3.items', { returnObjects: true }).map((item, index) => (
+                {(t('blog.featuredArticle.section3.items', { returnObjects: true }) as Array<string>).map((item, index) => (
                   <li key={index}>{item}</li>
                 ))}
               </ul>
