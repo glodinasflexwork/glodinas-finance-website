@@ -283,13 +283,92 @@
       "subtitle": "Insights and updates on financial matters for Dutch businesses"
     },
     "readMore": "Read More",
-    "featuredArticle": "Featured Article",
-    "minRead": "min read",
+    "featuredArticle": {
+      "heading": "Featured Article",
+      "title": "Understanding VAT for Dutch Businesses",
+      "meta": "May 15, 2025 · 8 min read",
+      "imageAlt": "VAT calculation and filing for Dutch businesses",
+      "intro": "Value Added Tax (VAT), known as BTW in the Netherlands, is a crucial aspect of running a business in the Dutch market. Understanding the VAT system is essential for compliance and financial planning.",
+      "section1": {
+        "title": "VAT Rates in the Netherlands",
+        "content": "The Netherlands has three VAT rates that apply to different goods and services:",
+        "items": [
+          {
+            "rate": "21% (Standard rate):",
+            "description": "Applies to most goods and services"
+          },
+          {
+            "rate": "9% (Reduced rate):",
+            "description": "Applies to essential goods like food, books, medicines, and certain services"
+          },
+          {
+            "rate": "0% (Zero rate):",
+            "description": "Applies to exports and certain international services"
+          }
+        ]
+      },
+      "section2": {
+        "title": "VAT Filing Requirements",
+        "content1": "As a business owner in the Netherlands, you're required to file VAT returns periodically, typically quarterly. The Dutch Tax Authority (Belastingdienst) has specific deadlines and requirements for these filings.",
+        "content2": "Missing deadlines or incorrect filings can result in penalties, so it's important to maintain accurate records and understand your obligations."
+      },
+      "section3": {
+        "title": "Common VAT Pitfalls to Avoid",
+        "content": "Many businesses encounter challenges with VAT compliance. Here are some common pitfalls to avoid:",
+        "items": [
+          "Failing to register for VAT when required",
+          "Incorrectly classifying goods or services under the wrong VAT rate",
+          "Missing filing deadlines",
+          "Inadequate record-keeping for VAT purposes",
+          "Not accounting for international transactions correctly"
+        ]
+      },
+      "conclusion": "Proper VAT management is essential for any business operating in the Netherlands. At Glodinas Finance, we help businesses navigate the complexities of the Dutch VAT system, ensuring compliance while optimizing your tax position.",
+      "cta": "Contact us for professional assistance with your VAT filings and tax planning"
+    },
+    "posts": {
+      "vat": {
+        "title": "Understanding VAT for Dutch Businesses",
+        "date": "May 15, 2025",
+        "excerpt": "A comprehensive guide to Value Added Tax (VAT) in the Netherlands, including rates, filing requirements, and common pitfalls to avoid.",
+        "imageAlt": "Understanding VAT for Dutch Businesses"
+      },
+      "businessStructure": {
+        "title": "Choosing the Right Business Structure in the Netherlands",
+        "date": "April 28, 2025",
+        "excerpt": "Discover the differences between ZZP, Eenmanszaak, and BV structures, and learn which option best suits your business goals.",
+        "imageAlt": "Choosing the Right Business Structure in the Netherlands"
+      },
+      "zzpPlanning": {
+        "title": "Financial Planning for ZZP Professionals",
+        "date": "April 10, 2025",
+        "excerpt": "Essential financial planning tips for self-employed professionals in the Netherlands, including tax optimization and retirement planning.",
+        "imageAlt": "Financial Planning for ZZP Professionals"
+      },
+      "taxDeductions": {
+        "title": "Top Tax Deductions for Dutch Entrepreneurs",
+        "date": "March 22, 2025",
+        "excerpt": "Discover the most valuable tax deductions available to entrepreneurs in the Netherlands and how to claim them correctly.",
+        "imageAlt": "Top Tax Deductions for Dutch Entrepreneurs"
+      },
+      "moneybird": {
+        "title": "Maximizing Efficiency with Moneybird",
+        "date": "March 5, 2025",
+        "excerpt": "Learn how to leverage Moneybird's accounting software to streamline your financial administration and save valuable time.",
+        "imageAlt": "Maximizing Efficiency with Moneybird"
+      },
+      "personalLoans": {
+        "title": "Navigating Personal Loans in the Netherlands",
+        "date": "February 18, 2025",
+        "excerpt": "A guide to understanding personal loan options at major Dutch banks and how to improve your chances of approval.",
+        "imageAlt": "Navigating Personal Loans in the Netherlands"
+      }
+    },
     "newsletter": {
       "title": "Stay Updated",
       "subtitle": "Subscribe to our newsletter for the latest financial insights and updates relevant to Dutch businesses.",
       "placeholder": "Your email address",
-      "subscribe": "Subscribe"
+      "button": "Subscribe"
     }
   },
   "contact": {
