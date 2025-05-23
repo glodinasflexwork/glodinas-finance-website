@@ -6,6 +6,242 @@
     "blog": "Blog",
     "contact": "İletişim"
   },
+  "termsOfService": {
+    "hero": {
+      "title": "Hizmet Şartları",
+      "subtitle": "Glodinas Finance B.V. hizmetleri için genel şartlar ve koşullar"
+    },
+    "lastUpdated": "Son Güncelleme: 23 Mayıs 2025",
+    "sections": {
+      "introduction": {
+        "title": "1. Giriş",
+        "paragraph1": "Bu Hizmet Şartları (\"Şartlar\"), Hollanda'da Ticaret Odası (KVK) numarası 81805810 ile kayıtlı, Schiphol Boulevard 127, Schiphol 1118 BG, Hollanda adresinde bulunan Glodinas Finance B.V. (\"biz,\" \"bizim\" veya \"bize\") tarafından sağlanan hizmetlerin kullanımını düzenler.",
+        "paragraph2": "Hizmetlerimizi kullanarak, siz (\"Müşteri,\" \"siz\" veya \"sizin\") bu Şartlara bağlı kalmayı kabul edersiniz. Bizimle herhangi bir anlaşma yapmadan önce lütfen bunları dikkatlice okuyun. Bu Şartları kabul etmiyorsanız, lütfen hizmetlerimizi kullanmayın."
+      },
+      "definitions": {
+        "title": "2. Tanımlar",
+        "paragraph": "Bu Şartlarda, aşağıdaki tanımlar geçerlidir:",
+        "items": [
+          "Hizmetler: Hizmet Anlaşmasında belirtildiği gibi Glodinas Finance B.V. tarafından sağlanan muhasebe, finansal yönetim, vergi hizmetleri ve diğer ilgili hizmetler",
+          "Hizmet Anlaşması: Glodinas Finance B.V. ile Müşteri arasında hizmetlerin kapsamını, ücretleri ve diğer özel şartları detaylandıran özel anlaşma",
+          "Müşteri Materyalleri: Hizmetlerin sağlanması amacıyla Müşteri tarafından Glodinas Finance B.V.'ye sağlanan herhangi bir belge, bilgi, veri veya diğer materyaller",
+          "Teslim Edilecekler: Hizmetlerin bir parçası olarak Glodinas Finance B.V. tarafından üretilen raporlar, finansal tablolar, vergi beyannameleri ve diğer çıktılar",
+          "Gizli Bilgiler: Hizmetlerle bağlantılı olarak taraflardan biri tarafından diğerine açıklanan herhangi bir kamuya açık olmayan bilgi"
+        ]
+      },
+      "services": {
+        "title": "3. Hizmetler",
+        "scope": {
+          "title": "3.1 Hizmetlerin Kapsamı",
+          "paragraph1": "Hizmet Anlaşmasında belirtildiği gibi muhasebe, finansal yönetim, vergi hizmetleri ve diğer ilgili hizmetleri sağlıyoruz. Hizmetlerin tam kapsamı, Glodinas Finance B.V. ile Müşteri arasındaki Hizmet Anlaşmasında detaylandırılacaktır.",
+          "paragraph2": "Standart hizmet paketlerimiz şunları içerir:",
+          "items": [
+            "ZZP'ler (serbest meslek sahipleri) için muhasebe hizmetleri",
+            "BV'ler (limited şirketler) için DGA maaş bordrosu dahil muhasebe hizmetleri",
+            "Vergi hazırlama ve dosyalama",
+            "Finansal tablo hazırlama",
+            "İş kurma yardımı",
+            "Kişisel kredi başvuru desteği"
+          ]
+        },
+        "delivery": {
+          "title": "3.2 Hizmet Sunumu",
+          "paragraph": "Hizmetleri makul beceri ve özenle, aşağıdakilere uygun olarak sağlayacağız:",
+          "items": [
+            "Genel kabul görmüş profesyonel standartlar ve uygulamalar",
+            "Hollanda'da geçerli yasalar ve düzenlemeler",
+            "Hizmet Anlaşmasında belirtilen özel şartlar"
+          ],
+          "additionalParagraph": "Hizmetleri gerçekleştirme yöntemini, detaylarını ve araçlarını, Hizmetlere hangi personelin atanacağı da dahil olmak üzere belirleme hakkını saklı tutarız."
+        },
+        "modifications": {
+          "title": "3.3 Hizmet Değişiklikleri",
+          "paragraph": "Hizmetlerin kapsamındaki herhangi bir değişiklik her iki tarafça yazılı olarak kabul edilmelidir. Ek hizmetler ek ücretlere neden olabilir, bu ücretler bu tür hizmetler sağlanmadan önce size bildirilecektir."
+        }
+      },
+      "clientResponsibilities": {
+        "title": "4. Müşteri Sorumlulukları",
+        "paragraph": "Hizmetleri etkili bir şekilde sağlamamızı mümkün kılmak için, aşağıdakileri yapmayı kabul edersiniz:",
+        "items": [
+          "Tarafımızdan makul olarak talep edilen doğru, eksiksiz ve zamanında bilgi ve belge sağlamak",
+          "Sorularımıza ve ek bilgi taleplerimize hızlı yanıt vermek",
+          "İş yapınızda, mülkiyetinizde veya diğer ilgili koşullardaki herhangi bir değişikliği bize derhal bildirmek",
+          "Tüm Teslim Edilecekleri hızlı bir şekilde incelemek ve bizi herhangi bir sorun veya endişe hakkında bilgilendirmek",
+          "İşletme ve finansal faaliyetlerinizle ilgili tüm geçerli yasa ve düzenlemelere uymak",
+          "Tarafımızdan sağlanan herhangi bir giriş bilgisi, erişim bilgisi veya diğer güvenlik önlemlerinin gizliliğini korumak",
+          "Hizmetlerimizi yalnızca yasal amaçlar için ve bu Şartlara uygun olarak kullanmak"
+        ],
+        "additionalParagraph": "Hizmetleri sağlama yeteneğimizin bu sorumlulukları yerine getirmenize bağlı olduğunu kabul edersiniz. Sizin tarafınızdan gecikmeler veya başarısızlıklar, Hizmetlerde gecikmelere veya sorunlara neden olabilir."
+      },
+      "feesAndPayment": {
+        "title": "5. Ücretler ve Ödeme",
+        "fees": {
+          "title": "5.1 Ücretler",
+          "paragraph": "Hizmetler için ücretlerimiz Hizmet Anlaşmasında belirtildiği gibi olacaktır. Aksi belirtilmedikçe, tüm ücretler:",
+          "items": [
+            "Euro (€) cinsinden belirtilir",
+            "Katma Değer Vergisi (KDV) veya diğer geçerli vergiler hariçtir",
+            "Yıllık inceleme ve ayarlamaya tabidir"
+          ]
+        },
+        "paymentTerms": {
+          "title": "5.2 Ödeme Koşulları",
+          "paragraph": "Hizmet Anlaşmasında aksi belirtilmedikçe:",
+          "items": [
+            "Faturalar devam eden hizmetler için aylık olarak önceden düzenlenecektir",
+            "Ödeme, fatura tarihinden itibaren 14 gün içinde yapılmalıdır",
+            "Ödemeler, faturada belirtilen hesaba banka havalesi ile yapılmalıdır",
+            "Tüm ödemeler herhangi bir kesinti, mahsup veya karşı talep olmaksızın yapılmalıdır"
+          ]
+        },
+        "latePayments": {
+          "title": "5.3 Geç Ödemeler",
+          "paragraph": "Ödemeyi vade tarihine kadar yapmazsanız:",
+          "items": [
+            "Hollanda yasalarına göre yasal ticari faiz oranında (wettelijke handelsrente) gecikmiş tutar üzerinden faiz talep edebiliriz",
+            "Ödeme tam olarak yapılana kadar Hizmetlerin sağlanmasını askıya alabiliriz",
+            "Makul yasal ücretler dahil olmak üzere, gecikmiş ödemelerin tahsilatında oluşan tüm maliyetlerden sorumlu olacaksınız"
+          ],
+          "additionalParagraph": "Hollanda yasalarına uygun olarak, işletmeler arası işlemler için ödeme süresi, açıkça başka türlü kararlaştırılmadıkça ve alacaklı için açıkça haksız olmadığı sürece 60 günü aşmamalıdır."
+        }
+      },
+      "termAndTermination": {
+        "title": "6. Süre ve Fesih",
+        "term": {
+          "title": "6.1 Süre",
+          "paragraph": "Hizmet ilişkimizin süresi Hizmet Anlaşmasında belirtildiği gibi olacaktır. Belirli bir süre belirtilmemişse, anlaşma bu Şartlara uygun olarak feshedilene kadar devam edecektir."
+        },
+        "terminationByEither": {
+          "title": "6.2 Herhangi Bir Tarafça Fesih",
+          "paragraph": "Herhangi bir taraf hizmet ilişkisini şu şekilde feshedebilir:",
+          "items": [
+            "Diğer tarafa en az 30 gün önceden yazılı bildirimde bulunarak",
+            "Diğer taraf bu Şartları veya Hizmet Anlaşmasını önemli ölçüde ihlal ederse ve yazılı olarak bildirilmesinden sonra 14 gün içinde bu ihlali düzeltmezse derhal",
+            "Diğer taraf iflas ederse, tasfiyeye girerse, bir kayyum atanırsa veya iş yapmayı bırakırsa derhal"
+          ]
+        },
+        "consequences": {
+          "title": "6.3 Feshin Sonuçları",
+          "paragraph": "Fesih üzerine:",
+          "items": [
+            "Fesih tarihine kadar sağlanan Hizmetler için tüm ödenmemiş ücretleri ödeyeceksiniz",
+            "Yasaların veya profesyonel standartların gerektirdiği şekilde kopyaları saklama hakkımıza tabi olarak tüm Müşteri Materyallerini size iade edeceğiz",
+            "Bu Şartların doğası gereği fesihten sonra da devam etmesi gereken herhangi bir hükmü fesihten sonra da geçerli olacaktır"
+          ]
+        }
+      },
+      "confidentiality": {
+        "title": "7. Gizlilik",
+        "paragraph1": "Her bir taraf aşağıdakileri kabul eder:",
+        "items": [
+          "Diğer taraftan alınan tüm Gizli Bilgileri gizli tutmak",
+          "Gizli Bilgileri yalnızca Hizmetleri sağlama veya alma amacıyla kullanmak",
+          "Yasa, düzenleme veya profesyonel standartların gerektirdiği durumlar dışında, açıklayan tarafın önceden yazılı izni olmadan Gizli Bilgileri herhangi bir üçüncü tarafa açıklamamak",
+          "Gizli Bilgileri korumak için makul güvenlik önlemleri uygulamak"
+        ],
+        "paragraph2": "Bu gizlilik yükümlülükleri, hizmet ilişkimizin sona ermesinden sonra da devam edecektir."
+      },
+      "intellectualProperty": {
+        "title": "8. Fikri Mülkiyet",
+        "clientMaterials": {
+          "title": "8.1 Müşteri Materyalleri",
+          "paragraph": "Müşteri Materyalleri üzerindeki tüm hakları, unvanı ve menfaati siz saklı tutarsınız. Bize, Hizmetleri sağlama amacıyla Müşteri Materyallerini kullanmak, çoğaltmak ve değiştirmek için münhasır olmayan, telifsiz bir lisans verirsiniz."
+        },
+        "deliverables": {
+          "title": "8.2 Teslim Edilecekler",
+          "paragraph": "Tüm geçerli ücretlerin tam ödenmesi üzerine, aşağıdakilere tabi olarak Teslim Edileceklerin içeriği üzerindeki tüm haklara sahip olacaksınız:",
+          "items": [
+            "Önceden var olan materyallerimiz, metodolojilerimiz, araçlarımız, tekniklerimiz ve know-how'ımız üzerindeki tüm hakları saklı tutarız",
+            "Hizmetlerin sağlanması sırasında edinilen genel bilgi, beceri ve deneyimi kullanma hakkını saklı tutarız",
+            "İstatistiksel, araştırma ve iyileştirme amaçları için anonimleştirilmiş verileri kullanma hakkını saklı tutarız"
+          ]
+        }
+      },
+      "dataProtection": {
+        "title": "9. Veri Koruma",
+        "paragraph1": "Her bir taraf, Genel Veri Koruma Yönetmeliği (GDPR) ve Hollanda Uygulama Yasası (Uitvoeringswet AVG) dahil olmak üzere geçerli veri koruma yasalarına uyacaktır.",
+        "paragraph2": "Kişisel verileri nasıl işlediğimize dair ayrıntılar için lütfen Gizlilik Politikamıza bakın."
+      },
+      "liability": {
+        "title": "10. Sorumluluk",
+        "limitation": {
+          "title": "10.1 Sorumluluk Sınırlaması",
+          "paragraph": "Geçerli yasaların izin verdiği azami ölçüde:",
+          "items": [
+            "Hizmetlerden kaynaklanan veya bunlarla bağlantılı toplam sorumluluğumuz, ister sözleşme, haksız fiil (ihmal dahil) veya başka bir şekilde olsun, sorumluluğa yol açan olaydan önceki 12 ay içinde Hizmetler için tarafınızdan ödenen toplam ücret tutarını aşmayacaktır",
+            "Kar, veri veya iş fırsatları kaybı dahil olmak üzere herhangi bir dolaylı, arızi, özel, sonuç olarak ortaya çıkan veya cezai zararlardan sorumlu olmayacağız",
+            "Yanlış veya eksik Müşteri Materyallerinden kaynaklanan Teslim Edileceklerdeki herhangi bir hata veya eksiklikten sorumlu olmayacağız"
+          ]
+        },
+        "exclusions": {
+          "title": "10.2 İstisnalar",
+          "paragraph": "Bu Şartlardaki hiçbir şey aşağıdakiler için sorumluluğumuzu hariç tutmaz veya sınırlamaz:",
+          "items": [
+            "İhmalimizden kaynaklanan ölüm veya kişisel yaralanma",
+            "Dolandırıcılık veya hileli yanlış beyan",
+            "Hollanda yasaları tarafından hariç tutulamayan veya sınırlandırılamayan diğer herhangi bir sorumluluk"
+          ]
+        },
+        "timeLimitation": {
+          "title": "10.3 Zaman Sınırlaması",
+          "paragraph": "Hizmetlerden kaynaklanan veya bunlarla bağlantılı herhangi bir talep, davacının böyle bir talebe yol açan gerçekleri bildiği veya bilmesi gerektiği tarihten itibaren bir (1) yıl içinde getirilmelidir."
+        }
+      },
+      "generalProvisions": {
+        "title": "11. Genel Hükümler",
+        "entireAgreement": {
+          "title": "11.1 Tüm Anlaşma",
+          "paragraph": "Bu Şartlar, Hizmet Anlaşması ile birlikte, konusu ile ilgili olarak taraflar arasındaki tüm anlaşmayı oluşturur ve konuyla ilgili önceki ve eşzamanlı tüm anlaşmaları, teklifleri veya beyanları, yazılı veya sözlü olarak geçersiz kılar."
+        },
+        "severability": {
+          "title": "11.2 Ayrılabilirlik",
+          "paragraph": "Bu Şartların herhangi bir hükmünün geçersiz veya uygulanamaz olduğu kabul edilirse, kalan hükümler tam olarak yürürlükte kalacaktır. Geçersiz veya uygulanamaz hüküm, yasaların izin verdiği azami ölçüde geçerli ve uygulanabilir olacak şekilde değiştirilmiş sayılacaktır."
+        },
+        "waiver": {
+          "title": "11.3 Feragat",
+          "paragraph": "Taraflardan herhangi birinin bu Şartlar altındaki herhangi bir hakkını kullanmadaki herhangi bir başarısızlığı veya gecikmesi, o haktan feragat anlamına gelmeyecektir. Bu Şartlar altında hiçbir feragat, feragat ettiği düşünülen tarafın yetkili bir temsilcisi tarafından yazılı olarak yapılıp imzalanmadıkça etkili olmayacaktır."
+        },
+        "assignment": {
+          "title": "11.4 Devir",
+          "paragraph": "Önceden yazılı iznimiz olmadan bu Şartları veya buradaki herhangi bir hak veya yükümlülüğü devredemez veya aktaramazsınız. Biz bu Şartları bir birleşme, satın alma, kurumsal yeniden yapılanma veya tüm veya önemli ölçüde tüm varlıklarımızın satışı ile bağlantılı olarak devredebiliriz."
+        },
+        "forceMAjeure": {
+          "title": "11.5 Mücbir Sebep",
+          "paragraph": "Hiçbir taraf, makul kontrolü dışındaki nedenlerden dolayı bu Şartlar altındaki herhangi bir başarısızlık veya gecikmeden (ödeme yükümlülükleri hariç) sorumlu olmayacaktır, bunlar arasında doğal afetler, hükümet eylemleri, sel, yangın, depremler, sivil kargaşa, terör eylemleri, grevler veya diğer işgücü sorunları veya internet servis sağlayıcı arızaları veya gecikmeleri sayılabilir, ancak bunlarla sınırlı değildir."
+        },
+        "notices": {
+          "title": "11.6 Bildirimler",
+          "paragraph": "Bu Şartlar altındaki tüm bildirimler yazılı olmalıdır ve kişisel olarak teslim edildiğinde alındığında; alındığı elektronik olarak onaylandığında, e-posta ile iletilirse; ve alındığında, onaylı veya kayıtlı posta ile, iade alındı talep edilerek gönderilirse usulüne uygun olarak verilmiş sayılacaktır."
+        },
+        "relationship": {
+          "title": "11.7 Taraflar Arasındaki İlişki",
+          "paragraph": "Taraflar arasındaki ilişki bağımsız yükleniciler ilişkisidir. Bu Şartlardaki hiçbir şey, taraflar arasında herhangi bir acente, ortaklık, ortak girişim veya diğer ortak işletme, istihdam veya güvene dayalı ilişki oluşturduğu şeklinde yorumlanmayacaktır."
+        }
+      },
+      "governingLaw": {
+        "title": "12. Geçerli Yasa ve Yargı Yetkisi",
+        "paragraph1": "Bu Şartlar, kanunlar ihtilafı ilkelerine bakılmaksızın Hollanda yasalarına tabidir.",
+        "paragraph2": "Bu Şartlardan kaynaklanan veya bunlarla bağlantılı herhangi bir anlaşmazlık, varlığı, geçerliliği veya feshi ile ilgili herhangi bir soru dahil olmak üzere, Hollanda, Amsterdam'daki yetkili mahkemelere sevk edilecek ve nihai olarak çözümlenecektir."
+      },
+      "contactUs": {
+        "title": "13. Bize Ulaşın",
+        "paragraph": "Bu Şartlar hakkında herhangi bir sorunuz varsa, lütfen bizimle şu adresten iletişime geçin:",
+        "contact": {
+          "company": "Glodinas Finance B.V.",
+          "address1": "Schiphol Boulevard 127",
+          "address2": "Schiphol 1118 BG",
+          "country": "Hollanda",
+          "email": "E-posta: info@glodinasfinance.nl",
+          "phone": "Telefon: +31 20 123 4567"
+        }
+      }
+    },
+    "cta": {
+      "title": "Şartlarımız Hakkında Sorularınız mı Var?",
+      "paragraph": "Hizmet şartlarımız hakkında herhangi bir soru veya açıklama için ekibimizle iletişime geçin.",
+      "button": "Bize Ulaşın"
+    }
+  },
   "privacyPolicy": {
     "hero": {
       "title": "Gizlilik Politikası",
