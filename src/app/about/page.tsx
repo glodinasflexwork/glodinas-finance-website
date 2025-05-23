@@ -2,6 +2,11 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
+export const metadata = {
+  title: "About Glodinas Finance B.V. | Our Team & Partners | Dutch Financial Experts",
+  description: "Meet the expert team behind Glodinas Finance B.V., your trusted partner for professional bookkeeping and financial services in the Netherlands.",
+};
+
 export default function About() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -23,7 +28,7 @@ export default function About() {
                 Glodinas Finance B.V. is a professional bookkeeping firm based in the Netherlands, dedicated to providing high-quality financial services to entrepreneurs and businesses.
               </p>
               <p className="text-lg text-gray-600 mb-4">
-                We specialize in comprehensive bookkeeping solutions for ZZP&apos;ers (self-employed professionals) and BVs (private limited companies), offering competitive rates starting at €130 per month (excluding VAT) for ZZP&apos;ers and €150 per month (excluding VAT) for BVs.
+                We specialize in comprehensive bookkeeping solutions for ZZP&apos;ers (self-employed professionals) and BVs (private limited companies), offering competitive rates starting at €130 per month (excluding VAT) for ZZP&apos;ers and €250 per month (excluding VAT) for BVs, which includes pay-rolling for DGA.
               </p>
               <p className="text-lg text-gray-600">
                 Our mission is to help businesses maintain accurate financial records, comply with Dutch tax regulations, and make informed financial decisions to support their growth and success.
@@ -51,66 +56,97 @@ export default function About() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Team Member 1 */}
+            {/* Team Member 1 - Cihat Kaya */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <div className="h-64 bg-gray-200 relative">
                 <Image 
-                  src="/images/team/ceo.png" 
-                  alt="John Doe - Founder & CEO" 
+                  src="/images/team/cihat-kaya.png" 
+                  alt="Cihat Kaya - Founder & CEO of Glodinas Finance" 
                   fill
                   className="object-cover"
                 />
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                  <h3 className="text-xl font-semibold text-white">John Doe</h3>
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                  <h3 className="text-xl font-semibold text-white">Cihat Kaya</h3>
                   <p className="text-white/90">Founder & CEO</p>
                 </div>
               </div>
               <div className="p-6">
-                <p className="text-gray-600">
-                  With over 15 years of experience in financial management and bookkeeping, John leads our team with expertise and dedication to client success.
+                <p className="text-gray-600 mb-4">
+                  With extensive experience in financial management and Dutch tax regulations, Cihat leads our team with expertise and dedication to client success.
                 </p>
+                <a 
+                  href="https://www.linkedin.com/in/cihatkaya/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-blue-600 hover:text-blue-800 font-medium flex items-center"
+                >
+                  <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                  </svg>
+                  LinkedIn Profile
+                </a>
               </div>
             </div>
 
-            {/* Team Member 2 */}
+            {/* Team Member 2 - Ana Dogotari */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <div className="h-64 bg-gray-200 relative">
                 <Image 
-                  src="/images/team/cfo.png" 
-                  alt="Jane Smith - Senior Accountant" 
+                  src="/images/team/ana-dogotari.jpeg" 
+                  alt="Ana Dogotari - Senior Accountant at Glodinas Finance" 
                   fill
                   className="object-cover"
                 />
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                  <h3 className="text-xl font-semibold text-white">Jane Smith</h3>
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                  <h3 className="text-xl font-semibold text-white">Ana Dogotari</h3>
                   <p className="text-white/90">Senior Accountant</p>
                 </div>
               </div>
               <div className="p-6">
-                <p className="text-gray-600">
-                  Jane specializes in tax preparation and compliance for Dutch businesses, ensuring our clients meet all regulatory requirements.
+                <p className="text-gray-600 mb-4">
+                  Ana specializes in tax preparation and compliance for Dutch businesses, ensuring our clients meet all regulatory requirements and optimize their financial position.
                 </p>
+                <a 
+                  href="#" 
+                  className="text-blue-600 hover:text-blue-800 font-medium flex items-center"
+                >
+                  <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                  </svg>
+                  LinkedIn Profile
+                </a>
               </div>
             </div>
 
-            {/* Team Member 3 */}
+            {/* Team Member 3 - Gabriel Stan */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <div className="h-64 bg-gray-200 relative">
                 <Image 
-                  src="/images/team/accountant.png" 
-                  alt="Michael Johnson - Financial Advisor" 
+                  src="/images/team/gabriel-stan.png" 
+                  alt="Gabriel Stan - Financial Advisor at Glodinas Finance" 
                   fill
                   className="object-cover"
                 />
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                  <h3 className="text-xl font-semibold text-white">Michael Johnson</h3>
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                  <h3 className="text-xl font-semibold text-white">Gabriel Stan</h3>
                   <p className="text-white/90">Financial Advisor</p>
                 </div>
               </div>
               <div className="p-6">
-                <p className="text-gray-600">
-                  Michael helps clients navigate personal loan applications and financial planning, with strong relationships with major Dutch banks.
+                <p className="text-gray-600 mb-4">
+                  Gabriel helps clients navigate personal loan applications and financial planning, with strong relationships with major Dutch banks and financial institutions.
                 </p>
+                <a 
+                  href="https://www.linkedin.com/in/gabriel-stan-773682186/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-blue-600 hover:text-blue-800 font-medium flex items-center"
+                >
+                  <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                  </svg>
+                  LinkedIn Profile
+                </a>
               </div>
             </div>
           </div>

@@ -1,6 +1,11 @@
 // Components;
 import Link from 'next/link';
 
+export const metadata = {
+  title: "Financial Services | Glodinas Finance B.V. | Dutch Bookkeeping Experts",
+  description: "Comprehensive financial services for ZZP'ers and BVs in the Netherlands. Bookkeeping, tax preparation, payroll, and business formation services.",
+};
+
 export default function Services() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -43,7 +48,7 @@ export default function Services() {
               <div className="flex justify-center">
                 <img 
                   src="/images/zzp-bookkeeping.png" 
-                  alt="ZZP Bookkeeping Services" 
+                  alt="ZZP Bookkeeping Services in the Netherlands - Glodinas Finance" 
                   className="h-auto w-full rounded-lg object-cover shadow-md"
                 />
               </div>
@@ -56,14 +61,14 @@ export default function Services() {
               <div className="order-2 md:order-1 flex justify-center">
                 <img 
                   src="/images/bv-bookkeeping.png" 
-                  alt="BV Bookkeeping Services" 
+                  alt="BV Bookkeeping Services in the Netherlands with DGA Payroll - Glodinas Finance" 
                   className="h-auto w-full rounded-lg object-cover shadow-md"
                 />
               </div>
               <div className="order-1 md:order-2">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Bookkeeping for BVs</h2>
                 <p className="text-lg text-gray-600 mb-4">
-                  Our bookkeeping service for private limited companies (BVs) starts at €150 per month (excluding VAT).
+                  Our bookkeeping service for private limited companies (BVs) starts at €250 per month (excluding VAT), including pay-rolling for DGA.
                 </p>
                 <p className="text-lg text-gray-600 mb-4">
                   We provide comprehensive financial administration services tailored to the specific needs of Dutch BVs.
@@ -74,7 +79,7 @@ export default function Services() {
                   <li>VAT (BTW) return preparation and filing</li>
                   <li>Annual financial statements</li>
                   <li>Corporate income tax return preparation</li>
-                  <li>Director's salary administration</li>
+                  <li>Director's salary administration (DGA payroll)</li>
                   <li>Dividend planning and administration</li>
                 </ul>
                 <div className="mt-8">
@@ -114,7 +119,7 @@ export default function Services() {
               <div className="flex justify-center">
                 <img 
                   src="/images/payroll-services.png" 
-                  alt="Payroll Services" 
+                  alt="Dutch Payroll Services for Businesses - Glodinas Finance" 
                   className="h-auto w-full rounded-lg object-cover shadow-md"
                 />
               </div>
@@ -127,7 +132,7 @@ export default function Services() {
               <div className="order-2 md:order-1 flex justify-center">
                 <img 
                   src="/images/business-formation.png" 
-                  alt="Business Formation Services" 
+                  alt="Dutch Business Formation Services - KVK Registration - Glodinas Finance" 
                   className="h-auto w-full rounded-lg object-cover shadow-md"
                 />
               </div>
@@ -185,7 +190,7 @@ export default function Services() {
               <div className="flex justify-center">
                 <img 
                   src="/images/personal-loan.png" 
-                  alt="Personal Loan Assistance" 
+                  alt="Personal Loan Assistance with Dutch Banks - Glodinas Finance" 
                   className="h-auto w-full rounded-lg object-cover shadow-md"
                 />
               </div>
@@ -198,7 +203,7 @@ export default function Services() {
               <div className="order-2 md:order-1 flex justify-center">
                 <img 
                   src="/images/tax-preparation.png" 
-                  alt="Tax Preparation Services" 
+                  alt="Dutch Tax Preparation and Filing Services - Glodinas Finance" 
                   className="h-auto w-full rounded-lg object-cover shadow-md"
                 />
               </div>
@@ -315,6 +320,12 @@ export default function Services() {
                   </svg>
                   <span>Income tax return</span>
                 </li>
+                <li className="flex items-start">
+                  <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>Financial advice</span>
+                </li>
               </ul>
               <Link href="/contact" className="block w-full bg-blue-600 text-white text-center hover:bg-blue-700 px-6 py-3 rounded-md font-medium">
                 Get Started
@@ -322,13 +333,13 @@ export default function Services() {
             </div>
 
             {/* BV Package */}
-            <div className="bg-white p-8 rounded-lg shadow-md border border-blue-200 ring-2 ring-blue-500">
-              <div className="absolute -mt-12 left-0 right-0 flex justify-center">
-                <span className="bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-medium">Most Popular</span>
+            <div className="bg-white p-8 rounded-lg shadow-md border border-blue-200 transform scale-105 z-10">
+              <div className="bg-blue-600 text-white text-center py-2 px-4 rounded-full text-sm font-bold uppercase absolute -top-3 left-1/2 transform -translate-x-1/2">
+                Most Popular
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">BV Package</h3>
               <div className="flex items-baseline mb-6">
-                <span className="text-5xl font-extrabold text-blue-600">€150</span>
+                <span className="text-5xl font-extrabold text-blue-600">€250</span>
                 <span className="ml-2 text-gray-500">/month ex VAT</span>
               </div>
               <ul className="space-y-3 mb-8">
@@ -360,7 +371,13 @@ export default function Services() {
                   <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>Director's salary administration</span>
+                  <span>DGA payroll administration</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>Dividend planning</span>
                 </li>
               </ul>
               <Link href="/contact" className="block w-full bg-blue-600 text-white text-center hover:bg-blue-700 px-6 py-3 rounded-md font-medium">
@@ -372,51 +389,36 @@ export default function Services() {
             <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Custom Package</h3>
               <div className="flex items-baseline mb-6">
-                <span className="text-5xl font-extrabold text-blue-600">Custom</span>
-                <span className="ml-2 text-gray-500">pricing</span>
+                <span className="text-3xl font-bold text-gray-900">Custom</span>
               </div>
+              <p className="text-gray-600 mb-8">
+                Tailored financial services package designed specifically for your business needs.
+              </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>Tailored bookkeeping services</span>
+                  <span>Customized service selection</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>Business formation</span>
+                  <span>Flexible pricing options</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>Payroll services</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Personal loan assistance</span>
+                  <span>Dedicated account manager</span>
                 </li>
               </ul>
-              <Link href="/contact" className="block w-full bg-blue-600 text-white text-center hover:bg-blue-700 px-6 py-3 rounded-md font-medium">
+              <Link href="/contact" className="block w-full bg-gray-800 text-white text-center hover:bg-gray-700 px-6 py-3 rounded-md font-medium">
                 Contact Us
               </Link>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-16 bg-blue-600 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to get started?</h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">Contact us today to discuss your specific needs and how Glodinas Finance B.V. can help your business thrive.</p>
-          <Link href="/contact" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-md font-medium inline-block">
-            Request a Consultation
-          </Link>
         </div>
       </section>
     </div>
