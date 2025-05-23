@@ -23,7 +23,7 @@
       },
       "bookkeepingBV": {
         "title": "Contabilitate pentru BV-uri",
-        "description": "Servicii complete de contabilitate pentru societăți cu răspundere limitată începând de la €150/lună (fără TVA).",
+        "description": "Servicii complete de contabilitate pentru societăți cu răspundere limitată începând de la €250/lună (fără TVA), inclusiv administrarea salariilor pentru DGA.",
         "learnMore": "Află mai multe"
       },
       "payroll": {
@@ -71,6 +71,68 @@
       "title": "Gata să începeți?",
       "subtitle": "Contactați-ne astăzi pentru a afla cum Glodinas Finance B.V. vă poate ajuta cu nevoile dumneavoastră de contabilitate și financiare.",
       "contactUs": "Contactați-ne"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Despre Glodinas Finance B.V.",
+      "subtitle": "Partenerul dumneavoastră de încredere pentru servicii profesionale de contabilitate și financiare în Olanda."
+    },
+    "company": {
+      "title": "Compania Noastră",
+      "paragraph1": "Glodinas Finance B.V. este o firmă profesională de contabilitate cu sediul în Olanda, dedicată furnizării de servicii financiare de înaltă calitate pentru antreprenori și companii.",
+      "paragraph2": "Ne specializăm în soluții complete de contabilitate pentru ZZP-eri (profesioniști independenți) și BV-uri (societăți cu răspundere limitată), oferind tarife competitive începând de la €130 pe lună (fără TVA) pentru ZZP-eri și €250 pe lună (fără TVA) pentru BV-uri, care include administrarea salariilor pentru DGA.",
+      "paragraph3": "Misiunea noastră este de a ajuta companiile să mențină evidențe financiare precise, să respecte reglementările fiscale olandeze și să ia decizii financiare informate pentru a susține creșterea și succesul lor.",
+      "imageAlt": "Echipa profesională Glodinas Finance"
+    },
+    "team": {
+      "title": "Echipa Noastră",
+      "subtitle": "Cunoașteți experții din spatele Glodinas Finance B.V.",
+      "linkedinProfile": "Profil LinkedIn",
+      "member1": {
+        "name": "Cihat Kaya",
+        "role": "Fondator & CEO",
+        "bio": "Cu o experiență vastă în managementul financiar și reglementările fiscale olandeze, Cihat conduce echipa noastră cu expertiză și dedicare pentru succesul clienților.",
+        "imageAlt": "Cihat Kaya - Fondator & CEO al Glodinas Finance"
+      },
+      "member2": {
+        "name": "Gabriel Stan",
+        "role": "Consultant Financiar",
+        "bio": "Gabriel ajută clienții să navigheze prin aplicațiile pentru împrumuturi personale și planificarea financiară, având relații solide cu marile bănci olandeze și instituții financiare.",
+        "imageAlt": "Gabriel Stan - Consultant Financiar la Glodinas Finance"
+      },
+      "member3": {
+        "name": "Ana Dogotari",
+        "role": "Contabil Senior",
+        "bio": "Ana se specializează în pregătirea declarațiilor fiscale și conformitate pentru companiile olandeze, asigurându-se că clienții noștri îndeplinesc toate cerințele legale și își optimizează poziția financiară.",
+        "imageAlt": "Ana Dogotari - Contabil Senior la Glodinas Finance"
+      }
+    },
+    "partners": {
+      "title": "Partenerii Noștri",
+      "subtitle": "Colaborăm cu parteneri de încredere pentru a oferi soluții financiare complete",
+      "partner1": {
+        "name": "Moneybird",
+        "description": "Utilizăm software-ul intuitiv de contabilitate Moneybird pentru a eficientiza administrația financiară pentru clienții noștri.",
+        "imageAlt": "Moneybird - Software de Contabilitate"
+      },
+      "partner2": {
+        "name": "Employes",
+        "description": "Parteneriatul nostru cu Employes ne permite să oferim servicii eficiente și precise de salarizare pentru companii.",
+        "imageAlt": "Employes - Servicii de Salarizare"
+      },
+      "partner3": {
+        "name": "Firm24",
+        "description": "Prin colaborarea noastră cu Firm24, oferim servicii complete de înființare a companiilor pentru antreprenori.",
+        "imageAlt": "Firm24 - Servicii de Înființare a Companiilor"
+      },
+      "bankingTitle": "Parteneri Bancari",
+      "bankingImageAlt": "Parteneri Bancari Olandezi - ING, ABN AMRO, RABOBANK, SNS"
+    },
+    "cta": {
+      "title": "Gata să lucrați cu noi?",
+      "subtitle": "Contactați Glodinas Finance B.V. astăzi pentru a discuta cum putem sprijini nevoile financiare ale afacerii dumneavoastră.",
+      "buttonText": "Contactați-ne"
     }
   },
   "footer": {
