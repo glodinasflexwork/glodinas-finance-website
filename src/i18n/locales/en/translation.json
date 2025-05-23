@@ -80,23 +80,59 @@
     },
     "company": {
       "title": "Our Company",
-      "description1": "Glodinas Finance B.V. is a professional bookkeeping firm based in the Netherlands, dedicated to providing high-quality financial services to entrepreneurs and businesses.",
-      "description2": "We specialize in comprehensive bookkeeping solutions for ZZP'ers (self-employed professionals) and BVs (private limited companies), offering competitive rates starting at €130 per month (excluding VAT) for ZZP'ers and €150 per month (excluding VAT) for BVs.",
-      "description3": "Our mission is to help businesses maintain accurate financial records, comply with Dutch tax regulations, and make informed financial decisions to support their growth and success."
+      "paragraph1": "Glodinas Finance B.V. is a professional bookkeeping firm based in the Netherlands, dedicated to providing high-quality financial services to entrepreneurs and businesses.",
+      "paragraph2": "We specialize in comprehensive bookkeeping solutions for ZZP'ers (self-employed professionals) and BVs (private limited companies), offering competitive rates starting at €130 per month (excluding VAT) for ZZP'ers and €250 per month (excluding VAT) for BVs, including DGA payroll administration.",
+      "paragraph3": "Our mission is to help businesses maintain accurate financial records, comply with Dutch tax regulations, and make informed financial decisions to support their growth and success.",
+      "imageAlt": "Professional team at Glodinas Finance"
     },
     "team": {
       "title": "Our Team",
-      "subtitle": "Meet the experts behind Glodinas Finance B.V."
+      "subtitle": "Meet the experts behind Glodinas Finance B.V.",
+      "linkedinProfile": "LinkedIn Profile",
+      "member1": {
+        "name": "Cihat Kaya",
+        "role": "Founder & CEO",
+        "bio": "With extensive experience in financial management and Dutch tax regulations, Cihat leads our team with expertise and dedication to client success.",
+        "imageAlt": "Cihat Kaya - Founder & CEO of Glodinas Finance"
+      },
+      "member2": {
+        "name": "Gabriel Stan",
+        "role": "Financial Advisor",
+        "bio": "Gabriel helps clients navigate personal loan applications and financial planning, with strong relationships with major Dutch banks and financial institutions.",
+        "imageAlt": "Gabriel Stan - Financial Advisor at Glodinas Finance"
+      },
+      "member3": {
+        "name": "Ana Dogotari",
+        "role": "Senior Accountant",
+        "bio": "Ana specializes in tax return preparation and compliance for Dutch companies, ensuring our clients meet all legal requirements and optimize their financial position.",
+        "imageAlt": "Ana Dogotari - Senior Accountant at Glodinas Finance"
+      }
     },
     "partners": {
       "title": "Our Partners",
       "subtitle": "We collaborate with trusted partners to deliver comprehensive financial solutions",
-      "bankingPartners": "Banking Partners"
+      "partner1": {
+        "name": "Moneybird",
+        "description": "We use Moneybird's intuitive accounting software to streamline our clients' financial administration.",
+        "imageAlt": "Moneybird - Accounting Software"
+      },
+      "partner2": {
+        "name": "Employes",
+        "description": "Our partnership with Employes allows us to provide efficient and accurate payroll services for companies.",
+        "imageAlt": "Employes - Payroll Services"
+      },
+      "partner3": {
+        "name": "Firm24",
+        "description": "Through our collaboration with Firm24, we offer comprehensive business formation services for entrepreneurs.",
+        "imageAlt": "Firm24 - Business Formation Services"
+      },
+      "bankingTitle": "Banking Partners",
+      "bankingImageAlt": "Dutch Banking Partners - ING, ABN AMRO, RABOBANK, SNS"
     },
     "cta": {
       "title": "Ready to work with us?",
       "subtitle": "Contact Glodinas Finance B.V. today to discuss how we can support your business's financial needs.",
-      "getInTouch": "Get in Touch"
+      "buttonText": "Get in Touch"
     }
   },
   "services": {
@@ -207,7 +243,7 @@
       },
       "bvPackage": {
         "title": "BV Package",
-        "price": "€150",
+        "price": "€250",
         "period": "/month ex VAT",
         "mostPopular": "Most Popular",
         "features": [
@@ -285,7 +321,7 @@
       "questions": [
         {
           "question": "What are your bookkeeping rates?",
-          "answer": "Our bookkeeping services start at €130 per month (excluding VAT) for ZZP'ers and €150 per month (excluding VAT) for BVs. The exact rate depends on the complexity and volume of your financial administration."
+          "answer": "Our bookkeeping services start at €130 per month (excluding VAT) for ZZP'ers and €250 per month (excluding VAT) for BVs, including DGA payroll administration. The exact rate depends on the complexity and volume of your financial administration."
         },
         {
           "question": "How often will we communicate about my finances?",
