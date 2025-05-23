@@ -63,7 +63,7 @@ export default function About() {
                   src="/images/team/cihat-kaya.png" 
                   alt="Cihat Kaya - Founder & CEO of Glodinas Finance" 
                   fill
-                  className="object-cover"
+                  className="object-cover object-center object-[center_70%]"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
                   <h3 className="text-xl font-semibold text-white">Cihat Kaya</h3>
@@ -88,37 +88,7 @@ export default function About() {
               </div>
             </div>
 
-            {/* Team Member 2 - Ana Dogotari */}
-            <div className="bg-white rounded-lg overflow-hidden shadow-md">
-              <div className="h-64 bg-gray-200 relative">
-                <Image 
-                  src="/images/team/ana-dogotari.jpeg" 
-                  alt="Ana Dogotari - Senior Accountant at Glodinas Finance" 
-                  fill
-                  className="object-cover"
-                />
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-                  <h3 className="text-xl font-semibold text-white">Ana Dogotari</h3>
-                  <p className="text-white/90">Senior Accountant</p>
-                </div>
-              </div>
-              <div className="p-6">
-                <p className="text-gray-600 mb-4">
-                  Ana specializes in tax preparation and compliance for Dutch businesses, ensuring our clients meet all regulatory requirements and optimize their financial position.
-                </p>
-                <a 
-                  href="#" 
-                  className="text-blue-600 hover:text-blue-800 font-medium flex items-center"
-                >
-                  <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                  </svg>
-                  LinkedIn Profile
-                </a>
-              </div>
-            </div>
-
-            {/* Team Member 3 - Gabriel Stan */}
+            {/* Team Member 2 - Gabriel Stan (switched with Ana) */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <div className="h-64 bg-gray-200 relative">
                 <Image 
@@ -140,6 +110,36 @@ export default function About() {
                   href="https://www.linkedin.com/in/gabriel-stan-773682186/" 
                   target="_blank" 
                   rel="noopener noreferrer" 
+                  className="text-blue-600 hover:text-blue-800 font-medium flex items-center"
+                >
+                  <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                  </svg>
+                  LinkedIn Profile
+                </a>
+              </div>
+            </div>
+
+            {/* Team Member 3 - Ana Dogotari (switched with Gabriel) */}
+            <div className="bg-white rounded-lg overflow-hidden shadow-md">
+              <div className="h-64 bg-gray-200 relative">
+                <Image 
+                  src="/images/team/ana-dogotari.jpeg" 
+                  alt="Ana Dogotari - Senior Accountant at Glodinas Finance" 
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                  <h3 className="text-xl font-semibold text-white">Ana Dogotari</h3>
+                  <p className="text-white/90">Senior Accountant</p>
+                </div>
+              </div>
+              <div className="p-6">
+                <p className="text-gray-600 mb-4">
+                  Ana specializes in tax preparation and compliance for Dutch businesses, ensuring our clients meet all regulatory requirements and optimize their financial position.
+                </p>
+                <a 
+                  href="#" 
                   className="text-blue-600 hover:text-blue-800 font-medium flex items-center"
                 >
                   <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
