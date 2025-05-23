@@ -52,16 +52,22 @@ export default function PrivacyPolicy() {
 
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('privacyPolicy.sections.personalData.clientData.title')}</h3>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('privacyPolicy.sections.personalData.clientData.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('privacyPolicy.sections.personalData.clientData.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('privacyPolicy.sections.personalData.clientData.items')}</li>;
+              })()}
             </ul>
 
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('privacyPolicy.sections.personalData.websiteVisitorData.title')}</h3>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('privacyPolicy.sections.personalData.websiteVisitorData.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('privacyPolicy.sections.personalData.websiteVisitorData.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('privacyPolicy.sections.personalData.websiteVisitorData.items')}</li>;
+              })()}
             </ul>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacyPolicy.sections.howWeCollect.title')}</h2>
@@ -69,9 +75,12 @@ export default function PrivacyPolicy() {
               {t('privacyPolicy.sections.howWeCollect.paragraph')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('privacyPolicy.sections.howWeCollect.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('privacyPolicy.sections.howWeCollect.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('privacyPolicy.sections.howWeCollect.items')}</li>;
+              })()}
             </ul>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacyPolicy.sections.legalBasis.title')}</h2>
@@ -79,9 +88,12 @@ export default function PrivacyPolicy() {
               {t('privacyPolicy.sections.legalBasis.paragraph')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('privacyPolicy.sections.legalBasis.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('privacyPolicy.sections.legalBasis.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('privacyPolicy.sections.legalBasis.items')}</li>;
+              })()}
             </ul>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacyPolicy.sections.howWeUse.title')}</h2>
@@ -91,30 +103,42 @@ export default function PrivacyPolicy() {
 
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('privacyPolicy.sections.howWeUse.serviceProvision.title')}</h3>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('privacyPolicy.sections.howWeUse.serviceProvision.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('privacyPolicy.sections.howWeUse.serviceProvision.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('privacyPolicy.sections.howWeUse.serviceProvision.items')}</li>;
+              })()}
             </ul>
 
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('privacyPolicy.sections.howWeUse.compliance.title')}</h3>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('privacyPolicy.sections.howWeUse.compliance.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('privacyPolicy.sections.howWeUse.compliance.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('privacyPolicy.sections.howWeUse.compliance.items')}</li>;
+              })()}
             </ul>
 
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('privacyPolicy.sections.howWeUse.operations.title')}</h3>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('privacyPolicy.sections.howWeUse.operations.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('privacyPolicy.sections.howWeUse.operations.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('privacyPolicy.sections.howWeUse.operations.items')}</li>;
+              })()}
             </ul>
 
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('privacyPolicy.sections.howWeUse.marketing.title')}</h3>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('privacyPolicy.sections.howWeUse.marketing.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('privacyPolicy.sections.howWeUse.marketing.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('privacyPolicy.sections.howWeUse.marketing.items')}</li>;
+              })()}
             </ul>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacyPolicy.sections.dataRetention.title')}</h2>
@@ -133,9 +157,12 @@ export default function PrivacyPolicy() {
               {t('privacyPolicy.sections.dataSharing.paragraph1')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('privacyPolicy.sections.dataSharing.recipients', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('privacyPolicy.sections.dataSharing.recipients', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('privacyPolicy.sections.dataSharing.recipients')}</li>;
+              })()}
             </ul>
             <p className="text-gray-600 mb-4">
               {t('privacyPolicy.sections.dataSharing.paragraph2')}
@@ -144,9 +171,12 @@ export default function PrivacyPolicy() {
               {t('privacyPolicy.sections.dataSharing.paragraph3')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('privacyPolicy.sections.dataSharing.safeguards', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('privacyPolicy.sections.dataSharing.safeguards', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('privacyPolicy.sections.dataSharing.safeguards')}</li>;
+              })()}
             </ul>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacyPolicy.sections.dataSecurity.title')}</h2>
@@ -154,9 +184,12 @@ export default function PrivacyPolicy() {
               {t('privacyPolicy.sections.dataSecurity.paragraph1')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('privacyPolicy.sections.dataSecurity.measures', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('privacyPolicy.sections.dataSecurity.measures', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('privacyPolicy.sections.dataSecurity.measures')}</li>;
+              })()}
             </ul>
             <p className="text-gray-600 mb-4">
               {t('privacyPolicy.sections.dataSecurity.paragraph2')}
@@ -167,9 +200,12 @@ export default function PrivacyPolicy() {
               {t('privacyPolicy.sections.yourRights.paragraph1')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('privacyPolicy.sections.yourRights.rights', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('privacyPolicy.sections.yourRights.rights', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('privacyPolicy.sections.yourRights.rights')}</li>;
+              })()}
             </ul>
             <p className="text-gray-600 mb-4">
               {t('privacyPolicy.sections.yourRights.paragraph2')}
@@ -183,9 +219,12 @@ export default function PrivacyPolicy() {
               {t('privacyPolicy.sections.cookies.paragraph2')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('privacyPolicy.sections.cookies.cookieTypes', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('privacyPolicy.sections.cookies.cookieTypes', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('privacyPolicy.sections.cookies.cookieTypes')}</li>;
+              })()}
             </ul>
             <p className="text-gray-600 mb-4">
               {t('privacyPolicy.sections.cookies.paragraph3')}

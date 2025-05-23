@@ -38,9 +38,12 @@ export default function TermsOfService() {
               {t('termsOfService.sections.definitions.paragraph')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('termsOfService.sections.definitions.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('termsOfService.sections.definitions.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('termsOfService.sections.definitions.items')}</li>;
+              })()}
             </ul>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('termsOfService.sections.services.title')}</h2>
@@ -53,9 +56,12 @@ export default function TermsOfService() {
               {t('termsOfService.sections.services.scope.paragraph2')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('termsOfService.sections.services.scope.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('termsOfService.sections.services.scope.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('termsOfService.sections.services.scope.items')}</li>;
+              })()}
             </ul>
 
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('termsOfService.sections.services.delivery.title')}</h3>
@@ -63,9 +69,12 @@ export default function TermsOfService() {
               {t('termsOfService.sections.services.delivery.paragraph')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('termsOfService.sections.services.delivery.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('termsOfService.sections.services.delivery.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('termsOfService.sections.services.delivery.items')}</li>;
+              })()}
             </ul>
             <p className="text-gray-600 mb-4">
               {t('termsOfService.sections.services.delivery.additionalParagraph')}
@@ -81,9 +90,12 @@ export default function TermsOfService() {
               {t('termsOfService.sections.clientResponsibilities.paragraph')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('termsOfService.sections.clientResponsibilities.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('termsOfService.sections.clientResponsibilities.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('termsOfService.sections.clientResponsibilities.items')}</li>;
+              })()}
             </ul>
             <p className="text-gray-600 mb-4">
               {t('termsOfService.sections.clientResponsibilities.additionalParagraph')}
@@ -96,9 +108,12 @@ export default function TermsOfService() {
               {t('termsOfService.sections.feesAndPayment.fees.paragraph')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('termsOfService.sections.feesAndPayment.fees.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('termsOfService.sections.feesAndPayment.fees.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('termsOfService.sections.feesAndPayment.fees.items')}</li>;
+              })()}
             </ul>
 
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('termsOfService.sections.feesAndPayment.paymentTerms.title')}</h3>
@@ -106,9 +121,12 @@ export default function TermsOfService() {
               {t('termsOfService.sections.feesAndPayment.paymentTerms.paragraph')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('termsOfService.sections.feesAndPayment.paymentTerms.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('termsOfService.sections.feesAndPayment.paymentTerms.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('termsOfService.sections.feesAndPayment.paymentTerms.items')}</li>;
+              })()}
             </ul>
 
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('termsOfService.sections.feesAndPayment.latePayments.title')}</h3>
@@ -116,9 +134,12 @@ export default function TermsOfService() {
               {t('termsOfService.sections.feesAndPayment.latePayments.paragraph')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('termsOfService.sections.feesAndPayment.latePayments.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('termsOfService.sections.feesAndPayment.latePayments.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('termsOfService.sections.feesAndPayment.latePayments.items')}</li>;
+              })()}
             </ul>
             <p className="text-gray-600 mb-4">
               {t('termsOfService.sections.feesAndPayment.latePayments.additionalParagraph')}
@@ -136,9 +157,12 @@ export default function TermsOfService() {
               {t('termsOfService.sections.termAndTermination.terminationByEither.paragraph')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('termsOfService.sections.termAndTermination.terminationByEither.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('termsOfService.sections.termAndTermination.terminationByEither.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('termsOfService.sections.termAndTermination.terminationByEither.items')}</li>;
+              })()}
             </ul>
 
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('termsOfService.sections.termAndTermination.consequences.title')}</h3>
@@ -146,9 +170,12 @@ export default function TermsOfService() {
               {t('termsOfService.sections.termAndTermination.consequences.paragraph')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('termsOfService.sections.termAndTermination.consequences.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('termsOfService.sections.termAndTermination.consequences.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('termsOfService.sections.termAndTermination.consequences.items')}</li>;
+              })()}
             </ul>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('termsOfService.sections.confidentiality.title')}</h2>
@@ -156,9 +183,12 @@ export default function TermsOfService() {
               {t('termsOfService.sections.confidentiality.paragraph1')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('termsOfService.sections.confidentiality.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('termsOfService.sections.confidentiality.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('termsOfService.sections.confidentiality.items')}</li>;
+              })()}
             </ul>
             <p className="text-gray-600 mb-4">
               {t('termsOfService.sections.confidentiality.paragraph2')}
@@ -176,9 +206,12 @@ export default function TermsOfService() {
               {t('termsOfService.sections.intellectualProperty.deliverables.paragraph')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('termsOfService.sections.intellectualProperty.deliverables.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('termsOfService.sections.intellectualProperty.deliverables.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('termsOfService.sections.intellectualProperty.deliverables.items')}</li>;
+              })()}
             </ul>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('termsOfService.sections.dataProtection.title')}</h2>
@@ -196,9 +229,12 @@ export default function TermsOfService() {
               {t('termsOfService.sections.liability.limitation.paragraph')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('termsOfService.sections.liability.limitation.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('termsOfService.sections.liability.limitation.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('termsOfService.sections.liability.limitation.items')}</li>;
+              })()}
             </ul>
 
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('termsOfService.sections.liability.exclusions.title')}</h3>
@@ -206,9 +242,12 @@ export default function TermsOfService() {
               {t('termsOfService.sections.liability.exclusions.paragraph')}
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
-              {t('termsOfService.sections.liability.exclusions.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              {(() => {
+                const items = t('termsOfService.sections.liability.exclusions.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('termsOfService.sections.liability.exclusions.items')}</li>;
+              })()}
             </ul>
 
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('termsOfService.sections.liability.timeLimitation.title')}</h3>
@@ -286,60 +325,6 @@ export default function TermsOfService() {
           </p>
           <Link href="/contact" className="bg-blue-600 text-white hover:bg-blue-700 px-6 py-3 rounded-md font-medium inline-block">
             {t('termsOfService.cta.button')}
-          </Link>
-        </div>
-      </section>
-    </div>
-  );
-}Jurisdiction</h2>
-            <p className="text-gray-600 mb-4">
-              These Terms and any dispute or claim arising out of or in connection with them or their subject matter or formation (including non-contractual disputes or claims) shall be governed by and construed in accordance with the laws of the Netherlands.
-            </p>
-            <p className="text-gray-600 mb-4">
-              The parties irrevocably agree that the courts of Amsterdam, the Netherlands, shall have exclusive jurisdiction to settle any dispute or claim arising out of or in connection with these Terms or their subject matter or formation (including non-contractual disputes or claims).
-            </p>
-
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">18. Severability</h2>
-            <p className="text-gray-600 mb-4">
-              If any provision of these Terms is found to be invalid, illegal, or unenforceable, the remaining provisions will remain in full force and effect. The invalid, illegal, or unenforceable provision will be deemed modified to the minimum extent necessary to make it valid, legal, and enforceable.
-            </p>
-
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">19. Entire Agreement</h2>
-            <p className="text-gray-600 mb-4">
-              These Terms, together with the Service Agreement and any other documents expressly incorporated by reference, constitute the entire agreement between you and us regarding the Services and supersede all prior and contemporaneous agreements, proposals, or representations, written or oral, concerning the subject matter.
-            </p>
-
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">20. No Waiver</h2>
-            <p className="text-gray-600 mb-4">
-              No failure or delay by either party in exercising any right under these Terms will constitute a waiver of that right. No waiver of any term or condition will be deemed a further or continuing waiver of such term or condition or any other term or condition.
-            </p>
-
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">21. Contact Information</h2>
-            <p className="text-gray-600 mb-4">
-              If you have any questions about these Terms, please contact us at:
-            </p>
-            <ul className="list-none pl-6 space-y-2 text-gray-600 mb-4">
-              <li>Glodinas Finance B.V.</li>
-              <li>Schiphol Boulevard 127</li>
-              <li>Schiphol 1118 BG</li>
-              <li>Netherlands</li>
-              <li>Email: info@glodinasfinance.nl</li>
-              <li>Phone: +31 20 123 4567</li>
-              <li>KVK Number: 81805810</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-16 bg-blue-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Have Questions About Our Terms?</h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto text-gray-600">
-            Contact our team for any questions or clarifications about our terms of service or to discuss your specific service requirements.
-          </p>
-          <Link href="/contact" className="bg-blue-600 text-white hover:bg-blue-700 px-8 py-3 rounded-md font-medium inline-block">
-            Contact Us
           </Link>
         </div>
       </section>
