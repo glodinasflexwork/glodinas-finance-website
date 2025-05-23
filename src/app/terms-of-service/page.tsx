@@ -291,12 +291,7 @@ export default function TermsOfService() {
       </section>
     </div>
   );
-}>
-              <li>The parties will first attempt to resolve the dispute through good-faith negotiations</li>
-              <li>If the dispute cannot be resolved through negotiations within 30 days, either party may initiate legal proceedings</li>
-            </ul>
-
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">17. Governing Law and Jurisdiction</h2>
+}Jurisdiction</h2>
             <p className="text-gray-600 mb-4">
               These Terms and any dispute or claim arising out of or in connection with them or their subject matter or formation (including non-contractual disputes or claims) shall be governed by and construed in accordance with the laws of the Netherlands.
             </p>
