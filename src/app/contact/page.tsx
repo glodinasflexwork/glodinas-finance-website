@@ -125,7 +125,7 @@ export default function Contact() {
           </div>
           
           <div className="max-w-3xl mx-auto space-y-6">
-            {t('contact.faq.questions', { returnObjects: true }).map((faq, index) => (
+            {(t('contact.faq.questions', { returnObjects: true }) as Array<{question: string, answer: string}>).map((faq, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">{faq.question}</h3>
                 <p className="text-gray-600">
