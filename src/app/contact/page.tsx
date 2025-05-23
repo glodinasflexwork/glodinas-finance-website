@@ -1,15 +1,18 @@
 // Components
 import Link from 'next/link';
 import ContactForm from '@/components/ContactForm';
+import { useTranslation } from 'react-i18next';
 
 export default function Contact() {
+  const { t } = useTranslation();
+  
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="bg-blue-600 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
-          <p className="text-xl max-w-3xl mx-auto">Get in touch with Glodinas Finance B.V. for professional bookkeeping and financial services</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">{t('contact.hero.title')}</h1>
+          <p className="text-xl max-w-3xl mx-auto">{t('contact.hero.subtitle')}</p>
         </div>
       </section>
 
@@ -19,9 +22,9 @@ export default function Contact() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Get In Touch</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">{t('contact.getInTouch.title')}</h2>
               <p className="text-lg text-gray-600 mb-8">
-                We're here to answer your questions and provide the financial support your business needs. Reach out to us using the contact information below or fill out the form.
+                {t('contact.getInTouch.description')}
               </p>
               
               <div className="space-y-6">
@@ -33,7 +36,7 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div className="ml-3 text-gray-700">
-                    <h3 className="text-lg font-medium">Address</h3>
+                    <h3 className="text-lg font-medium">{t('contact.getInTouch.address')}</h3>
                     <address className="mt-1 not-italic">
                       Schiphol Boulevard 127<br />
                       Schiphol 1118 BG<br />
@@ -49,7 +52,7 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div className="ml-3 text-gray-700">
-                    <h3 className="text-lg font-medium">Email</h3>
+                    <h3 className="text-lg font-medium">{t('contact.getInTouch.email')}</h3>
                     <p className="mt-1">
                       <a href="mailto:info@glodinas-finance.nl" className="text-blue-600 hover:text-blue-800">
                         info@glodinas-finance.nl
@@ -65,7 +68,7 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div className="ml-3 text-gray-700">
-                    <h3 className="text-lg font-medium">Phone</h3>
+                    <h3 className="text-lg font-medium">{t('contact.getInTouch.phone')}</h3>
                     <p className="mt-1">
                       <a href="tel:+31201234567" className="text-blue-600 hover:text-blue-800">
                         +31 20 123 4567
@@ -81,9 +84,9 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div className="ml-3 text-gray-700">
-                    <h3 className="text-lg font-medium">Business Hours</h3>
-                    <p className="mt-1">Monday - Friday: 9:00 AM - 5:00 PM</p>
-                    <p>Saturday - Sunday: Closed</p>
+                    <h3 className="text-lg font-medium">{t('contact.getInTouch.businessHours')}</h3>
+                    <p className="mt-1">{t('contact.getInTouch.weekdays')}</p>
+                    <p>{t('contact.getInTouch.weekend')}</p>
                   </div>
                 </div>
               </div>
@@ -101,7 +104,7 @@ export default function Contact() {
             
             {/* Contact Form */}
             <div className="bg-gray-50 p-8 rounded-lg shadow-lg">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Request a Consultation</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">{t('contact.form.title')}</h2>
               
               {/* Import ContactForm component */}
               <div className="contact-form-container">
@@ -117,50 +120,19 @@ export default function Contact() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900">Frequently Asked Questions</h2>
-            <p className="mt-4 text-xl text-gray-600">Find answers to common questions about our services</p>
+            <h2 className="text-3xl font-bold text-gray-900">{t('contact.faq.title')}</h2>
+            <p className="mt-4 text-xl text-gray-600">{t('contact.faq.subtitle')}</p>
           </div>
           
           <div className="max-w-3xl mx-auto space-y-6">
-            {/* FAQ Item 1 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">What are your bookkeeping rates?</h3>
-              <p className="text-gray-600">
-                Our bookkeeping services start at €130 per month (excluding VAT) for ZZP'ers and €150 per month (excluding VAT) for BVs. The exact rate depends on the complexity and volume of your financial administration.
-              </p>
-            </div>
-            
-            {/* FAQ Item 2 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">How often will we communicate about my finances?</h3>
-              <p className="text-gray-600">
-                We provide monthly updates on your financial status, including profit and loss statements and cash flow reports. Additionally, we're available for questions and consultations throughout the month as needed.
-              </p>
-            </div>
-            
-            {/* FAQ Item 3 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Can you help with business registration?</h3>
-              <p className="text-gray-600">
-                Yes, through our partnership with Firm24, we offer comprehensive business formation services, including registration with the Dutch Chamber of Commerce (KVK), VAT registration, and setting up the appropriate legal structure for your business.
-              </p>
-            </div>
-            
-            {/* FAQ Item 4 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Do you offer services in languages other than Dutch?</h3>
-              <p className="text-gray-600">
-                Yes, we provide our services in multiple languages including Dutch, English, Romanian, Turkish, and Russian to accommodate our diverse client base.
-              </p>
-            </div>
-            
-            {/* FAQ Item 5 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">How do I switch my bookkeeping to Glodinas Finance?</h3>
-              <p className="text-gray-600">
-                Switching is simple. We'll handle the transition process, including gathering your financial history, setting up your accounts in our systems, and ensuring a smooth handover from your previous bookkeeper or accountant.
-              </p>
-            </div>
+            {t('contact.faq.questions', { returnObjects: true }).map((faq, index) => (
+              <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">{faq.question}</h3>
+                <p className="text-gray-600">
+                  {faq.answer}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

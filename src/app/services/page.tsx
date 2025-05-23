@@ -1,5 +1,6 @@
-// Components;
+// Components
 import Link from 'next/link';
+import { useTranslation } from 'react-i18next';
 
 export const metadata = {
   title: "Financial Services | Glodinas Finance B.V. | Dutch Bookkeeping Experts",
@@ -7,13 +8,15 @@ export const metadata = {
 };
 
 export default function Services() {
+  const { t } = useTranslation();
+  
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="bg-blue-600 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h1>
-          <p className="text-xl max-w-3xl mx-auto">Comprehensive financial solutions for entrepreneurs and businesses in the Netherlands</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">{t('services.hero.title')}</h1>
+          <p className="text-xl max-w-3xl mx-auto">{t('services.hero.subtitle')}</p>
         </div>
       </section>
 
@@ -24,24 +27,22 @@ export default function Services() {
           <div id="bookkeeping-zzp" className="mb-16 scroll-mt-20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">Bookkeeping for ZZP'ers</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">{t('services.bookkeepingZZP.title')}</h2>
                 <p className="text-lg text-gray-600 mb-4">
-                  Our comprehensive bookkeeping service for self-employed professionals (ZZP'ers) starts at just €130 per month (excluding VAT).
+                  {t('services.bookkeepingZZP.description1')}
                 </p>
                 <p className="text-lg text-gray-600 mb-4">
-                  We handle all aspects of your financial administration using Moneybird, allowing you to focus on your core business activities.
+                  {t('services.bookkeepingZZP.description2')}
                 </p>
-                <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">What's included:</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('services.bookkeepingZZP.included')}</h3>
                 <ul className="list-disc pl-6 space-y-2 text-gray-600">
-                  <li>Monthly bookkeeping and financial administration</li>
-                  <li>VAT (BTW) return preparation and filing</li>
-                  <li>Annual financial statements</li>
-                  <li>Income tax return preparation</li>
-                  <li>Ongoing financial advice and support</li>
+                  {t('services.bookkeepingZZP.items', { returnObjects: true }).map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
                 <div className="mt-8">
                   <Link href="/contact" className="bg-blue-600 text-white hover:bg-blue-700 px-6 py-3 rounded-md font-medium inline-block">
-                    Request a Quote
+                    {t('services.bookkeepingZZP.requestQuote')}
                   </Link>
                 </div>
               </div>
@@ -66,25 +67,22 @@ export default function Services() {
                 />
               </div>
               <div className="order-1 md:order-2">
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">Bookkeeping for BVs</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">{t('services.bookkeepingBV.title')}</h2>
                 <p className="text-lg text-gray-600 mb-4">
-                  Our bookkeeping service for private limited companies (BVs) starts at €250 per month (excluding VAT), including pay-rolling for DGA.
+                  {t('services.bookkeepingBV.description1')}
                 </p>
                 <p className="text-lg text-gray-600 mb-4">
-                  We provide comprehensive financial administration services tailored to the specific needs of Dutch BVs.
+                  {t('services.bookkeepingBV.description2')}
                 </p>
-                <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">What's included:</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('services.bookkeepingBV.included')}</h3>
                 <ul className="list-disc pl-6 space-y-2 text-gray-600">
-                  <li>Monthly bookkeeping and financial administration</li>
-                  <li>VAT (BTW) return preparation and filing</li>
-                  <li>Annual financial statements</li>
-                  <li>Corporate income tax return preparation</li>
-                  <li>Director's salary administration (DGA payroll)</li>
-                  <li>Dividend planning and administration</li>
+                  {t('services.bookkeepingBV.items', { returnObjects: true }).map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
                 <div className="mt-8">
                   <Link href="/contact" className="bg-blue-600 text-white hover:bg-blue-700 px-6 py-3 rounded-md font-medium inline-block">
-                    Request a Quote
+                    {t('services.bookkeepingBV.requestQuote')}
                   </Link>
                 </div>
               </div>
@@ -95,24 +93,22 @@ export default function Services() {
           <div id="payroll" className="mb-16 scroll-mt-20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">Payroll Services</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">{t('services.payroll.title')}</h2>
                 <p className="text-lg text-gray-600 mb-4">
-                  We offer efficient payroll services through our partnership with Employes, ensuring accurate and timely salary administration for your employees.
+                  {t('services.payroll.description1')}
                 </p>
                 <p className="text-lg text-gray-600 mb-4">
-                  Our payroll services help you comply with Dutch employment regulations and tax requirements.
+                  {t('services.payroll.description2')}
                 </p>
-                <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">What's included:</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('services.payroll.included')}</h3>
                 <ul className="list-disc pl-6 space-y-2 text-gray-600">
-                  <li>Monthly salary calculations</li>
-                  <li>Payslip generation and distribution</li>
-                  <li>Tax and social security contributions</li>
-                  <li>Annual statements and reporting</li>
-                  <li>Leave and absence administration</li>
+                  {t('services.payroll.items', { returnObjects: true }).map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
                 <div className="mt-8">
                   <Link href="/contact" className="bg-blue-600 text-white hover:bg-blue-700 px-6 py-3 rounded-md font-medium inline-block">
-                    Request a Quote
+                    {t('services.payroll.requestQuote')}
                   </Link>
                 </div>
               </div>
@@ -137,25 +133,22 @@ export default function Services() {
                 />
               </div>
               <div className="order-1 md:order-2">
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">Business Formation</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">{t('services.businessFormation.title')}</h2>
                 <p className="text-lg text-gray-600 mb-4">
-                  Through our partnership with Firm24, we offer comprehensive business formation services for entrepreneurs looking to establish their business in the Netherlands.
+                  {t('services.businessFormation.description1')}
                 </p>
                 <p className="text-lg text-gray-600 mb-4">
-                  We guide you through the entire process, from choosing the right business structure to registering with the Dutch Chamber of Commerce (KVK).
+                  {t('services.businessFormation.description2')}
                 </p>
-                <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">What's included:</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('services.businessFormation.included')}</h3>
                 <ul className="list-disc pl-6 space-y-2 text-gray-600">
-                  <li>Business structure consultation (ZZP, Eenmanszaak, BV)</li>
-                  <li>Company name verification</li>
-                  <li>Registration with the Dutch Chamber of Commerce (KVK)</li>
-                  <li>VAT registration</li>
-                  <li>Notarial services for BV formation</li>
-                  <li>Initial financial setup and administration</li>
+                  {t('services.businessFormation.items', { returnObjects: true }).map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
                 <div className="mt-8">
                   <Link href="/contact" className="bg-blue-600 text-white hover:bg-blue-700 px-6 py-3 rounded-md font-medium inline-block">
-                    Request a Quote
+                    {t('services.businessFormation.requestQuote')}
                   </Link>
                 </div>
               </div>
@@ -166,24 +159,22 @@ export default function Services() {
           <div id="personal-loans" className="mb-16 scroll-mt-20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">Personal Loan Assistance</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">{t('services.personalLoans.title')}</h2>
                 <p className="text-lg text-gray-600 mb-4">
-                  We provide assistance with personal loan applications at major Dutch banks, including ING, ABN AMRO, RABOBANK, and SNS.
+                  {t('services.personalLoans.description1')}
                 </p>
                 <p className="text-lg text-gray-600 mb-4">
-                  Our team helps you navigate the loan application process, ensuring you have the best chance of approval with favorable terms.
+                  {t('services.personalLoans.description2')}
                 </p>
-                <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">What's included:</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('services.personalLoans.included')}</h3>
                 <ul className="list-disc pl-6 space-y-2 text-gray-600">
-                  <li>Loan options assessment based on your financial situation</li>
-                  <li>Application preparation and documentation</li>
-                  <li>Liaison with banking partners</li>
-                  <li>Interest rate and term negotiation</li>
-                  <li>Ongoing support throughout the approval process</li>
+                  {t('services.personalLoans.items', { returnObjects: true }).map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
                 <div className="mt-8">
                   <Link href="/contact" className="bg-blue-600 text-white hover:bg-blue-700 px-6 py-3 rounded-md font-medium inline-block">
-                    Request a Consultation
+                    {t('services.personalLoans.requestConsultation')}
                   </Link>
                 </div>
               </div>
@@ -208,24 +199,22 @@ export default function Services() {
                 />
               </div>
               <div className="order-1 md:order-2">
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">Tax Preparation</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">{t('services.taxPreparation.title')}</h2>
                 <p className="text-lg text-gray-600 mb-4">
-                  Our tax preparation services ensure that your business and personal tax filings are accurate, compliant, and optimized to minimize your tax burden.
+                  {t('services.taxPreparation.description1')}
                 </p>
                 <p className="text-lg text-gray-600 mb-4">
-                  We stay up-to-date with the latest Dutch tax regulations to provide you with expert advice and support.
+                  {t('services.taxPreparation.description2')}
                 </p>
-                <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">What's included:</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('services.taxPreparation.included')}</h3>
                 <ul className="list-disc pl-6 space-y-2 text-gray-600">
-                  <li>Income tax return preparation for individuals</li>
-                  <li>Corporate tax return preparation for businesses</li>
-                  <li>VAT (BTW) return preparation and filing</li>
-                  <li>Tax planning and optimization strategies</li>
-                  <li>Representation in tax matters with the Dutch Tax Authority</li>
+                  {t('services.taxPreparation.items', { returnObjects: true }).map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
                 <div className="mt-8">
                   <Link href="/contact" className="bg-blue-600 text-white hover:bg-blue-700 px-6 py-3 rounded-md font-medium inline-block">
-                    Request a Quote
+                    {t('services.taxPreparation.requestQuote')}
                   </Link>
                 </div>
               </div>
@@ -238,41 +227,41 @@ export default function Services() {
       <section className="py-16 bg-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900">Get Started with Moneybird</h2>
-            <p className="mt-4 text-xl text-gray-600">Sign up directly for our bookkeeping services through Moneybird</p>
+            <h2 className="text-3xl font-bold text-gray-900">{t('services.pricing.title')}</h2>
+            <p className="mt-4 text-xl text-gray-600">{t('services.pricing.subtitle')}</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* ZZP Bookkeeping Signup */}
             <div className="bg-white p-8 rounded-lg shadow-md border border-blue-200 hover:shadow-lg transition-all">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">ZZP Bookkeeping</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('services.pricing.zzpPackage.title')}</h3>
               <div className="flex items-baseline mb-6">
-                <span className="text-5xl font-extrabold text-blue-600">€130</span>
-                <span className="ml-2 text-gray-500">/month ex VAT</span>
+                <span className="text-5xl font-extrabold text-blue-600">{t('services.pricing.zzpPackage.price')}</span>
+                <span className="ml-2 text-gray-500">{t('services.pricing.zzpPackage.period')}</span>
               </div>
-              <p className="text-gray-600 mb-6">Complete bookkeeping service for self-employed professionals (ZZP'ers)</p>
+              <p className="text-gray-600 mb-6">{t('services.bookkeepingZZP.description1')}</p>
               <a 
                 href="https://mnbrd.com/s/2wjljeEQnQOe" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="block w-full bg-blue-600 text-white text-center hover:bg-blue-700 px-6 py-3 rounded-md font-medium transition-colors"
               >
-                Sign Up Now
+                {t('services.pricing.zzpPackage.getStarted')}
               </a>
             </div>
             
             {/* Loan Administration Signup */}
             <div className="bg-white p-8 rounded-lg shadow-md border border-blue-200 hover:shadow-lg transition-all">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Loan Administration</h3>
-              <p className="text-gray-600 mb-6">Streamline your loan application process with our specialized administration service</p>
-              <p className="text-gray-600 mb-6">We help you navigate the loan application process with major Dutch banks, ensuring you have the best chance of approval with favorable terms.</p>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('services.personalLoans.title')}</h3>
+              <p className="text-gray-600 mb-6">{t('services.personalLoans.description1')}</p>
+              <p className="text-gray-600 mb-6">{t('services.personalLoans.description2')}</p>
               <a 
                 href="https://mnbrd.com/s/QJ8yy5ZYRYXR" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="block w-full bg-blue-600 text-white text-center hover:bg-blue-700 px-6 py-3 rounded-md font-medium transition-colors"
               >
-                Get Started
+                {t('services.pricing.customPackage.contactUs')}
               </a>
             </div>
           </div>
@@ -283,142 +272,91 @@ export default function Services() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900">Pricing Overview</h2>
-            <p className="mt-4 text-xl text-gray-600">Transparent pricing for our core services</p>
+            <h2 className="text-3xl font-bold text-gray-900">{t('services.pricing.title')}</h2>
+            <p className="mt-4 text-xl text-gray-600">{t('services.pricing.subtitle')}</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* ZZP Package */}
-            <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">ZZP Package</h3>
+            <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-all">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('services.pricing.zzpPackage.title')}</h3>
               <div className="flex items-baseline mb-6">
-                <span className="text-5xl font-extrabold text-blue-600">€130</span>
-                <span className="ml-2 text-gray-500">/month ex VAT</span>
+                <span className="text-5xl font-extrabold text-blue-600">{t('services.pricing.zzpPackage.price')}</span>
+                <span className="ml-2 text-gray-500">{t('services.pricing.zzpPackage.period')}</span>
               </div>
               <ul className="space-y-3 mb-8">
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Monthly bookkeeping</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>VAT returns</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Annual financial statements</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Income tax return</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Financial advice</span>
-                </li>
+                {t('services.pricing.zzpPackage.features', { returnObjects: true }).map((feature, index) => (
+                  <li key={index} className="flex items-center">
+                    <svg className="h-5 w-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    <span>{feature}</span>
+                  </li>
+                ))}
               </ul>
-              <Link href="/contact" className="block w-full bg-blue-600 text-white text-center hover:bg-blue-700 px-6 py-3 rounded-md font-medium">
-                Get Started
+              <Link href="/getting-started" className="block w-full bg-blue-600 text-white text-center hover:bg-blue-700 px-6 py-3 rounded-md font-medium transition-colors">
+                {t('services.pricing.zzpPackage.getStarted')}
               </Link>
             </div>
-
+            
             {/* BV Package */}
-            <div className="bg-white p-8 rounded-lg shadow-md border border-blue-200 transform scale-105 z-10">
-              <div className="bg-blue-600 text-white text-center py-2 px-4 rounded-full text-sm font-bold uppercase absolute -top-3 left-1/2 transform -translate-x-1/2">
-                Most Popular
+            <div className="bg-white p-8 rounded-lg shadow-md border border-blue-500 hover:shadow-lg transition-all relative">
+              <div className="absolute top-0 right-0 bg-blue-500 text-white px-4 py-1 rounded-bl-lg rounded-tr-lg text-sm font-medium">
+                {t('services.pricing.bvPackage.mostPopular')}
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">BV Package</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('services.pricing.bvPackage.title')}</h3>
               <div className="flex items-baseline mb-6">
-                <span className="text-5xl font-extrabold text-blue-600">€250</span>
-                <span className="ml-2 text-gray-500">/month ex VAT</span>
+                <span className="text-5xl font-extrabold text-blue-600">{t('services.pricing.bvPackage.price')}</span>
+                <span className="ml-2 text-gray-500">{t('services.pricing.bvPackage.period')}</span>
               </div>
               <ul className="space-y-3 mb-8">
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Monthly bookkeeping</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>VAT returns</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Annual financial statements</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Corporate tax return</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>DGA payroll administration</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Dividend planning</span>
-                </li>
+                {t('services.pricing.bvPackage.features', { returnObjects: true }).map((feature, index) => (
+                  <li key={index} className="flex items-center">
+                    <svg className="h-5 w-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    <span>{feature}</span>
+                  </li>
+                ))}
               </ul>
-              <Link href="/contact" className="block w-full bg-blue-600 text-white text-center hover:bg-blue-700 px-6 py-3 rounded-md font-medium">
-                Get Started
+              <Link href="/getting-started" className="block w-full bg-blue-600 text-white text-center hover:bg-blue-700 px-6 py-3 rounded-md font-medium transition-colors">
+                {t('services.pricing.bvPackage.getStarted')}
               </Link>
             </div>
-
+            
             {/* Custom Package */}
-            <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Custom Package</h3>
+            <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-all">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('services.pricing.customPackage.title')}</h3>
               <div className="flex items-baseline mb-6">
-                <span className="text-3xl font-bold text-gray-900">Custom</span>
+                <span className="text-5xl font-extrabold text-blue-600">{t('services.pricing.customPackage.price')}</span>
+                <span className="ml-2 text-gray-500">{t('services.pricing.customPackage.period')}</span>
               </div>
-              <p className="text-gray-600 mb-8">
-                Tailored financial services package designed specifically for your business needs.
-              </p>
               <ul className="space-y-3 mb-8">
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Customized service selection</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Flexible pricing options</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Dedicated account manager</span>
-                </li>
+                {t('services.pricing.customPackage.features', { returnObjects: true }).map((feature, index) => (
+                  <li key={index} className="flex items-center">
+                    <svg className="h-5 w-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    <span>{feature}</span>
+                  </li>
+                ))}
               </ul>
-              <Link href="/contact" className="block w-full bg-gray-800 text-white text-center hover:bg-gray-700 px-6 py-3 rounded-md font-medium">
-                Contact Us
+              <Link href="/contact" className="block w-full bg-blue-600 text-white text-center hover:bg-blue-700 px-6 py-3 rounded-md font-medium transition-colors">
+                {t('services.pricing.customPackage.contactUs')}
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-16 bg-blue-600 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold mb-4">{t('services.cta.title')}</h2>
+          <p className="text-xl mb-8 max-w-3xl mx-auto">{t('services.cta.subtitle')}</p>
+          <Link href="/contact" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-md font-medium inline-block">
+            {t('services.cta.requestConsultation')}
+          </Link>
         </div>
       </section>
     </div>

@@ -1,15 +1,18 @@
 // Components;
 import Link from 'next/link';
 import Image from 'next/image';
+import { useTranslation } from 'react-i18next';
 
 export default function Blog() {
+  const { t } = useTranslation();
+  
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="bg-blue-600 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Blog</h1>
-          <p className="text-xl max-w-3xl mx-auto">Insights and updates on financial matters for Dutch businesses</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">{t('blog.hero.title')}</h1>
+          <p className="text-xl max-w-3xl mx-auto">{t('blog.hero.subtitle')}</p>
         </div>
       </section>
 
@@ -22,19 +25,19 @@ export default function Blog() {
               <div className="h-48 bg-gray-200 relative">
                 <Image 
                   src="/images/blog/vat-dutch-businesses.png" 
-                  alt="Understanding VAT for Dutch Businesses" 
+                  alt={t('blog.posts.vat.imageAlt')}
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-6">
-                <div className="text-sm text-gray-500 mb-2">May 15, 2025</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Understanding VAT for Dutch Businesses</h3>
+                <div className="text-sm text-gray-500 mb-2">{t('blog.posts.vat.date')}</div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">{t('blog.posts.vat.title')}</h3>
                 <p className="text-gray-600 mb-4">
-                  A comprehensive guide to Value Added Tax (BTW) in the Netherlands, including rates, filing requirements, and common pitfalls to avoid.
+                  {t('blog.posts.vat.excerpt')}
                 </p>
                 <Link href="/blog/understanding-vat-for-dutch-businesses" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Read More &rarr;
+                  {t('blog.readMore')} &rarr;
                 </Link>
               </div>
             </div>
@@ -44,19 +47,19 @@ export default function Blog() {
               <div className="h-48 bg-gray-200 relative">
                 <Image 
                   src="/images/blog/business-structure.png" 
-                  alt="Choosing the Right Business Structure in the Netherlands" 
+                  alt={t('blog.posts.businessStructure.imageAlt')}
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-6">
-                <div className="text-sm text-gray-500 mb-2">April 28, 2025</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Choosing the Right Business Structure in the Netherlands</h3>
+                <div className="text-sm text-gray-500 mb-2">{t('blog.posts.businessStructure.date')}</div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">{t('blog.posts.businessStructure.title')}</h3>
                 <p className="text-gray-600 mb-4">
-                  Explore the differences between ZZP, Eenmanszaak, and BV structures, and learn which option is best suited for your business goals.
+                  {t('blog.posts.businessStructure.excerpt')}
                 </p>
                 <Link href="/blog/choosing-the-right-business-structure" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Read More &rarr;
+                  {t('blog.readMore')} &rarr;
                 </Link>
               </div>
             </div>
@@ -66,19 +69,19 @@ export default function Blog() {
               <div className="h-48 bg-gray-200 relative">
                 <Image 
                   src="/images/blog/zzp-planning.png" 
-                  alt="Financial Planning for ZZP Professionals" 
+                  alt={t('blog.posts.zzpPlanning.imageAlt')}
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-6">
-                <div className="text-sm text-gray-500 mb-2">April 10, 2025</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Financial Planning for ZZP Professionals</h3>
+                <div className="text-sm text-gray-500 mb-2">{t('blog.posts.zzpPlanning.date')}</div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">{t('blog.posts.zzpPlanning.title')}</h3>
                 <p className="text-gray-600 mb-4">
-                  Essential financial planning tips for self-employed professionals in the Netherlands, including tax optimization and retirement planning.
+                  {t('blog.posts.zzpPlanning.excerpt')}
                 </p>
                 <Link href="/blog/financial-planning-for-zzp-professionals" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Read More &rarr;
+                  {t('blog.readMore')} &rarr;
                 </Link>
               </div>
             </div>
@@ -88,19 +91,19 @@ export default function Blog() {
               <div className="h-48 bg-gray-200 relative">
                 <Image 
                   src="/images/services/bookkeeping.png" 
-                  alt="Top Tax Deductions for Dutch Entrepreneurs" 
+                  alt={t('blog.posts.taxDeductions.imageAlt')}
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-6">
-                <div className="text-sm text-gray-500 mb-2">March 22, 2025</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Top Tax Deductions for Dutch Entrepreneurs</h3>
+                <div className="text-sm text-gray-500 mb-2">{t('blog.posts.taxDeductions.date')}</div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">{t('blog.posts.taxDeductions.title')}</h3>
                 <p className="text-gray-600 mb-4">
-                  Discover the most valuable tax deductions available to entrepreneurs in the Netherlands and how to properly claim them.
+                  {t('blog.posts.taxDeductions.excerpt')}
                 </p>
                 <Link href="/blog/top-tax-deductions-dutch-entrepreneurs" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Read More &rarr;
+                  {t('blog.readMore')} &rarr;
                 </Link>
               </div>
             </div>
@@ -110,19 +113,19 @@ export default function Blog() {
               <div className="h-48 bg-gray-200 relative">
                 <Image 
                   src="/images/partners/moneybird.png" 
-                  alt="Maximizing Efficiency with Moneybird" 
+                  alt={t('blog.posts.moneybird.imageAlt')}
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-6">
-                <div className="text-sm text-gray-500 mb-2">March 5, 2025</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Maximizing Efficiency with Moneybird</h3>
+                <div className="text-sm text-gray-500 mb-2">{t('blog.posts.moneybird.date')}</div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">{t('blog.posts.moneybird.title')}</h3>
                 <p className="text-gray-600 mb-4">
-                  Learn how to leverage Moneybird&apos;s features to streamline your bookkeeping processes and save valuable time.
+                  {t('blog.posts.moneybird.excerpt')}
                 </p>
                 <Link href="/blog/maximizing-efficiency-with-moneybird" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Read More &rarr;
+                  {t('blog.readMore')} &rarr;
                 </Link>
               </div>
             </div>
@@ -132,19 +135,19 @@ export default function Blog() {
               <div className="h-48 bg-gray-200 relative">
                 <Image 
                   src="/images/services/personal-loans.png" 
-                  alt="Navigating Personal Loans in the Netherlands" 
+                  alt={t('blog.posts.personalLoans.imageAlt')}
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-6">
-                <div className="text-sm text-gray-500 mb-2">February 18, 2025</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Navigating Personal Loans in the Netherlands</h3>
+                <div className="text-sm text-gray-500 mb-2">{t('blog.posts.personalLoans.date')}</div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">{t('blog.posts.personalLoans.title')}</h3>
                 <p className="text-gray-600 mb-4">
-                  A comparison of personal loan options from major Dutch banks and tips for improving your chances of approval.
+                  {t('blog.posts.personalLoans.excerpt')}
                 </p>
                 <Link href="/blog/navigating-personal-loans-netherlands" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Read More &rarr;
+                  {t('blog.readMore')} &rarr;
                 </Link>
               </div>
             </div>
@@ -155,16 +158,16 @@ export default function Blog() {
       {/* Sample Full Article */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Featured Article</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">{t('blog.featuredArticle.heading')}</h2>
           
           <article className="bg-white p-8 rounded-lg shadow-md">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Understanding VAT for Dutch Businesses</h3>
-            <div className="text-sm text-gray-500 mb-6">May 15, 2025 • 8 min read</div>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('blog.featuredArticle.title')}</h3>
+            <div className="text-sm text-gray-500 mb-6">{t('blog.featuredArticle.meta')}</div>
             
             <div className="mb-6">
               <Image 
                 src="/images/blog/vat-dutch-businesses.png" 
-                alt="Understanding VAT for Dutch Businesses" 
+                alt={t('blog.featuredArticle.imageAlt')}
                 width={800}
                 height={400}
                 className="rounded-lg w-full"
@@ -173,47 +176,45 @@ export default function Blog() {
             
             <div className="prose prose-blue max-w-none">
               <p>
-                Value Added Tax (VAT), known as BTW (Belasting Toegevoegde Waarde) in the Netherlands, is a consumption tax placed on products and services. As a business owner in the Netherlands, understanding VAT is crucial for proper financial management and compliance with Dutch tax regulations.
+                {t('blog.featuredArticle.intro')}
               </p>
               
-              <h4>VAT Rates in the Netherlands</h4>
+              <h4>{t('blog.featuredArticle.section1.title')}</h4>
               <p>
-                The Netherlands currently has three VAT rates:
-              </p>
-              <ul>
-                <li><strong>21% (standard rate):</strong> Applied to most goods and services</li>
-                <li><strong>9% (reduced rate):</strong> Applied to essentials like food, books, medicines, and certain services</li>
-                <li><strong>0% (zero rate):</strong> Applied to exports and certain international services</li>
-              </ul>
-              
-              <h4>VAT Filing Requirements</h4>
-              <p>
-                Dutch businesses are typically required to file VAT returns quarterly. However, if your annual VAT liability exceeds €15,000, you may need to file monthly. Conversely, if your annual VAT liability is less than €1,883, you may be eligible for annual filing.
-              </p>
-              
-              <p>
-                The deadline for filing and paying VAT is generally the last day of the month following the end of the reporting period. For example, for Q1 (January-March), the deadline would be April 30th.
-              </p>
-              
-              <h4>Common VAT Pitfalls to Avoid</h4>
-              <p>
-                Many Dutch businesses encounter challenges with VAT compliance. Here are some common pitfalls to avoid:
+                {t('blog.featuredArticle.section1.content')}
               </p>
               <ul>
-                <li>Failing to register for VAT when required</li>
-                <li>Applying incorrect VAT rates to products or services</li>
-                <li>Missing filing deadlines</li>
-                <li>Inadequate record-keeping for VAT purposes</li>
-                <li>Incorrectly claiming VAT on expenses</li>
+                {t('blog.featuredArticle.section1.items', { returnObjects: true }).map((item, index) => (
+                  <li key={index}><strong>{item.rate}</strong> {item.description}</li>
+                ))}
+              </ul>
+              
+              <h4>{t('blog.featuredArticle.section2.title')}</h4>
+              <p>
+                {t('blog.featuredArticle.section2.content1')}
+              </p>
+              
+              <p>
+                {t('blog.featuredArticle.section2.content2')}
+              </p>
+              
+              <h4>{t('blog.featuredArticle.section3.title')}</h4>
+              <p>
+                {t('blog.featuredArticle.section3.content')}
+              </p>
+              <ul>
+                {t('blog.featuredArticle.section3.items', { returnObjects: true }).map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
               </ul>
               
               <p>
-                At Glodinas Finance B.V., we help businesses navigate the complexities of Dutch VAT regulations, ensuring compliance while optimizing your tax position.
+                {t('blog.featuredArticle.conclusion')}
               </p>
               
               <div className="mt-8">
                 <Link href="/contact" className="text-blue-600 hover:text-blue-800 font-medium">
-                  Contact us for professional VAT assistance &rarr;
+                  {t('blog.featuredArticle.cta')} &rarr;
                 </Link>
               </div>
             </div>
@@ -224,14 +225,14 @@ export default function Blog() {
       {/* Newsletter Signup */}
       <section className="py-16 bg-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Stay Updated</h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">Subscribe to our newsletter for the latest financial insights and updates relevant to Dutch businesses.</p>
+          <h2 className="text-3xl font-bold mb-4">{t('blog.newsletter.title')}</h2>
+          <p className="text-xl mb-8 max-w-3xl mx-auto">{t('blog.newsletter.subtitle')}</p>
           
           <form className="max-w-md mx-auto">
             <div className="flex flex-col sm:flex-row gap-4">
               <input
                 type="email"
-                placeholder="Your email address"
+                placeholder={t('blog.newsletter.placeholder')}
                 className="flex-grow px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-300 text-gray-900"
                 required
               />
@@ -239,7 +240,7 @@ export default function Blog() {
                 type="submit"
                 className="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-md font-medium"
               >
-                Subscribe
+                {t('blog.newsletter.button')}
               </button>
             </div>
           </form>
