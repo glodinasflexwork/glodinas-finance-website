@@ -80,23 +80,59 @@
     },
     "company": {
       "title": "Şirketimiz",
-      "description1": "Glodinas Finance B.V., Hollanda'da bulunan, girişimcilere ve işletmelere yüksek kaliteli finansal hizmetler sunmaya adanmış profesyonel bir muhasebe firmasıdır.",
-      "description2": "ZZP'ler (serbest çalışanlar) için aylık 130€ (KDV hariç) ve BV'ler (limited şirketler) için aylık 150€ (KDV hariç) başlayan rekabetçi fiyatlarla kapsamlı muhasebe çözümleri sunmaktayız.",
-      "description3": "Misyonumuz, işletmelerin doğru finansal kayıtlar tutmasına, Hollanda vergi düzenlemelerine uymasına ve büyümelerini ve başarılarını desteklemek için bilinçli finansal kararlar almasına yardımcı olmaktır."
+      "paragraph1": "Glodinas Finance B.V., Hollanda'da bulunan, girişimcilere ve işletmelere yüksek kaliteli finansal hizmetler sunmaya adanmış profesyonel bir muhasebe firmasıdır.",
+      "paragraph2": "ZZP'ler (serbest çalışanlar) için aylık 130€ (KDV hariç) ve BV'ler (limited şirketler) için aylık 250€ (KDV hariç) başlayan rekabetçi fiyatlarla kapsamlı muhasebe çözümleri sunmaktayız. BV paketi, DGA için bordro yönetimini içermektedir.",
+      "paragraph3": "Misyonumuz, işletmelerin doğru finansal kayıtlar tutmasına, Hollanda vergi düzenlemelerine uymasına ve büyümelerini ve başarılarını desteklemek için bilinçli finansal kararlar almasına yardımcı olmaktır.",
+      "imageAlt": "Glodinas Finance profesyonel ekibi"
     },
     "team": {
       "title": "Ekibimiz",
-      "subtitle": "Glodinas Finance B.V. arkasındaki uzmanlarla tanışın"
+      "subtitle": "Glodinas Finance B.V. arkasındaki uzmanlarla tanışın",
+      "linkedinProfile": "LinkedIn Profili",
+      "member1": {
+        "name": "Cihat Kaya",
+        "role": "Kurucu & CEO",
+        "bio": "Finansal yönetim ve Hollanda vergi düzenlemeleri konusunda geniş deneyime sahip olan Cihat, ekibimizi müşteri başarısına odaklanan uzmanlık ve özveriyle yönetmektedir.",
+        "imageAlt": "Cihat Kaya - Glodinas Finance Kurucu & CEO'su"
+      },
+      "member2": {
+        "name": "Gabriel Stan",
+        "role": "Finansal Danışman",
+        "bio": "Gabriel, büyük Hollanda bankaları ve finansal kurumlarla güçlü ilişkilere sahip olarak, müşterilerin kişisel kredi başvurularında ve finansal planlamada yol almalarına yardımcı olmaktadır.",
+        "imageAlt": "Gabriel Stan - Glodinas Finance Finansal Danışmanı"
+      },
+      "member3": {
+        "name": "Ana Dogotari",
+        "role": "Kıdemli Muhasebeci",
+        "bio": "Ana, Hollanda şirketleri için vergi beyannamesi hazırlama ve uyumluluk konusunda uzmanlaşmış olup, müşterilerimizin tüm yasal gereklilikleri karşılamasını ve finansal pozisyonlarını optimize etmesini sağlamaktadır.",
+        "imageAlt": "Ana Dogotari - Glodinas Finance Kıdemli Muhasebecisi"
+      }
     },
     "partners": {
       "title": "İş Ortaklarımız",
       "subtitle": "Kapsamlı finansal çözümler sunmak için güvenilir ortaklarla işbirliği yapıyoruz",
-      "bankingPartners": "Bankacılık Ortakları"
+      "partner1": {
+        "name": "Moneybird",
+        "description": "Müşterilerimizin finansal yönetimini kolaylaştırmak için kullanıcı dostu Moneybird muhasebe yazılımını kullanıyoruz.",
+        "imageAlt": "Moneybird - Muhasebe Yazılımı"
+      },
+      "partner2": {
+        "name": "Employes",
+        "description": "Employes ile ortaklığımız, şirketlere verimli ve doğru bordro hizmetleri sunmamızı sağlıyor.",
+        "imageAlt": "Employes - Bordro Hizmetleri"
+      },
+      "partner3": {
+        "name": "Firm24",
+        "description": "Firm24 ile işbirliğimiz sayesinde, girişimcilere kapsamlı şirket kuruluş hizmetleri sunuyoruz.",
+        "imageAlt": "Firm24 - Şirket Kuruluş Hizmetleri"
+      },
+      "bankingTitle": "Bankacılık Ortakları",
+      "bankingImageAlt": "Hollanda Bankacılık Ortakları - ING, ABN AMRO, RABOBANK, SNS"
     },
     "cta": {
       "title": "Bizimle çalışmaya hazır mısınız?",
       "subtitle": "İşletmenizin finansal ihtiyaçlarını nasıl destekleyebileceğimizi görüşmek için bugün Glodinas Finance B.V. ile iletişime geçin.",
-      "getInTouch": "İletişime Geçin"
+      "buttonText": "İletişime Geçin"
     }
   },
   "services": {
