@@ -36,7 +36,7 @@ export default function Services() {
                 </p>
                 <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('services.bookkeepingZZP.included')}</h3>
                 <ul className="list-disc pl-6 space-y-2 text-gray-600">
-                  {t('services.bookkeepingZZP.items', { returnObjects: true }).map((item, index) => (
+                  {(t('services.bookkeepingZZP.items', { returnObjects: true }) as Array<string>).map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
@@ -76,7 +76,7 @@ export default function Services() {
                 </p>
                 <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('services.bookkeepingBV.included')}</h3>
                 <ul className="list-disc pl-6 space-y-2 text-gray-600">
-                  {t('services.bookkeepingBV.items', { returnObjects: true }).map((item, index) => (
+                  {(t('services.bookkeepingBV.items', { returnObjects: true }) as Array<string>).map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
@@ -102,7 +102,7 @@ export default function Services() {
                 </p>
                 <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('services.payroll.included')}</h3>
                 <ul className="list-disc pl-6 space-y-2 text-gray-600">
-                  {t('services.payroll.items', { returnObjects: true }).map((item, index) => (
+                  {(t('services.payroll.items', { returnObjects: true }) as Array<string>).map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
@@ -142,7 +142,7 @@ export default function Services() {
                 </p>
                 <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('services.businessFormation.included')}</h3>
                 <ul className="list-disc pl-6 space-y-2 text-gray-600">
-                  {t('services.businessFormation.items', { returnObjects: true }).map((item, index) => (
+                  {(t('services.businessFormation.items', { returnObjects: true }) as Array<string>).map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
@@ -168,7 +168,7 @@ export default function Services() {
                 </p>
                 <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('services.personalLoans.included')}</h3>
                 <ul className="list-disc pl-6 space-y-2 text-gray-600">
-                  {t('services.personalLoans.items', { returnObjects: true }).map((item, index) => (
+                  {(t('services.personalLoans.items', { returnObjects: true }) as Array<string>).map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
@@ -208,7 +208,7 @@ export default function Services() {
                 </p>
                 <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('services.taxPreparation.included')}</h3>
                 <ul className="list-disc pl-6 space-y-2 text-gray-600">
-                  {t('services.taxPreparation.items', { returnObjects: true }).map((item, index) => (
+                  {(t('services.taxPreparation.items', { returnObjects: true }) as Array<string>).map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
@@ -285,7 +285,7 @@ export default function Services() {
                 <span className="ml-2 text-gray-500">{t('services.pricing.zzpPackage.period')}</span>
               </div>
               <ul className="space-y-3 mb-8">
-                {t('services.pricing.zzpPackage.features', { returnObjects: true }).map((feature, index) => (
+                {(t('services.pricing.zzpPackage.features', { returnObjects: true }) as Array<string>).map((feature, index) => (
                   <li key={index} className="flex items-center">
                     <svg className="h-5 w-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -301,8 +301,8 @@ export default function Services() {
             
             {/* BV Package */}
             <div className="bg-white p-8 rounded-lg shadow-md border border-blue-500 hover:shadow-lg transition-all relative">
-              <div className="absolute top-0 right-0 bg-blue-500 text-white px-4 py-1 rounded-bl-lg rounded-tr-lg text-sm font-medium">
-                {t('services.pricing.bvPackage.mostPopular')}
+              <div className="absolute top-0 right-0 bg-blue-500 text-white px-4 py-1 rounded-bl-lg font-medium">
+                {t('services.pricing.bvPackage.popular')}
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('services.pricing.bvPackage.title')}</h3>
               <div className="flex items-baseline mb-6">
@@ -310,7 +310,7 @@ export default function Services() {
                 <span className="ml-2 text-gray-500">{t('services.pricing.bvPackage.period')}</span>
               </div>
               <ul className="space-y-3 mb-8">
-                {t('services.pricing.bvPackage.features', { returnObjects: true }).map((feature, index) => (
+                {(t('services.pricing.bvPackage.features', { returnObjects: true }) as Array<string>).map((feature, index) => (
                   <li key={index} className="flex items-center">
                     <svg className="h-5 w-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -327,12 +327,9 @@ export default function Services() {
             {/* Custom Package */}
             <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-all">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('services.pricing.customPackage.title')}</h3>
-              <div className="flex items-baseline mb-6">
-                <span className="text-5xl font-extrabold text-blue-600">{t('services.pricing.customPackage.price')}</span>
-                <span className="ml-2 text-gray-500">{t('services.pricing.customPackage.period')}</span>
-              </div>
+              <p className="text-gray-600 mb-6">{t('services.pricing.customPackage.description')}</p>
               <ul className="space-y-3 mb-8">
-                {t('services.pricing.customPackage.features', { returnObjects: true }).map((feature, index) => (
+                {(t('services.pricing.customPackage.features', { returnObjects: true }) as Array<string>).map((feature, index) => (
                   <li key={index} className="flex items-center">
                     <svg className="h-5 w-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -349,14 +346,19 @@ export default function Services() {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* Call to Action */}
       <section className="py-16 bg-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">{t('services.cta.title')}</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">{t('services.cta.subtitle')}</p>
-          <Link href="/contact" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-md font-medium inline-block">
-            {t('services.cta.requestConsultation')}
-          </Link>
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <Link href="/contact" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-md font-medium">
+              {t('services.cta.contactUs')}
+            </Link>
+            <Link href="/getting-started" className="bg-blue-700 text-white hover:bg-blue-800 px-8 py-3 rounded-md font-medium">
+              {t('services.cta.getStarted')}
+            </Link>
+          </div>
         </div>
       </section>
     </div>
