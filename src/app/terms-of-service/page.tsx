@@ -291,10 +291,7 @@ export default function TermsOfService() {
       </section>
     </div>
   );
-}the updated Terms on our website or by providing notice to you. Your continued use of the Services after such amendments constitutes your acceptance of the amended Terms.
-            </p>
-            <p className="text-gray-600 mb-4">
-              Material changes to these Terms will be communicated to you at least 30 days before they take effect.
+}
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">16. Dispute Resolution</h2>

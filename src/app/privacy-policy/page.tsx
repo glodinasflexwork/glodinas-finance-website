@@ -248,12 +248,4 @@ export default function PrivacyPolicy() {
       </section>
     </div>
   );
-}         </p>
-          <Link href="/contact" className="bg-blue-600 text-white hover:bg-blue-700 px-8 py-3 rounded-md font-medium inline-block">
-            Contact Us
-          </Link>
-        </div>
-      </section>
-    </div>
-  );
 }
