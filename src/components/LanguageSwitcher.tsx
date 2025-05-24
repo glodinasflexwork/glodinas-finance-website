@@ -8,6 +8,7 @@ const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
   const [currentLanguage, setCurrentLanguage] = useState('nl'); // Default to Dutch
   const [isOpen, setIsOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   
   const languages = [
     { code: 'nl', name: 'Nederlands', flag: '🇳🇱' },
@@ -26,6 +27,20 @@ const LanguageSwitcher = () => {
     } else {
       setCurrentLanguage(i18n.language);
     }
+    
+    // Check if device is mobile
+    const checkIfMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    
+    // Initial check
+    checkIfMobile();
+    
+    // Add event listener for window resize
+    window.addEventListener('resize', checkIfMobile);
+    
+    // Cleanup
+    return () => window.removeEventListener('resize', checkIfMobile);
   }, [i18n]);
   
   const toggleDropdown = () => {
@@ -66,7 +81,7 @@ const LanguageSwitcher = () => {
 
       {isOpen && (
         <div
-          className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-50"
+          className={`origin-top-${isMobile ? 'left' : 'right'} absolute ${isMobile ? 'left-0' : 'right-0'} mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-50`}
           role="menu"
           aria-orientation="vertical"
           aria-labelledby="language-menu"
