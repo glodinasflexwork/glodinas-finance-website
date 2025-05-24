@@ -4,7 +4,10 @@
     "about": "Despre Noi",
     "services": "Servicii",
     "blog": "Blog",
-    "contact": "Contact"
+    "contact": "Contact",
+    "gettingStarted": "Primii Pași",
+    "privacyPolicy": "Politica de Confidențialitate",
+    "termsOfService": "Termeni și Condiții"
   },
   "privacyPolicy": {
     "hero": {
@@ -50,623 +53,119 @@
             "Date formular contact: informații pe care le furnizați când utilizați formularele noastre de contact"
           ]
         }
-      },
-      "howWeCollect": {
-        "title": "4. Cum Colectăm Datele Dumneavoastră Personale",
-        "paragraph": "Colectăm date personale prin diverse canale:",
-        "items": [
-          "Interacțiuni directe: când utilizați serviciile noastre, creați un cont, completați formulare sau corespondați cu noi",
-          "Tehnologii automatizate: când vizitați website-ul nostru, prin cookie-uri și tehnologii similare",
-          "Terțe părți: putem primi date personale de la terțe părți precum parteneri de afaceri, subcontractori, furnizori de servicii de plată și surse disponibile public"
-        ]
-      },
-      "legalBasis": {
-        "title": "5. Baza Legală pentru Procesare",
-        "paragraph": "Procesăm datele dumneavoastră personale pe următoarele baze legale:",
-        "items": [
-          "Executarea contractului: Procesare necesară pentru executarea contractului nostru cu dumneavoastră sau pentru a lua măsuri la cererea dumneavoastră înainte de încheierea unui contract",
-          "Obligație legală: Procesare necesară pentru respectarea obligațiilor noastre legale (de ex., legi fiscale, reglementări anti-spălare de bani)",
-          "Interese legitime: Procesare necesară pentru interesele noastre legitime sau ale unei terțe părți, cu condiția ca interesele și drepturile dumneavoastră fundamentale să nu prevaleze asupra acestor interese",
-          "Consimțământ: Procesare bazată pe consimțământul dumneavoastră specific"
-        ]
-      },
-      "howWeUse": {
-        "title": "6. Cum Utilizăm Datele Dumneavoastră Personale",
-        "paragraph": "Utilizăm datele dumneavoastră personale în următoarele scopuri:",
-        "serviceProvision": {
-          "title": "6.1 Furnizarea Serviciilor",
-          "items": [
-            "Pentru a furniza servicii de contabilitate, administrare financiară și fiscale",
-            "Pentru a gestiona contul și relația dumneavoastră cu noi",
-            "Pentru a procesa tranzacții financiare și plăți",
-            "Pentru a pregăti situații financiare, declarații fiscale și alte documente financiare",
-            "Pentru a comunica cu dumneavoastră despre serviciile noastre"
-          ]
-        },
-        "compliance": {
-          "title": "6.2 Conformitate Legală și Reglementară",
-          "items": [
-            "Pentru a respecta obligațiile legale și de reglementare, inclusiv legile fiscale și reglementările anti-spălare de bani",
-            "Pentru a verifica identitatea dumneavoastră și a efectua verificări de diligență",
-            "Pentru a păstra înregistrări conform cerințelor legale"
-          ]
-        },
-        "operations": {
-          "title": "6.3 Operațiuni de Afaceri",
-          "items": [
-            "Pentru a îmbunătăți serviciile noastre și a dezvolta noi oferte",
-            "Pentru a gestiona operațiunile și administrarea afacerii noastre",
-            "Pentru a asigura securitatea sistemelor noastre și a preveni frauda",
-            "Pentru a analiza modele și tendințe de utilizare"
-          ]
-        },
-        "marketing": {
-          "title": "6.4 Marketing și Comunicări",
-          "items": [
-            "Pentru a vă trimite actualizări, buletine informative și informații despre serviciile noastre (cu consimțământul dumneavoastră unde este necesar)",
-            "Pentru a vă invita la evenimente sau webinarii care ar putea fi de interes pentru dumneavoastră",
-            "Pentru a efectua sondaje de satisfacție și a colecta feedback"
-          ]
-        }
-      },
-      "dataRetention": {
-        "title": "7. Păstrarea Datelor",
-        "paragraph1": "Păstrăm datele dumneavoastră personale doar atât timp cât este necesar pentru a îndeplini scopurile pentru care au fost colectate, inclusiv în scopul satisfacerii oricăror cerințe legale, contabile sau de raportare.",
-        "paragraph2": "Pentru date financiare și fiscale, suntem obligați de legea olandeză să păstrăm înregistrări pentru cel puțin 7 ani. Pentru alte tipuri de date, perioada de păstrare poate varia în funcție de natura datelor și scopul procesării.",
-        "paragraph3": "Când datele personale nu mai sunt necesare, le vom șterge sau anonimiza în mod securizat."
-      },
-      "dataSharing": {
-        "title": "8. Partajarea și Transferurile de Date",
-        "paragraph1": "Putem partaja datele dumneavoastră personale cu următoarele categorii de destinatari:",
-        "recipients": [
-          "Furnizori de servicii: Furnizori terți de servicii care efectuează servicii în numele nostru, cum ar fi furnizori IT, furnizori de stocare în cloud, procesatori de plăți și consultanți profesionali",
-          "Autorități de reglementare: Autorități fiscale, autorități de reglementare financiară și alte organisme guvernamentale când este cerut de lege",
-          "Parteneri de afaceri: Parteneri cu care oferim servicii co-branded sau activități de marketing comune, cu consimțământul dumneavoastră unde este necesar",
-          "Consultanți profesionali: Avocați, bancheri, auditori și asigurători care furnizează servicii de consultanță, bancare, juridice, de asigurare și contabilitate"
-        ],
-        "paragraph2": "Ne asigurăm că toate terțele părți respectă securitatea datelor dumneavoastră personale și le tratează în conformitate cu legea. Nu permitem furnizorilor noștri terți de servicii să utilizeze datele dumneavoastră personale în propriile lor scopuri.",
-        "paragraph3": "Când transferăm date personale în afara Spațiului Economic European (SEE), asigurăm un grad similar de protecție prin implementarea a cel puțin uneia dintre următoarele măsuri de protecție:",
-        "safeguards": [
-          "Transferuri către țări care au fost considerate că oferă un nivel adecvat de protecție de către Comisia Europeană",
-          "Utilizarea contractelor specifice aprobate de Comisia Europeană (Clauze Contractuale Standard)",
-          "Implementarea regulilor corporative obligatorii pentru transferuri în cadrul unui grup corporativ"
-        ]
-      },
-      "dataSecurity": {
-        "title": "9. Securitatea Datelor",
-        "paragraph1": "Am implementat măsuri de securitate adecvate pentru a preveni pierderea accidentală, utilizarea sau accesarea neautorizată, modificarea sau divulgarea datelor dumneavoastră personale. Aceste măsuri includ:",
-        "measures": [
-          "Criptarea datelor sensibile",
-          "Rețele și sisteme securizate",
-          "Controale de acces și proceduri de autentificare",
-          "Evaluări și testări regulate de securitate",
-          "Instruirea personalului privind protecția și securitatea datelor"
-        ],
-        "paragraph2": "Avem proceduri pentru a gestiona orice suspiciune de încălcare a datelor personale și vă vom notifica pe dumneavoastră și orice autoritate de reglementare aplicabilă despre o încălcare atunci când suntem obligați legal să facem acest lucru."
-      },
-      "yourRights": {
-        "title": "10. Drepturile Dumneavoastră",
-        "paragraph1": "În conformitate cu GDPR, aveți următoarele drepturi cu privire la datele dumneavoastră personale:",
-        "rights": [
-          "Dreptul de acces: Puteți solicita o copie a datelor personale pe care le deținem despre dumneavoastră",
-          "Dreptul la rectificare: Puteți solicita corectarea oricăror date personale inexacte sau incomplete",
-          "Dreptul la ștergere: Puteți solicita ștergerea datelor dumneavoastră personale în anumite circumstanțe",
-          "Dreptul la restricționarea procesării: Puteți solicita restricționarea procesării datelor dumneavoastră personale în anumite circumstanțe",
-          "Dreptul la portabilitatea datelor: Puteți solicita transferul datelor dumneavoastră personale către dumneavoastră sau către o terță parte într-un format structurat, utilizat în mod obișnuit și care poate fi citit automat",
-          "Dreptul la opoziție: Puteți obiecta la procesarea datelor dumneavoastră personale în anumite circumstanțe, în special pentru marketing direct",
-          "Drepturi legate de luarea deciziilor automatizate: Puteți solicita intervenție umană în luarea deciziilor automatizate și profilare",
-          "Dreptul de a retrage consimțământul: Puteți retrage consimțământul în orice moment când ne bazăm pe consimțământ pentru a procesa datele dumneavoastră personale"
-        ],
-        "paragraph2": "Pentru a exercita oricare dintre aceste drepturi, vă rugăm să ne contactați la privacy@glodinasfinance.nl. Vom răspunde la solicitarea dumneavoastră în termen de o lună. Nu există nicio taxă pentru exercitarea drepturilor dumneavoastră, dar putem percepe o taxă rezonabilă dacă solicitarea dumneavoastră este în mod clar nefondată, repetitivă sau excesivă."
-      },
-      "cookies": {
-        "title": "11. Cookie-uri și Tehnologii Similare",
-        "paragraph1": "Website-ul nostru utilizează cookie-uri și tehnologii similare pentru a vă distinge de alți utilizatori. Acest lucru ne ajută să vă oferim o experiență bună atunci când navigați pe website-ul nostru și ne permite să îmbunătățim site-ul nostru.",
-        "paragraph2": "Utilizăm următoarele tipuri de cookie-uri:",
-        "cookieTypes": [
-          "Cookie-uri strict necesare: Necesare pentru funcționarea website-ului nostru",
-          "Cookie-uri analitice/de performanță: Ne permit să recunoaștem și să numărăm vizitatorii și să vedem cum se deplasează vizitatorii pe website-ul nostru",
-          "Cookie-uri de funcționalitate: Utilizate pentru a vă recunoaște când reveniți pe website-ul nostru",
-          "Cookie-uri de targeting: Înregistrează vizita dumneavoastră pe website-ul nostru, paginile pe care le vizitați și link-urile pe care le urmați"
-        ],
-        "paragraph3": "Puteți seta browserul dumneavoastră să refuze toate sau unele cookie-uri de browser sau să vă alerteze când website-urile setează sau accesează cookie-uri. Dacă dezactivați sau refuzați cookie-urile, vă rugăm să rețineți că unele părți ale website-ului nostru pot deveni inaccesibile sau pot să nu funcționeze corect."
-      },
-      "childrenPrivacy": {
-        "title": "12. Confidențialitatea Copiilor",
-        "paragraph": "Serviciile noastre nu sunt destinate copiilor sub 16 ani, și nu colectăm cu bună știință date personale de la copii. Dacă sunteți părinte sau tutore și credeți că am colectat informații despre copilul dumneavoastră, vă rugăm să ne contactați imediat."
-      },
-      "changes": {
-        "title": "13. Modificări ale acestei Politici de Confidențialitate",
-        "paragraph1": "Putem actualiza această Politică de Confidențialitate din când în când pentru a reflecta modificări în practicile noastre sau din alte motive operaționale, legale sau de reglementare. Vă vom notifica despre orice modificări materiale prin postarea noii Politici de Confidențialitate pe această pagină și actualizarea datei \"Ultima actualizare\".",
-        "paragraph2": "Vă încurajăm să revizuiți periodic această Politică de Confidențialitate pentru a rămâne informat despre modul în care protejăm datele dumneavoastră personale."
-      },
-      "complaints": {
-        "title": "14. Reclamații",
-        "paragraph1": "Dacă aveți preocupări cu privire la modul în care gestionăm datele dumneavoastră personale, vă rugăm să ne contactați mai întâi la privacy@glodinasfinance.nl, și vom face tot posibilul pentru a rezolva preocupările dumneavoastră.",
-        "paragraph2": "De asemenea, aveți dreptul de a depune o plângere la Autoritatea Olandeză pentru Protecția Datelor (Autoriteit Persoonsgegevens) dacă credeți că nu am respectat legile privind protecția datelor. Îi puteți contacta la:",
-        "authority": {
-          "name": "Autoriteit Persoonsgegevens",
-          "address1": "Postbus 93374",
-          "address2": "2509 AJ DEN HAAG",
-          "website": "Website: autoriteitpersoonsgegevens.nl"
-        }
-      },
-      "contactUs": {
-        "title": "15. Contactați-ne",
-        "paragraph": "Dacă aveți întrebări despre această Politică de Confidențialitate sau practicile noastre privind datele, vă rugăm să ne contactați la:",
-        "contact": {
-          "company": "Glodinas Finance B.V.",
-          "address1": "Schiphol Boulevard 127",
-          "address2": "Schiphol 1118 BG",
-          "country": "Olanda",
-          "email": "Email: privacy@glodinasfinance.nl",
-          "phone": "Telefon: +31 20 123 4567"
-        }
       }
-    },
-    "cta": {
-      "title": "Aveți întrebări despre datele dumneavoastră?",
-      "paragraph": "Contactați echipa noastră de protecție a datelor pentru orice întrebări sau preocupări despre modul în care gestionăm informațiile dumneavoastră personale.",
-      "button": "Contactați-ne"
     }
   },
   "home": {
     "hero": {
       "title": "Servicii Profesionale de Contabilitate în Olanda",
-      "subtitle": "Glodinas Finance B.V. oferă servicii complete de contabilitate pentru ZZP-eri și BV-uri începând de la €130 pe lună (fără TVA).",
+      "subtitle": "Glodinas Finance B.V. oferă servicii complete de contabilitate pentru ZZP-uri și BV-uri începând de la €130 pe lună (fără TVA).",
       "requestConsultation": "Solicitare Consultație",
       "ourServices": "Serviciile Noastre"
-    },
-    "services": {
-      "title": "Serviciile Noastre",
-      "subtitle": "Soluții financiare complete pentru afacerea dumneavoastră",
-      "bookkeepingZZP": {
-        "title": "Contabilitate pentru ZZP-eri",
-        "description": "Servicii complete de contabilitate pentru profesioniști independenți începând de la €130/lună (fără TVA).",
-        "learnMore": "Află mai multe"
-      },
-      "bookkeepingBV": {
-        "title": "Contabilitate pentru BV-uri",
-        "description": "Servicii complete de contabilitate pentru societăți cu răspundere limitată începând de la €250/lună (fără TVA), inclusiv administrarea salariilor pentru DGA.",
-        "learnMore": "Află mai multe"
-      },
-      "payroll": {
-        "title": "Servicii de Salarizare",
-        "description": "Distribuție eficientă a salariilor prin Employes pentru nevoile afacerii dumneavoastră.",
-        "learnMore": "Află mai multe"
-      },
-      "businessFormation": {
-        "title": "Înființare de Companii",
-        "description": "Servicii complete de înființare a companiilor prin Firm24 pentru antreprenorii noi.",
-        "learnMore": "Află mai multe"
-      },
-      "personalLoans": {
-        "title": "Asistență pentru Împrumuturi Personale",
-        "description": "Asistență pentru împrumuturi personale la principalele bănci olandeze, inclusiv ING, ABN AMRO, RABOBANK și SNS.",
-        "learnMore": "Află mai multe"
-      },
-      "taxPreparation": {
-        "title": "Pregătirea Declarațiilor Fiscale",
-        "description": "Servicii profesionale de pregătire și depunere a declarațiilor fiscale pentru persoane fizice și companii.",
-        "learnMore": "Află mai multe"
-      }
-    },
-    "whyChooseUs": {
-      "title": "De Ce Să Alegeți Glodinas Finance",
-      "subtitle": "Oferim servicii financiare de încredere adaptate nevoilor dumneavoastră",
-      "expertise": {
-        "title": "Expertiză",
-        "description": "Echipa noastră de experți financiari are ani de experiență în furnizarea de servicii de contabilitate pentru afaceri de toate dimensiunile."
-      },
-      "timeSaving": {
-        "title": "Economie de Timp",
-        "description": "Ne ocupăm de administrația dumneavoastră financiară pentru ca dumneavoastră să vă puteți concentra pe dezvoltarea afacerii și deservirea clienților."
-      },
-      "costEffective": {
-        "title": "Eficiență a Costurilor",
-        "description": "Planurile noastre de prețuri accesibile vă asigură că primiți servicii financiare profesionale fără a depăși bugetul."
-      }
-    },
-    "partners": {
-      "title": "Partenerii Noștri",
-      "subtitle": "Colaborăm cu parteneri de încredere pentru a vă oferi cele mai bune servicii"
-    },
-    "cta": {
-      "title": "Gata să începeți?",
-      "subtitle": "Contactați-ne astăzi pentru a afla cum Glodinas Finance B.V. vă poate ajuta cu nevoile dumneavoastră de contabilitate și financiare.",
-      "contactUs": "Contactați-ne"
     }
   },
-  "about": {
-    "hero": {
-      "title": "Despre Glodinas Finance B.V.",
-      "subtitle": "Partenerul dumneavoastră de încredere pentru servicii profesionale de contabilitate și financiare în Olanda."
-    },
-    "company": {
-      "title": "Compania Noastră",
-      "paragraph1": "Glodinas Finance B.V. este o firmă profesională de contabilitate cu sediul în Olanda, dedicată furnizării de servicii financiare de înaltă calitate pentru antreprenori și companii.",
-      "paragraph2": "Ne specializăm în soluții complete de contabilitate pentru ZZP-eri (profesioniști independenți) și BV-uri (societăți cu răspundere limitată), oferind tarife competitive începând de la €130 pe lună (fără TVA) pentru ZZP-eri și €250 pe lună (fără TVA) pentru BV-uri, care include administrarea salariilor pentru DGA.",
-      "paragraph3": "Misiunea noastră este de a ajuta companiile să mențină evidențe financiare precise, să respecte reglementările fiscale olandeze și să ia decizii financiare informate pentru a susține creșterea și succesul lor.",
-      "imageAlt": "Echipa profesională Glodinas Finance"
-    },
-    "team": {
-      "title": "Echipa Noastră",
-      "subtitle": "Cunoașteți experții din spatele Glodinas Finance B.V.",
-      "linkedinProfile": "Profil LinkedIn",
-      "member1": {
-        "name": "Cihat Kaya",
-        "role": "Fondator & CEO",
-        "bio": "Cu o experiență vastă în managementul financiar și reglementările fiscale olandeze, Cihat conduce echipa noastră cu expertiză și dedicare pentru succesul clienților.",
-        "imageAlt": "Cihat Kaya - Fondator & CEO al Glodinas Finance"
-      },
-      "member2": {
-        "name": "Gabriel Stan",
-        "role": "Consultant Financiar",
-        "bio": "Gabriel ajută clienții să navigheze prin aplicațiile pentru împrumuturi personale și planificarea financiară, având relații solide cu marile bănci olandeze și instituții financiare.",
-        "imageAlt": "Gabriel Stan - Consultant Financiar la Glodinas Finance"
-      },
-      "member3": {
-        "name": "Ana Dogotari",
-        "role": "Contabil Senior",
-        "bio": "Ana se specializează în pregătirea declarațiilor fiscale și conformitate pentru companiile olandeze, asigurându-se că clienții noștri îndeplinesc toate cerințele legale și își optimizează poziția financiară.",
-        "imageAlt": "Ana Dogotari - Contabil Senior la Glodinas Finance"
-      }
-    },
-    "partners": {
-      "title": "Partenerii Noștri",
-      "subtitle": "Colaborăm cu parteneri de încredere pentru a oferi soluții financiare complete",
-      "partner1": {
-        "name": "Moneybird",
-        "description": "Utilizăm software-ul intuitiv de contabilitate Moneybird pentru a eficientiza administrația financiară pentru clienții noștri.",
-        "imageAlt": "Moneybird - Software de Contabilitate"
-      },
-      "partner2": {
-        "name": "Employes",
-        "description": "Parteneriatul nostru cu Employes ne permite să oferim servicii eficiente și precise de salarizare pentru companii.",
-        "imageAlt": "Employes - Servicii de Salarizare"
-      },
-      "partner3": {
-        "name": "Firm24",
-        "description": "Prin colaborarea noastră cu Firm24, oferim servicii complete de înființare a companiilor pentru antreprenori.",
-        "imageAlt": "Firm24 - Servicii de Înființare a Companiilor"
-      },
-      "bankingTitle": "Parteneri Bancari",
-      "bankingImageAlt": "Parteneri Bancari Olandezi - ING, ABN AMRO, RABOBANK, SNS"
-    },
-    "cta": {
-      "title": "Gata să lucrați cu noi?",
-      "subtitle": "Contactați Glodinas Finance B.V. astăzi pentru a discuta cum putem sprijini nevoile financiare ale afacerii dumneavoastră.",
-      "buttonText": "Contactați-ne"
+  "footer": {
+    "company": "Glodinas Finance B.V.",
+    "address": "Schiphol Boulevard 127, Schiphol 1118 BG",
+    "phone": "+31 20 123 4567",
+    "email": "info@glodinasfinance.nl",
+    "copyright": "© 2025 Glodinas Finance B.V. Toate drepturile rezervate.",
+    "links": {
+      "privacyPolicy": "Politica de Confidențialitate",
+      "termsOfService": "Termeni și Condiții"
     }
   },
-  "services": {
+  "gettingStarted": {
     "hero": {
-      "title": "Serviciile Noastre",
-      "subtitle": "Soluții financiare complete pentru antreprenori și companii în Olanda"
+      "title": "Primii Pași cu Glodinas Finance",
+      "subtitle": "Urmați procesul nostru simplu în trei pași pentru a configura și gestiona contabilitatea dumneavoastră fără probleme."
     },
-    "bookkeepingZZP": {
-      "title": "Contabilitate pentru ZZP-eri",
-      "description1": "Serviciul nostru complet de contabilitate pentru profesioniști independenți (ZZP-eri) începe de la doar €130 pe lună (fără TVA).",
-      "description2": "Ne ocupăm de toate aspectele administrației dumneavoastră financiare folosind Moneybird, permițându-vă să vă concentrați pe activitățile principale ale afacerii.",
-      "included": "Ce este inclus:",
-      "items": [
-        "Contabilitate lunară și administrație financiară",
-        "Pregătirea și depunerea declarațiilor de TVA",
-        "Situații financiare anuale",
-        "Pregătirea declarației de impozit pe venit",
-        "Consultanță și asistență financiară continuă"
-      ],
-      "requestQuote": "Solicitare Ofertă"
-    },
-    "bookkeepingBV": {
-      "title": "Contabilitate pentru BV-uri",
-      "description1": "Serviciul nostru de contabilitate pentru societăți cu răspundere limitată (BV-uri) începe de la €250 pe lună (fără TVA), inclusiv administrarea salariilor pentru DGA.",
-      "description2": "Oferim servicii complete de administrație financiară adaptate nevoilor specifice ale BV-urilor olandeze.",
-      "included": "Ce este inclus:",
-      "items": [
-        "Contabilitate lunară și administrație financiară",
-        "Pregătirea și depunerea declarațiilor de TVA",
-        "Situații financiare anuale",
-        "Pregătirea declarației de impozit pe profit",
-        "Administrarea salariilor directorilor (salarizare DGA)",
-        "Planificarea și administrarea dividendelor"
-      ],
-      "requestQuote": "Solicitare Ofertă"
-    },
-    "payroll": {
-      "title": "Servicii de Salarizare",
-      "description1": "Oferim servicii eficiente de salarizare prin parteneriatul nostru cu Employes, asigurând o administrare precisă și la timp a salariilor pentru angajații dumneavoastră.",
-      "description2": "Serviciile noastre de salarizare vă ajută să respectați reglementările olandeze privind angajarea și cerințele fiscale.",
-      "included": "Ce este inclus:",
-      "items": [
-        "Calculul lunar al salariilor",
-        "Generarea și distribuirea fluturașilor de salariu",
-        "Contribuții fiscale și de asigurări sociale",
-        "Declarații și raportări anuale",
-        "Administrarea concediilor și absențelor"
-      ],
-      "requestQuote": "Solicitare Ofertă"
-    },
-    "businessFormation": {
-      "title": "Înființare de Companii",
-      "description1": "Prin parteneriatul nostru cu Firm24, oferim servicii complete de înființare a companiilor pentru antreprenorii care doresc să-și stabilească afacerea în Olanda.",
-      "description2": "Vă ghidăm prin întregul proces, de la alegerea structurii potrivite a afacerii până la înregistrarea la Camera de Comerț Olandeză (KVK).",
-      "included": "Ce este inclus:",
-      "items": [
-        "Consultanță privind structura afacerii (ZZP, Eenmanszaak, BV)",
-        "Verificarea numelui companiei",
-        "Înregistrarea la Camera de Comerț Olandeză (KVK)",
-        "Înregistrarea pentru TVA",
-        "Servicii notariale pentru înființarea BV",
-        "Configurarea și administrarea financiară inițială"
-      ],
-      "requestQuote": "Solicitare Ofertă"
-    },
-    "personalLoans": {
-      "title": "Asistență pentru Împrumuturi Personale",
-      "description1": "Oferim asistență pentru cererile de împrumuturi personale la principalele bănci olandeze, inclusiv ING, ABN AMRO, RABOBANK și SNS.",
-      "description2": "Echipa noastră vă ajută să navigați prin procesul de solicitare a împrumutului, asigurându-vă că aveți cea mai bună șansă de aprobare cu termeni favorabili.",
-      "included": "Ce este inclus:",
-      "items": [
-        "Evaluarea opțiunilor de împrumut în funcție de situația dumneavoastră financiară",
-        "Pregătirea cererii și a documentației",
-        "Legătura cu partenerii bancari",
-        "Negocierea ratei dobânzii și a termenului",
-        "Asistență continuă pe parcursul procesului de aprobare"
-      ],
-      "requestConsultation": "Solicitare Consultație"
-    },
-    "taxPreparation": {
-      "title": "Pregătirea Declarațiilor Fiscale",
-      "description1": "Serviciile noastre de pregătire a declarațiilor fiscale asigură că declarațiile dumneavoastră fiscale pentru afaceri și personale sunt precise, conforme și optimizate pentru a minimiza povara fiscală.",
-      "description2": "Ne menținem la curent cu cele mai recente reglementări fiscale olandeze pentru a vă oferi consultanță și asistență de specialitate.",
-      "included": "Ce este inclus:",
-      "items": [
-        "Pregătirea declarației de impozit pe venit pentru persoane fizice",
-        "Pregătirea declarației de impozit pe profit pentru companii",
-        "Pregătirea și depunerea declarațiilor de TVA",
-        "Planificarea fiscală și strategii de optimizare",
-        "Reprezentare în probleme fiscale la Autoritatea Fiscală Olandeză"
-      ],
-      "requestQuote": "Solicitare Ofertă"
-    },
-    "pricing": {
-      "title": "Prezentare Generală a Prețurilor",
-      "subtitle": "Prețuri transparente pentru serviciile noastre de bază",
-      "zzpPackage": {
-        "title": "Pachet ZZP",
-        "price": "€130",
-        "period": "/lună fără TVA",
-        "features": [
-          "Contabilitate lunară",
-          "Declarații de TVA",
-          "Situații financiare anuale",
-          "Declarație de impozit pe venit"
-        ],
-        "getStarted": "Începeți"
-      },
-      "bvPackage": {
-        "title": "Pachet BV",
-        "price": "€250",
-        "period": "/lună fără TVA",
-        "mostPopular": "Cel Mai Popular",
-        "features": [
-          "Contabilitate lunară",
-          "Declarații de TVA",
-          "Situații financiare anuale",
-          "Declarație de impozit pe profit",
-          "Administrarea salariilor directorilor"
-        ],
-        "getStarted": "Începeți"
-      },
-      "customPackage": {
-        "title": "Pachet Personalizat",
-        "price": "Prețuri",
-        "period": "personalizate",
-        "features": [
-          "Servicii de contabilitate personalizate",
-          "Înființare de companii",
-          "Servicii de salarizare",
-          "Asistență pentru împrumuturi personale"
-        ],
-        "contactUs": "Contactați-ne"
-      }
-    },
-    "cta": {
-      "title": "Gata să începeți?",
-      "subtitle": "Contactați-ne astăzi pentru a discuta nevoile dumneavoastră specifice și cum Glodinas Finance B.V. poate ajuta afacerea dumneavoastră să prospere.",
-      "requestConsultation": "Solicitare Consultație"
-    },
-    "moneybird": {
-      "title": "Începeți cu Moneybird",
-      "subtitle": "Înscrieți-vă direct pentru serviciile noastre de contabilitate prin Moneybird",
-      "zzpBookkeeping": {
-        "title": "Contabilitate ZZP",
-        "description": "Serviciu complet de contabilitate pentru profesioniști independenți (ZZP-eri)",
-        "signUp": "Înscrieți-vă Acum"
-      },
-      "loanAdministration": {
-        "title": "Administrarea Împrumuturilor",
-        "description": "Eficientizați procesul de solicitare a împrumutului cu serviciul nostru specializat de administrare",
-        "description2": "Vă ajutăm să navigați prin procesul de solicitare a împrumutului la principalele bănci olandeze, asigurându-vă că aveți cea mai bună șansă de aprobare cu termeni favorabili.",
-        "getStarted": "Începeți"
-      }
-    }
-  },
-  "blog": {
-    "hero": {
-      "title": "Blogul Nostru",
-      "subtitle": "Perspective și actualizări privind aspectele financiare pentru companiile olandeze"
-    },
-    "readMore": "Citiți Mai Mult",
-    "featuredArticle": "Articol Recomandat",
-    "minRead": "min de citit",
-    "posts": {
-      "vat": {
-        "title": "Înțelegerea TVA pentru Companiile Olandeze",
-        "date": "15 mai 2025",
-        "excerpt": "Un ghid complet pentru Taxa pe Valoarea Adăugată (TVA) în Olanda, inclusiv rate, cerințe de depunere și capcane comune de evitat.",
-        "imageAlt": "Înțelegerea TVA pentru Companiile Olandeze"
-      },
-      "businessStructure": {
-        "title": "Alegerea Structurii Potrivite a Afacerii în Olanda",
-        "date": "28 aprilie 2025",
-        "excerpt": "Explorați diferențele dintre structurile ZZP, Eenmanszaak și BV, și aflați care opțiune se potrivește cel mai bine obiectivelor afacerii dumneavoastră.",
-        "imageAlt": "Alegerea Structurii Potrivite a Afacerii în Olanda"
-      },
-      "zzpPlanning": {
-        "title": "Planificarea Financiară pentru Profesioniștii ZZP",
-        "date": "10 aprilie 2025",
-        "excerpt": "Sfaturi esențiale de planificare financiară pentru profesioniștii independenți din Olanda, inclusiv optimizarea fiscală și planificarea pensiei.",
-        "imageAlt": "Planificarea Financiară pentru Profesioniștii ZZP"
-      },
-      "taxDeductions": {
-        "title": "Principalele Deduceri Fiscale pentru Antreprenorii Olandezi",
-        "date": "22 martie 2025",
-        "excerpt": "Descoperiți cele mai valoroase deduceri fiscale disponibile pentru antreprenorii din Olanda și cum să le solicitați corect.",
-        "imageAlt": "Principalele Deduceri Fiscale pentru Antreprenorii Olandezi"
-      },
-      "moneybird": {
-        "title": "Maximizarea Eficienței cu Moneybird",
-        "date": "5 martie 2025",
-        "excerpt": "Învățați cum să valorificați funcționalitățile Moneybird pentru a eficientiza procesele de contabilitate și a economisi timp prețios.",
-        "imageAlt": "Maximizarea Eficienței cu Moneybird"
-      },
-      "personalLoans": {
-        "title": "Navigarea prin Împrumuturile Personale în Olanda",
-        "date": "18 februarie 2025",
-        "excerpt": "O comparație a opțiunilor de împrumuturi personale de la principalele bănci olandeze și sfaturi pentru îmbunătățirea șanselor de aprobare.",
-        "imageAlt": "Navigarea prin Împrumuturile Personale în Olanda"
-      }
-    },
-    "featuredContent": {
-      "title": "Înțelegerea TVA pentru Companiile Olandeze",
-      "date": "15 mai 2025",
-      "readTime": "8 min de citit",
-      "imageAlt": "Înțelegerea TVA pentru Companiile Olandeze",
-      "intro": "Taxa pe Valoarea Adăugată (TVA) este o taxă de consum aplicată produselor și serviciilor. Ca proprietar de afacere în Olanda, înțelegerea TVA este crucială pentru o gestionare financiară adecvată și conformitate cu reglementările fiscale olandeze.",
-      "rates": {
-        "title": "Ratele de TVA în Olanda",
-        "intro": "Olanda are în prezent trei rate de TVA:",
-        "standard": "21% (rata standard): Aplicată majorității bunurilor și serviciilor",
-        "reduced": "9% (rata redusă): Aplicată produselor esențiale precum alimente, cărți, medicamente și anumite servicii",
-        "zero": "0% (rata zero): Aplicată exporturilor și anumitor servicii internaționale"
-      },
-      "filing": {
-        "title": "Cerințe de Depunere a TVA",
-        "paragraph1": "Companiile olandeze sunt de obicei obligate să depună declarații de TVA trimestrial. Cu toate acestea, dacă obligația dumneavoastră anuală de TVA depășește €15.000, este posibil să fie necesară depunerea lunară. În schimb, dacă obligația dumneavoastră anuală de TVA este mai mică de €1.883, puteți fi eligibil pentru depunere anuală.",
-        "paragraph2": "Termenul limită pentru depunerea și plata TVA este, în general, ultima zi a lunii următoare sfârșitului perioadei de raportare. De exemplu, pentru T1 (ianuarie-martie), termenul limită ar fi 30 aprilie."
-      },
-      "pitfalls": {
-        "title": "Capcane Comune de TVA de Evitat",
-        "intro": "Multe companii olandeze întâmpină provocări cu conformitatea TVA. Iată câteva capcane comune de evitat:",
+    "process": {
+      "title": "Procesul Nostru de Integrare",
+      "subtitle": "Am conceput un proces eficient pentru a vă ajuta să începeți rapid",
+      "step1": {
+        "title": "Înscrieți-vă la Moneybird",
+        "description": "Începeți prin a vă înscrie la Moneybird folosind link-ul nostru de referință. Acest software de contabilitate bazat pe cloud va fi baza administrației dumneavoastră financiare.",
         "items": [
-          "Neînregistrarea pentru TVA când este necesar",
-          "Aplicarea incorectă a ratelor de TVA pentru produse sau servicii",
-          "Ratarea termenelor de depunere",
-          "Ținerea inadecvată a evidențelor în scopuri de TVA",
-          "Solicitarea incorectă a TVA pentru cheltuieli"
+          "Creați-vă contul Moneybird",
+          "Adăugați Glodinas Finance ca și contabil",
+          "Completați informațiile de bază ale companiei"
         ],
-        "conclusion": "La Glodinas Finance B.V., ajutăm companiile să navigheze prin complexitățile reglementărilor olandeze de TVA, asigurând conformitatea și optimizând în același timp poziția dumneavoastră fiscală."
+        "button": "Înscrieți-vă la Moneybird"
       },
-      "contactLink": "Contactați-ne pentru asistență profesională privind TVA"
-    },
-    "newsletter": {
-      "title": "Rămâneți la Curent",
-      "subtitle": "Abonați-vă la newsletter-ul nostru pentru cele mai recente perspective financiare și actualizări relevante pentru companiile olandeze.",
-      "placeholder": "Adresa dumneavoastră de email",
-      "subscribe": "Abonare"
-    }
-  },
-  "contact": {
-    "hero": {
-      "title": "Contact",
-      "subtitle": "Contactați Glodinas Finance B.V. pentru servicii profesionale de contabilitate și financiare"
-    },
-    "getInTouch": {
-      "title": "Luați Legătura",
-      "description": "Suntem aici pentru a răspunde la întrebările dumneavoastră și pentru a oferi sprijinul financiar de care afacerea dumneavoastră are nevoie. Contactați-ne folosind informațiile de contact de mai jos sau completați formularul.",
-      "address": "Adresă",
-      "email": "Email",
-      "phone": "Telefon",
-      "businessHours": "Program de Lucru",
-      "weekdays": "Luni - Vineri: 9:00 - 17:00",
-      "weekend": "Sâmbătă - Duminică: Închis",
-      "googleMaps": "Locație Google Maps"
-    },
-    "form": {
-      "title": "Solicitare Consultație",
-      "fullName": "Nume Complet",
-      "emailAddress": "Adresă de Email",
-      "phoneNumber": "Număr de Telefon",
-      "company": "Numele Companiei",
-      "serviceInterest": "Interes pentru Serviciu",
-      "selectService": "Selectați un serviciu",
-      "message": "Mesaj",
-      "privacyConsent": "Sunt de acord cu politica de confidențialitate și îmi dau consimțământul pentru a fi contactat în legătură cu solicitarea mea.",
-      "submitRequest": "Trimiteți Solicitarea",
-      "steps": {
-        "personal": "Informații Personale",
-        "details": "Detalii",
-        "message": "Mesaj",
-        "review": "Revizuire",
-        "success": "Succes"
+      "step2": {
+        "title": "Programați o Întâlnire de Configurare",
+        "description": "Programați o întâlnire de configurare cu echipa noastră pentru a configura administrația dumneavoastră. Oferim atât sesiuni în persoană, cât și la distanță prin TeamViewer pentru confortul dumneavoastră.",
+        "items": [
+          "Plătiți taxa unică de configurare (€150 fără TVA)",
+          "Alegeți între o sesiune în persoană sau prin TeamViewer",
+          "Vom configura conexiunile bancare, baza de date a clienților și structura facturilor"
+        ],
+        "button": "Programați Întâlnirea de Configurare"
       },
-      "validation": {
-        "nameRequired": "Numele este obligatoriu",
-        "nameLength": "Numele trebuie să aibă cel puțin 2 caractere",
-        "emailRequired": "Emailul este obligatoriu",
-        "emailValid": "Vă rugăm să introduceți o adresă de email validă",
-        "phoneValid": "Vă rugăm să introduceți un număr de telefon valid",
-        "serviceRequired": "Vă rugăm să selectați un serviciu",
-        "messageRequired": "Mesajul este obligatoriu",
-        "messageLength": "Mesajul trebuie să aibă cel puțin 10 caractere",
-        "privacyRequired": "Trebuie să fiți de acord cu politica de confidențialitate"
+      "step3": {
+        "title": "Selectați Abonamentul",
+        "description": "Alegeți planul de abonament care se potrivește nevoilor afacerii dumneavoastră. Oferim pachete personalizate atât pentru liber-profesioniști (ZZP), cât și pentru societăți cu răspundere limitată (BV).",
+        "items": [
+          "Contabilitate ZZP: €130/lună (fără TVA)",
+          "Contabilitate BV: €150/lună (fără TVA)",
+          "Facturare automată pentru un serviciu fără griji"
+        ],
+        "button1": "Abonament ZZP/BV",
+        "button2": "Administrare Împrumuturi"
+      }
+    },
+    "expectations": {
+      "title": "La Ce să Vă Așteptați",
+      "subtitle": "Iată ce se întâmplă după ce finalizați procesul nostru de integrare",
+      "item1": {
+        "title": "Configurare Imediată",
+        "description": "Sistemul dumneavoastră de contabilitate va fi complet configurat și gata de utilizare în 24-48 de ore după întâlnirea de configurare."
       },
-      "success": {
-        "title": "Vă mulțumim pentru solicitare!",
-        "message": "Am primit solicitarea dumneavoastră și vă vom contacta în termen de 24 de ore.",
-        "button": "Înapoi la Pagina Principală"
+      "item2": {
+        "title": "Asistență Continuă",
+        "description": "Veți primi asistență continuă din partea echipei noastre pentru a vă asigura că contabilitatea dumneavoastră funcționează fără probleme și eficient."
+      },
+      "item3": {
+        "title": "Actualizări Lunare",
+        "description": "Primiți actualizări regulate privind situația dumneavoastră financiară, asigurându-vă că aveți întotdeauna o imagine clară a finanțelor afacerii."
+      },
+      "item4": {
+        "title": "Conformitate Fiscală",
+        "description": "Ne asigurăm că afacerea dumneavoastră rămâne conformă cu toate reglementările fiscale olandeze și cerințele de depunere."
       }
     },
     "faq": {
       "title": "Întrebări Frecvente",
-      "subtitle": "Găsiți răspunsuri la întrebări comune despre serviciile noastre",
+      "subtitle": "Întrebări comune despre procesul nostru de integrare",
       "questions": [
         {
-          "question": "Care sunt tarifele dumneavoastră de contabilitate?",
-          "answer": "Serviciile noastre de contabilitate încep de la €130 pe lună (fără TVA) pentru ZZP-eri și €250 pe lună (fără TVA) pentru BV-uri, inclusiv administrarea salariilor DGA. Tariful exact depinde de complexitatea și volumul administrației dumneavoastră financiare."
+          "question": "Cât durează procesul de configurare?",
+          "answer": "Întregul proces de integrare durează de obicei 2-3 zile lucrătoare de la înscrierea inițială până la configurarea completă. Întâlnirea de configurare în sine durează de obicei aproximativ 1-2 ore."
         },
         {
-          "question": "Cât de des vom comunica despre finanțele mele?",
-          "answer": "Oferim actualizări lunare despre situația dumneavoastră financiară, inclusiv situații de profit și pierdere și rapoarte de flux de numerar. În plus, suntem disponibili pentru întrebări și consultații pe parcursul lunii, după cum este necesar."
+          "question": "Trebuie să pregătesc ceva pentru întâlnirea de configurare?",
+          "answer": "Da, vă rugăm să aveți la îndemână detaliile de conectare la contul bancar, informațiile de înregistrare a afacerii și orice date existente despre clienți/facturi pentru întâlnirea de configurare. Acest lucru ne va ajuta să vă configurăm sistemul eficient."
         },
         {
-          "question": "Puteți ajuta cu înregistrarea companiei?",
-          "answer": "Da, prin parteneriatul nostru cu Firm24, oferim servicii complete de înființare a companiilor, inclusiv înregistrarea la Camera de Comerț Olandeză (KVK), înregistrarea pentru TVA și configurarea structurii juridice adecvate pentru afacerea dumneavoastră."
+          "question": "Pot să trec de la un alt serviciu de contabilitate?",
+          "answer": "Absolut! Vă putem ajuta să treceți de la serviciul actual de contabilitate la sistemul nostru. Vă vom ghida prin procesul de transfer al datelor financiare și vom asigura o tranziție fără probleme."
         },
         {
-          "question": "Oferiți servicii în alte limbi decât olandeza?",
-          "answer": "Da, oferim serviciile noastre în mai multe limbi, inclusiv olandeză, engleză, română, turcă și rusă, pentru a răspunde nevoilor diversei noastre baze de clienți."
+          "question": "Ce se întâmplă dacă am nevoie de ajutor după configurarea inițială?",
+          "answer": "Asistența noastră nu se încheie după configurare. Veți avea acces continuu la echipa noastră pentru orice întrebări sau asistență de care aveți nevoie. Suntem doar la un telefon sau email distanță."
         },
         {
-          "question": "Cum îmi transfer contabilitatea la Glodinas Finance?",
-          "answer": "Transferul este simplu. Ne vom ocupa de procesul de tranziție, inclusiv colectarea istoricului dumneavoastră financiar, configurarea conturilor în sistemele noastre și asigurarea unei predări line de la contabilul sau expertul contabil anterior."
+          "question": "Există o perioadă minimă de contract?",
+          "answer": "Abonamentul nostru standard este lunar, fără angajament pe termen lung. Puteți anula oricând cu un preaviz de 30 de zile."
         }
       ]
+    },
+    "cta": {
+      "title": "Gata să Începeți?",
+      "subtitle": "Începeți-vă călătoria cu Glodinas Finance astăzi și experimentați un management financiar fără griji.",
+      "button1": "Înscrieți-vă la Moneybird",
+      "button2": "Contactați-ne"
     }
-  },
-  "footer": {
-    "companyInfo": "Glodinas Finance B.V.",
-    "quickLinks": "Linkuri Rapide",
-    "ourServices": "Serviciile Noastre",
-    "bookkeepingZZP": "Contabilitate pentru ZZP-eri",
-    "bookkeepingBV": "Contabilitate pentru BV-uri",
-    "payrollServices": "Servicii de Salarizare",
-    "businessFormation": "Înființare de Companii",
-    "personalLoans": "Asistență pentru Împrumuturi Personale",
-    "copyright": "Toate drepturile rezervate.",
-    "privacyPolicy": "Politica de Confidențialitate",
-    "termsOfService": "Termeni și Condiții"
   }
 }
