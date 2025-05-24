@@ -30,7 +30,7 @@ const Footer = () => {
           
           {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-bold mb-4">{nav.quickLinks}</h3>
+            <h3 className="text-xl font-bold mb-4">{t('links.quickLinks')}</h3>
             <ul className="space-y-2">
               <li>
                 <Link href={`/${locale}`} className="text-gray-300 hover:text-white transition duration-300">
@@ -61,22 +61,22 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link href={`/${locale}/services#bookkeeping-zzp`} className="text-gray-300 hover:text-white transition duration-300">
-                  {nav.bookkeepingZZP}
+                  {t('services.bookkeepingZZP')}
                 </Link>
               </li>
               <li>
                 <Link href={`/${locale}/services#bookkeeping-bv`} className="text-gray-300 hover:text-white transition duration-300">
-                  {nav.bookkeepingBV}
+                  {t('services.bookkeepingBV')}
                 </Link>
               </li>
               <li>
                 <Link href={`/${locale}/services#tax-preparation`} className="text-gray-300 hover:text-white transition duration-300">
-                  {nav.taxPreparation}
+                  {t('services.taxPreparation')}
                 </Link>
               </li>
               <li>
                 <Link href={`/${locale}/services#business-formation`} className="text-gray-300 hover:text-white transition duration-300">
-                  {nav.businessFormation}
+                  {t('services.businessFormation')}
                 </Link>
               </li>
             </ul>
@@ -84,7 +84,7 @@ const Footer = () => {
           
           {/* Legal */}
           <div>
-            <h3 className="text-xl font-bold mb-4">{nav.legal}</h3>
+            <h3 className="text-xl font-bold mb-4">{t('links.legal')}</h3>
             <ul className="space-y-2">
               <li>
                 <Link href={`/${locale}/privacy-policy`} className="text-gray-300 hover:text-white transition duration-300">

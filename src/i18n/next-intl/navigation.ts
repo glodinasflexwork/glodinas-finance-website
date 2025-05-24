@@ -1,5 +1,3 @@
-import { createPathnameDictionary } from 'next-intl/navigation';
-
 // Define the locales supported by the application
 export const locales = ['en', 'nl', 'ro', 'tr', 'ru'] as const;
 export type Locale = (typeof locales)[number];
@@ -59,6 +57,3 @@ export function getLocalizedPath(path: string, locale: string) {
   
   return path;
 }
-
-// Create navigation utilities using available APIs
-export const pathnamesDictionary = createPathnameDictionary(pathnames);
