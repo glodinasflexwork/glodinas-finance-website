@@ -1,95 +1,351 @@
 {
-  "GettingStarted": {
+  "home": {
     "hero": {
-      "title": "Getting Started with Glodinas Finance",
-      "subtitle": "Follow our simple three-step process to get your bookkeeping set up and running smoothly."
+      "title": "Expert Financial Services for Dutch Businesses",
+      "subtitle": "Comprehensive bookkeeping, tax preparation, and financial management solutions for ZZP'ers and BVs in the Netherlands.",
+      "requestConsultation": "Request a Consultation",
+      "ourServices": "Our Services"
     },
-    "process": {
-      "title": "Our Onboarding Process",
-      "subtitle": "We've designed a streamlined process to get you up and running quickly",
-      "step1": {
-        "title": "Sign Up for Moneybird",
-        "description": "Start by signing up for Moneybird using our referral link. This cloud-based bookkeeping software will be the foundation of your financial administration.",
-        "items": [
-          "Create your Moneybird account",
-          "Add Glodinas Finance as your bookkeeper",
-          "Complete your basic company information"
-        ],
-        "button": "Sign Up for Moneybird"
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Tailored financial solutions to help your business thrive",
+      "bookkeepingZZP": {
+        "title": "Bookkeeping for ZZP'ers",
+        "description": "Complete bookkeeping services designed specifically for self-employed professionals in the Netherlands.",
+        "learnMore": "Learn More"
       },
-      "step2": {
-        "title": "Schedule a Setup Meeting",
-        "description": "Book a setup meeting with our team to configure your administration. We offer both in-person and remote TeamViewer sessions for your convenience.",
-        "items": [
-          "Pay the one-time setup fee (€150 ex VAT)",
-          "Choose between in-person or TeamViewer session",
-          "We'll set up bank connections, client database, and invoice structure"
-        ],
-        "button": "Schedule Setup Meeting"
+      "bookkeepingBV": {
+        "title": "Bookkeeping for BVs",
+        "description": "Comprehensive financial administration for Dutch limited companies, including annual reporting and tax filings.",
+        "learnMore": "Learn More"
       },
-      "step3": {
-        "title": "Select Your Subscription",
-        "description": "Choose the subscription plan that fits your business needs. We offer tailored packages for both ZZP'ers and BVs.",
-        "items": [
-          "ZZP Bookkeeping: €130/month (ex VAT)",
-          "BV Bookkeeping: €150/month (ex VAT)",
-          "Automatic billing for hassle-free service"
-        ],
-        "button1": "ZZP/BV Subscription",
-        "button2": "Loan Administration"
+      "payroll": {
+        "title": "Payroll Services",
+        "description": "Efficient payroll management for your employees, ensuring compliance with Dutch labor laws and regulations.",
+        "learnMore": "Learn More"
+      },
+      "businessFormation": {
+        "title": "Business Formation",
+        "description": "Expert guidance through the process of establishing your business entity in the Netherlands.",
+        "learnMore": "Learn More"
+      },
+      "personalLoans": {
+        "title": "Personal Loans",
+        "description": "Assistance with personal loan applications and administration for Dutch residents.",
+        "learnMore": "Learn More"
+      },
+      "taxPreparation": {
+        "title": "Tax Preparation",
+        "description": "Professional preparation and filing of all required tax returns for businesses and individuals.",
+        "learnMore": "Learn More"
       }
     },
-    "expectations": {
-      "title": "What to Expect",
-      "subtitle": "Here's what happens after you complete our onboarding process",
-      "item1": {
-        "title": "Immediate Setup",
-        "description": "Your bookkeeping system will be fully configured and ready to use within 24-48 hours after your setup meeting."
+    "whyChooseUs": {
+      "title": "Why Choose Us",
+      "subtitle": "Benefits of partnering with Glodinas Finance",
+      "expertise": {
+        "title": "Financial Expertise",
+        "description": "Our team brings years of specialized experience in Dutch financial regulations and business practices."
       },
-      "item2": {
-        "title": "Ongoing Support",
-        "description": "You'll receive continuous support from our team to ensure your bookkeeping runs smoothly and efficiently."
+      "timeSaving": {
+        "title": "Save Valuable Time",
+        "description": "Focus on growing your business while we handle the complex financial administration."
       },
-      "item3": {
-        "title": "Monthly Updates",
-        "description": "Receive regular updates on your financial status, ensuring you always have a clear picture of your business finances."
-      },
-      "item4": {
-        "title": "Tax Compliance",
-        "description": "We ensure your business remains compliant with all Dutch tax regulations and filing requirements."
+      "costEffective": {
+        "title": "Cost-Effective Solutions",
+        "description": "Tailored packages that provide professional financial management at competitive rates."
       }
+    },
+    "partners": {
+      "title": "Our Partners",
+      "subtitle": "We work with leading financial service providers"
+    },
+    "cta": {
+      "title": "Ready to Streamline Your Finances?",
+      "subtitle": "Contact us today to discuss how we can help your business achieve financial clarity and compliance.",
+      "contactUs": "Contact Us"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Glodinas Finance",
+      "subtitle": "Your trusted partner for financial services in the Netherlands"
+    },
+    "company": {
+      "title": "Our Company",
+      "paragraph1": "Glodinas Finance B.V. was founded with a clear mission: to provide accessible, professional financial services to entrepreneurs and businesses in the Netherlands. We specialize in helping both self-employed professionals (ZZP'ers) and limited companies (BVs) navigate the complexities of Dutch financial regulations.",
+      "paragraph2": "Our team combines extensive experience in Dutch tax law, bookkeeping standards, and business administration with a commitment to personalized service. We understand that each client has unique needs, which is why we offer tailored solutions rather than one-size-fits-all packages.",
+      "paragraph3": "Based in Schiphol, we serve clients throughout the Netherlands, with particular expertise in supporting international entrepreneurs and businesses establishing a presence in the Dutch market.",
+      "imageAlt": "Glodinas Finance office in Schiphol"
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "Meet the professionals behind Glodinas Finance",
+      "linkedinProfile": "LinkedIn Profile",
+      "member1": {
+        "name": "Cihat Kaya",
+        "role": "Founder & Financial Consultant",
+        "bio": "Cihat founded Glodinas Finance after years of experience in the Dutch financial sector. He specializes in tax optimization strategies for small businesses and self-employed professionals.",
+        "imageAlt": "Cihat Kaya - Founder of Glodinas Finance"
+      },
+      "member2": {
+        "name": "Gabriel Stan",
+        "role": "Senior Bookkeeper",
+        "bio": "Gabriel brings over 8 years of experience in financial administration and bookkeeping. He oversees client accounts and ensures accurate financial reporting.",
+        "imageAlt": "Gabriel Stan - Senior Bookkeeper at Glodinas Finance"
+      },
+      "member3": {
+        "name": "Ana Dogotari",
+        "role": "Client Relations Manager",
+        "bio": "Ana manages client communications and ensures that our services consistently meet the highest standards of quality and client satisfaction.",
+        "imageAlt": "Ana Dogotari - Client Relations Manager at Glodinas Finance"
+      }
+    },
+    "partners": {
+      "title": "Our Partners",
+      "subtitle": "We collaborate with leading service providers to deliver comprehensive solutions",
+      "partner1": {
+        "name": "Moneybird",
+        "description": "Cloud-based bookkeeping software that simplifies financial administration for entrepreneurs.",
+        "imageAlt": "Moneybird - Bookkeeping Software Partner"
+      },
+      "partner2": {
+        "name": "Employes",
+        "description": "Comprehensive payroll and HR management platform for businesses of all sizes.",
+        "imageAlt": "Employes - Payroll Services Partner"
+      },
+      "partner3": {
+        "name": "Firm24",
+        "description": "Streamlined business formation services for establishing legal entities in the Netherlands.",
+        "imageAlt": "Firm24 - Business Formation Partner"
+      },
+      "bankingTitle": "Banking Partners",
+      "bankingImageAlt": "Dutch Banking Partners for Personal Loans"
+    },
+    "cta": {
+      "title": "Ready to Work Together?",
+      "subtitle": "Contact us today to discuss how we can support your business's financial needs.",
+      "buttonText": "Contact Us"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive financial solutions tailored to your business needs"
+    },
+    "bookkeepingZZP": {
+      "title": "Bookkeeping for ZZP'ers",
+      "description1": "Our bookkeeping service for self-employed professionals (ZZP'ers) provides a complete financial administration solution that keeps you compliant with Dutch tax regulations while minimizing your administrative burden.",
+      "description2": "We use Moneybird, a user-friendly cloud-based platform, to manage your financial records efficiently. This allows you to focus on your core business activities while maintaining full visibility of your financial status.",
+      "included": "What's Included",
+      "items": [
+        "Monthly processing of all financial transactions",
+        "Quarterly VAT (BTW) return preparation and filing",
+        "Annual income tax return preparation",
+        "Ongoing financial advice and support",
+        "Access to Moneybird cloud accounting software",
+        "Regular financial status reports"
+      ],
+      "requestQuote": "Request a Quote"
+    },
+    "bookkeepingBV": {
+      "title": "Bookkeeping for BVs",
+      "description1": "Our comprehensive bookkeeping service for Dutch limited companies (BVs) ensures full compliance with all statutory financial reporting requirements while providing valuable insights for business decision-making.",
+      "description2": "We handle all aspects of your company's financial administration, from day-to-day transaction processing to annual account preparation and corporate tax filings.",
+      "included": "What's Included",
+      "items": [
+        "Complete financial administration management",
+        "Monthly and quarterly financial reporting",
+        "VAT (BTW) return preparation and filing",
+        "Annual accounts preparation",
+        "Corporate income tax return filing",
+        "Director's salary (DGA) administration",
+        "Dividend payment processing"
+      ],
+      "requestQuote": "Request a Quote"
+    },
+    "payroll": {
+      "title": "Payroll Services",
+      "description1": "Our payroll services ensure accurate and timely processing of your employee compensation while maintaining compliance with Dutch labor laws and tax regulations.",
+      "description2": "We handle all aspects of payroll administration, from calculating salaries and taxes to generating pay slips and filing required reports with the Dutch Tax Authority.",
+      "included": "What's Included",
+      "items": [
+        "Monthly salary calculations and processing",
+        "Generation of digital pay slips",
+        "Wage tax return preparation and filing",
+        "Year-end statements (jaaropgaaf)",
+        "Holiday allowance administration",
+        "Sick leave and absence tracking",
+        "Integration with your accounting system"
+      ],
+      "requestQuote": "Request a Quote"
+    },
+    "businessFormation": {
+      "title": "Business Formation",
+      "description1": "Our business formation service guides entrepreneurs through the process of establishing a legal entity in the Netherlands, whether as a sole proprietorship (eenmanszaak) or a limited company (BV).",
+      "description2": "We handle all the necessary registrations and administrative requirements, ensuring a smooth and efficient start to your business operations in the Dutch market.",
+      "included": "What's Included",
+      "items": [
+        "Business structure consultation and advice",
+        "Chamber of Commerce (KVK) registration",
+        "Tax registration (BTW/VAT and income tax)",
+        "Articles of association preparation (for BVs)",
+        "Notary coordination (for BVs)",
+        "Bank account setup assistance",
+        "Initial bookkeeping system setup"
+      ],
+      "requestQuote": "Request a Quote"
+    },
+    "personalLoans": {
+      "title": "Personal Loan Assistance",
+      "description1": "Our personal loan assistance service helps individuals navigate the Dutch banking system to secure favorable loan terms for personal needs, home purchases, or other significant expenses.",
+      "description2": "We provide guidance throughout the application process, help prepare the necessary documentation, and liaise with financial institutions to increase your chances of approval.",
+      "included": "What's Included",
+      "items": [
+        "Personal financial situation assessment",
+        "Loan options comparison across multiple banks",
+        "Application documentation preparation",
+        "Interest rate negotiation assistance",
+        "Loan administration setup",
+        "Ongoing loan management support",
+        "Refinancing opportunities assessment"
+      ],
+      "requestConsultation": "Request a Consultation"
+    },
+    "taxPreparation": {
+      "title": "Tax Preparation",
+      "description1": "Our tax preparation service ensures accurate and timely filing of all required tax returns for both individuals and businesses operating in the Netherlands.",
+      "description2": "We leverage our expertise in Dutch tax law to identify all applicable deductions and credits, minimizing your tax liability while maintaining full compliance with tax regulations.",
+      "included": "What's Included",
+      "items": [
+        "Personal income tax return preparation",
+        "Corporate tax return preparation",
+        "VAT (BTW) return processing",
+        "Wage tax return filing",
+        "Tax payment planning",
+        "Tax authority correspondence handling",
+        "Tax optimization strategies"
+      ],
+      "requestQuote": "Request a Quote"
+    },
+    "pricing": {
+      "title": "Our Pricing",
+      "subtitle": "Transparent and competitive rates for our financial services",
+      "popular": "Most Popular",
+      "zzpPackage": {
+        "title": "ZZP Bookkeeping",
+        "price": "€130",
+        "period": "/month ex VAT",
+        "features": [
+          "Complete financial administration",
+          "Quarterly VAT returns",
+          "Annual income tax return",
+          "Moneybird software access",
+          "Unlimited email support",
+          "Monthly financial reports"
+        ],
+        "getStarted": "Get Started"
+      },
+      "bvPackage": {
+        "title": "BV Bookkeeping",
+        "price": "€150",
+        "period": "/month ex VAT",
+        "features": [
+          "Complete financial administration",
+          "Quarterly VAT returns",
+          "Annual accounts preparation",
+          "Corporate tax return",
+          "Director's salary administration",
+          "Unlimited email & phone support",
+          "Quarterly financial reports"
+        ],
+        "getStarted": "Get Started"
+      },
+      "customPackage": {
+        "title": "Custom Solutions",
+        "description": "Need a tailored package for your specific business requirements? Contact us for a personalized quote.",
+        "features": [
+          "Customized service selection",
+          "Flexible pricing options",
+          "Scalable as your business grows",
+          "Personalized support"
+        ],
+        "contactUs": "Contact Us"
+      }
+    },
+    "moneybird": {
+      "title": "Get Started with Moneybird",
+      "subtitle": "Sign up for Moneybird through our referral link to get started with our services"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Reach out to discuss how we can support your financial needs"
+    },
+    "getInTouch": {
+      "title": "Get in Touch",
+      "description": "We're here to answer your questions and provide the financial guidance your business needs. Contact us through any of the methods below or use the form to send us a message.",
+      "address": "Address",
+      "email": "Email",
+      "phone": "Phone",
+      "businessHours": "Business Hours",
+      "weekdays": "Monday - Friday: 9:00 AM - 5:30 PM",
+      "weekend": "Saturday - Sunday: Closed"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "success": "Your message has been sent successfully. We'll get back to you soon!",
+      "error": "There was an error sending your message. Please try again."
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "subtitle": "Common questions about our onboarding process",
+      "subtitle": "Find quick answers to common questions",
       "questions": [
         {
-          "question": "How long does the setup process take?",
-          "answer": "The entire onboarding process typically takes 2-3 business days from initial signup to complete setup. The setup meeting itself usually lasts about 1-2 hours."
+          "question": "What services do you offer for ZZP'ers?",
+          "answer": "We offer comprehensive bookkeeping, tax preparation, business formation assistance, and financial advisory services specifically tailored for self-employed professionals (ZZP'ers) in the Netherlands."
         },
         {
-          "question": "Do I need to prepare anything for the setup meeting?",
-          "answer": "Yes, please have your bank account login details, business registration information, and any existing client/invoice data ready for the setup meeting. This will help us configure your system efficiently."
+          "question": "How much does your bookkeeping service cost?",
+          "answer": "Our standard bookkeeping package for ZZP'ers starts at €130 per month (excluding VAT), and our BV bookkeeping package starts at €150 per month (excluding VAT). We also offer customized packages based on your specific needs."
         },
         {
-          "question": "Can I switch from another bookkeeping service?",
-          "answer": "Absolutely! We can help you transition from your current bookkeeping service to our system. We'll guide you through the process of transferring your financial data and ensuring a smooth transition."
+          "question": "Do you offer services in English?",
+          "answer": "Yes, we provide all our services in both English and Dutch, making us an ideal partner for international entrepreneurs and businesses operating in the Netherlands."
         },
         {
-          "question": "What if I need help after the initial setup?",
-          "answer": "Our support doesn't end after setup. You'll have ongoing access to our team for any questions or assistance you need. We're just a phone call or email away."
+          "question": "How do I get started with your services?",
+          "answer": "You can get started by contacting us through this form, calling us directly, or visiting our office. We'll schedule an initial consultation to discuss your needs and recommend the most suitable services for your situation."
         },
         {
-          "question": "Is there a minimum contract period?",
-          "answer": "Our standard subscription is month-to-month with no long-term commitment required. You can cancel at any time with 30 days' notice."
+          "question": "Can you help with business registration at the KVK?",
+          "answer": "Yes, our business formation service includes complete assistance with registering your business at the Dutch Chamber of Commerce (KVK), as well as handling all necessary tax registrations."
         }
       ]
-    },
-    "cta": {
-      "title": "Ready to Get Started?",
-      "subtitle": "Start your journey with Glodinas Finance today and experience hassle-free financial management.",
-      "button1": "Sign Up for Moneybird",
-      "button2": "Contact Us"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "gettingStarted": "Getting Started",
+    "blog": "Blog",
+    "login": "Login"
+  },
+  "footer": {
+    "address": "Schiphol Boulevard 127, Schiphol 1118 BG",
+    "copyright": "© 2025 Glodinas Finance B.V. All rights reserved.",
+    "links": {
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
     }
   }
 }

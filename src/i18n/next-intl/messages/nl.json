@@ -1,95 +1,351 @@
 {
-  "GettingStarted": {
+  "home": {
     "hero": {
-      "title": "Aan de Slag met Glodinas Finance",
-      "subtitle": "Volg ons eenvoudige driestappenproces om uw boekhouding op te zetten en soepel te laten verlopen."
+      "title": "Deskundige financiële diensten voor Nederlandse bedrijven",
+      "subtitle": "Uitgebreide boekhouding, belastingaangifte en financieel beheer oplossingen voor ZZP'ers en BV's in Nederland.",
+      "requestConsultation": "Vraag een consultatie aan",
+      "ourServices": "Onze diensten"
     },
-    "process": {
-      "title": "Ons Onboardingproces",
-      "subtitle": "We hebben een gestroomlijnd proces ontworpen om u snel op weg te helpen",
-      "step1": {
-        "title": "Aanmelden voor Moneybird",
-        "description": "Begin met het aanmelden voor Moneybird via onze verwijzingslink. Deze cloudgebaseerde boekhoudsoftware vormt de basis van uw financiële administratie.",
-        "items": [
-          "Maak uw Moneybird-account aan",
-          "Voeg Glodinas Finance toe als uw boekhouder",
-          "Vul uw basis bedrijfsinformatie in"
-        ],
-        "button": "Aanmelden voor Moneybird"
+    "services": {
+      "title": "Onze diensten",
+      "subtitle": "Op maat gemaakte financiële oplossingen om uw bedrijf te laten groeien",
+      "bookkeepingZZP": {
+        "title": "Boekhouding voor ZZP'ers",
+        "description": "Complete boekhoudkundige diensten speciaal ontworpen voor zelfstandige professionals in Nederland.",
+        "learnMore": "Meer informatie"
       },
-      "step2": {
-        "title": "Plan een Installatiegesprek",
-        "description": "Boek een installatiegesprek met ons team om uw administratie te configureren. We bieden zowel persoonlijke als externe TeamViewer-sessies voor uw gemak.",
-        "items": [
-          "Betaal de eenmalige installatiekosten (€150 excl. BTW)",
-          "Kies tussen een persoonlijke of TeamViewer-sessie",
-          "We zetten bankverbindingen, klantendatabase en factuurstructuur op"
-        ],
-        "button": "Installatiegesprek Plannen"
+      "bookkeepingBV": {
+        "title": "Boekhouding voor BV's",
+        "description": "Uitgebreide financiële administratie voor Nederlandse besloten vennootschappen, inclusief jaarverslagen en belastingaangiften.",
+        "learnMore": "Meer informatie"
       },
-      "step3": {
-        "title": "Selecteer Uw Abonnement",
-        "description": "Kies het abonnement dat bij uw zakelijke behoeften past. We bieden op maat gemaakte pakketten voor zowel ZZP'ers als BV's.",
-        "items": [
-          "ZZP Boekhouding: €130/maand (excl. BTW)",
-          "BV Boekhouding: €150/maand (excl. BTW)",
-          "Automatische facturering voor zorgeloze service"
-        ],
-        "button1": "ZZP/BV Abonnement",
-        "button2": "Leningadministratie"
+      "payroll": {
+        "title": "Salarisadministratie",
+        "description": "Efficiënt loonbeheer voor uw werknemers, met naleving van de Nederlandse arbeidswetgeving en regelgeving.",
+        "learnMore": "Meer informatie"
+      },
+      "businessFormation": {
+        "title": "Bedrijfsoprichting",
+        "description": "Deskundige begeleiding bij het proces van het oprichten van uw bedrijf in Nederland.",
+        "learnMore": "Meer informatie"
+      },
+      "personalLoans": {
+        "title": "Persoonlijke leningen",
+        "description": "Hulp bij aanvragen en administratie van persoonlijke leningen voor Nederlandse inwoners.",
+        "learnMore": "Meer informatie"
+      },
+      "taxPreparation": {
+        "title": "Belastingaangifte",
+        "description": "Professionele voorbereiding en indiening van alle vereiste belastingaangiften voor bedrijven en particulieren.",
+        "learnMore": "Meer informatie"
       }
     },
-    "expectations": {
-      "title": "Wat te Verwachten",
-      "subtitle": "Dit gebeurt er nadat u ons onboardingproces heeft voltooid",
-      "item1": {
-        "title": "Directe Installatie",
-        "description": "Uw boekhoudsysteem wordt binnen 24-48 uur na uw installatiegesprek volledig geconfigureerd en klaar voor gebruik."
+    "whyChooseUs": {
+      "title": "Waarom voor ons kiezen",
+      "subtitle": "Voordelen van samenwerken met Glodinas Finance",
+      "expertise": {
+        "title": "Financiële expertise",
+        "description": "Ons team brengt jarenlange gespecialiseerde ervaring in Nederlandse financiële regelgeving en bedrijfspraktijken."
       },
-      "item2": {
-        "title": "Doorlopende Ondersteuning",
-        "description": "U ontvangt continue ondersteuning van ons team om ervoor te zorgen dat uw boekhouding soepel en efficiënt verloopt."
+      "timeSaving": {
+        "title": "Bespaar waardevolle tijd",
+        "description": "Concentreer u op het laten groeien van uw bedrijf terwijl wij de complexe financiële administratie afhandelen."
       },
-      "item3": {
-        "title": "Maandelijkse Updates",
-        "description": "Ontvang regelmatige updates over uw financiële status, zodat u altijd een duidelijk beeld heeft van uw bedrijfsfinanciën."
-      },
-      "item4": {
-        "title": "Belastingcompliance",
-        "description": "We zorgen ervoor dat uw bedrijf voldoet aan alle Nederlandse belastingvoorschriften en aangiftevereisten."
+      "costEffective": {
+        "title": "Kosteneffectieve oplossingen",
+        "description": "Op maat gemaakte pakketten die professioneel financieel beheer bieden tegen concurrerende tarieven."
       }
     },
-    "faq": {
-      "title": "Veelgestelde Vragen",
-      "subtitle": "Veelvoorkomende vragen over ons onboardingproces",
-      "questions": [
-        {
-          "question": "Hoe lang duurt het installatieproces?",
-          "answer": "Het volledige onboardingproces duurt meestal 2-3 werkdagen vanaf de eerste aanmelding tot de volledige installatie. Het installatiegesprek zelf duurt ongeveer 1-2 uur."
-        },
-        {
-          "question": "Moet ik iets voorbereiden voor het installatiegesprek?",
-          "answer": "Ja, zorg ervoor dat u uw bankrekeninggegevens, bedrijfsregistratie-informatie en eventuele bestaande klant-/factuurgegevens bij de hand heeft voor het installatiegesprek. Dit helpt ons om uw systeem efficiënt te configureren."
-        },
-        {
-          "question": "Kan ik overstappen van een andere boekhoudservice?",
-          "answer": "Absoluut! We kunnen u helpen bij de overgang van uw huidige boekhoudservice naar ons systeem. We begeleiden u door het proces van het overdragen van uw financiële gegevens en zorgen voor een soepele overgang."
-        },
-        {
-          "question": "Wat als ik hulp nodig heb na de eerste installatie?",
-          "answer": "Onze ondersteuning eindigt niet na de installatie. U heeft doorlopend toegang tot ons team voor vragen of hulp die u nodig heeft. We zijn slechts een telefoontje of e-mail verwijderd."
-        },
-        {
-          "question": "Is er een minimale contractperiode?",
-          "answer": "Ons standaard abonnement is maandelijks zonder langetermijnverplichting. U kunt op elk moment opzeggen met een opzegtermijn van 30 dagen."
-        }
-      ]
+    "partners": {
+      "title": "Onze partners",
+      "subtitle": "We werken samen met toonaangevende financiële dienstverleners"
     },
     "cta": {
-      "title": "Klaar om te Beginnen?",
-      "subtitle": "Begin vandaag nog uw reis met Glodinas Finance en ervaar zorgeloos financieel beheer.",
-      "button1": "Aanmelden voor Moneybird",
-      "button2": "Contact Opnemen"
+      "title": "Klaar om uw financiën te stroomlijnen?",
+      "subtitle": "Neem vandaag nog contact met ons op om te bespreken hoe we uw bedrijf kunnen helpen financiële duidelijkheid en naleving te bereiken.",
+      "contactUs": "Neem contact op"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Over Glodinas Finance",
+      "subtitle": "Uw betrouwbare partner voor financiële diensten in Nederland"
+    },
+    "company": {
+      "title": "Ons bedrijf",
+      "paragraph1": "Glodinas Finance B.V. is opgericht met een duidelijke missie: het bieden van toegankelijke, professionele financiële diensten aan ondernemers en bedrijven in Nederland. We zijn gespecialiseerd in het helpen van zowel zelfstandige professionals (ZZP'ers) als besloten vennootschappen (BV's) bij het navigeren door de complexiteit van de Nederlandse financiële regelgeving.",
+      "paragraph2": "Ons team combineert uitgebreide ervaring in Nederlands belastingrecht, boekhoudnormen en bedrijfsadministratie met een toewijding aan persoonlijke service. We begrijpen dat elke klant unieke behoeften heeft, daarom bieden we oplossingen op maat in plaats van standaardpakketten.",
+      "paragraph3": "Gevestigd in Schiphol, bedienen we klanten in heel Nederland, met bijzondere expertise in het ondersteunen van internationale ondernemers en bedrijven die een aanwezigheid in de Nederlandse markt vestigen.",
+      "imageAlt": "Glodinas Finance kantoor in Schiphol"
+    },
+    "team": {
+      "title": "Ons team",
+      "subtitle": "Maak kennis met de professionals achter Glodinas Finance",
+      "linkedinProfile": "LinkedIn profiel",
+      "member1": {
+        "name": "Cihat Kaya",
+        "role": "Oprichter & Financieel Consultant",
+        "bio": "Cihat richtte Glodinas Finance op na jarenlange ervaring in de Nederlandse financiële sector. Hij is gespecialiseerd in belastingoptimalisatiestrategieën voor kleine bedrijven en zelfstandige professionals.",
+        "imageAlt": "Cihat Kaya - Oprichter van Glodinas Finance"
+      },
+      "member2": {
+        "name": "Gabriel Stan",
+        "role": "Senior Boekhouder",
+        "bio": "Gabriel brengt meer dan 8 jaar ervaring in financiële administratie en boekhouding. Hij houdt toezicht op klantenaccounts en zorgt voor nauwkeurige financiële rapportage.",
+        "imageAlt": "Gabriel Stan - Senior Boekhouder bij Glodinas Finance"
+      },
+      "member3": {
+        "name": "Ana Dogotari",
+        "role": "Klantrelatiebeheerder",
+        "bio": "Ana beheert klantcommunicatie en zorgt ervoor dat onze diensten consequent voldoen aan de hoogste normen van kwaliteit en klanttevredenheid.",
+        "imageAlt": "Ana Dogotari - Klantrelatiebeheerder bij Glodinas Finance"
+      }
+    },
+    "partners": {
+      "title": "Onze partners",
+      "subtitle": "We werken samen met toonaangevende dienstverleners om uitgebreide oplossingen te bieden",
+      "partner1": {
+        "name": "Moneybird",
+        "description": "Cloud-gebaseerde boekhoudsoftware die financiële administratie vereenvoudigt voor ondernemers.",
+        "imageAlt": "Moneybird - Boekhoudingsoftware Partner"
+      },
+      "partner2": {
+        "name": "Employes",
+        "description": "Uitgebreid platform voor salarisadministratie en HR-beheer voor bedrijven van alle groottes.",
+        "imageAlt": "Employes - Salarisadministratie Partner"
+      },
+      "partner3": {
+        "name": "Firm24",
+        "description": "Gestroomlijnde bedrijfsoprichtingsdiensten voor het vestigen van juridische entiteiten in Nederland.",
+        "imageAlt": "Firm24 - Bedrijfsoprichting Partner"
+      },
+      "bankingTitle": "Bankpartners",
+      "bankingImageAlt": "Nederlandse bankpartners voor persoonlijke leningen"
+    },
+    "cta": {
+      "title": "Klaar om samen te werken?",
+      "subtitle": "Neem vandaag nog contact met ons op om te bespreken hoe we de financiële behoeften van uw bedrijf kunnen ondersteunen.",
+      "buttonText": "Neem contact op"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Onze diensten",
+      "subtitle": "Uitgebreide financiële oplossingen op maat van uw bedrijfsbehoeften"
+    },
+    "bookkeepingZZP": {
+      "title": "Boekhouding voor ZZP'ers",
+      "description1": "Onze boekhoudservice voor zelfstandige professionals (ZZP'ers) biedt een complete oplossing voor financiële administratie die u compliant houdt met de Nederlandse belastingregels terwijl uw administratieve last wordt geminimaliseerd.",
+      "description2": "We gebruiken Moneybird, een gebruiksvriendelijk cloudgebaseerd platform, om uw financiële administratie efficiënt te beheren. Hierdoor kunt u zich concentreren op uw kernactiviteiten terwijl u volledig zicht houdt op uw financiële status.",
+      "included": "Wat is inbegrepen",
+      "items": [
+        "Maandelijkse verwerking van alle financiële transacties",
+        "Kwartaalaangifte BTW voorbereiding en indiening",
+        "Jaarlijkse inkomstenbelastingaangifte",
+        "Doorlopend financieel advies en ondersteuning",
+        "Toegang tot Moneybird cloud boekhoudingsoftware",
+        "Regelmatige financiële statusrapporten"
+      ],
+      "requestQuote": "Vraag een offerte aan"
+    },
+    "bookkeepingBV": {
+      "title": "Boekhouding voor BV's",
+      "description1": "Onze uitgebreide boekhoudservice voor Nederlandse besloten vennootschappen (BV's) zorgt voor volledige naleving van alle wettelijke financiële rapportagevereisten en biedt waardevolle inzichten voor zakelijke besluitvorming.",
+      "description2": "We behandelen alle aspecten van de financiële administratie van uw bedrijf, van dagelijkse transactieverwerking tot jaarrekening en vennootschapsbelastingaangiften.",
+      "included": "Wat is inbegrepen",
+      "items": [
+        "Volledig beheer van financiële administratie",
+        "Maandelijkse en kwartaalrapportages",
+        "BTW-aangifte voorbereiding en indiening",
+        "Jaarrekening opstellen",
+        "Vennootschapsbelastingaangifte",
+        "Directeurssalaris (DGA) administratie",
+        "Verwerking van dividenduitkeringen"
+      ],
+      "requestQuote": "Vraag een offerte aan"
+    },
+    "payroll": {
+      "title": "Salarisadministratie",
+      "description1": "Onze salarisadministratiediensten zorgen voor nauwkeurige en tijdige verwerking van de vergoeding van uw werknemers met behoud van naleving van de Nederlandse arbeidswetgeving en belastingvoorschriften.",
+      "description2": "We behandelen alle aspecten van de salarisadministratie, van het berekenen van salarissen en belastingen tot het genereren van loonstroken en het indienen van vereiste rapporten bij de Nederlandse Belastingdienst.",
+      "included": "Wat is inbegrepen",
+      "items": [
+        "Maandelijkse salarisberekeningen en -verwerking",
+        "Genereren van digitale loonstroken",
+        "Voorbereiding en indiening van loonbelastingaangifte",
+        "Jaaropgaven",
+        "Vakantiegeldadministratie",
+        "Bijhouden van ziekteverzuim en afwezigheid",
+        "Integratie met uw boekhoudsysteem"
+      ],
+      "requestQuote": "Vraag een offerte aan"
+    },
+    "businessFormation": {
+      "title": "Bedrijfsoprichting",
+      "description1": "Onze dienst voor bedrijfsoprichting begeleidt ondernemers door het proces van het oprichten van een juridische entiteit in Nederland, hetzij als eenmanszaak of als besloten vennootschap (BV).",
+      "description2": "We behandelen alle noodzakelijke registraties en administratieve vereisten, wat zorgt voor een soepele en efficiënte start van uw bedrijfsactiviteiten in de Nederlandse markt.",
+      "included": "Wat is inbegrepen",
+      "items": [
+        "Consultatie en advies over bedrijfsstructuur",
+        "Kamer van Koophandel (KVK) registratie",
+        "Belastingregistratie (BTW en inkomstenbelasting)",
+        "Opstellen van statuten (voor BV's)",
+        "Notariscoördinatie (voor BV's)",
+        "Hulp bij het opzetten van een bankrekening",
+        "Initiële setup van boekhoudsysteem"
+      ],
+      "requestQuote": "Vraag een offerte aan"
+    },
+    "personalLoans": {
+      "title": "Hulp bij persoonlijke leningen",
+      "description1": "Onze dienst voor hulp bij persoonlijke leningen helpt individuen bij het navigeren door het Nederlandse banksysteem om gunstige leningsvoorwaarden te verkrijgen voor persoonlijke behoeften, huisaankopen of andere belangrijke uitgaven.",
+      "description2": "We bieden begeleiding gedurende het hele aanvraagproces, helpen bij het voorbereiden van de nodige documentatie en onderhouden contact met financiële instellingen om uw kansen op goedkeuring te vergroten.",
+      "included": "Wat is inbegrepen",
+      "items": [
+        "Beoordeling van persoonlijke financiële situatie",
+        "Vergelijking van leningsopties bij meerdere banken",
+        "Voorbereiding van aanvraagdocumentatie",
+        "Hulp bij rentetariefonderhandelingen",
+        "Opzetten van leningsadministratie",
+        "Doorlopende ondersteuning bij leningsbeheer",
+        "Beoordeling van herfinancieringsmogelijkheden"
+      ],
+      "requestConsultation": "Vraag een consultatie aan"
+    },
+    "taxPreparation": {
+      "title": "Belastingaangifte",
+      "description1": "Onze belastingaangiftedienst zorgt voor nauwkeurige en tijdige indiening van alle vereiste belastingaangiften voor zowel particulieren als bedrijven die in Nederland actief zijn.",
+      "description2": "We benutten onze expertise in Nederlands belastingrecht om alle toepasselijke aftrekposten en kredieten te identificeren, waardoor uw belastingverplichting wordt geminimaliseerd terwijl volledige naleving van de belastingvoorschriften wordt gehandhaafd.",
+      "included": "Wat is inbegrepen",
+      "items": [
+        "Voorbereiding van inkomstenbelastingaangifte",
+        "Voorbereiding van vennootschapsbelastingaangifte",
+        "Verwerking van BTW-aangifte",
+        "Indiening van loonbelastingaangifte",
+        "Planning van belastingbetalingen",
+        "Afhandeling van correspondentie met de Belastingdienst",
+        "Belastingoptimalisatiestrategieën"
+      ],
+      "requestQuote": "Vraag een offerte aan"
+    },
+    "pricing": {
+      "title": "Onze prijzen",
+      "subtitle": "Transparante en concurrerende tarieven voor onze financiële diensten",
+      "popular": "Meest populair",
+      "zzpPackage": {
+        "title": "ZZP Boekhouding",
+        "price": "€130",
+        "period": "/maand ex BTW",
+        "features": [
+          "Complete financiële administratie",
+          "Kwartaalaangiften BTW",
+          "Jaarlijkse inkomstenbelastingaangifte",
+          "Toegang tot Moneybird software",
+          "Onbeperkte e-mailondersteuning",
+          "Maandelijkse financiële rapporten"
+        ],
+        "getStarted": "Aan de slag"
+      },
+      "bvPackage": {
+        "title": "BV Boekhouding",
+        "price": "€150",
+        "period": "/maand ex BTW",
+        "features": [
+          "Complete financiële administratie",
+          "Kwartaalaangiften BTW",
+          "Jaarrekening opstellen",
+          "Vennootschapsbelastingaangifte",
+          "Directeurssalaris administratie",
+          "Onbeperkte e-mail & telefonische ondersteuning",
+          "Kwartaalrapportages"
+        ],
+        "getStarted": "Aan de slag"
+      },
+      "customPackage": {
+        "title": "Maatwerk oplossingen",
+        "description": "Heeft u een pakket op maat nodig voor uw specifieke bedrijfsvereisten? Neem contact met ons op voor een persoonlijke offerte.",
+        "features": [
+          "Aangepaste dienstenselectie",
+          "Flexibele prijsopties",
+          "Schaalbaar naarmate uw bedrijf groeit",
+          "Persoonlijke ondersteuning"
+        ],
+        "contactUs": "Neem contact op"
+      }
+    },
+    "moneybird": {
+      "title": "Aan de slag met Moneybird",
+      "subtitle": "Meld u aan voor Moneybird via onze verwijzingslink om aan de slag te gaan met onze diensten"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Neem contact op",
+      "subtitle": "Neem contact op om te bespreken hoe we uw financiële behoeften kunnen ondersteunen"
+    },
+    "getInTouch": {
+      "title": "Neem contact op",
+      "description": "We zijn er om uw vragen te beantwoorden en de financiële begeleiding te bieden die uw bedrijf nodig heeft. Neem contact met ons op via een van de onderstaande methoden of gebruik het formulier om ons een bericht te sturen.",
+      "address": "Adres",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "businessHours": "Openingstijden",
+      "weekdays": "Maandag - Vrijdag: 9:00 - 17:30",
+      "weekend": "Zaterdag - Zondag: Gesloten"
+    },
+    "form": {
+      "title": "Stuur ons een bericht",
+      "name": "Uw naam",
+      "email": "E-mailadres",
+      "phone": "Telefoonnummer",
+      "subject": "Onderwerp",
+      "message": "Uw bericht",
+      "submit": "Bericht versturen",
+      "success": "Uw bericht is succesvol verzonden. We nemen binnenkort contact met u op!",
+      "error": "Er is een fout opgetreden bij het verzenden van uw bericht. Probeer het opnieuw."
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "subtitle": "Vind snel antwoorden op veelvoorkomende vragen",
+      "questions": [
+        {
+          "question": "Welke diensten biedt u aan voor ZZP'ers?",
+          "answer": "We bieden uitgebreide boekhouding, belastingaangifte, hulp bij bedrijfsoprichting en financieel advies specifiek op maat voor zelfstandige professionals (ZZP'ers) in Nederland."
+        },
+        {
+          "question": "Hoeveel kost uw boekhoudservice?",
+          "answer": "Ons standaard boekhoudpakket voor ZZP'ers begint bij €130 per maand (exclusief BTW), en ons BV-boekhoudpakket begint bij €150 per maand (exclusief BTW). We bieden ook aangepaste pakketten op basis van uw specifieke behoeften."
+        },
+        {
+          "question": "Biedt u diensten aan in het Engels?",
+          "answer": "Ja, we bieden al onze diensten aan in zowel Engels als Nederlands, waardoor we een ideale partner zijn voor internationale ondernemers en bedrijven die in Nederland actief zijn."
+        },
+        {
+          "question": "Hoe begin ik met uw diensten?",
+          "answer": "U kunt beginnen door contact met ons op te nemen via dit formulier, ons direct te bellen of ons kantoor te bezoeken. We plannen een eerste consultatie om uw behoeften te bespreken en de meest geschikte diensten voor uw situatie aan te bevelen."
+        },
+        {
+          "question": "Kunt u helpen met bedrijfsregistratie bij de KVK?",
+          "answer": "Ja, onze dienst voor bedrijfsoprichting omvat volledige hulp bij het registreren van uw bedrijf bij de Nederlandse Kamer van Koophandel (KVK), evenals het afhandelen van alle noodzakelijke belastingregistraties."
+        }
+      ]
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "Over ons",
+    "services": "Diensten",
+    "contact": "Contact",
+    "gettingStarted": "Aan de slag",
+    "blog": "Blog",
+    "login": "Inloggen"
+  },
+  "footer": {
+    "address": "Schiphol Boulevard 127, Schiphol 1118 BG",
+    "copyright": "© 2025 Glodinas Finance B.V. Alle rechten voorbehouden.",
+    "links": {
+      "privacyPolicy": "Privacybeleid",
+      "termsOfService": "Servicevoorwaarden"
     }
   }
 }

@@ -1,10 +1,42 @@
-// Define the locales supported by the application
-export const locales = ['en', 'nl', 'ro', 'tr', 'ru'];
-export const defaultLocale = 'nl';
+import { createSharedPathnamesNavigation } from 'next-intl/navigation';
 
-// Define the pathnames mapping for the Getting Started page
+// Define the locales supported by the application
+export const locales = ['en', 'nl', 'ro', 'tr', 'ru'] as const;
+export type Locale = (typeof locales)[number];
+
+// Define the default locale
+export const defaultLocale: Locale = 'en';
+
+// Define the localized pathnames for each route
 export const pathnames = {
-  // Only include the Getting Started page in the next-intl navigation
+  '/': {
+    en: '/',
+    nl: '/',
+    ro: '/',
+    tr: '/',
+    ru: '/'
+  },
+  '/about': {
+    en: '/about',
+    nl: '/over-ons',
+    ro: '/despre-noi',
+    tr: '/hakkimizda',
+    ru: '/o-nas'
+  },
+  '/services': {
+    en: '/services',
+    nl: '/diensten',
+    ro: '/servicii',
+    tr: '/hizmetler',
+    ru: '/uslugi'
+  },
+  '/contact': {
+    en: '/contact',
+    nl: '/contact',
+    ro: '/contact',
+    tr: '/iletisim',
+    ru: '/kontakt'
+  },
   '/getting-started': {
     en: '/getting-started',
     nl: '/aan-de-slag',
@@ -14,11 +46,5 @@ export const pathnames = {
   }
 };
 
-// Helper function to get localized path
-export function getLocalizedPath(path: string, locale: string): string {
-  if (path in pathnames) {
-    const localePaths = pathnames[path as keyof typeof pathnames];
-    return localePaths[locale as keyof typeof localePaths] || path;
-  }
-  return path;
-}
+// Create navigation utilities
+export const { Link, redirect, usePathname, useRouter } = createSharedPathnamesNavigation({ locales, pathnames });

@@ -1,95 +1,351 @@
 {
-  "GettingStarted": {
+  "home": {
     "hero": {
-      "title": "Glodinas Finance ile Başlangıç",
-      "subtitle": "Muhasebenizi kurmak ve sorunsuz çalıştırmak için basit üç adımlı sürecimizi izleyin."
+      "title": "Hollanda İşletmeleri için Uzman Finansal Hizmetler",
+      "subtitle": "Hollanda'daki ZZP'ler ve BV'ler için kapsamlı muhasebe, vergi hazırlama ve finansal yönetim çözümleri.",
+      "requestConsultation": "Danışmanlık Talep Et",
+      "ourServices": "Hizmetlerimiz"
     },
-    "process": {
-      "title": "Başlangıç Sürecimiz",
-      "subtitle": "Sizi hızlı bir şekilde başlatmak için düzenli bir süreç tasarladık",
-      "step1": {
-        "title": "Moneybird'e Kaydolun",
-        "description": "Referans linkimizi kullanarak Moneybird'e kaydolarak başlayın. Bu bulut tabanlı muhasebe yazılımı, finansal yönetiminizin temelini oluşturacaktır.",
-        "items": [
-          "Moneybird hesabınızı oluşturun",
-          "Glodinas Finance'i muhasebeci olarak ekleyin",
-          "Temel şirket bilgilerinizi tamamlayın"
-        ],
-        "button": "Moneybird'e Kaydolun"
+    "services": {
+      "title": "Hizmetlerimiz",
+      "subtitle": "İşletmenizin gelişmesine yardımcı olacak özel finansal çözümler",
+      "bookkeepingZZP": {
+        "title": "ZZP'ler için Muhasebe",
+        "description": "Hollanda'daki serbest çalışan profesyoneller için özel olarak tasarlanmış eksiksiz muhasebe hizmetleri.",
+        "learnMore": "Daha Fazla Bilgi"
       },
-      "step2": {
-        "title": "Kurulum Toplantısı Planlayın",
-        "description": "Yönetiminizi yapılandırmak için ekibimizle bir kurulum toplantısı ayarlayın. Rahatlığınız için hem yüz yüze hem de uzaktan TeamViewer oturumları sunuyoruz.",
-        "items": [
-          "Tek seferlik kurulum ücretini ödeyin (KDV hariç €150)",
-          "Yüz yüze veya TeamViewer oturumu arasında seçim yapın",
-          "Banka bağlantılarını, müşteri veritabanını ve fatura yapısını kuracağız"
-        ],
-        "button": "Kurulum Toplantısı Planlayın"
+      "bookkeepingBV": {
+        "title": "BV'ler için Muhasebe",
+        "description": "Yıllık raporlama ve vergi beyannameleri dahil Hollanda limited şirketleri için kapsamlı finansal yönetim.",
+        "learnMore": "Daha Fazla Bilgi"
       },
-      "step3": {
-        "title": "Aboneliğinizi Seçin",
-        "description": "İşletme ihtiyaçlarınıza uygun abonelik planını seçin. Hem serbest çalışanlar (ZZP) hem de limited şirketler (BV) için özel paketler sunuyoruz.",
-        "items": [
-          "ZZP Muhasebe: €130/ay (KDV hariç)",
-          "BV Muhasebe: €150/ay (KDV hariç)",
-          "Sorunsuz hizmet için otomatik faturalandırma"
-        ],
-        "button1": "ZZP/BV Aboneliği",
-        "button2": "Kredi Yönetimi"
+      "payroll": {
+        "title": "Bordro Hizmetleri",
+        "description": "Hollanda iş kanunları ve düzenlemelerine uygunluğu sağlayan, çalışanlarınız için verimli bordro yönetimi.",
+        "learnMore": "Daha Fazla Bilgi"
+      },
+      "businessFormation": {
+        "title": "Şirket Kuruluşu",
+        "description": "Hollanda'da işletme kurma sürecinde uzman rehberlik.",
+        "learnMore": "Daha Fazla Bilgi"
+      },
+      "personalLoans": {
+        "title": "Kişisel Krediler",
+        "description": "Hollanda'da ikamet edenler için kişisel kredi başvuruları ve yönetimi konusunda yardım.",
+        "learnMore": "Daha Fazla Bilgi"
+      },
+      "taxPreparation": {
+        "title": "Vergi Hazırlama",
+        "description": "İşletmeler ve bireyler için gerekli tüm vergi beyannamelerinin profesyonel hazırlanması ve dosyalanması.",
+        "learnMore": "Daha Fazla Bilgi"
       }
     },
-    "expectations": {
-      "title": "Neler Bekleyebilirsiniz",
-      "subtitle": "Başlangıç sürecimizi tamamladıktan sonra neler olacağına dair bilgiler",
-      "item1": {
-        "title": "Hızlı Kurulum",
-        "description": "Muhasebe sisteminiz, kurulum toplantınızdan sonra 24-48 saat içinde tamamen yapılandırılmış ve kullanıma hazır olacaktır."
+    "whyChooseUs": {
+      "title": "Neden Bizi Seçmelisiniz",
+      "subtitle": "Glodinas Finance ile ortaklığın faydaları",
+      "expertise": {
+        "title": "Finansal Uzmanlık",
+        "description": "Ekibimiz, Hollanda finansal düzenlemeleri ve iş uygulamalarında yıllarca uzmanlaşmış deneyim sunmaktadır."
       },
-      "item2": {
-        "title": "Sürekli Destek",
-        "description": "Muhasebenizin sorunsuz ve verimli çalışmasını sağlamak için ekibimizden sürekli destek alacaksınız."
+      "timeSaving": {
+        "title": "Değerli Zaman Tasarrufu",
+        "description": "Karmaşık finansal yönetimi biz hallederken siz işletmenizi büyütmeye odaklanın."
       },
-      "item3": {
-        "title": "Aylık Güncellemeler",
-        "description": "Finansal durumunuz hakkında düzenli güncellemeler alarak, işletme finanslarınızın her zaman net bir resmini elde edin."
-      },
-      "item4": {
-        "title": "Vergi Uyumluluğu",
-        "description": "İşletmenizin tüm Hollanda vergi düzenlemelerine ve dosyalama gereksinimlerine uygun kalmasını sağlıyoruz."
+      "costEffective": {
+        "title": "Maliyet Etkin Çözümler",
+        "description": "Rekabetçi fiyatlarla profesyonel finansal yönetim sunan özel paketler."
       }
+    },
+    "partners": {
+      "title": "Ortaklarımız",
+      "subtitle": "Önde gelen finansal hizmet sağlayıcılarıyla çalışıyoruz"
+    },
+    "cta": {
+      "title": "Finanslarınızı Düzenlemeye Hazır mısınız?",
+      "subtitle": "İşletmenizin finansal netlik ve uygunluk elde etmesine nasıl yardımcı olabileceğimizi görüşmek için bugün bize ulaşın.",
+      "contactUs": "Bize Ulaşın"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Glodinas Finance Hakkında",
+      "subtitle": "Hollanda'da finansal hizmetler için güvenilir ortağınız"
+    },
+    "company": {
+      "title": "Şirketimiz",
+      "paragraph1": "Glodinas Finance B.V., net bir misyonla kuruldu: Hollanda'daki girişimcilere ve işletmelere erişilebilir, profesyonel finansal hizmetler sunmak. Hem serbest çalışan profesyonellere (ZZP'ler) hem de limited şirketlere (BV'ler) Hollanda finansal düzenlemelerinin karmaşıklıklarında yol gösterme konusunda uzmanlaşmış durumdayız.",
+      "paragraph2": "Ekibimiz, Hollanda vergi hukuku, muhasebe standartları ve işletme yönetiminde geniş deneyimi kişiselleştirilmiş hizmet taahhüdü ile birleştirmektedir. Her müşterinin benzersiz ihtiyaçları olduğunu anlıyoruz, bu nedenle tek tip paketler yerine özel çözümler sunuyoruz.",
+      "paragraph3": "Schiphol merkezli olarak, Hollanda genelinde müşterilere hizmet veriyoruz ve özellikle Hollanda pazarında varlık kuran uluslararası girişimcileri ve işletmeleri destekleme konusunda uzmanlığa sahibiz.",
+      "imageAlt": "Schiphol'deki Glodinas Finance ofisi"
+    },
+    "team": {
+      "title": "Ekibimiz",
+      "subtitle": "Glodinas Finance'in arkasındaki profesyonellerle tanışın",
+      "linkedinProfile": "LinkedIn Profili",
+      "member1": {
+        "name": "Cihat Kaya",
+        "role": "Kurucu & Finansal Danışman",
+        "bio": "Cihat, Hollanda finansal sektöründe yıllarca deneyim kazandıktan sonra Glodinas Finance'i kurdu. Küçük işletmeler ve serbest çalışan profesyoneller için vergi optimizasyon stratejileri konusunda uzmanlaşmıştır.",
+        "imageAlt": "Cihat Kaya - Glodinas Finance'in Kurucusu"
+      },
+      "member2": {
+        "name": "Gabriel Stan",
+        "role": "Kıdemli Muhasebeci",
+        "bio": "Gabriel, finansal yönetim ve muhasebe alanında 8 yılı aşkın deneyim getiriyor. Müşteri hesaplarını denetliyor ve doğru finansal raporlamayı sağlıyor.",
+        "imageAlt": "Gabriel Stan - Glodinas Finance'de Kıdemli Muhasebeci"
+      },
+      "member3": {
+        "name": "Ana Dogotari",
+        "role": "Müşteri İlişkileri Yöneticisi",
+        "bio": "Ana, müşteri iletişimlerini yönetiyor ve hizmetlerimizin tutarlı bir şekilde en yüksek kalite ve müşteri memnuniyeti standartlarını karşılamasını sağlıyor.",
+        "imageAlt": "Ana Dogotari - Glodinas Finance'de Müşteri İlişkileri Yöneticisi"
+      }
+    },
+    "partners": {
+      "title": "Ortaklarımız",
+      "subtitle": "Kapsamlı çözümler sunmak için önde gelen hizmet sağlayıcılarla işbirliği yapıyoruz",
+      "partner1": {
+        "name": "Moneybird",
+        "description": "Girişimciler için finansal yönetimi basitleştiren bulut tabanlı muhasebe yazılımı.",
+        "imageAlt": "Moneybird - Muhasebe Yazılımı Ortağı"
+      },
+      "partner2": {
+        "name": "Employes",
+        "description": "Her büyüklükteki işletme için kapsamlı bordro ve İK yönetim platformu.",
+        "imageAlt": "Employes - Bordro Hizmetleri Ortağı"
+      },
+      "partner3": {
+        "name": "Firm24",
+        "description": "Hollanda'da yasal kuruluşlar oluşturmak için kolaylaştırılmış şirket kuruluş hizmetleri.",
+        "imageAlt": "Firm24 - Şirket Kuruluşu Ortağı"
+      },
+      "bankingTitle": "Bankacılık Ortakları",
+      "bankingImageAlt": "Kişisel Krediler için Hollanda Bankacılık Ortakları"
+    },
+    "cta": {
+      "title": "Birlikte Çalışmaya Hazır mısınız?",
+      "subtitle": "İşletmenizin finansal ihtiyaçlarını nasıl destekleyebileceğimizi görüşmek için bugün bize ulaşın.",
+      "buttonText": "Bize Ulaşın"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Hizmetlerimiz",
+      "subtitle": "İşletme ihtiyaçlarınıza göre özelleştirilmiş kapsamlı finansal çözümler"
+    },
+    "bookkeepingZZP": {
+      "title": "ZZP'ler için Muhasebe",
+      "description1": "Serbest çalışan profesyoneller (ZZP'ler) için muhasebe hizmetimiz, idari yükünüzü en aza indirirken Hollanda vergi düzenlemelerine uygun kalmanızı sağlayan eksiksiz bir finansal yönetim çözümü sunar.",
+      "description2": "Finansal kayıtlarınızı verimli bir şekilde yönetmek için kullanıcı dostu bir bulut tabanlı platform olan Moneybird'ü kullanıyoruz. Bu, finansal durumunuzun tam görünürlüğünü korurken temel işletme faaliyetlerinize odaklanmanızı sağlar.",
+      "included": "Neler Dahil",
+      "items": [
+        "Tüm finansal işlemlerin aylık işlenmesi",
+        "Üç aylık KDV (BTW) beyannamesi hazırlama ve dosyalama",
+        "Yıllık gelir vergisi beyannamesi hazırlama",
+        "Sürekli finansal tavsiye ve destek",
+        "Moneybird bulut muhasebe yazılımına erişim",
+        "Düzenli finansal durum raporları"
+      ],
+      "requestQuote": "Teklif İsteyin"
+    },
+    "bookkeepingBV": {
+      "title": "BV'ler için Muhasebe",
+      "description1": "Hollanda limited şirketleri (BV'ler) için kapsamlı muhasebe hizmetimiz, işletme kararları için değerli bilgiler sağlarken tüm yasal finansal raporlama gerekliliklerine tam uyum sağlar.",
+      "description2": "Şirketinizin finansal yönetiminin günlük işlem işlemeden yıllık hesap hazırlamaya ve kurumsal vergi beyannamelerine kadar tüm yönlerini ele alıyoruz.",
+      "included": "Neler Dahil",
+      "items": [
+        "Eksiksiz finansal yönetim",
+        "Aylık ve üç aylık finansal raporlama",
+        "KDV (BTW) beyannamesi hazırlama ve dosyalama",
+        "Yıllık hesapların hazırlanması",
+        "Kurumlar vergisi beyannamesi dosyalama",
+        "Direktör maaşı (DGA) yönetimi",
+        "Temettü ödemesi işleme"
+      ],
+      "requestQuote": "Teklif İsteyin"
+    },
+    "payroll": {
+      "title": "Bordro Hizmetleri",
+      "description1": "Bordro hizmetlerimiz, Hollanda iş kanunları ve vergi düzenlemelerine uygunluğu korurken çalışanlarınızın tazminatının doğru ve zamanında işlenmesini sağlar.",
+      "description2": "Maaşların ve vergilerin hesaplanmasından bordro fişlerinin oluşturulmasına ve Hollanda Vergi Dairesi'ne gerekli raporların dosyalanmasına kadar bordro yönetiminin tüm yönlerini ele alıyoruz.",
+      "included": "Neler Dahil",
+      "items": [
+        "Aylık maaş hesaplamaları ve işleme",
+        "Dijital bordro fişleri oluşturma",
+        "Ücret vergisi beyannamesi hazırlama ve dosyalama",
+        "Yıl sonu bildirimleri (jaaropgaaf)",
+        "Tatil ödeneği yönetimi",
+        "Hastalık izni ve devamsızlık takibi",
+        "Muhasebe sisteminizle entegrasyon"
+      ],
+      "requestQuote": "Teklif İsteyin"
+    },
+    "businessFormation": {
+      "title": "Şirket Kuruluşu",
+      "description1": "Şirket kuruluş hizmetimiz, girişimcileri Hollanda'da bir şahıs şirketi (eenmanszaak) veya limited şirket (BV) olarak yasal bir kuruluş kurma sürecinde yönlendirir.",
+      "description2": "Hollanda pazarında işletme faaliyetlerinizin sorunsuz ve verimli bir başlangıcını sağlayarak tüm gerekli kayıtları ve idari gereksinimleri ele alıyoruz.",
+      "included": "Neler Dahil",
+      "items": [
+        "İşletme yapısı danışmanlığı ve tavsiyesi",
+        "Ticaret Odası (KVK) kaydı",
+        "Vergi kaydı (BTW/KDV ve gelir vergisi)",
+        "Şirket ana sözleşmesi hazırlama (BV'ler için)",
+        "Noter koordinasyonu (BV'ler için)",
+        "Banka hesabı kurulum yardımı",
+        "İlk muhasebe sistemi kurulumu"
+      ],
+      "requestQuote": "Teklif İsteyin"
+    },
+    "personalLoans": {
+      "title": "Kişisel Kredi Yardımı",
+      "description1": "Kişisel kredi yardım hizmetimiz, bireylerin kişisel ihtiyaçlar, ev alımları veya diğer önemli harcamalar için uygun kredi koşulları elde etmek üzere Hollanda bankacılık sisteminde yol bulmalarına yardımcı olur.",
+      "description2": "Başvuru süreci boyunca rehberlik sağlıyor, gerekli belgeleri hazırlamaya yardımcı oluyor ve onay şansınızı artırmak için finansal kurumlarla irtibat kuruyoruz.",
+      "included": "Neler Dahil",
+      "items": [
+        "Kişisel finansal durum değerlendirmesi",
+        "Birden fazla bankada kredi seçeneklerinin karşılaştırılması",
+        "Başvuru belgelerinin hazırlanması",
+        "Faiz oranı müzakere yardımı",
+        "Kredi yönetimi kurulumu",
+        "Devam eden kredi yönetimi desteği",
+        "Yeniden finansman fırsatları değerlendirmesi"
+      ],
+      "requestConsultation": "Danışmanlık Talep Et"
+    },
+    "taxPreparation": {
+      "title": "Vergi Hazırlama",
+      "description1": "Vergi hazırlama hizmetimiz, Hollanda'da faaliyet gösteren hem bireyler hem de işletmeler için gerekli tüm vergi beyannamelerinin doğru ve zamanında dosyalanmasını sağlar.",
+      "description2": "Vergi yükümlülüğünüzü en aza indirirken vergi düzenlemelerine tam uyumu koruyarak, uygulanabilir tüm indirimleri ve kredileri belirlemek için Hollanda vergi hukukundaki uzmanlığımızdan yararlanıyoruz.",
+      "included": "Neler Dahil",
+      "items": [
+        "Kişisel gelir vergisi beyannamesi hazırlama",
+        "Kurumlar vergisi beyannamesi hazırlama",
+        "KDV (BTW) beyannamesi işleme",
+        "Ücret vergisi beyannamesi dosyalama",
+        "Vergi ödeme planlaması",
+        "Vergi dairesi yazışmaları yönetimi",
+        "Vergi optimizasyon stratejileri"
+      ],
+      "requestQuote": "Teklif İsteyin"
+    },
+    "pricing": {
+      "title": "Fiyatlandırmamız",
+      "subtitle": "Finansal hizmetlerimiz için şeffaf ve rekabetçi oranlar",
+      "popular": "En Popüler",
+      "zzpPackage": {
+        "title": "ZZP Muhasebe",
+        "price": "€130",
+        "period": "/ay KDV hariç",
+        "features": [
+          "Eksiksiz finansal yönetim",
+          "Üç aylık KDV beyannameleri",
+          "Yıllık gelir vergisi beyannamesi",
+          "Moneybird yazılımı erişimi",
+          "Sınırsız e-posta desteği",
+          "Aylık finansal raporlar"
+        ],
+        "getStarted": "Başlayın"
+      },
+      "bvPackage": {
+        "title": "BV Muhasebe",
+        "price": "€150",
+        "period": "/ay KDV hariç",
+        "features": [
+          "Eksiksiz finansal yönetim",
+          "Üç aylık KDV beyannameleri",
+          "Yıllık hesapların hazırlanması",
+          "Kurumlar vergisi beyannamesi",
+          "Direktör maaşı yönetimi",
+          "Sınırsız e-posta ve telefon desteği",
+          "Üç aylık finansal raporlar"
+        ],
+        "getStarted": "Başlayın"
+      },
+      "customPackage": {
+        "title": "Özel Çözümler",
+        "description": "İşletmenizin özel gereksinimleri için özelleştirilmiş bir pakete mi ihtiyacınız var? Kişiselleştirilmiş bir teklif için bizimle iletişime geçin.",
+        "features": [
+          "Özelleştirilmiş hizmet seçimi",
+          "Esnek fiyatlandırma seçenekleri",
+          "İşletmeniz büyüdükçe ölçeklenebilir",
+          "Kişiselleştirilmiş destek"
+        ],
+        "contactUs": "Bize Ulaşın"
+      }
+    },
+    "moneybird": {
+      "title": "Moneybird ile Başlayın",
+      "subtitle": "Hizmetlerimizle başlamak için yönlendirme bağlantımız üzerinden Moneybird'e kaydolun"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Bize Ulaşın",
+      "subtitle": "Finansal ihtiyaçlarınızı nasıl destekleyebileceğimizi görüşmek için iletişime geçin"
+    },
+    "getInTouch": {
+      "title": "İletişime Geçin",
+      "description": "Sorularınızı yanıtlamak ve işletmenizin ihtiyaç duyduğu finansal rehberliği sağlamak için buradayız. Aşağıdaki yöntemlerden herhangi biri aracılığıyla bizimle iletişime geçin veya bize mesaj göndermek için formu kullanın.",
+      "address": "Adres",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "businessHours": "Çalışma Saatleri",
+      "weekdays": "Pazartesi - Cuma: 9:00 - 17:30",
+      "weekend": "Cumartesi - Pazar: Kapalı"
+    },
+    "form": {
+      "title": "Bize Mesaj Gönderin",
+      "name": "Adınız",
+      "email": "E-posta Adresi",
+      "phone": "Telefon Numarası",
+      "subject": "Konu",
+      "message": "Mesajınız",
+      "submit": "Mesaj Gönder",
+      "success": "Mesajınız başarıyla gönderildi. Yakında size geri döneceğiz!",
+      "error": "Mesajınızı gönderirken bir hata oluştu. Lütfen tekrar deneyin."
     },
     "faq": {
       "title": "Sık Sorulan Sorular",
-      "subtitle": "Başlangıç sürecimiz hakkında yaygın sorular",
+      "subtitle": "Yaygın sorulara hızlı yanıtlar bulun",
       "questions": [
         {
-          "question": "Kurulum süreci ne kadar sürer?",
-          "answer": "Tüm başlangıç süreci genellikle ilk kayıttan tam kuruluma kadar 2-3 iş günü sürer. Kurulum toplantısının kendisi genellikle yaklaşık 1-2 saat sürer."
+          "question": "ZZP'ler için hangi hizmetleri sunuyorsunuz?",
+          "answer": "Hollanda'daki serbest çalışan profesyoneller (ZZP'ler) için özel olarak uyarlanmış kapsamlı muhasebe, vergi hazırlama, işletme kuruluş yardımı ve finansal danışmanlık hizmetleri sunuyoruz."
         },
         {
-          "question": "Kurulum toplantısı için bir şey hazırlamam gerekiyor mu?",
-          "answer": "Evet, lütfen kurulum toplantısı için banka hesabı giriş bilgilerinizi, işletme kayıt bilgilerinizi ve mevcut müşteri/fatura verilerinizi hazır bulundurun. Bu, sisteminizi verimli bir şekilde yapılandırmamıza yardımcı olacaktır."
+          "question": "Muhasebe hizmetiniz ne kadara mal oluyor?",
+          "answer": "ZZP'ler için standart muhasebe paketimiz aylık €130'dan (KDV hariç) başlarken, BV muhasebe paketimiz aylık €150'dan (KDV hariç) başlıyor. Ayrıca özel ihtiyaçlarınıza göre özelleştirilmiş paketler de sunuyoruz."
         },
         {
-          "question": "Başka bir muhasebe hizmetinden geçiş yapabilir miyim?",
-          "answer": "Kesinlikle! Mevcut muhasebe hizmetinizden sistemimize geçmenize yardımcı olabiliriz. Finansal verilerinizi aktarma ve sorunsuz bir geçiş sağlama sürecinde size rehberlik edeceğiz."
+          "question": "İngilizce hizmet sunuyor musunuz?",
+          "answer": "Evet, tüm hizmetlerimizi hem İngilizce hem de Hollandaca olarak sunuyoruz, bu da bizi Hollanda'da faaliyet gösteren uluslararası girişimciler ve işletmeler için ideal bir ortak yapıyor."
         },
         {
-          "question": "İlk kurulumdan sonra yardıma ihtiyacım olursa ne olur?",
-          "answer": "Desteğimiz kurulumdan sonra bitmez. İhtiyaç duyduğunuz herhangi bir soru veya yardım için ekibimize sürekli erişiminiz olacak. Sadece bir telefon veya e-posta uzağındayız."
+          "question": "Hizmetlerinizle nasıl başlarım?",
+          "answer": "Bu form aracılığıyla bizimle iletişime geçerek, doğrudan arayarak veya ofisimizi ziyaret ederek başlayabilirsiniz. İhtiyaçlarınızı görüşmek ve durumunuz için en uygun hizmetleri önermek için ilk danışma randevusu ayarlayacağız."
         },
         {
-          "question": "Minimum sözleşme süresi var mı?",
-          "answer": "Standart aboneliğimiz, uzun vadeli taahhüt gerektirmeyen aylık bazlıdır. 30 gün önceden bildirimde bulunarak istediğiniz zaman iptal edebilirsiniz."
+          "question": "KVK'da işletme kaydı konusunda yardımcı olabilir misiniz?",
+          "answer": "Evet, işletme kuruluş hizmetimiz, işletmenizi Hollanda Ticaret Odası'na (KVK) kaydetme ve tüm gerekli vergi kayıtlarını yönetme konusunda tam yardım içerir."
         }
       ]
-    },
-    "cta": {
-      "title": "Başlamaya Hazır mısınız?",
-      "subtitle": "Glodinas Finance ile yolculuğunuza bugün başlayın ve sorunsuz finansal yönetimi deneyimleyin.",
-      "button1": "Moneybird'e Kaydolun",
-      "button2": "Bize Ulaşın"
+    }
+  },
+  "navigation": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "contact": "İletişim",
+    "gettingStarted": "Başlangıç",
+    "blog": "Blog",
+    "login": "Giriş"
+  },
+  "footer": {
+    "address": "Schiphol Boulevard 127, Schiphol 1118 BG",
+    "copyright": "© 2025 Glodinas Finance B.V. Tüm hakları saklıdır.",
+    "links": {
+      "privacyPolicy": "Gizlilik Politikası",
+      "termsOfService": "Hizmet Şartları"
     }
   }
 }

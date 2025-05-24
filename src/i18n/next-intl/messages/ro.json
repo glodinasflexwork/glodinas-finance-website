@@ -1,95 +1,351 @@
 {
-  "GettingStarted": {
+  "home": {
     "hero": {
-      "title": "Primii Pași cu Glodinas Finance",
-      "subtitle": "Urmați procesul nostru simplu în trei pași pentru a configura și gestiona contabilitatea dumneavoastră fără probleme."
+      "title": "Servicii financiare de specialitate pentru companii olandeze",
+      "subtitle": "Soluții complete de contabilitate, pregătire fiscală și management financiar pentru ZZP-uri și BV-uri în Olanda.",
+      "requestConsultation": "Solicitați o consultație",
+      "ourServices": "Serviciile noastre"
     },
-    "process": {
-      "title": "Procesul Nostru de Integrare",
-      "subtitle": "Am conceput un proces eficient pentru a vă ajuta să începeți rapid",
-      "step1": {
-        "title": "Înscrieți-vă la Moneybird",
-        "description": "Începeți prin a vă înscrie la Moneybird folosind link-ul nostru de referință. Acest software de contabilitate bazat pe cloud va fi baza administrației dumneavoastră financiare.",
-        "items": [
-          "Creați-vă contul Moneybird",
-          "Adăugați Glodinas Finance ca și contabil",
-          "Completați informațiile de bază ale companiei"
-        ],
-        "button": "Înscrieți-vă la Moneybird"
+    "services": {
+      "title": "Serviciile noastre",
+      "subtitle": "Soluții financiare personalizate pentru a ajuta afacerea dumneavoastră să prospere",
+      "bookkeepingZZP": {
+        "title": "Contabilitate pentru ZZP-uri",
+        "description": "Servicii complete de contabilitate concepute special pentru profesioniștii independenți din Olanda.",
+        "learnMore": "Aflați mai multe"
       },
-      "step2": {
-        "title": "Programați o Întâlnire de Configurare",
-        "description": "Programați o întâlnire de configurare cu echipa noastră pentru a configura administrația dumneavoastră. Oferim atât sesiuni în persoană, cât și la distanță prin TeamViewer pentru confortul dumneavoastră.",
-        "items": [
-          "Plătiți taxa unică de configurare (€150 fără TVA)",
-          "Alegeți între o sesiune în persoană sau prin TeamViewer",
-          "Vom configura conexiunile bancare, baza de date a clienților și structura facturilor"
-        ],
-        "button": "Programați Întâlnirea de Configurare"
+      "bookkeepingBV": {
+        "title": "Contabilitate pentru BV-uri",
+        "description": "Administrație financiară completă pentru companiile olandeze cu răspundere limitată, inclusiv raportare anuală și declarații fiscale.",
+        "learnMore": "Aflați mai multe"
       },
-      "step3": {
-        "title": "Selectați Abonamentul",
-        "description": "Alegeți planul de abonament care se potrivește nevoilor afacerii dumneavoastră. Oferim pachete personalizate atât pentru liber-profesioniști (ZZP), cât și pentru societăți cu răspundere limitată (BV).",
-        "items": [
-          "Contabilitate ZZP: €130/lună (fără TVA)",
-          "Contabilitate BV: €150/lună (fără TVA)",
-          "Facturare automată pentru un serviciu fără griji"
-        ],
-        "button1": "Abonament ZZP/BV",
-        "button2": "Administrare Împrumuturi"
+      "payroll": {
+        "title": "Servicii de salarizare",
+        "description": "Gestionarea eficientă a salariilor pentru angajații dumneavoastră, asigurând conformitatea cu legislația muncii și reglementările olandeze.",
+        "learnMore": "Aflați mai multe"
+      },
+      "businessFormation": {
+        "title": "Înființare de companii",
+        "description": "Îndrumare de specialitate în procesul de înființare a entității dumneavoastră de afaceri în Olanda.",
+        "learnMore": "Aflați mai multe"
+      },
+      "personalLoans": {
+        "title": "Împrumuturi personale",
+        "description": "Asistență pentru cererile de împrumut personal și administrare pentru rezidenții olandezi.",
+        "learnMore": "Aflați mai multe"
+      },
+      "taxPreparation": {
+        "title": "Pregătire fiscală",
+        "description": "Pregătirea și depunerea profesională a tuturor declarațiilor fiscale necesare pentru companii și persoane fizice.",
+        "learnMore": "Aflați mai multe"
       }
     },
-    "expectations": {
-      "title": "La Ce să Vă Așteptați",
-      "subtitle": "Iată ce se întâmplă după ce finalizați procesul nostru de integrare",
-      "item1": {
-        "title": "Configurare Imediată",
-        "description": "Sistemul dumneavoastră de contabilitate va fi complet configurat și gata de utilizare în 24-48 de ore după întâlnirea de configurare."
+    "whyChooseUs": {
+      "title": "De ce să ne alegeți",
+      "subtitle": "Beneficiile parteneriatului cu Glodinas Finance",
+      "expertise": {
+        "title": "Expertiză financiară",
+        "description": "Echipa noastră aduce ani de experiență specializată în reglementările financiare olandeze și practicile de afaceri."
       },
-      "item2": {
-        "title": "Asistență Continuă",
-        "description": "Veți primi asistență continuă din partea echipei noastre pentru a vă asigura că contabilitatea dumneavoastră funcționează fără probleme și eficient."
+      "timeSaving": {
+        "title": "Economisiți timp valoros",
+        "description": "Concentrați-vă pe dezvoltarea afacerii în timp ce noi ne ocupăm de administrația financiară complexă."
       },
-      "item3": {
-        "title": "Actualizări Lunare",
-        "description": "Primiți actualizări regulate privind situația dumneavoastră financiară, asigurându-vă că aveți întotdeauna o imagine clară a finanțelor afacerii."
-      },
-      "item4": {
-        "title": "Conformitate Fiscală",
-        "description": "Ne asigurăm că afacerea dumneavoastră rămâne conformă cu toate reglementările fiscale olandeze și cerințele de depunere."
+      "costEffective": {
+        "title": "Soluții rentabile",
+        "description": "Pachete personalizate care oferă management financiar profesional la tarife competitive."
       }
     },
-    "faq": {
-      "title": "Întrebări Frecvente",
-      "subtitle": "Întrebări comune despre procesul nostru de integrare",
-      "questions": [
-        {
-          "question": "Cât durează procesul de configurare?",
-          "answer": "Întregul proces de integrare durează de obicei 2-3 zile lucrătoare de la înscrierea inițială până la configurarea completă. Întâlnirea de configurare în sine durează de obicei aproximativ 1-2 ore."
-        },
-        {
-          "question": "Trebuie să pregătesc ceva pentru întâlnirea de configurare?",
-          "answer": "Da, vă rugăm să aveți la îndemână detaliile de conectare la contul bancar, informațiile de înregistrare a afacerii și orice date existente despre clienți/facturi pentru întâlnirea de configurare. Acest lucru ne va ajuta să vă configurăm sistemul eficient."
-        },
-        {
-          "question": "Pot să trec de la un alt serviciu de contabilitate?",
-          "answer": "Absolut! Vă putem ajuta să treceți de la serviciul actual de contabilitate la sistemul nostru. Vă vom ghida prin procesul de transfer al datelor financiare și vom asigura o tranziție fără probleme."
-        },
-        {
-          "question": "Ce se întâmplă dacă am nevoie de ajutor după configurarea inițială?",
-          "answer": "Asistența noastră nu se încheie după configurare. Veți avea acces continuu la echipa noastră pentru orice întrebări sau asistență de care aveți nevoie. Suntem doar la un telefon sau email distanță."
-        },
-        {
-          "question": "Există o perioadă minimă de contract?",
-          "answer": "Abonamentul nostru standard este lunar, fără angajament pe termen lung. Puteți anula oricând cu un preaviz de 30 de zile."
-        }
-      ]
+    "partners": {
+      "title": "Partenerii noștri",
+      "subtitle": "Lucrăm cu furnizori de servicii financiare de top"
     },
     "cta": {
-      "title": "Gata să Începeți?",
-      "subtitle": "Începeți-vă călătoria cu Glodinas Finance astăzi și experimentați un management financiar fără griji.",
-      "button1": "Înscrieți-vă la Moneybird",
-      "button2": "Contactați-ne"
+      "title": "Gata să vă eficientizați finanțele?",
+      "subtitle": "Contactați-ne astăzi pentru a discuta cum putem ajuta afacerea dumneavoastră să obțină claritate financiară și conformitate.",
+      "contactUs": "Contactați-ne"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Despre Glodinas Finance",
+      "subtitle": "Partenerul dumneavoastră de încredere pentru servicii financiare în Olanda"
+    },
+    "company": {
+      "title": "Compania noastră",
+      "paragraph1": "Glodinas Finance B.V. a fost fondată cu o misiune clară: să ofere servicii financiare accesibile și profesionale antreprenorilor și companiilor din Olanda. Ne specializăm în ajutarea atât a profesioniștilor independenți (ZZP-uri), cât și a companiilor cu răspundere limitată (BV-uri) să navigheze prin complexitățile reglementărilor financiare olandeze.",
+      "paragraph2": "Echipa noastră combină experiență vastă în legislația fiscală olandeză, standardele de contabilitate și administrarea afacerilor cu un angajament pentru servicii personalizate. Înțelegem că fiecare client are nevoi unice, motiv pentru care oferim soluții personalizate în loc de pachete standard.",
+      "paragraph3": "Cu sediul în Schiphol, deservim clienți din toată Olanda, cu expertiză deosebită în sprijinirea antreprenorilor și companiilor internaționale care își stabilesc o prezență pe piața olandeză.",
+      "imageAlt": "Biroul Glodinas Finance din Schiphol"
+    },
+    "team": {
+      "title": "Echipa noastră",
+      "subtitle": "Cunoașteți profesioniștii din spatele Glodinas Finance",
+      "linkedinProfile": "Profil LinkedIn",
+      "member1": {
+        "name": "Cihat Kaya",
+        "role": "Fondator și Consultant Financiar",
+        "bio": "Cihat a fondat Glodinas Finance după ani de experiență în sectorul financiar olandez. Este specializat în strategii de optimizare fiscală pentru întreprinderi mici și profesioniști independenți.",
+        "imageAlt": "Cihat Kaya - Fondatorul Glodinas Finance"
+      },
+      "member2": {
+        "name": "Gabriel Stan",
+        "role": "Contabil Senior",
+        "bio": "Gabriel aduce peste 8 ani de experiență în administrație financiară și contabilitate. El supraveghează conturile clienților și asigură raportarea financiară precisă.",
+        "imageAlt": "Gabriel Stan - Contabil Senior la Glodinas Finance"
+      },
+      "member3": {
+        "name": "Ana Dogotari",
+        "role": "Manager Relații Clienți",
+        "bio": "Ana gestionează comunicările cu clienții și se asigură că serviciile noastre îndeplinesc în mod constant cele mai înalte standarde de calitate și satisfacție a clienților.",
+        "imageAlt": "Ana Dogotari - Manager Relații Clienți la Glodinas Finance"
+      }
+    },
+    "partners": {
+      "title": "Partenerii noștri",
+      "subtitle": "Colaborăm cu furnizori de servicii de top pentru a oferi soluții complete",
+      "partner1": {
+        "name": "Moneybird",
+        "description": "Software de contabilitate bazat pe cloud care simplifică administrația financiară pentru antreprenori.",
+        "imageAlt": "Moneybird - Partener Software de Contabilitate"
+      },
+      "partner2": {
+        "name": "Employes",
+        "description": "Platformă completă de salarizare și management HR pentru companii de toate dimensiunile.",
+        "imageAlt": "Employes - Partener Servicii de Salarizare"
+      },
+      "partner3": {
+        "name": "Firm24",
+        "description": "Servicii eficiente de înființare a companiilor pentru stabilirea entităților juridice în Olanda.",
+        "imageAlt": "Firm24 - Partener Înființare Companii"
+      },
+      "bankingTitle": "Parteneri bancari",
+      "bankingImageAlt": "Parteneri bancari olandezi pentru împrumuturi personale"
+    },
+    "cta": {
+      "title": "Gata să lucrăm împreună?",
+      "subtitle": "Contactați-ne astăzi pentru a discuta cum putem sprijini nevoile financiare ale afacerii dumneavoastră.",
+      "buttonText": "Contactați-ne"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Serviciile noastre",
+      "subtitle": "Soluții financiare complete adaptate nevoilor afacerii dumneavoastră"
+    },
+    "bookkeepingZZP": {
+      "title": "Contabilitate pentru ZZP-uri",
+      "description1": "Serviciul nostru de contabilitate pentru profesioniștii independenți (ZZP-uri) oferă o soluție completă de administrație financiară care vă menține în conformitate cu reglementările fiscale olandeze, minimizând în același timp povara administrativă.",
+      "description2": "Folosim Moneybird, o platformă prietenoasă bazată pe cloud, pentru a gestiona eficient înregistrările dumneavoastră financiare. Acest lucru vă permite să vă concentrați pe activitățile de bază ale afacerii, menținând în același timp vizibilitate completă asupra situației dumneavoastră financiare.",
+      "included": "Ce este inclus",
+      "items": [
+        "Procesarea lunară a tuturor tranzacțiilor financiare",
+        "Pregătirea și depunerea declarațiilor trimestriale de TVA (BTW)",
+        "Pregătirea declarației anuale de impozit pe venit",
+        "Consiliere și asistență financiară continuă",
+        "Acces la software-ul de contabilitate cloud Moneybird",
+        "Rapoarte regulate privind situația financiară"
+      ],
+      "requestQuote": "Solicitați o ofertă"
+    },
+    "bookkeepingBV": {
+      "title": "Contabilitate pentru BV-uri",
+      "description1": "Serviciul nostru complet de contabilitate pentru companiile olandeze cu răspundere limitată (BV-uri) asigură conformitatea deplină cu toate cerințele statutare de raportare financiară, oferind în același timp informații valoroase pentru luarea deciziilor de afaceri.",
+      "description2": "Ne ocupăm de toate aspectele administrației financiare a companiei dumneavoastră, de la procesarea tranzacțiilor zilnice până la pregătirea conturilor anuale și depunerea declarațiilor fiscale corporative.",
+      "included": "Ce este inclus",
+      "items": [
+        "Gestionarea completă a administrației financiare",
+        "Raportare financiară lunară și trimestrială",
+        "Pregătirea și depunerea declarațiilor de TVA (BTW)",
+        "Pregătirea conturilor anuale",
+        "Depunerea declarației de impozit pe profit",
+        "Administrarea salariului directorului (DGA)",
+        "Procesarea plăților de dividende"
+      ],
+      "requestQuote": "Solicitați o ofertă"
+    },
+    "payroll": {
+      "title": "Servicii de salarizare",
+      "description1": "Serviciile noastre de salarizare asigură procesarea precisă și la timp a compensațiilor angajaților dumneavoastră, menținând conformitatea cu legislația muncii și reglementările fiscale olandeze.",
+      "description2": "Ne ocupăm de toate aspectele administrației de salarizare, de la calcularea salariilor și impozitelor până la generarea fluturașilor de salariu și depunerea rapoartelor necesare la Autoritatea Fiscală Olandeză.",
+      "included": "Ce este inclus",
+      "items": [
+        "Calcularea și procesarea lunară a salariilor",
+        "Generarea fluturașilor digitali de salariu",
+        "Pregătirea și depunerea declarațiilor de impozit pe salarii",
+        "Declarații de sfârșit de an (jaaropgaaf)",
+        "Administrarea indemnizațiilor de concediu",
+        "Urmărirea concediilor medicale și a absențelor",
+        "Integrarea cu sistemul dumneavoastră de contabilitate"
+      ],
+      "requestQuote": "Solicitați o ofertă"
+    },
+    "businessFormation": {
+      "title": "Înființare de companii",
+      "description1": "Serviciul nostru de înființare a companiilor ghidează antreprenorii prin procesul de stabilire a unei entități juridice în Olanda, fie ca întreprindere individuală (eenmanszaak), fie ca societate cu răspundere limitată (BV).",
+      "description2": "Ne ocupăm de toate înregistrările necesare și cerințele administrative, asigurând un început lin și eficient al operațiunilor dumneavoastră de afaceri pe piața olandeză.",
+      "included": "Ce este inclus",
+      "items": [
+        "Consultanță și sfaturi privind structura afacerii",
+        "Înregistrare la Camera de Comerț (KVK)",
+        "Înregistrare fiscală (BTW/TVA și impozit pe venit)",
+        "Pregătirea actului constitutiv (pentru BV-uri)",
+        "Coordonare cu notarul (pentru BV-uri)",
+        "Asistență pentru deschiderea contului bancar",
+        "Configurarea inițială a sistemului de contabilitate"
+      ],
+      "requestQuote": "Solicitați o ofertă"
+    },
+    "personalLoans": {
+      "title": "Asistență pentru împrumuturi personale",
+      "description1": "Serviciul nostru de asistență pentru împrumuturi personale ajută persoanele să navigheze prin sistemul bancar olandez pentru a obține condiții favorabile de împrumut pentru nevoi personale, achiziții de locuințe sau alte cheltuieli semnificative.",
+      "description2": "Oferim îndrumare pe tot parcursul procesului de aplicare, ajutăm la pregătirea documentației necesare și menținem legătura cu instituțiile financiare pentru a vă crește șansele de aprobare.",
+      "included": "Ce este inclus",
+      "items": [
+        "Evaluarea situației financiare personale",
+        "Compararea opțiunilor de împrumut la mai multe bănci",
+        "Pregătirea documentației pentru aplicare",
+        "Asistență în negocierea ratei dobânzii",
+        "Configurarea administrării împrumutului",
+        "Suport continuu pentru gestionarea împrumutului",
+        "Evaluarea oportunităților de refinanțare"
+      ],
+      "requestConsultation": "Solicitați o consultație"
+    },
+    "taxPreparation": {
+      "title": "Pregătire fiscală",
+      "description1": "Serviciul nostru de pregătire fiscală asigură depunerea precisă și la timp a tuturor declarațiilor fiscale necesare atât pentru persoane fizice, cât și pentru companii care operează în Olanda.",
+      "description2": "Ne folosim de expertiza noastră în legislația fiscală olandeză pentru a identifica toate deducerile și creditele aplicabile, minimizând obligațiile dumneavoastră fiscale, menținând în același timp conformitatea deplină cu reglementările fiscale.",
+      "included": "Ce este inclus",
+      "items": [
+        "Pregătirea declarației de impozit pe venit personal",
+        "Pregătirea declarației de impozit pe profit",
+        "Procesarea declarațiilor de TVA (BTW)",
+        "Depunerea declarațiilor de impozit pe salarii",
+        "Planificarea plăților fiscale",
+        "Gestionarea corespondenței cu autoritatea fiscală",
+        "Strategii de optimizare fiscală"
+      ],
+      "requestQuote": "Solicitați o ofertă"
+    },
+    "pricing": {
+      "title": "Prețurile noastre",
+      "subtitle": "Tarife transparente și competitive pentru serviciile noastre financiare",
+      "popular": "Cel mai popular",
+      "zzpPackage": {
+        "title": "Contabilitate ZZP",
+        "price": "€130",
+        "period": "/lună fără TVA",
+        "features": [
+          "Administrație financiară completă",
+          "Declarații trimestriale de TVA",
+          "Declarație anuală de impozit pe venit",
+          "Acces la software-ul Moneybird",
+          "Suport nelimitat prin email",
+          "Rapoarte financiare lunare"
+        ],
+        "getStarted": "Începeți"
+      },
+      "bvPackage": {
+        "title": "Contabilitate BV",
+        "price": "€150",
+        "period": "/lună fără TVA",
+        "features": [
+          "Administrație financiară completă",
+          "Declarații trimestriale de TVA",
+          "Pregătirea conturilor anuale",
+          "Declarație de impozit pe profit",
+          "Administrarea salariului directorului",
+          "Suport nelimitat prin email și telefon",
+          "Rapoarte financiare trimestriale"
+        ],
+        "getStarted": "Începeți"
+      },
+      "customPackage": {
+        "title": "Soluții personalizate",
+        "description": "Aveți nevoie de un pachet personalizat pentru cerințele specifice ale afacerii dumneavoastră? Contactați-ne pentru o ofertă personalizată.",
+        "features": [
+          "Selecție personalizată de servicii",
+          "Opțiuni flexibile de preț",
+          "Scalabil pe măsură ce afacerea dumneavoastră crește",
+          "Suport personalizat"
+        ],
+        "contactUs": "Contactați-ne"
+      }
+    },
+    "moneybird": {
+      "title": "Începeți cu Moneybird",
+      "subtitle": "Înscrieți-vă la Moneybird prin link-ul nostru de referință pentru a începe cu serviciile noastre"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contactați-ne",
+      "subtitle": "Luați legătura pentru a discuta cum vă putem sprijini nevoile financiare"
+    },
+    "getInTouch": {
+      "title": "Luați legătura",
+      "description": "Suntem aici pentru a răspunde la întrebările dumneavoastră și pentru a oferi îndrumarea financiară de care afacerea dumneavoastră are nevoie. Contactați-ne prin oricare dintre metodele de mai jos sau folosiți formularul pentru a ne trimite un mesaj.",
+      "address": "Adresă",
+      "email": "Email",
+      "phone": "Telefon",
+      "businessHours": "Program de lucru",
+      "weekdays": "Luni - Vineri: 9:00 - 17:30",
+      "weekend": "Sâmbătă - Duminică: Închis"
+    },
+    "form": {
+      "title": "Trimiteți-ne un mesaj",
+      "name": "Numele dumneavoastră",
+      "email": "Adresa de email",
+      "phone": "Număr de telefon",
+      "subject": "Subiect",
+      "message": "Mesajul dumneavoastră",
+      "submit": "Trimiteți mesajul",
+      "success": "Mesajul dumneavoastră a fost trimis cu succes. Vă vom contacta în curând!",
+      "error": "A apărut o eroare la trimiterea mesajului dumneavoastră. Vă rugăm să încercați din nou."
+    },
+    "faq": {
+      "title": "Întrebări frecvente",
+      "subtitle": "Găsiți răspunsuri rapide la întrebări comune",
+      "questions": [
+        {
+          "question": "Ce servicii oferiți pentru ZZP-uri?",
+          "answer": "Oferim servicii complete de contabilitate, pregătire fiscală, asistență pentru înființarea afacerii și consultanță financiară special adaptate pentru profesioniștii independenți (ZZP-uri) din Olanda."
+        },
+        {
+          "question": "Cât costă serviciul dumneavoastră de contabilitate?",
+          "answer": "Pachetul nostru standard de contabilitate pentru ZZP-uri începe de la €130 pe lună (fără TVA), iar pachetul nostru de contabilitate pentru BV-uri începe de la €150 pe lună (fără TVA). Oferim, de asemenea, pachete personalizate în funcție de nevoile dumneavoastră specifice."
+        },
+        {
+          "question": "Oferiți servicii în limba engleză?",
+          "answer": "Da, oferim toate serviciile noastre atât în engleză, cât și în olandeză, făcându-ne un partener ideal pentru antreprenorii și companiile internaționale care operează în Olanda."
+        },
+        {
+          "question": "Cum încep să folosesc serviciile dumneavoastră?",
+          "answer": "Puteți începe contactându-ne prin acest formular, sunându-ne direct sau vizitând biroul nostru. Vom programa o consultație inițială pentru a discuta nevoile dumneavoastră și a recomanda cele mai potrivite servicii pentru situația dumneavoastră."
+        },
+        {
+          "question": "Mă puteți ajuta cu înregistrarea afacerii la KVK?",
+          "answer": "Da, serviciul nostru de înființare a companiilor include asistență completă pentru înregistrarea afacerii dumneavoastră la Camera de Comerț olandeză (KVK), precum și gestionarea tuturor înregistrărilor fiscale necesare."
+        }
+      ]
+    }
+  },
+  "navigation": {
+    "home": "Acasă",
+    "about": "Despre noi",
+    "services": "Servicii",
+    "contact": "Contact",
+    "gettingStarted": "Primii pași",
+    "blog": "Blog",
+    "login": "Autentificare"
+  },
+  "footer": {
+    "address": "Schiphol Boulevard 127, Schiphol 1118 BG",
+    "copyright": "© 2025 Glodinas Finance B.V. Toate drepturile rezervate.",
+    "links": {
+      "privacyPolicy": "Politica de confidențialitate",
+      "termsOfService": "Termeni și condiții"
     }
   }
 }
