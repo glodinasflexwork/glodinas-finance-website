@@ -1,0 +1,95 @@
+{
+  "GettingStarted": {
+    "hero": {
+      "title": "Glodinas Finance ile Başlangıç",
+      "subtitle": "Muhasebenizi kurmak ve sorunsuz çalıştırmak için basit üç adımlı sürecimizi izleyin."
+    },
+    "process": {
+      "title": "Başlangıç Sürecimiz",
+      "subtitle": "Sizi hızlı bir şekilde başlatmak için düzenli bir süreç tasarladık",
+      "step1": {
+        "title": "Moneybird'e Kaydolun",
+        "description": "Referans linkimizi kullanarak Moneybird'e kaydolarak başlayın. Bu bulut tabanlı muhasebe yazılımı, finansal yönetiminizin temelini oluşturacaktır.",
+        "items": [
+          "Moneybird hesabınızı oluşturun",
+          "Glodinas Finance'i muhasebeci olarak ekleyin",
+          "Temel şirket bilgilerinizi tamamlayın"
+        ],
+        "button": "Moneybird'e Kaydolun"
+      },
+      "step2": {
+        "title": "Kurulum Toplantısı Planlayın",
+        "description": "Yönetiminizi yapılandırmak için ekibimizle bir kurulum toplantısı ayarlayın. Rahatlığınız için hem yüz yüze hem de uzaktan TeamViewer oturumları sunuyoruz.",
+        "items": [
+          "Tek seferlik kurulum ücretini ödeyin (KDV hariç €150)",
+          "Yüz yüze veya TeamViewer oturumu arasında seçim yapın",
+          "Banka bağlantılarını, müşteri veritabanını ve fatura yapısını kuracağız"
+        ],
+        "button": "Kurulum Toplantısı Planlayın"
+      },
+      "step3": {
+        "title": "Aboneliğinizi Seçin",
+        "description": "İşletme ihtiyaçlarınıza uygun abonelik planını seçin. Hem serbest çalışanlar (ZZP) hem de limited şirketler (BV) için özel paketler sunuyoruz.",
+        "items": [
+          "ZZP Muhasebe: €130/ay (KDV hariç)",
+          "BV Muhasebe: €150/ay (KDV hariç)",
+          "Sorunsuz hizmet için otomatik faturalandırma"
+        ],
+        "button1": "ZZP/BV Aboneliği",
+        "button2": "Kredi Yönetimi"
+      }
+    },
+    "expectations": {
+      "title": "Neler Bekleyebilirsiniz",
+      "subtitle": "Başlangıç sürecimizi tamamladıktan sonra neler olacağına dair bilgiler",
+      "item1": {
+        "title": "Hızlı Kurulum",
+        "description": "Muhasebe sisteminiz, kurulum toplantınızdan sonra 24-48 saat içinde tamamen yapılandırılmış ve kullanıma hazır olacaktır."
+      },
+      "item2": {
+        "title": "Sürekli Destek",
+        "description": "Muhasebenizin sorunsuz ve verimli çalışmasını sağlamak için ekibimizden sürekli destek alacaksınız."
+      },
+      "item3": {
+        "title": "Aylık Güncellemeler",
+        "description": "Finansal durumunuz hakkında düzenli güncellemeler alarak, işletme finanslarınızın her zaman net bir resmini elde edin."
+      },
+      "item4": {
+        "title": "Vergi Uyumluluğu",
+        "description": "İşletmenizin tüm Hollanda vergi düzenlemelerine ve dosyalama gereksinimlerine uygun kalmasını sağlıyoruz."
+      }
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "subtitle": "Başlangıç sürecimiz hakkında yaygın sorular",
+      "questions": [
+        {
+          "question": "Kurulum süreci ne kadar sürer?",
+          "answer": "Tüm başlangıç süreci genellikle ilk kayıttan tam kuruluma kadar 2-3 iş günü sürer. Kurulum toplantısının kendisi genellikle yaklaşık 1-2 saat sürer."
+        },
+        {
+          "question": "Kurulum toplantısı için bir şey hazırlamam gerekiyor mu?",
+          "answer": "Evet, lütfen kurulum toplantısı için banka hesabı giriş bilgilerinizi, işletme kayıt bilgilerinizi ve mevcut müşteri/fatura verilerinizi hazır bulundurun. Bu, sisteminizi verimli bir şekilde yapılandırmamıza yardımcı olacaktır."
+        },
+        {
+          "question": "Başka bir muhasebe hizmetinden geçiş yapabilir miyim?",
+          "answer": "Kesinlikle! Mevcut muhasebe hizmetinizden sistemimize geçmenize yardımcı olabiliriz. Finansal verilerinizi aktarma ve sorunsuz bir geçiş sağlama sürecinde size rehberlik edeceğiz."
+        },
+        {
+          "question": "İlk kurulumdan sonra yardıma ihtiyacım olursa ne olur?",
+          "answer": "Desteğimiz kurulumdan sonra bitmez. İhtiyaç duyduğunuz herhangi bir soru veya yardım için ekibimize sürekli erişiminiz olacak. Sadece bir telefon veya e-posta uzağındayız."
+        },
+        {
+          "question": "Minimum sözleşme süresi var mı?",
+          "answer": "Standart aboneliğimiz, uzun vadeli taahhüt gerektirmeyen aylık bazlıdır. 30 gün önceden bildirimde bulunarak istediğiniz zaman iptal edebilirsiniz."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Başlamaya Hazır mısınız?",
+      "subtitle": "Glodinas Finance ile yolculuğunuza bugün başlayın ve sorunsuz finansal yönetimi deneyimleyin.",
+      "button1": "Moneybird'e Kaydolun",
+      "button2": "Bize Ulaşın"
+    }
+  }
+}

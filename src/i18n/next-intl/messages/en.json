@@ -1,0 +1,95 @@
+{
+  "GettingStarted": {
+    "hero": {
+      "title": "Getting Started with Glodinas Finance",
+      "subtitle": "Follow our simple three-step process to get your bookkeeping set up and running smoothly."
+    },
+    "process": {
+      "title": "Our Onboarding Process",
+      "subtitle": "We've designed a streamlined process to get you up and running quickly",
+      "step1": {
+        "title": "Sign Up for Moneybird",
+        "description": "Start by signing up for Moneybird using our referral link. This cloud-based bookkeeping software will be the foundation of your financial administration.",
+        "items": [
+          "Create your Moneybird account",
+          "Add Glodinas Finance as your bookkeeper",
+          "Complete your basic company information"
+        ],
+        "button": "Sign Up for Moneybird"
+      },
+      "step2": {
+        "title": "Schedule a Setup Meeting",
+        "description": "Book a setup meeting with our team to configure your administration. We offer both in-person and remote TeamViewer sessions for your convenience.",
+        "items": [
+          "Pay the one-time setup fee (€150 ex VAT)",
+          "Choose between in-person or TeamViewer session",
+          "We'll set up bank connections, client database, and invoice structure"
+        ],
+        "button": "Schedule Setup Meeting"
+      },
+      "step3": {
+        "title": "Select Your Subscription",
+        "description": "Choose the subscription plan that fits your business needs. We offer tailored packages for both ZZP'ers and BVs.",
+        "items": [
+          "ZZP Bookkeeping: €130/month (ex VAT)",
+          "BV Bookkeeping: €150/month (ex VAT)",
+          "Automatic billing for hassle-free service"
+        ],
+        "button1": "ZZP/BV Subscription",
+        "button2": "Loan Administration"
+      }
+    },
+    "expectations": {
+      "title": "What to Expect",
+      "subtitle": "Here's what happens after you complete our onboarding process",
+      "item1": {
+        "title": "Immediate Setup",
+        "description": "Your bookkeeping system will be fully configured and ready to use within 24-48 hours after your setup meeting."
+      },
+      "item2": {
+        "title": "Ongoing Support",
+        "description": "You'll receive continuous support from our team to ensure your bookkeeping runs smoothly and efficiently."
+      },
+      "item3": {
+        "title": "Monthly Updates",
+        "description": "Receive regular updates on your financial status, ensuring you always have a clear picture of your business finances."
+      },
+      "item4": {
+        "title": "Tax Compliance",
+        "description": "We ensure your business remains compliant with all Dutch tax regulations and filing requirements."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Common questions about our onboarding process",
+      "questions": [
+        {
+          "question": "How long does the setup process take?",
+          "answer": "The entire onboarding process typically takes 2-3 business days from initial signup to complete setup. The setup meeting itself usually lasts about 1-2 hours."
+        },
+        {
+          "question": "Do I need to prepare anything for the setup meeting?",
+          "answer": "Yes, please have your bank account login details, business registration information, and any existing client/invoice data ready for the setup meeting. This will help us configure your system efficiently."
+        },
+        {
+          "question": "Can I switch from another bookkeeping service?",
+          "answer": "Absolutely! We can help you transition from your current bookkeeping service to our system. We'll guide you through the process of transferring your financial data and ensuring a smooth transition."
+        },
+        {
+          "question": "What if I need help after the initial setup?",
+          "answer": "Our support doesn't end after setup. You'll have ongoing access to our team for any questions or assistance you need. We're just a phone call or email away."
+        },
+        {
+          "question": "Is there a minimum contract period?",
+          "answer": "Our standard subscription is month-to-month with no long-term commitment required. You can cancel at any time with 30 days' notice."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Start your journey with Glodinas Finance today and experience hassle-free financial management.",
+      "button1": "Sign Up for Moneybird",
+      "button2": "Contact Us"
+    }
+  }
+}

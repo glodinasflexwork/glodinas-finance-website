@@ -1,0 +1,95 @@
+{
+  "GettingStarted": {
+    "hero": {
+      "title": "Aan de Slag met Glodinas Finance",
+      "subtitle": "Volg ons eenvoudige driestappenproces om uw boekhouding op te zetten en soepel te laten verlopen."
+    },
+    "process": {
+      "title": "Ons Onboardingproces",
+      "subtitle": "We hebben een gestroomlijnd proces ontworpen om u snel op weg te helpen",
+      "step1": {
+        "title": "Aanmelden voor Moneybird",
+        "description": "Begin met het aanmelden voor Moneybird via onze verwijzingslink. Deze cloudgebaseerde boekhoudsoftware vormt de basis van uw financiële administratie.",
+        "items": [
+          "Maak uw Moneybird-account aan",
+          "Voeg Glodinas Finance toe als uw boekhouder",
+          "Vul uw basis bedrijfsinformatie in"
+        ],
+        "button": "Aanmelden voor Moneybird"
+      },
+      "step2": {
+        "title": "Plan een Installatiegesprek",
+        "description": "Boek een installatiegesprek met ons team om uw administratie te configureren. We bieden zowel persoonlijke als externe TeamViewer-sessies voor uw gemak.",
+        "items": [
+          "Betaal de eenmalige installatiekosten (€150 excl. BTW)",
+          "Kies tussen een persoonlijke of TeamViewer-sessie",
+          "We zetten bankverbindingen, klantendatabase en factuurstructuur op"
+        ],
+        "button": "Installatiegesprek Plannen"
+      },
+      "step3": {
+        "title": "Selecteer Uw Abonnement",
+        "description": "Kies het abonnement dat bij uw zakelijke behoeften past. We bieden op maat gemaakte pakketten voor zowel ZZP'ers als BV's.",
+        "items": [
+          "ZZP Boekhouding: €130/maand (excl. BTW)",
+          "BV Boekhouding: €150/maand (excl. BTW)",
+          "Automatische facturering voor zorgeloze service"
+        ],
+        "button1": "ZZP/BV Abonnement",
+        "button2": "Leningadministratie"
+      }
+    },
+    "expectations": {
+      "title": "Wat te Verwachten",
+      "subtitle": "Dit gebeurt er nadat u ons onboardingproces heeft voltooid",
+      "item1": {
+        "title": "Directe Installatie",
+        "description": "Uw boekhoudsysteem wordt binnen 24-48 uur na uw installatiegesprek volledig geconfigureerd en klaar voor gebruik."
+      },
+      "item2": {
+        "title": "Doorlopende Ondersteuning",
+        "description": "U ontvangt continue ondersteuning van ons team om ervoor te zorgen dat uw boekhouding soepel en efficiënt verloopt."
+      },
+      "item3": {
+        "title": "Maandelijkse Updates",
+        "description": "Ontvang regelmatige updates over uw financiële status, zodat u altijd een duidelijk beeld heeft van uw bedrijfsfinanciën."
+      },
+      "item4": {
+        "title": "Belastingcompliance",
+        "description": "We zorgen ervoor dat uw bedrijf voldoet aan alle Nederlandse belastingvoorschriften en aangiftevereisten."
+      }
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen",
+      "subtitle": "Veelvoorkomende vragen over ons onboardingproces",
+      "questions": [
+        {
+          "question": "Hoe lang duurt het installatieproces?",
+          "answer": "Het volledige onboardingproces duurt meestal 2-3 werkdagen vanaf de eerste aanmelding tot de volledige installatie. Het installatiegesprek zelf duurt ongeveer 1-2 uur."
+        },
+        {
+          "question": "Moet ik iets voorbereiden voor het installatiegesprek?",
+          "answer": "Ja, zorg ervoor dat u uw bankrekeninggegevens, bedrijfsregistratie-informatie en eventuele bestaande klant-/factuurgegevens bij de hand heeft voor het installatiegesprek. Dit helpt ons om uw systeem efficiënt te configureren."
+        },
+        {
+          "question": "Kan ik overstappen van een andere boekhoudservice?",
+          "answer": "Absoluut! We kunnen u helpen bij de overgang van uw huidige boekhoudservice naar ons systeem. We begeleiden u door het proces van het overdragen van uw financiële gegevens en zorgen voor een soepele overgang."
+        },
+        {
+          "question": "Wat als ik hulp nodig heb na de eerste installatie?",
+          "answer": "Onze ondersteuning eindigt niet na de installatie. U heeft doorlopend toegang tot ons team voor vragen of hulp die u nodig heeft. We zijn slechts een telefoontje of e-mail verwijderd."
+        },
+        {
+          "question": "Is er een minimale contractperiode?",
+          "answer": "Ons standaard abonnement is maandelijks zonder langetermijnverplichting. U kunt op elk moment opzeggen met een opzegtermijn van 30 dagen."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Klaar om te Beginnen?",
+      "subtitle": "Begin vandaag nog uw reis met Glodinas Finance en ervaar zorgeloos financieel beheer.",
+      "button1": "Aanmelden voor Moneybird",
+      "button2": "Contact Opnemen"
+    }
+  }
+}

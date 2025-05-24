@@ -1,0 +1,95 @@
+{
+  "GettingStarted": {
+    "hero": {
+      "title": "Primii Pași cu Glodinas Finance",
+      "subtitle": "Urmați procesul nostru simplu în trei pași pentru a configura și gestiona contabilitatea dumneavoastră fără probleme."
+    },
+    "process": {
+      "title": "Procesul Nostru de Integrare",
+      "subtitle": "Am conceput un proces eficient pentru a vă ajuta să începeți rapid",
+      "step1": {
+        "title": "Înscrieți-vă la Moneybird",
+        "description": "Începeți prin a vă înscrie la Moneybird folosind link-ul nostru de referință. Acest software de contabilitate bazat pe cloud va fi baza administrației dumneavoastră financiare.",
+        "items": [
+          "Creați-vă contul Moneybird",
+          "Adăugați Glodinas Finance ca și contabil",
+          "Completați informațiile de bază ale companiei"
+        ],
+        "button": "Înscrieți-vă la Moneybird"
+      },
+      "step2": {
+        "title": "Programați o Întâlnire de Configurare",
+        "description": "Programați o întâlnire de configurare cu echipa noastră pentru a configura administrația dumneavoastră. Oferim atât sesiuni în persoană, cât și la distanță prin TeamViewer pentru confortul dumneavoastră.",
+        "items": [
+          "Plătiți taxa unică de configurare (€150 fără TVA)",
+          "Alegeți între o sesiune în persoană sau prin TeamViewer",
+          "Vom configura conexiunile bancare, baza de date a clienților și structura facturilor"
+        ],
+        "button": "Programați Întâlnirea de Configurare"
+      },
+      "step3": {
+        "title": "Selectați Abonamentul",
+        "description": "Alegeți planul de abonament care se potrivește nevoilor afacerii dumneavoastră. Oferim pachete personalizate atât pentru liber-profesioniști (ZZP), cât și pentru societăți cu răspundere limitată (BV).",
+        "items": [
+          "Contabilitate ZZP: €130/lună (fără TVA)",
+          "Contabilitate BV: €150/lună (fără TVA)",
+          "Facturare automată pentru un serviciu fără griji"
+        ],
+        "button1": "Abonament ZZP/BV",
+        "button2": "Administrare Împrumuturi"
+      }
+    },
+    "expectations": {
+      "title": "La Ce să Vă Așteptați",
+      "subtitle": "Iată ce se întâmplă după ce finalizați procesul nostru de integrare",
+      "item1": {
+        "title": "Configurare Imediată",
+        "description": "Sistemul dumneavoastră de contabilitate va fi complet configurat și gata de utilizare în 24-48 de ore după întâlnirea de configurare."
+      },
+      "item2": {
+        "title": "Asistență Continuă",
+        "description": "Veți primi asistență continuă din partea echipei noastre pentru a vă asigura că contabilitatea dumneavoastră funcționează fără probleme și eficient."
+      },
+      "item3": {
+        "title": "Actualizări Lunare",
+        "description": "Primiți actualizări regulate privind situația dumneavoastră financiară, asigurându-vă că aveți întotdeauna o imagine clară a finanțelor afacerii."
+      },
+      "item4": {
+        "title": "Conformitate Fiscală",
+        "description": "Ne asigurăm că afacerea dumneavoastră rămâne conformă cu toate reglementările fiscale olandeze și cerințele de depunere."
+      }
+    },
+    "faq": {
+      "title": "Întrebări Frecvente",
+      "subtitle": "Întrebări comune despre procesul nostru de integrare",
+      "questions": [
+        {
+          "question": "Cât durează procesul de configurare?",
+          "answer": "Întregul proces de integrare durează de obicei 2-3 zile lucrătoare de la înscrierea inițială până la configurarea completă. Întâlnirea de configurare în sine durează de obicei aproximativ 1-2 ore."
+        },
+        {
+          "question": "Trebuie să pregătesc ceva pentru întâlnirea de configurare?",
+          "answer": "Da, vă rugăm să aveți la îndemână detaliile de conectare la contul bancar, informațiile de înregistrare a afacerii și orice date existente despre clienți/facturi pentru întâlnirea de configurare. Acest lucru ne va ajuta să vă configurăm sistemul eficient."
+        },
+        {
+          "question": "Pot să trec de la un alt serviciu de contabilitate?",
+          "answer": "Absolut! Vă putem ajuta să treceți de la serviciul actual de contabilitate la sistemul nostru. Vă vom ghida prin procesul de transfer al datelor financiare și vom asigura o tranziție fără probleme."
+        },
+        {
+          "question": "Ce se întâmplă dacă am nevoie de ajutor după configurarea inițială?",
+          "answer": "Asistența noastră nu se încheie după configurare. Veți avea acces continuu la echipa noastră pentru orice întrebări sau asistență de care aveți nevoie. Suntem doar la un telefon sau email distanță."
+        },
+        {
+          "question": "Există o perioadă minimă de contract?",
+          "answer": "Abonamentul nostru standard este lunar, fără angajament pe termen lung. Puteți anula oricând cu un preaviz de 30 de zile."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Gata să Începeți?",
+      "subtitle": "Începeți-vă călătoria cu Glodinas Finance astăzi și experimentați un management financiar fără griji.",
+      "button1": "Înscrieți-vă la Moneybird",
+      "button2": "Contactați-ne"
+    }
+  }
+}
