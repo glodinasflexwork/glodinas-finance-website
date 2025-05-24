@@ -76,6 +76,19 @@
       "contactUs": "Contact Us"
     }
   },
+  "footer": {
+    "companyInfo": "Company Info",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "bookkeepingZZP": "Bookkeeping for ZZP'ers",
+    "bookkeepingBV": "Bookkeeping for BVs",
+    "payrollServices": "Payroll Services",
+    "businessFormation": "Business Formation",
+    "personalLoans": "Personal Loans",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "All rights reserved."
+  },
   "about": {
     "hero": {
       "title": "About Glodinas Finance B.V.",
@@ -292,60 +305,45 @@
       "title": "Contact Us",
       "subtitle": "Get in touch with Glodinas Finance B.V. for professional bookkeeping and financial services"
     },
-    "info": {
-      "title": "Contact Information",
-      "address": {
-        "label": "Address:",
-        "value": "Schiphol Boulevard 127, Schiphol 1118 BG"
-      },
-      "email": {
-        "label": "Email:",
-        "value": "info@glodinasfinance.nl"
-      },
-      "phone": {
-        "label": "Phone:",
-        "value": "+31 20 123 4567"
-      },
-      "hours": {
-        "label": "Business Hours:",
-        "value": "Monday - Friday: 9:00 AM - 5:00 PM"
-      }
+    "getInTouch": {
+      "title": "Get in Touch",
+      "description": "We'd love to hear from you. Contact us using the information below or fill out the form to send us a message.",
+      "address": "Address",
+      "email": "Email",
+      "phone": "Phone",
+      "businessHours": "Business Hours",
+      "weekdays": "Monday - Friday: 9:00 AM - 5:00 PM",
+      "weekend": "Saturday - Sunday: Closed"
     },
     "form": {
       "title": "Send Us a Message",
-      "subtitle": "Fill out the form below and we'll get back to you as soon as possible",
-      "name": {
-        "label": "Name",
-        "placeholder": "Your name"
-      },
-      "email": {
-        "label": "Email",
-        "placeholder": "Your email address"
-      },
-      "phone": {
-        "label": "Phone",
-        "placeholder": "Your phone number (optional)"
-      },
-      "subject": {
-        "label": "Subject",
-        "placeholder": "What is your message about?"
-      },
-      "message": {
-        "label": "Message",
-        "placeholder": "How can we help you?"
-      },
-      "submit": "Send Message",
-      "success": "Your message has been sent successfully. We'll get back to you soon!",
-      "error": "There was an error sending your message. Please try again later."
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
     },
-    "location": {
-      "title": "Our Location",
-      "subtitle": "Visit us at our office in Schiphol"
-    },
-    "cta": {
-      "title": "Ready to get started?",
-      "subtitle": "Schedule a consultation to discuss your bookkeeping and financial needs",
-      "buttonText": "Request Consultation"
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to common questions about our services",
+      "questions": [
+        {
+          "question": "How quickly can you set up my bookkeeping?",
+          "answer": "We can typically set up your bookkeeping within 1-2 business days after receiving all necessary information and documentation."
+        },
+        {
+          "question": "Do you offer services in English?",
+          "answer": "Yes, we provide all our services in both Dutch and English to accommodate international clients."
+        },
+        {
+          "question": "How often will I receive financial reports?",
+          "answer": "We provide monthly financial reports as standard, but can adjust the frequency based on your specific needs."
+        },
+        {
+          "question": "Can you help with tax planning?",
+          "answer": "Absolutely! Tax planning is an integral part of our services. We help you optimize your tax position while ensuring full compliance with Dutch tax regulations."
+        }
+      ]
     }
   },
   "privacyPolicy": {
@@ -359,271 +357,44 @@
         "title": "1. Introduction",
         "paragraph1": "Glodinas Finance B.V. (\"we,\" \"our,\" or \"us\"), located at Schiphol Boulevard 127, Schiphol 1118 BG, Netherlands, is committed to protecting your privacy and personal data. This Privacy Policy explains how we collect, use, share, and safeguard your information when you use our services, visit our website www.glodinasfinance.nl, or otherwise communicate with us.",
         "paragraph2": "We process personal data in accordance with the General Data Protection Regulation (GDPR) and the Dutch Implementation Act GDPR. This policy describes your rights and our obligations regarding your personal data."
-      },
-      "dataController": {
-        "title": "2. Data Controller",
-        "paragraph": "Glodinas Finance B.V. is the data controller for your personal data:",
-        "companyName": "Company Name: Glodinas Finance B.V.",
-        "address": "Address: Schiphol Boulevard 127, Schiphol 1118 BG, Netherlands",
-        "email": "Email: privacy@glodinasfinance.nl",
-        "phone": "Phone: +31 20 123 4567",
-        "kvk": "Chamber of Commerce (KVK) Number: 81805810"
-      },
-      "personalData": {
-        "title": "3. Personal Data We Collect",
-        "paragraph": "We collect and process the following categories of personal data:",
-        "clientData": {
-          "title": "3.1 Client Data",
-          "items": [
-            "Identity data: name, title, date of birth, gender, nationality",
-            "Contact data: email address, telephone number, physical address",
-            "Business data: company name, position, business sector, KVK number, VAT number",
-            "Financial data: bank account details, tax identification numbers, financial statements, income data, expense records",
-            "Service data: information about the services you use, account settings, preferences",
-            "Communication data: emails, letters, telephone conversations, and other communications with us"
-          ]
-        },
-        "websiteVisitorData": {
-          "title": "3.2 Website Visitor Data",
-          "items": [
-            "Technical data: IP address, browser type and version, time zone setting, browser plug-in types and versions, operating system and platform",
-            "Usage data: information about how you use our website, products, and services",
-            "Cookie data: information stored in cookies (see our Cookie Policy for details)",
-            "Contact form data: information you provide when using our contact forms"
-          ]
-        },
-        "employeeData": {
-          "title": "3.3 Employee and Contractor Data",
-          "paragraph": "For our employees and contractors, we collect additional personal data necessary for employment or contractual relationships. This data is processed in accordance with our internal HR privacy policy."
-        }
-      },
-      "purposesOfProcessing": {
-        "title": "4. Purposes of Processing",
-        "paragraph": "We process your personal data for the following purposes:",
-        "items": [
-          "To provide our bookkeeping and financial services",
-          "To manage our relationship with you, including notifying you about changes to our services or terms",
-          "To administer and protect our business and website",
-          "To deliver relevant website content and advertisements to you",
-          "To use data analytics to improve our website, products/services, marketing, customer relationships, and experiences",
-          "To make suggestions and recommendations to you about services that may be of interest to you",
-          "To comply with legal and regulatory obligations"
-        ]
-      },
-      "legalBasis": {
-        "title": "5. Legal Basis for Processing",
-        "paragraph": "We process your personal data on the following legal grounds:",
-        "items": [
-          "Performance of a contract: Processing necessary for the performance of a contract with you or to take steps at your request before entering into a contract",
-          "Legal obligation: Processing necessary for compliance with our legal obligations",
-          "Legitimate interests: Processing necessary for our legitimate interests or those of a third party, except where such interests are overridden by your interests or fundamental rights and freedoms",
-          "Consent: Processing based on your consent"
-        ],
-        "paragraph2": "Where we rely on consent as a legal basis, you have the right to withdraw your consent at any time by contacting us using the details provided in this policy."
-      },
-      "dataSharing": {
-        "title": "6. Sharing Your Personal Data",
-        "paragraph": "We may share your personal data with the following categories of recipients:",
-        "items": [
-          "Service providers who provide IT, system administration, and platform services",
-          "Professional advisers including lawyers, bankers, auditors, and insurers",
-          "Tax and customs authorities, regulators, and other authorities",
-          "Third parties to whom we may choose to sell, transfer, or merge parts of our business or our assets"
-        ],
-        "paragraph2": "We require all third parties to respect the security of your personal data and to treat it in accordance with the law. We do not allow our third-party service providers to use your personal data for their own purposes and only permit them to process your personal data for specified purposes and in accordance with our instructions."
-      },
-      "internationalTransfers": {
-        "title": "7. International Transfers",
-        "paragraph1": "We primarily process your personal data within the European Economic Area (EEA). However, some of our service providers may be based outside the EEA, which means their processing of your personal data will involve a transfer of data outside the EEA.",
-        "paragraph2": "Whenever we transfer your personal data out of the EEA, we ensure a similar degree of protection is afforded to it by implementing appropriate safeguards, such as using standard contractual clauses approved by the European Commission."
-      },
-      "dataSecurity": {
-        "title": "8. Data Security",
-        "paragraph1": "We have implemented appropriate security measures to prevent your personal data from being accidentally lost, used, or accessed in an unauthorized way, altered, or disclosed.",
-        "paragraph2": "We limit access to your personal data to those employees, agents, contractors, and other third parties who have a business need to know. They will only process your personal data on our instructions, and they are subject to a duty of confidentiality.",
-        "paragraph3": "We have procedures in place to deal with any suspected personal data breach and will notify you and any applicable regulator of a breach where we are legally required to do so."
-      },
-      "dataRetention": {
-        "title": "9. Data Retention",
-        "paragraph1": "We will only retain your personal data for as long as necessary to fulfill the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements.",
-        "paragraph2": "To determine the appropriate retention period for personal data, we consider the amount, nature, and sensitivity of the personal data, the potential risk of harm from unauthorized use or disclosure of your personal data, the purposes for which we process your personal data, and whether we can achieve those purposes through other means, and the applicable legal requirements.",
-        "paragraph3": "For tax and accounting purposes, we typically retain client data for 7 years after the end of our business relationship, as required by Dutch law."
-      },
-      "yourRights": {
-        "title": "10. Your Rights",
-        "paragraph": "Under the GDPR, you have various rights regarding your personal data, including:",
-        "items": [
-          "Right to access: You can request a copy of the personal data we hold about you.",
-          "Right to rectification: You can request correction of any inaccurate personal data we hold about you.",
-          "Right to erasure: You can request that we delete your personal data in certain circumstances.",
-          "Right to restrict processing: You can request that we restrict the processing of your personal data in certain circumstances.",
-          "Right to data portability: You can request the transfer of your personal data to you or to a third party in a structured, commonly used, machine-readable format.",
-          "Right to object: You can object to our processing of your personal data in certain circumstances.",
-          "Right to withdraw consent: Where we rely on your consent to process your personal data, you can withdraw this at any time."
-        ],
-        "paragraph2": "To exercise any of these rights, please contact us using the details provided in this policy. We may need to request specific information from you to help us confirm your identity and ensure your right to access your personal data (or to exercise any of your other rights)."
-      },
-      "cookies": {
-        "title": "11. Cookies",
-        "paragraph1": "Our website uses cookies to distinguish you from other users of our website. This helps us to provide you with a good experience when you browse our website and also allows us to improve our site.",
-        "paragraph2": "For detailed information on the cookies we use and the purposes for which we use them, see our Cookie Policy."
-      },
-      "changes": {
-        "title": "12. Changes to This Privacy Policy",
-        "paragraph": "We may update this privacy policy from time to time. The updated version will be indicated by an updated \"Last updated\" date at the top of this privacy policy. We encourage you to review this privacy policy frequently to be informed of how we are protecting your information."
-      },
-      "contact": {
-        "title": "13. Contact Us",
-        "paragraph1": "If you have any questions about this privacy policy or our privacy practices, please contact us at:",
-        "companyName": "Glodinas Finance B.V.",
-        "address": "Schiphol Boulevard 127, Schiphol 1118 BG, Netherlands",
-        "email": "Email: privacy@glodinasfinance.nl",
-        "phone": "Phone: +31 20 123 4567"
-      },
-      "complaints": {
-        "title": "14. Complaints",
-        "paragraph1": "If you have a complaint about our use of your personal data, please contact us first, and we will do our best to resolve the issue.",
-        "paragraph2": "You also have the right to lodge a complaint with the Dutch Data Protection Authority (Autoriteit Persoonsgegevens) if you are not satisfied with our response or believe we are not processing your personal data in accordance with the law.",
-        "dpAddress": "Autoriteit Persoonsgegevens",
-        "dpWebsite": "Website: https://autoriteitpersoonsgegevens.nl"
       }
     }
   },
   "termsOfService": {
     "hero": {
       "title": "Terms of Service",
-      "subtitle": "Terms and conditions for using Glodinas Finance B.V. services"
+      "subtitle": "General terms and conditions for Glodinas Finance B.V. services"
     },
     "lastUpdated": "Last updated: May 23, 2025",
     "sections": {
       "introduction": {
         "title": "1. Introduction",
-        "paragraph1": "These Terms of Service (\"Terms\") govern your use of the services provided by Glodinas Finance B.V. (\"we,\" \"our,\" or \"us\"), a company registered in the Netherlands with Chamber of Commerce (KVK) number 81805810, located at Schiphol Boulevard 127, Schiphol 1118 BG.",
-        "paragraph2": "By engaging our services or using our website www.glodinasfinance.nl, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use our services or website."
-      },
-      "services": {
-        "title": "2. Services",
-        "paragraph1": "Glodinas Finance B.V. provides bookkeeping, financial administration, and related services to businesses and individuals in the Netherlands.",
-        "paragraph2": "The specific services to be provided will be agreed upon in a separate service agreement or engagement letter between you and Glodinas Finance B.V.",
-        "paragraph3": "We reserve the right to modify, suspend, or discontinue any part of our services at any time, with or without notice."
-      },
-      "clientResponsibilities": {
-        "title": "3. Client Responsibilities",
-        "paragraph": "As a client of Glodinas Finance B.V., you agree to:",
-        "items": [
-          "Provide accurate, complete, and timely information necessary for us to perform our services",
-          "Respond promptly to our requests for information or clarification",
-          "Review any documents, reports, or filings we prepare on your behalf and notify us of any errors or concerns",
-          "Pay our fees as agreed in the service agreement or engagement letter",
-          "Comply with all applicable laws and regulations related to your business and financial activities",
-          "Maintain the confidentiality of any login credentials we provide for accessing financial software or platforms"
-        ]
-      },
-      "fees": {
-        "title": "4. Fees and Payment",
-        "paragraph1": "Our fees for services are as specified in the service agreement or engagement letter between you and Glodinas Finance B.V.",
-        "paragraph2": "Unless otherwise agreed, invoices are due within 14 days of the invoice date. Late payments may be subject to interest charges at the statutory rate under Dutch law.",
-        "paragraph3": "We reserve the right to suspend services if payment is not received within the agreed timeframe.",
-        "paragraph4": "All fees are exclusive of VAT (BTW), which will be added at the applicable rate."
-      },
-      "termination": {
-        "title": "5. Termination",
-        "paragraph1": "Either party may terminate the service agreement by providing written notice as specified in the service agreement or engagement letter.",
-        "paragraph2": "Upon termination, you agree to pay for all services rendered up to the date of termination.",
-        "paragraph3": "We reserve the right to terminate services immediately if:",
-        "items": [
-          "You breach these Terms or the service agreement",
-          "You fail to provide necessary information or cooperation",
-          "You engage in illegal or unethical activities",
-          "We are required to do so by law or professional standards"
-        ]
-      },
-      "confidentiality": {
-        "title": "6. Confidentiality",
-        "paragraph1": "We will maintain the confidentiality of all information you provide to us in connection with our services, except as required by law or professional standards.",
-        "paragraph2": "We may disclose your information to third parties as necessary to provide our services, such as to tax authorities or software providers, but only to the extent necessary.",
-        "paragraph3": "Our full privacy practices are described in our Privacy Policy, which is incorporated into these Terms by reference."
-      },
-      "intellectualProperty": {
-        "title": "7. Intellectual Property",
-        "paragraph1": "All intellectual property rights in our services, website, and materials remain the property of Glodinas Finance B.V. or our licensors.",
-        "paragraph2": "You may use materials we provide to you solely for your own business purposes and may not reproduce, distribute, or create derivative works without our prior written consent."
-      },
-      "limitation": {
-        "title": "8. Limitation of Liability",
-        "paragraph1": "To the maximum extent permitted by law, Glodinas Finance B.V. shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses.",
-        "paragraph2": "Our total liability for any claims arising under these Terms or the service agreement shall not exceed the amount paid by you to us for the services giving rise to the claim in the 12 months preceding the event giving rise to the liability.",
-        "paragraph3": "Nothing in these Terms shall limit or exclude our liability for:",
-        "items": [
-          "Death or personal injury caused by our negligence",
-          "Fraud or fraudulent misrepresentation",
-          "Any liability that cannot be excluded or limited by Dutch law"
-        ]
-      },
-      "indemnification": {
-        "title": "9. Indemnification",
-        "paragraph": "You agree to indemnify, defend, and hold harmless Glodinas Finance B.V. and our officers, directors, employees, and agents from and against any claims, liabilities, damages, losses, and expenses, including reasonable attorneys' fees and costs, arising out of or in any way connected with your use of our services or your violation of these Terms."
-      },
-      "force": {
-        "title": "10. Force Majeure",
-        "paragraph": "We shall not be liable for any failure or delay in performing our obligations where such failure or delay results from any cause beyond our reasonable control, including but not limited to, acts of God, natural disasters, pandemic, epidemic, government actions, war, terrorism, civil unrest, labor disputes, or the failure of third-party service providers."
-      },
-      "governing": {
-        "title": "11. Governing Law and Jurisdiction",
-        "paragraph1": "These Terms shall be governed by and construed in accordance with the laws of the Netherlands.",
-        "paragraph2": "Any dispute arising out of or in connection with these Terms or our services shall be subject to the exclusive jurisdiction of the courts of Amsterdam, the Netherlands."
-      },
-      "severability": {
-        "title": "12. Severability",
-        "paragraph": "If any provision of these Terms is found to be unenforceable or invalid under any applicable law, such unenforceability or invalidity shall not render these Terms unenforceable or invalid as a whole, and such provisions shall be deleted without affecting the remaining provisions."
-      },
-      "entire": {
-        "title": "13. Entire Agreement",
-        "paragraph1": "These Terms, together with the service agreement or engagement letter and our Privacy Policy, constitute the entire agreement between you and Glodinas Finance B.V. regarding our services and supersede all prior and contemporaneous agreements, proposals, or representations, written or oral.",
-        "paragraph2": "No modification of these Terms shall be effective unless it is in writing and signed by an authorized representative of Glodinas Finance B.V."
-      },
-      "contact": {
-        "title": "14. Contact Us",
-        "paragraph": "If you have any questions about these Terms, please contact us at:",
-        "companyName": "Glodinas Finance B.V.",
-        "address": "Schiphol Boulevard 127, Schiphol 1118 BG, Netherlands",
-        "email": "Email: info@glodinasfinance.nl",
-        "phone": "Phone: +31 20 123 4567"
+        "paragraph1": "These Terms of Service (\"Terms\") govern the use of services provided by Glodinas Finance B.V. (\"we,\" \"our,\" or \"us\"), registered in the Netherlands with Chamber of Commerce (KVK) number 81805810, located at Schiphol Boulevard 127, Schiphol 1118 BG, Netherlands.",
+        "paragraph2": "By using our services, you (\"Client,\" \"you,\" or \"your\") agree to be bound by these Terms. Please read them carefully before entering into any agreement with us. If you do not agree to these Terms, please do not use our services."
       }
-    }
-  },
-  "footer": {
-    "company": "Glodinas Finance B.V.",
-    "address": "Schiphol Boulevard 127, Schiphol 1118 BG",
-    "phone": "+31 20 123 4567",
-    "email": "info@glodinasfinance.nl",
-    "copyright": "© 2025 Glodinas Finance B.V. All rights reserved.",
-    "links": {
-      "privacyPolicy": "Privacy Policy",
-      "termsOfService": "Terms of Service"
     }
   },
   "gettingStarted": {
     "hero": {
       "title": "Getting Started with Glodinas Finance",
-      "subtitle": "Follow our simple three-step process to get your bookkeeping set up and running smoothly."
+      "subtitle": "Follow our simple three-step process to set up and run your bookkeeping smoothly."
     },
     "process": {
       "title": "Our Onboarding Process",
       "subtitle": "We've designed a streamlined process to get you up and running quickly",
       "step1": {
         "title": "Sign Up for Moneybird",
-        "description": "Start by signing up for Moneybird using our referral link. This cloud-based bookkeeping software will be the foundation of your financial administration.",
+        "description": "Start by signing up for Moneybird using our referral link. This cloud-based accounting software will form the foundation of your financial administration.",
         "items": [
           "Create your Moneybird account",
-          "Add Glodinas Finance as your bookkeeper",
+          "Add Glodinas Finance as your accountant",
           "Complete your basic company information"
         ],
         "button": "Sign Up for Moneybird"
       },
       "step2": {
-        "title": "Schedule a Setup Meeting",
-        "description": "Book a setup meeting with our team to configure your administration. We offer both in-person and remote TeamViewer sessions for your convenience.",
+        "title": "Schedule Setup Meeting",
+        "description": "Schedule a setup meeting with our team to configure your administration. We offer both in-person and remote TeamViewer sessions for your convenience.",
         "items": [
           "Pay the one-time setup fee (€150 ex VAT)",
           "Choose between in-person or TeamViewer session",
@@ -632,15 +403,15 @@
         "button": "Schedule Setup Meeting"
       },
       "step3": {
-        "title": "Select Your Subscription",
-        "description": "Choose the subscription plan that fits your business needs. We offer tailored packages for both ZZP'ers and BVs.",
+        "title": "Choose Your Subscription",
+        "description": "Select the subscription plan that fits your business needs. We offer tailored packages for both ZZP'ers and BVs.",
         "items": [
           "ZZP Bookkeeping: €130/month (ex VAT)",
           "BV Bookkeeping: €150/month (ex VAT)",
-          "Automatic billing for hassle-free service"
+          "Automatic invoicing for seamless service"
         ],
         "button1": "ZZP/BV Subscription",
-        "button2": "Loan Administration"
+        "button2": "Credit Management"
       }
     },
     "expectations": {
@@ -648,7 +419,7 @@
       "subtitle": "Here's what happens after you complete our onboarding process",
       "item1": {
         "title": "Immediate Setup",
-        "description": "Your bookkeeping system will be fully configured and ready to use within 24-48 hours after your setup meeting."
+        "description": "Your accounting system will be fully configured and ready to use within 24-48 hours after your setup meeting."
       },
       "item2": {
         "title": "Ongoing Support",
@@ -656,11 +427,11 @@
       },
       "item3": {
         "title": "Monthly Updates",
-        "description": "Receive regular updates on your financial status, ensuring you always have a clear picture of your business finances."
+        "description": "Receive regular updates about your financial status, ensuring you always have a clear picture of your business finances."
       },
       "item4": {
         "title": "Tax Compliance",
-        "description": "We ensure your business remains compliant with all Dutch tax regulations and filing requirements."
+        "description": "We ensure your business stays compliant with all Dutch tax regulations and filing requirements."
       }
     },
     "faq": {
@@ -669,29 +440,29 @@
       "questions": [
         {
           "question": "How long does the setup process take?",
-          "answer": "The entire onboarding process typically takes 2-3 business days from initial signup to complete setup. The setup meeting itself usually lasts about 1-2 hours."
+          "answer": "The entire onboarding process typically takes 2-3 business days from initial sign-up to full setup. The setup meeting itself usually takes about 1-2 hours."
         },
         {
           "question": "Do I need to prepare anything for the setup meeting?",
-          "answer": "Yes, please have your bank account login details, business registration information, and any existing client/invoice data ready for the setup meeting. This will help us configure your system efficiently."
+          "answer": "Yes, please have your bank account login details, business registration information, and any existing client/invoice data ready for the setup meeting. This will help us efficiently configure your system."
         },
         {
           "question": "Can I switch from another bookkeeping service?",
-          "answer": "Absolutely! We can help you transition from your current bookkeeping service to our system. We'll guide you through the process of transferring your financial data and ensuring a smooth transition."
+          "answer": "Absolutely! We can help you transition from your current bookkeeping service to our system. We'll guide you through the process of transferring your financial data and ensure a smooth transition."
         },
         {
           "question": "What if I need help after the initial setup?",
-          "answer": "Our support doesn't end after setup. You'll have ongoing access to our team for any questions or assistance you need. We're just a phone call or email away."
+          "answer": "Our support doesn't end after setup. You'll have ongoing access to our team for any questions or assistance you might need. We're just a phone call or email away."
         },
         {
           "question": "Is there a minimum contract period?",
-          "answer": "Our standard subscription is month-to-month with no long-term commitment required. You can cancel at any time with 30 days' notice."
+          "answer": "Our standard subscription is month-to-month, with no long-term commitment required. You can cancel anytime with 30 days' notice."
         }
       ]
     },
     "cta": {
       "title": "Ready to Get Started?",
-      "subtitle": "Start your journey with Glodinas Finance today and experience hassle-free financial management.",
+      "subtitle": "Begin your journey with Glodinas Finance today and experience seamless financial management.",
       "button1": "Sign Up for Moneybird",
       "button2": "Contact Us"
     }

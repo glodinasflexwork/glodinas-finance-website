@@ -32,15 +32,21 @@
     }
   },
   "footer": {
+    "companyInfo": "Şirket Bilgileri",
+    "quickLinks": "Hızlı Bağlantılar",
+    "ourServices": "Hizmetlerimiz",
+    "bookkeepingZZP": "ZZP'ler için Muhasebe",
+    "bookkeepingBV": "BV'ler için Muhasebe",
+    "payrollServices": "Bordro Hizmetleri",
+    "businessFormation": "İşletme Kuruluşu",
+    "personalLoans": "Kişisel Krediler",
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfService": "Hizmet Şartları",
+    "copyright": "Tüm hakları saklıdır.",
     "company": "Glodinas Finance B.V.",
     "address": "Schiphol Boulevard 127, Schiphol 1118 BG",
     "phone": "+31 20 123 4567",
-    "email": "info@glodinasfinance.nl",
-    "copyright": "© 2025 Glodinas Finance B.V. Tüm hakları saklıdır.",
-    "links": {
-      "privacyPolicy": "Gizlilik Politikası",
-      "termsOfService": "Hizmet Şartları"
-    }
+    "email": "info@glodinasfinance.nl"
   },
   "gettingStarted": {
     "hero": {
