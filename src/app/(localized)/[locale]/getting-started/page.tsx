@@ -4,13 +4,16 @@ import React from 'react';
 import {useLocale, useTranslations} from 'next-intl';
 import Link from 'next/link';
 import PlaceholderImage from '@/components/PlaceholderImage';
-import {Link as IntlLink} from '@/i18n/next-intl/navigation';
+import {getLocalizedPath} from '@/i18n/next-intl/navigation';
+import {useRouter} from 'next/navigation';
+import Head from 'next/head';
 
 // Create a layout component for the Getting Started page with language-specific layouts
 const GettingStartedPage = () => {
   // Use next-intl hooks for translations and locale
   const t = useTranslations('GettingStarted');
   const locale = useLocale();
+  const router = useRouter();
   
   // Define language-specific layout variations
   const getLayoutVariation = () => {
@@ -20,35 +23,45 @@ const GettingStartedPage = () => {
           heroClass: 'bg-blue-100 py-20', // Dutch version has a different hero background and padding
           processColumns: 'grid-cols-1 md:grid-cols-3', // Default 3-column layout
           expectationsColumns: 'grid-cols-1 md:grid-cols-2 lg:grid-cols-4', // Default 4-column layout
-          ctaClass: 'bg-blue-700 text-white' // Dutch version has a darker CTA background
+          ctaClass: 'bg-blue-700 text-white', // Dutch version has a darker CTA background
+          title: 'Aan de Slag met Glodinas Finance | Boekhouding voor ZZP en BV',
+          description: 'Volg ons eenvoudige driestappenproces om uw boekhouding op te zetten en soepel te laten verlopen met Glodinas Finance.'
         };
       case 'ro':
         return {
           heroClass: 'bg-blue-50 py-16', // Default hero style
           processColumns: 'grid-cols-1 md:grid-cols-1 lg:grid-cols-3', // Romanian version stacks process steps on medium screens
           expectationsColumns: 'grid-cols-1 md:grid-cols-2 lg:grid-cols-4', // Default 4-column layout
-          ctaClass: 'bg-blue-600 text-white' // Default CTA style
+          ctaClass: 'bg-blue-600 text-white', // Default CTA style
+          title: 'Primii Pași cu Glodinas Finance | Contabilitate pentru Antreprenori',
+          description: 'Urmați procesul nostru simplu în trei pași pentru a configura și gestiona contabilitatea dumneavoastră fără probleme.'
         };
       case 'tr':
         return {
           heroClass: 'bg-blue-50 py-16', // Default hero style
           processColumns: 'grid-cols-1 md:grid-cols-3', // Default 3-column layout
           expectationsColumns: 'grid-cols-1 lg:grid-cols-4', // Turkish version stacks expectations on medium screens
-          ctaClass: 'bg-blue-600 text-white' // Default CTA style
+          ctaClass: 'bg-blue-600 text-white', // Default CTA style
+          title: 'Glodinas Finance ile Başlangıç | Girişimciler için Muhasebe',
+          description: 'Muhasebenizi kurmak ve sorunsuz çalıştırmak için basit üç adımlı sürecimizi izleyin.'
         };
       case 'ru':
         return {
           heroClass: 'bg-blue-50 py-16', // Default hero style
           processColumns: 'grid-cols-1 md:grid-cols-3', // Default 3-column layout
           expectationsColumns: 'grid-cols-1 md:grid-cols-4', // Russian version has 4 columns even on medium screens
-          ctaClass: 'bg-blue-800 text-white' // Russian version has a darker CTA background
+          ctaClass: 'bg-blue-800 text-white', // Russian version has a darker CTA background
+          title: 'Начало Работы с Glodinas Finance | Бухгалтерия для Предпринимателей',
+          description: 'Следуйте нашему простому трехэтапному процессу, чтобы настроить и обеспечить бесперебойную работу вашего бухгалтерского учета.'
         };
       default: // 'en' and fallback
         return {
           heroClass: 'bg-blue-50 py-16', // Default hero style
           processColumns: 'grid-cols-1 md:grid-cols-3', // Default 3-column layout
           expectationsColumns: 'grid-cols-1 md:grid-cols-2 lg:grid-cols-4', // Default 4-column layout
-          ctaClass: 'bg-blue-600 text-white' // Default CTA style
+          ctaClass: 'bg-blue-600 text-white', // Default CTA style
+          title: 'Getting Started with Glodinas Finance | Bookkeeping for Entrepreneurs',
+          description: 'Follow our simple three-step process to get your bookkeeping set up and running smoothly with Glodinas Finance.'
         };
     }
   };
@@ -65,27 +78,79 @@ const GettingStartedPage = () => {
       { code: 'ru', name: 'Русский', flag: '🇷🇺' }
     ];
     
+    // Handle language change
+    const handleLanguageChange = (langCode: string) => {
+      const path = getLocalizedPath('/getting-started', langCode);
+      router.push(`/${langCode}${path}`);
+    };
+    
     return (
       <div className="fixed top-4 right-4 z-50">
         <div className="bg-white shadow-md rounded-lg p-2 flex gap-2">
           {languages.map((lang) => (
-            <IntlLink 
+            <button 
               key={lang.code} 
-              href="/getting-started" 
-              locale={lang.code}
+              onClick={() => handleLanguageChange(lang.code)}
               className={`text-2xl hover:opacity-75 transition-opacity ${locale === lang.code ? 'border-b-2 border-blue-600' : ''}`}
               title={lang.name}
             >
               {lang.flag}
-            </IntlLink>
+            </button>
           ))}
         </div>
       </div>
     );
   };
   
+  // Helper function to safely render array items
+  const renderItems = (key: string) => {
+    try {
+      const items = t(key);
+      if (typeof items === 'string') {
+        return [items];
+      }
+      return Array.isArray(items) ? items : [];
+    } catch (error) {
+      console.error(`Error rendering items for key ${key}:`, error);
+      return [];
+    }
+  };
+  
+  // Helper function to safely render FAQ items
+  const renderFaqItems = (key: string) => {
+    try {
+      const items = t(key);
+      if (typeof items === 'string') {
+        return [{question: items, answer: ''}];
+      }
+      return Array.isArray(items) ? items : [];
+    } catch (error) {
+      console.error(`Error rendering FAQ items for key ${key}:`, error);
+      return [];
+    }
+  };
+  
   return (
     <div className="min-h-screen bg-white">
+      {/* SEO Metadata */}
+      <Head>
+        <title>{layout.title}</title>
+        <meta name="description" content={layout.description} />
+        <meta property="og:title" content={layout.title} />
+        <meta property="og:description" content={layout.description} />
+        <meta property="og:url" content={`https://www.glodinasfinance.nl/${locale}/getting-started`} />
+        <meta property="og:site_name" content="Glodinas Finance" />
+        <meta property="og:locale" content={locale} />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href={`https://www.glodinasfinance.nl/${locale}/getting-started`} />
+        {/* Language alternates */}
+        <link rel="alternate" hrefLang="en" href="https://www.glodinasfinance.nl/en/getting-started" />
+        <link rel="alternate" hrefLang="nl" href="https://www.glodinasfinance.nl/nl/aan-de-slag" />
+        <link rel="alternate" hrefLang="ro" href="https://www.glodinasfinance.nl/ro/primii-pasi" />
+        <link rel="alternate" hrefLang="tr" href="https://www.glodinasfinance.nl/tr/baslangic" />
+        <link rel="alternate" hrefLang="ru" href="https://www.glodinasfinance.nl/ru/nachalo-raboty" />
+      </Head>
+      
       {/* Language Switcher */}
       <LanguageSwitcher />
       
@@ -123,7 +188,7 @@ const GettingStartedPage = () => {
                 <h3 className="text-xl font-bold mb-2">{t('process.step1.title')}</h3>
                 <p className="text-gray-600 mb-4">{t('process.step1.description')}</p>
                 <ul className="text-gray-600 mb-6 space-y-2">
-                  {(t('process.step1.items') as string[]).map((item, index) => (
+                  {renderItems('process.step1.items').map((item, index) => (
                     <li key={index} className="flex items-start">
                       <svg className="h-6 w-6 text-blue-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
@@ -145,7 +210,7 @@ const GettingStartedPage = () => {
                 <h3 className="text-xl font-bold mb-2">{t('process.step2.title')}</h3>
                 <p className="text-gray-600 mb-4">{t('process.step2.description')}</p>
                 <ul className="text-gray-600 mb-6 space-y-2">
-                  {(t('process.step2.items') as string[]).map((item, index) => (
+                  {renderItems('process.step2.items').map((item, index) => (
                     <li key={index} className="flex items-start">
                       <svg className="h-6 w-6 text-blue-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
@@ -167,7 +232,7 @@ const GettingStartedPage = () => {
                 <h3 className="text-xl font-bold mb-2">{t('process.step3.title')}</h3>
                 <p className="text-gray-600 mb-4">{t('process.step3.description')}</p>
                 <ul className="text-gray-600 mb-6 space-y-2">
-                  {(t('process.step3.items') as string[]).map((item, index) => (
+                  {renderItems('process.step3.items').map((item, index) => (
                     <li key={index} className="flex items-start">
                       <svg className="h-6 w-6 text-blue-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
@@ -252,7 +317,7 @@ const GettingStartedPage = () => {
           
           <div className="max-w-3xl mx-auto">
             <div className="space-y-8">
-              {(t('faq.questions') as Array<{question: string, answer: string}>).map((faq, index) => (
+              {renderFaqItems('faq.questions').map((faq, index) => (
                 <div key={index} className="bg-white p-6 rounded-lg shadow-md">
                   <h3 className="text-xl font-bold mb-4">{faq.question}</h3>
                   <p className="text-gray-600">{faq.answer}</p>

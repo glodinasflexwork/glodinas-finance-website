@@ -1,14 +1,37 @@
 'use client';
 
-import React from 'react';
-import { useTranslation } from 'react-i18next';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
 // Create a standalone translation provider for Getting Started page
 const GettingStartedPage = () => {
-  const { t, i18n } = useTranslation();
-  const currentLanguage = i18n.language;
+  // State for current language
+  const [currentLanguage, setCurrentLanguage] = useState('en');
+  
+  // Detect browser language on client side
+  useEffect(() => {
+    const detectLanguage = () => {
+      const browserLang = navigator.language.split('-')[0];
+      if (['en', 'nl', 'ro', 'tr', 'ru'].includes(browserLang)) {
+        setCurrentLanguage(browserLang);
+      }
+      
+      // Check for language in localStorage
+      const storedLang = localStorage.getItem('language');
+      if (storedLang && ['en', 'nl', 'ro', 'tr', 'ru'].includes(storedLang)) {
+        setCurrentLanguage(storedLang);
+      }
+    };
+    
+    detectLanguage();
+  }, []);
+  
+  // Handle language change
+  const changeLanguage = (lang: string) => {
+    setCurrentLanguage(lang);
+    localStorage.setItem('language', lang);
+  };
   
   // Direct access to translations from separate file
   const translations = {
@@ -311,7 +334,7 @@ const GettingStartedPage = () => {
         },
         step2: {
           title: "Kurulum Toplantısı Planlayın",
-          description: "Yönetiminizi yapılandırmak için ekibimizle bir kurulum toplantısı ayarlayın. Rahatlığınız için hem yüz yüze hem de uzaktan TeamViewer oturumları sunuyoruz.",
+          description: "Yönetiminizi yapılandırmak için ekibimizle bir kurulum toplantısı planlayın. Kolaylığınız için hem yüz yüze hem de uzaktan TeamViewer oturumları sunuyoruz.",
           items: [
             "Tek seferlik kurulum ücretini ödeyin (KDV hariç €150)",
             "Yüz yüze veya TeamViewer oturumu arasında seçim yapın",
@@ -332,8 +355,8 @@ const GettingStartedPage = () => {
         }
       },
       expectations: {
-        title: "Neler Bekleyebilirsiniz",
-        subtitle: "Başlangıç sürecimizi tamamladıktan sonra neler olacağına dair bilgiler",
+        title: "Ne Beklemeli",
+        subtitle: "Başlangıç sürecimizi tamamladıktan sonra neler olacağı",
         item1: {
           title: "Hızlı Kurulum",
           description: "Muhasebe sisteminiz, kurulum toplantınızdan sonra 24-48 saat içinde tamamen yapılandırılmış ve kullanıma hazır olacaktır."
@@ -360,12 +383,12 @@ const GettingStartedPage = () => {
             answer: "Tüm başlangıç süreci genellikle ilk kayıttan tam kuruluma kadar 2-3 iş günü sürer. Kurulum toplantısının kendisi genellikle yaklaşık 1-2 saat sürer."
           },
           {
-            question: "Kurulum toplantısı için bir şey hazırlamam gerekiyor mu?",
+            question: "Kurulum toplantısı için bir şey hazırlamalı mıyım?",
             answer: "Evet, lütfen kurulum toplantısı için banka hesabı giriş bilgilerinizi, işletme kayıt bilgilerinizi ve mevcut müşteri/fatura verilerinizi hazır bulundurun. Bu, sisteminizi verimli bir şekilde yapılandırmamıza yardımcı olacaktır."
           },
           {
             question: "Başka bir muhasebe hizmetinden geçiş yapabilir miyim?",
-            answer: "Kesinlikle! Mevcut muhasebe hizmetinizden sistemimize geçmenize yardımcı olabiliriz. Finansal verilerinizi aktarma ve sorunsuz bir geçiş sağlama sürecinde size rehberlik edeceğiz."
+            answer: "Kesinlikle! Mevcut muhasebe hizmetinizden sistemimize geçmenize yardımcı olabiliriz. Finansal verilerinizi aktarma sürecinde size rehberlik edecek ve sorunsuz bir geçiş sağlayacağız."
           },
           {
             question: "İlk kurulumdan sonra yardıma ihtiyacım olursa ne olur?",
@@ -373,7 +396,7 @@ const GettingStartedPage = () => {
           },
           {
             question: "Minimum sözleşme süresi var mı?",
-            answer: "Standart aboneliğimiz, uzun vadeli taahhüt gerektirmeyen aylık bazlıdır. 30 gün önceden bildirimde bulunarak istediğiniz zaman iptal edebilirsiniz."
+            answer: "Standart aboneliğimiz, uzun vadeli taahhüt gerektirmeyen aylık bir aboneliktir. 30 gün önceden bildirimde bulunarak istediğiniz zaman iptal edebilirsiniz."
           }
         ]
       },
@@ -386,11 +409,11 @@ const GettingStartedPage = () => {
     },
     ru: {
       hero: {
-        title: "Начало работы с Glodinas Finance",
+        title: "Начало Работы с Glodinas Finance",
         subtitle: "Следуйте нашему простому трехэтапному процессу, чтобы настроить и обеспечить бесперебойную работу вашего бухгалтерского учета."
       },
       process: {
-        title: "Наш процесс адаптации",
+        title: "Наш Процесс Подключения",
         subtitle: "Мы разработали оптимизированный процесс, чтобы вы могли быстро начать работу",
         step1: {
           title: "Зарегистрируйтесь в Moneybird",
@@ -403,65 +426,65 @@ const GettingStartedPage = () => {
           button: "Зарегистрироваться в Moneybird"
         },
         step2: {
-          title: "Запланируйте встречу по настройке",
+          title: "Запланируйте Встречу по Настройке",
           description: "Запланируйте встречу по настройке с нашей командой для конфигурации вашего администрирования. Мы предлагаем как личные, так и удаленные сессии TeamViewer для вашего удобства.",
           items: [
             "Оплатите единовременную плату за настройку (€150 без НДС)",
             "Выберите между личной встречей или сессией TeamViewer",
             "Мы настроим банковские соединения, базу данных клиентов и структуру счетов"
           ],
-          button: "Запланировать встречу по настройке"
+          button: "Запланировать Встречу по Настройке"
         },
         step3: {
-          title: "Выберите подписку",
-          description: "Выберите план подписки, который соответствует потребностям вашего бизнеса. Мы предлагаем индивидуальные пакеты как для самозанятых (ZZP), так и для компаний с ограниченной ответственностью (BV).",
+          title: "Выберите Вашу Подписку",
+          description: "Выберите план подписки, который соответствует потребностям вашего бизнеса. Мы предлагаем индивидуальные пакеты как для индивидуальных предпринимателей (ZZP), так и для ООО (BV).",
           items: [
             "Бухгалтерия ZZP: €130/месяц (без НДС)",
             "Бухгалтерия BV: €150/месяц (без НДС)",
             "Автоматическое выставление счетов для беспроблемного обслуживания"
           ],
           button1: "Подписка ZZP/BV",
-          button2: "Администрирование кредитов"
+          button2: "Администрирование Займов"
         }
       },
       expectations: {
-        title: "Чего ожидать",
-        subtitle: "Вот что происходит после завершения нашего процесса адаптации",
+        title: "Чего Ожидать",
+        subtitle: "Вот что происходит после завершения нашего процесса подключения",
         item1: {
-          title: "Немедленная настройка",
+          title: "Немедленная Настройка",
           description: "Ваша бухгалтерская система будет полностью настроена и готова к использованию в течение 24-48 часов после встречи по настройке."
         },
         item2: {
-          title: "Постоянная поддержка",
+          title: "Постоянная Поддержка",
           description: "Вы будете получать постоянную поддержку от нашей команды, чтобы обеспечить бесперебойную и эффективную работу вашего бухгалтерского учета."
         },
         item3: {
-          title: "Ежемесячные обновления",
+          title: "Ежемесячные Обновления",
           description: "Получайте регулярные обновления о вашем финансовом состоянии, обеспечивая всегда четкое представление о финансах вашего бизнеса."
         },
         item4: {
-          title: "Соответствие налоговым требованиям",
-          description: "Мы обеспечиваем соответствие вашего бизнеса всем голландским налоговым правилам и требованиям к подаче документов."
+          title: "Соответствие Налоговым Требованиям",
+          description: "Мы обеспечиваем соответствие вашего бизнеса всем голландским налоговым правилам и требованиям к отчетности."
         }
       },
       faq: {
-        title: "Часто задаваемые вопросы",
-        subtitle: "Общие вопросы о нашем процессе адаптации",
+        title: "Часто Задаваемые Вопросы",
+        subtitle: "Распространенные вопросы о нашем процессе подключения",
         questions: [
           {
             question: "Сколько времени занимает процесс настройки?",
-            answer: "Весь процесс адаптации обычно занимает 2-3 рабочих дня от первоначальной регистрации до полной настройки. Сама встреча по настройке обычно длится около 1-2 часов."
+            answer: "Весь процесс подключения обычно занимает 2-3 рабочих дня от первоначальной регистрации до полной настройки. Сама встреча по настройке обычно длится около 1-2 часов."
           },
           {
             question: "Нужно ли мне что-то подготовить для встречи по настройке?",
-            answer: "Да, пожалуйста, подготовьте данные для входа в банковский счет, информацию о регистрации бизнеса и любые существующие данные о клиентах/счетах для встречи по настройке. Это поможет нам эффективно настроить вашу систему."
+            answer: "Да, пожалуйста, имейте при себе данные для входа в банковский счет, информацию о регистрации бизнеса и любые существующие данные о клиентах/счетах для встречи по настройке. Это поможет нам эффективно настроить вашу систему."
           },
           {
             question: "Могу ли я перейти с другого бухгалтерского сервиса?",
             answer: "Абсолютно! Мы можем помочь вам перейти с вашего текущего бухгалтерского сервиса на нашу систему. Мы проведем вас через процесс передачи ваших финансовых данных и обеспечим плавный переход."
           },
           {
-            question: "Что делать, если мне нужна помощь после первоначальной настройки?",
+            question: "Что, если мне понадобится помощь после первоначальной настройки?",
             answer: "Наша поддержка не заканчивается после настройки. У вас будет постоянный доступ к нашей команде для любых вопросов или помощи, которая вам может понадобиться. Мы всего лишь на расстоянии телефонного звонка или электронного письма."
           },
           {
@@ -471,33 +494,76 @@ const GettingStartedPage = () => {
         ]
       },
       cta: {
-        title: "Готовы начать?",
+        title: "Готовы Начать?",
         subtitle: "Начните свой путь с Glodinas Finance сегодня и испытайте беспроблемное финансовое управление.",
         button1: "Зарегистрироваться в Moneybird",
-        button2: "Связаться с нами"
+        button2: "Связаться с Нами"
       }
     }
   };
   
   // Get translations for current language or fallback to English
   const getLocalizedContent = () => {
-    return translations[currentLanguage] || translations.en;
+    // Type assertion to allow string indexing
+    const translationsObj = translations as Record<string, any>;
+    return translationsObj[currentLanguage] || translationsObj.en;
   };
   
   const content = getLocalizedContent();
   
   return (
-    <div className="bg-white">
+    <div className="min-h-screen bg-white">
+      {/* Language Switcher */}
+      <div className="fixed top-4 right-4 z-50">
+        <div className="bg-white shadow-md rounded-lg p-2 flex gap-2">
+          <button 
+            onClick={() => changeLanguage('en')} 
+            className={`text-2xl hover:opacity-75 transition-opacity ${currentLanguage === 'en' ? 'border-b-2 border-blue-600' : ''}`}
+            title="English"
+          >
+            🇬🇧
+          </button>
+          <button 
+            onClick={() => changeLanguage('nl')} 
+            className={`text-2xl hover:opacity-75 transition-opacity ${currentLanguage === 'nl' ? 'border-b-2 border-blue-600' : ''}`}
+            title="Nederlands"
+          >
+            🇳🇱
+          </button>
+          <button 
+            onClick={() => changeLanguage('ro')} 
+            className={`text-2xl hover:opacity-75 transition-opacity ${currentLanguage === 'ro' ? 'border-b-2 border-blue-600' : ''}`}
+            title="Română"
+          >
+            🇷🇴
+          </button>
+          <button 
+            onClick={() => changeLanguage('tr')} 
+            className={`text-2xl hover:opacity-75 transition-opacity ${currentLanguage === 'tr' ? 'border-b-2 border-blue-600' : ''}`}
+            title="Türkçe"
+          >
+            🇹🇷
+          </button>
+          <button 
+            onClick={() => changeLanguage('ru')} 
+            className={`text-2xl hover:opacity-75 transition-opacity ${currentLanguage === 'ru' ? 'border-b-2 border-blue-600' : ''}`}
+            title="Русский"
+          >
+            🇷🇺
+          </button>
+        </div>
+      </div>
+      
       {/* Hero Section */}
-      <div className="bg-blue-600 text-white py-16">
+      <div className="bg-blue-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">{content.hero.title}</h1>
-          <p className="text-xl md:text-2xl max-w-3xl mx-auto">{content.hero.subtitle}</p>
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{content.hero.title}</h1>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">{content.hero.subtitle}</p>
         </div>
       </div>
       
       {/* Process Section */}
-      <div className="py-16 bg-gray-50">
+      <div className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{content.process.title}</h2>
@@ -512,7 +578,7 @@ const GettingStartedPage = () => {
                 <h3 className="text-xl font-bold mb-2">{content.process.step1.title}</h3>
                 <p className="text-gray-600 mb-4">{content.process.step1.description}</p>
                 <ul className="text-gray-600 mb-6 space-y-2">
-                  {content.process.step1.items.map((item, index) => (
+                  {content.process.step1.items.map((item: string, index: number) => (
                     <li key={index} className="flex items-start">
                       <svg className="h-6 w-6 text-blue-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
@@ -534,7 +600,7 @@ const GettingStartedPage = () => {
                 <h3 className="text-xl font-bold mb-2">{content.process.step2.title}</h3>
                 <p className="text-gray-600 mb-4">{content.process.step2.description}</p>
                 <ul className="text-gray-600 mb-6 space-y-2">
-                  {content.process.step2.items.map((item, index) => (
+                  {content.process.step2.items.map((item: string, index: number) => (
                     <li key={index} className="flex items-start">
                       <svg className="h-6 w-6 text-blue-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
@@ -556,7 +622,7 @@ const GettingStartedPage = () => {
                 <h3 className="text-xl font-bold mb-2">{content.process.step3.title}</h3>
                 <p className="text-gray-600 mb-4">{content.process.step3.description}</p>
                 <ul className="text-gray-600 mb-6 space-y-2">
-                  {content.process.step3.items.map((item, index) => (
+                  {content.process.step3.items.map((item: string, index: number) => (
                     <li key={index} className="flex items-start">
                       <svg className="h-6 w-6 text-blue-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
@@ -640,10 +706,10 @@ const GettingStartedPage = () => {
           </div>
           
           <div className="max-w-3xl mx-auto">
-            <div className="space-y-6">
-              {content.faq.questions.map((faq, index) => (
+            <div className="space-y-8">
+              {content.faq.questions.map((faq: {question: string, answer: string}, index: number) => (
                 <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-xl font-bold mb-2">{faq.question}</h3>
+                  <h3 className="text-xl font-bold mb-4">{faq.question}</h3>
                   <p className="text-gray-600">{faq.answer}</p>
                 </div>
               ))}
