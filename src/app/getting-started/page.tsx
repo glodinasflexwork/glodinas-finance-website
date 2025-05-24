@@ -50,7 +50,7 @@ export default function GettingStarted() {
                 {t('gettingStarted.process.step1.description')}
               </p>
               <ul className="text-gray-600 mb-6 space-y-2">
-                {t('gettingStarted.process.step1.items', { returnObjects: true }).map((item, index) => (
+                {(t('gettingStarted.process.step1.items', { returnObjects: true }) as string[]).map((item, index) => (
                   <li key={index} className="flex items-start">
                     <svg className="h-6 w-6 text-blue-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
@@ -90,7 +90,7 @@ export default function GettingStarted() {
                 {t('gettingStarted.process.step2.description')}
               </p>
               <ul className="text-gray-600 mb-6 space-y-2">
-                {t('gettingStarted.process.step2.items', { returnObjects: true }).map((item, index) => (
+                {(t('gettingStarted.process.step2.items', { returnObjects: true }) as string[]).map((item, index) => (
                   <li key={index} className="flex items-start">
                     <svg className="h-6 w-6 text-blue-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
@@ -128,7 +128,7 @@ export default function GettingStarted() {
                 {t('gettingStarted.process.step3.description')}
               </p>
               <ul className="text-gray-600 mb-6 space-y-2">
-                {t('gettingStarted.process.step3.items', { returnObjects: true }).map((item, index) => (
+                {(t('gettingStarted.process.step3.items', { returnObjects: true }) as string[]).map((item, index) => (
                   <li key={index} className="flex items-start">
                     <svg className="h-6 w-6 text-blue-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
@@ -231,7 +231,7 @@ export default function GettingStarted() {
           </div>
 
           <div className="max-w-3xl mx-auto space-y-6">
-            {t('gettingStarted.faq.questions', { returnObjects: true }).map((faq, index) => (
+            {(t('gettingStarted.faq.questions', { returnObjects: true }) as Array<{question: string, answer: string}>).map((faq, index) => (
               <div key={index} className="bg-gray-50 rounded-lg p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{faq.question}</h3>
                 <p className="text-gray-600">
