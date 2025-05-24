@@ -8,6 +8,20 @@ import { useTranslation } from 'react-i18next';
 export default function Contact() {
   const { t } = useTranslation();
   
+  // Helper function to safely handle translation arrays
+  const getFAQQuestions = () => {
+    try {
+      const questions = t('contact.faq.questions', { returnObjects: true });
+      if (Array.isArray(questions)) {
+        return questions;
+      }
+      return [];
+    } catch (error) {
+      console.error('Error getting FAQ questions:', error);
+      return [];
+    }
+  };
+  
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
@@ -127,7 +141,7 @@ export default function Contact() {
           </div>
           
           <div className="max-w-3xl mx-auto space-y-6">
-            {(t('contact.faq.questions', { returnObjects: true }) as Array<{question: string, answer: string}>).map((faq, index) => (
+            {getFAQQuestions().map((faq: {question: string, answer: string}, index: number) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">{faq.question}</h3>
                 <p className="text-gray-600">
