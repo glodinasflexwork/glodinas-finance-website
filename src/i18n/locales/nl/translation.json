@@ -4,10 +4,7 @@
     "about": "Over Ons",
     "services": "Diensten",
     "blog": "Blog",
-    "contact": "Contact",
-    "gettingStarted": "Aan de Slag",
-    "privacyPolicy": "Privacybeleid",
-    "termsOfService": "Algemene Voorwaarden"
+    "contact": "Contact"
   },
   "privacyPolicy": {
     "hero": {
@@ -53,7 +50,164 @@
             "Contactformuliergegevens: informatie die u verstrekt bij het gebruik van onze contactformulieren"
           ]
         }
+      },
+      "howWeCollect": {
+        "title": "4. Hoe wij uw persoonsgegevens verzamelen",
+        "paragraph": "Wij verzamelen persoonsgegevens via verschillende kanalen:",
+        "items": [
+          "Directe interacties: wanneer u gebruik maakt van onze diensten, een account aanmaakt, formulieren invult of met ons correspondeert",
+          "Geautomatiseerde technologieën: wanneer u onze website bezoekt, via cookies en vergelijkbare technologieën",
+          "Derden: wij kunnen persoonsgegevens ontvangen van derden zoals zakenpartners, onderaannemers, betalingsdienstaanbieders en openbaar beschikbare bronnen"
+        ]
+      },
+      "legalBasis": {
+        "title": "5. Rechtsgrond voor verwerking",
+        "paragraph": "Wij verwerken uw persoonsgegevens op basis van de volgende rechtsgronden:",
+        "items": [
+          "Uitvoering van overeenkomst: Verwerking die noodzakelijk is voor de uitvoering van onze overeenkomst met u of om op uw verzoek stappen te ondernemen voordat u een overeenkomst aangaat",
+          "Wettelijke verplichting: Verwerking die noodzakelijk is om te voldoen aan onze wettelijke verplichtingen (bijv. belastingwetten, anti-witwasregelgeving)",
+          "Gerechtvaardigd belang: Verwerking die noodzakelijk is voor onze gerechtvaardigde belangen of die van een derde, mits uw belangen en fundamentele rechten niet zwaarder wegen dan deze belangen",
+          "Toestemming: Verwerking op basis van uw specifieke toestemming"
+        ]
+      },
+      "howWeUse": {
+        "title": "6. Hoe wij uw persoonsgegevens gebruiken",
+        "paragraph": "Wij gebruiken uw persoonsgegevens voor de volgende doeleinden:",
+        "serviceProvision": {
+          "title": "6.1 Dienstverlening",
+          "items": [
+            "Voor het leveren van boekhoudkundige, financiële administratie- en belastingdiensten",
+            "Voor het beheren van uw account en relatie met ons",
+            "Voor het verwerken van financiële transacties en betalingen",
+            "Voor het opstellen van financiële overzichten, belastingaangiften en andere financiële documenten",
+            "Voor communicatie met u over onze diensten"
+          ]
+        },
+        "compliance": {
+          "title": "6.2 Wettelijke en regelgevende naleving",
+          "items": [
+            "Om te voldoen aan wettelijke en regelgevende verplichtingen, waaronder belastingwetten en anti-witwasregelgeving",
+            "Om uw identiteit te verifiëren en due diligence-controles uit te voeren",
+            "Om gegevens bij te houden zoals vereist door de wet"
+          ]
+        },
+        "operations": {
+          "title": "6.3 Bedrijfsactiviteiten",
+          "items": [
+            "Om onze diensten te verbeteren en nieuwe aanbiedingen te ontwikkelen",
+            "Om onze bedrijfsactiviteiten en administratie te beheren",
+            "Om de veiligheid van onze systemen te waarborgen en fraude te voorkomen",
+            "Om gebruikspatronen en trends te analyseren"
+          ]
+        },
+        "marketing": {
+          "title": "6.4 Marketing en communicatie",
+          "items": [
+            "Om u updates, nieuwsbrieven en informatie over onze diensten te sturen (met uw toestemming waar vereist)",
+            "Om u uit te nodigen voor evenementen of webinars die voor u interessant kunnen zijn",
+            "Om tevredenheidsonderzoeken uit te voeren en feedback te verzamelen"
+          ]
+        }
+      },
+      "dataRetention": {
+        "title": "7. Gegevensbewaring",
+        "paragraph1": "Wij bewaren uw persoonsgegevens alleen zo lang als nodig is om de doeleinden waarvoor ze zijn verzameld te vervullen, inclusief het voldoen aan wettelijke, boekhoudkundige of rapportageverplichtingen.",
+        "paragraph2": "Voor financiële en belastinggerelateerde gegevens zijn wij volgens de Nederlandse wetgeving verplicht om gegevens minimaal 7 jaar te bewaren. Voor andere soorten gegevens kan de bewaartermijn variëren op basis van de aard van de gegevens en het doel van de verwerking.",
+        "paragraph3": "Wanneer persoonsgegevens niet langer nodig zijn, zullen wij deze veilig verwijderen of anonimiseren."
+      },
+      "dataSharing": {
+        "title": "8. Gegevensdeling en -overdracht",
+        "paragraph1": "Wij kunnen uw persoonsgegevens delen met de volgende categorieën ontvangers:",
+        "recipients": [
+          "Dienstverleners: Externe dienstverleners die diensten namens ons uitvoeren, zoals IT-providers, cloudopslagproviders, betalingsverwerkers en professionele adviseurs",
+          "Regelgevende instanties: Belastingautoriteiten, financiële toezichthouders en andere overheidsinstanties wanneer dit wettelijk vereist is",
+          "Zakenpartners: Partners met wie wij co-branded diensten of gezamenlijke marketingactiviteiten aanbieden, met uw toestemming waar vereist",
+          "Professionele adviseurs: Advocaten, bankiers, accountants en verzekeraars die consultancy-, bank-, juridische, verzekerings- en accountancydiensten verlenen"
+        ],
+        "paragraph2": "Wij zorgen ervoor dat alle derden de veiligheid van uw persoonsgegevens respecteren en deze in overeenstemming met de wet behandelen. Wij staan onze externe dienstverleners niet toe uw persoonsgegevens voor hun eigen doeleinden te gebruiken.",
+        "paragraph3": "Wanneer wij persoonsgegevens buiten de Europese Economische Ruimte (EER) overdragen, zorgen wij voor een vergelijkbaar beschermingsniveau door ten minste een van de volgende waarborgen te implementeren:",
+        "safeguards": [
+          "Overdrachten naar landen waarvan de Europese Commissie heeft bepaald dat ze een adequaat beschermingsniveau bieden",
+          "Gebruik van specifieke contracten goedgekeurd door de Europese Commissie (Standaard Contractuele Bepalingen)",
+          "Implementatie van bindende bedrijfsvoorschriften voor overdrachten binnen een bedrijfsgroep"
+        ]
+      },
+      "dataSecurity": {
+        "title": "9. Gegevensbeveiliging",
+        "paragraph1": "Wij hebben passende beveiligingsmaatregelen geïmplementeerd om te voorkomen dat uw persoonsgegevens per ongeluk verloren gaan, worden gebruikt of toegankelijk worden gemaakt op een ongeautoriseerde manier, worden gewijzigd of openbaar worden gemaakt. Deze maatregelen omvatten:",
+        "measures": [
+          "Versleuteling van gevoelige gegevens",
+          "Beveiligde netwerken en systemen",
+          "Toegangscontroles en authenticatieprocedures",
+          "Regelmatige veiligheidsbeoordelingen en -tests",
+          "Personeelstraining op het gebied van gegevensbescherming en -beveiliging"
+        ],
+        "paragraph2": "Wij hebben procedures om om te gaan met vermoedelijke inbreuken op persoonsgegevens en zullen u en de toepasselijke toezichthouder op de hoogte stellen van een inbreuk wanneer wij wettelijk verplicht zijn dit te doen."
+      },
+      "yourRights": {
+        "title": "10. Uw rechten",
+        "paragraph1": "Onder de AVG heeft u de volgende rechten met betrekking tot uw persoonsgegevens:",
+        "rights": [
+          "Recht op inzage: U kunt een kopie opvragen van de persoonsgegevens die wij over u bewaren",
+          "Recht op rectificatie: U kunt correctie vragen van onjuiste of onvolledige persoonsgegevens",
+          "Recht op verwijdering: U kunt in bepaalde omstandigheden verwijdering van uw persoonsgegevens vragen",
+          "Recht op beperking van de verwerking: U kunt in bepaalde omstandigheden beperking van de verwerking van uw persoonsgegevens vragen",
+          "Recht op gegevensoverdraagbaarheid: U kunt overdracht van uw persoonsgegevens aan u of een derde vragen in een gestructureerd, algemeen gebruikt, machineleesbaar formaat",
+          "Recht van bezwaar: U kunt bezwaar maken tegen de verwerking van uw persoonsgegevens in bepaalde omstandigheden, met name voor direct marketing",
+          "Rechten met betrekking tot geautomatiseerde besluitvorming: U kunt menselijke tussenkomst vragen bij geautomatiseerde besluitvorming en profilering",
+          "Recht om toestemming in te trekken: U kunt uw toestemming op elk moment intrekken wanneer wij op toestemming vertrouwen om uw persoonsgegevens te verwerken"
+        ],
+        "paragraph2": "Om een van deze rechten uit te oefenen, kunt u contact met ons opnemen via privacy@glodinasfinance.nl. Wij zullen binnen een maand op uw verzoek reageren. Er zijn geen kosten verbonden aan het uitoefenen van uw rechten, maar wij kunnen een redelijke vergoeding vragen als uw verzoek duidelijk ongegrond, repetitief of buitensporig is."
+      },
+      "cookies": {
+        "title": "11. Cookies en vergelijkbare technologieën",
+        "paragraph1": "Onze website maakt gebruik van cookies en vergelijkbare technologieën om u te onderscheiden van andere gebruikers. Dit helpt ons om u een goede ervaring te bieden wanneer u onze website bezoekt en stelt ons in staat om onze site te verbeteren.",
+        "paragraph2": "Wij gebruiken de volgende soorten cookies:",
+        "cookieTypes": [
+          "Strikt noodzakelijke cookies: Vereist voor de werking van onze website",
+          "Analytische/prestatiecookies: Stellen ons in staat om bezoekers te herkennen en te tellen en te zien hoe bezoekers zich door onze website bewegen",
+          "Functionaliteitscookies: Worden gebruikt om u te herkennen wanneer u terugkeert naar onze website",
+          "Targeting cookies: Registreren uw bezoek aan onze website, de pagina's die u bezoekt en de links die u volgt"
+        ],
+        "paragraph3": "U kunt uw browser instellen om alle of sommige browsercookies te weigeren of om u te waarschuwen wanneer websites cookies plaatsen of openen. Als u cookies uitschakelt of weigert, houd er dan rekening mee dat sommige delen van onze website mogelijk ontoegankelijk worden of niet goed functioneren."
+      },
+      "childrenPrivacy": {
+        "title": "12. Privacy van kinderen",
+        "paragraph": "Onze diensten zijn niet bedoeld voor kinderen onder de 16 jaar, en wij verzamelen niet bewust persoonsgegevens van kinderen. Als u een ouder of voogd bent en denkt dat wij mogelijk informatie over uw kind hebben verzameld, neem dan onmiddellijk contact met ons op."
+      },
+      "changes": {
+        "title": "13. Wijzigingen in dit Privacybeleid",
+        "paragraph1": "Wij kunnen dit Privacybeleid van tijd tot tijd bijwerken om veranderingen in onze praktijken weer te geven of om andere operationele, juridische of regelgevende redenen. Wij zullen u op de hoogte stellen van materiële wijzigingen door het nieuwe Privacybeleid op deze pagina te plaatsen en de datum \"Laatst bijgewerkt\" bij te werken.",
+        "paragraph2": "Wij moedigen u aan om dit Privacybeleid regelmatig te bekijken om op de hoogte te blijven van hoe wij uw persoonsgegevens beschermen."
+      },
+      "complaints": {
+        "title": "14. Klachten",
+        "paragraph1": "Als u zorgen heeft over hoe wij met uw persoonsgegevens omgaan, neem dan eerst contact met ons op via privacy@glodinasfinance.nl, en wij zullen ons best doen om uw zorgen op te lossen.",
+        "paragraph2": "U heeft ook het recht om een klacht in te dienen bij de Autoriteit Persoonsgegevens als u van mening bent dat wij niet hebben voldaan aan de wetgeving inzake gegevensbescherming. U kunt contact met hen opnemen via:",
+        "authority": {
+          "name": "Autoriteit Persoonsgegevens",
+          "address1": "Postbus 93374",
+          "address2": "2509 AJ DEN HAAG",
+          "website": "Website: autoriteitpersoonsgegevens.nl"
+        }
+      },
+      "contactUs": {
+        "title": "15. Contact met ons opnemen",
+        "paragraph": "Als u vragen heeft over dit Privacybeleid of onze gegevenspraktijken, neem dan contact met ons op via:",
+        "contact": {
+          "company": "Glodinas Finance B.V.",
+          "address1": "Schiphol Boulevard 127",
+          "address2": "Schiphol 1118 BG",
+          "country": "Nederland",
+          "email": "E-mail: privacy@glodinasfinance.nl",
+          "phone": "Telefoon: +31 20 123 4567"
+        }
       }
+    },
+    "cta": {
+      "title": "Vragen over uw gegevens?",
+      "paragraph": "Neem contact op met ons gegevensbeschermingsteam voor vragen of zorgen over hoe wij met uw persoonlijke informatie omgaan.",
+      "button": "Contact opnemen"
     }
   },
   "home": {
@@ -65,117 +219,454 @@
     },
     "services": {
       "title": "Onze Diensten",
-      "subtitle": "Uitgebreide financiële oplossingen voor uw bedrijf"
+      "subtitle": "Uitgebreide financiële oplossingen voor uw bedrijf",
+      "bookkeepingZZP": {
+        "title": "Boekhouding voor ZZP'ers",
+        "description": "Complete boekhoudkundige diensten voor zelfstandige professionals vanaf €130/maand (excl. BTW).",
+        "learnMore": "Meer informatie"
+      },
+      "bookkeepingBV": {
+        "title": "Boekhouding voor BV's",
+        "description": "Uitgebreide boekhoudkundige diensten voor besloten vennootschappen vanaf €250/maand (excl. BTW), inclusief salarisadministratie voor DGA.",
+        "learnMore": "Meer informatie"
+      },
+      "payroll": {
+        "title": "Salarisadministratie",
+        "description": "Efficiënte salarisverwerking via Employes voor de behoeften van uw bedrijf.",
+        "learnMore": "Meer informatie"
+      },
+      "businessFormation": {
+        "title": "Bedrijfsoprichting",
+        "description": "Complete diensten voor bedrijfsoprichting via Firm24 voor nieuwe ondernemers.",
+        "learnMore": "Meer informatie"
+      },
+      "personalLoans": {
+        "title": "Persoonlijke Leningassistentie",
+        "description": "Hulp bij persoonlijke leningen bij grote Nederlandse banken waaronder ING, ABN AMRO, RABOBANK en SNS.",
+        "learnMore": "Meer informatie"
+      },
+      "taxPreparation": {
+        "title": "Belastingaangifte",
+        "description": "Professionele diensten voor het voorbereiden en indienen van belastingaangiften voor particulieren en bedrijven.",
+        "learnMore": "Meer informatie"
+      }
+    },
+    "whyChooseUs": {
+      "title": "Waarom Kiezen voor Glodinas Finance",
+      "subtitle": "Wij bieden betrouwbare financiële diensten op maat voor uw behoeften",
+      "expertise": {
+        "title": "Expertise",
+        "description": "Ons team van financiële experts heeft jarenlange ervaring in het leveren van boekhoudkundige diensten aan bedrijven van alle groottes."
+      },
+      "timeSaving": {
+        "title": "Tijdsbesparing",
+        "description": "Wij verzorgen uw financiële administratie zodat u zich kunt concentreren op het laten groeien van uw bedrijf en het bedienen van uw klanten."
+      },
+      "costEffective": {
+        "title": "Kosteneffectief",
+        "description": "Onze betaalbare prijsplannen zorgen ervoor dat u professionele financiële diensten krijgt zonder uw budget te overschrijden."
+      }
+    },
+    "partners": {
+      "title": "Onze Partners",
+      "subtitle": "Wij werken samen met betrouwbare partners om u de beste diensten te bieden"
+    },
+    "cta": {
+      "title": "Klaar om te beginnen?",
+      "subtitle": "Neem vandaag nog contact met ons op om te ontdekken hoe Glodinas Finance B.V. u kan helpen met uw boekhoudkundige en financiële behoeften.",
+      "contactUs": "Neem Contact Op"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Over Glodinas Finance B.V.",
+      "subtitle": "Uw betrouwbare partner voor professionele boekhouding en financiële diensten in Nederland."
+    },
+    "company": {
+      "title": "Ons Bedrijf",
+      "paragraph1": "Glodinas Finance B.V. is een professioneel boekhoudkantoor gevestigd in Nederland, toegewijd aan het leveren van hoogwaardige financiële diensten aan ondernemers en bedrijven.",
+      "paragraph2": "Wij zijn gespecialiseerd in uitgebreide boekhoudoplossingen voor ZZP'ers (zelfstandige professionals) en BV's (besloten vennootschappen), met concurrerende tarieven vanaf €130 per maand (exclusief BTW) voor ZZP'ers en €250 per maand (exclusief BTW) voor BV's, inclusief salarisadministratie voor DGA.",
+      "paragraph3": "Onze missie is om bedrijven te helpen bij het bijhouden van nauwkeurige financiële administratie, het voldoen aan Nederlandse belastingvoorschriften en het nemen van weloverwogen financiële beslissingen om hun groei en succes te ondersteunen.",
+      "imageAlt": "Glodinas Finance professioneel team"
+    },
+    "team": {
+      "title": "Ons Team",
+      "subtitle": "Maak kennis met de experts achter Glodinas Finance B.V.",
+      "linkedinProfile": "LinkedIn Profiel",
+      "member1": {
+        "name": "Cihat Kaya",
+        "role": "Oprichter & CEO",
+        "bio": "Met uitgebreide ervaring in financieel management en Nederlandse belastingvoorschriften, leidt Cihat ons team met expertise en toewijding aan het succes van de klant.",
+        "imageAlt": "Cihat Kaya - Oprichter & CEO van Glodinas Finance"
+      },
+      "member2": {
+        "name": "Gabriel Stan",
+        "role": "Financieel Adviseur",
+        "bio": "Gabriel helpt klanten bij het navigeren door persoonlijke leningaanvragen en financiële planning, met sterke relaties met grote Nederlandse banken en financiële instellingen.",
+        "imageAlt": "Gabriel Stan - Financieel Adviseur bij Glodinas Finance"
+      },
+      "member3": {
+        "name": "Ana Dogotari",
+        "role": "Senior Accountant",
+        "bio": "Ana is gespecialiseerd in belastingaangifte en compliance voor Nederlandse bedrijven, en zorgt ervoor dat onze klanten aan alle wettelijke vereisten voldoen en hun financiële positie optimaliseren.",
+        "imageAlt": "Ana Dogotari - Senior Accountant bij Glodinas Finance"
+      }
+    },
+    "partners": {
+      "title": "Onze Partners",
+      "subtitle": "Wij werken samen met betrouwbare partners om uitgebreide financiële oplossingen te bieden",
+      "partner1": {
+        "name": "Moneybird",
+        "description": "Wij gebruiken de intuïtieve boekhoudsoftware van Moneybird om de financiële administratie voor onze klanten te stroomlijnen.",
+        "imageAlt": "Moneybird - Boekhoudsoftware"
+      },
+      "partner2": {
+        "name": "Employes",
+        "description": "Onze samenwerking met Employes stelt ons in staat om efficiënte en nauwkeurige salarisadministratie voor bedrijven te verzorgen.",
+        "imageAlt": "Employes - Salarisadministratie"
+      },
+      "partner3": {
+        "name": "Firm24",
+        "description": "Via onze samenwerking met Firm24 bieden wij uitgebreide diensten voor bedrijfsoprichting aan ondernemers.",
+        "imageAlt": "Firm24 - Diensten voor Bedrijfsoprichting"
+      },
+      "bankingTitle": "Bankpartners",
+      "bankingImageAlt": "Nederlandse Bankpartners - ING, ABN AMRO, RABOBANK, SNS"
+    },
+    "cta": {
+      "title": "Klaar om met ons samen te werken?",
+      "subtitle": "Neem vandaag nog contact op met Glodinas Finance B.V. om te bespreken hoe wij de financiële behoeften van uw bedrijf kunnen ondersteunen.",
+      "buttonText": "Neem Contact Op"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Onze Diensten",
+      "subtitle": "Uitgebreide financiële oplossingen voor ondernemers en bedrijven in Nederland"
+    },
+    "bookkeepingZZP": {
+      "title": "Boekhouding voor ZZP'ers",
+      "description1": "Onze uitgebreide boekhoudservice voor zelfstandige professionals (ZZP'ers) begint bij slechts €130 per maand (exclusief BTW).",
+      "description2": "Wij verzorgen alle aspecten van uw financiële administratie met behulp van Moneybird, zodat u zich kunt concentreren op uw kernactiviteiten.",
+      "included": "Wat is inbegrepen:",
+      "items": [
+        "Maandelijkse boekhouding en financiële administratie",
+        "BTW-aangifte voorbereiden en indienen",
+        "Jaarlijkse financiële overzichten",
+        "Inkomstenbelastingaangifte",
+        "Doorlopend financieel advies en ondersteuning"
+      ],
+      "requestQuote": "Offerte Aanvragen"
+    },
+    "bookkeepingBV": {
+      "title": "Boekhouding voor BV's",
+      "description1": "Onze boekhoudservice voor besloten vennootschappen (BV's) begint bij €250 per maand (exclusief BTW), inclusief salarisadministratie voor DGA.",
+      "description2": "Wij bieden uitgebreide financiële administratiediensten op maat voor de specifieke behoeften van Nederlandse BV's.",
+      "included": "Wat is inbegrepen:",
+      "items": [
+        "Maandelijkse boekhouding en financiële administratie",
+        "BTW-aangifte voorbereiden en indienen",
+        "Jaarlijkse financiële overzichten",
+        "Vennootschapsbelastingaangifte",
+        "Directeurssalarisadministratie (DGA-salaris)",
+        "Dividendplanning en -administratie"
+      ],
+      "requestQuote": "Offerte Aanvragen"
+    },
+    "payroll": {
+      "title": "Salarisadministratie",
+      "description1": "Wij bieden efficiënte salarisadministratie via onze samenwerking met Employes, voor een nauwkeurige en tijdige salarisverwerking voor uw werknemers.",
+      "description2": "Onze salarisadministratiediensten helpen u te voldoen aan Nederlandse arbeidsvoorschriften en belastingvereisten.",
+      "included": "Wat is inbegrepen:",
+      "items": [
+        "Maandelijkse salarisberekeningen",
+        "Genereren en versturen van loonstroken",
+        "Belasting- en sociale zekerheidsbijdragen",
+        "Jaaropgaven en rapportages",
+        "Verlof- en verzuimadministratie"
+      ],
+      "requestQuote": "Offerte Aanvragen"
+    },
+    "businessFormation": {
+      "title": "Bedrijfsoprichting",
+      "description1": "Via onze samenwerking met Firm24 bieden wij uitgebreide diensten voor bedrijfsoprichting aan ondernemers die hun bedrijf in Nederland willen vestigen.",
+      "description2": "Wij begeleiden u door het hele proces, van het kiezen van de juiste bedrijfsstructuur tot het inschrijven bij de Kamer van Koophandel (KVK).",
+      "included": "Wat is inbegrepen:",
+      "items": [
+        "Advies over bedrijfsstructuur (ZZP, Eenmanszaak, BV)",
+        "Verificatie van bedrijfsnaam",
+        "Inschrijving bij de Kamer van Koophandel (KVK)",
+        "BTW-registratie",
+        "Notariële diensten voor BV-oprichting",
+        "Initiële financiële setup en administratie"
+      ],
+      "requestQuote": "Offerte Aanvragen"
+    },
+    "personalLoans": {
+      "title": "Persoonlijke Leningassistentie",
+      "description1": "Wij bieden hulp bij persoonlijke leningaanvragen bij grote Nederlandse banken, waaronder ING, ABN AMRO, RABOBANK en SNS.",
+      "description2": "Ons team helpt u bij het navigeren door het leningaanvraagproces, zodat u de beste kans op goedkeuring heeft met gunstige voorwaarden.",
+      "included": "Wat is inbegrepen:",
+      "items": [
+        "Beoordeling van leningopties op basis van uw financiële situatie",
+        "Voorbereiding van aanvraag en documentatie",
+        "Contact met bankpartners",
+        "Onderhandeling over rentetarieven en looptijd",
+        "Doorlopende ondersteuning tijdens het goedkeuringsproces"
+      ],
+      "requestConsultation": "Consultatie Aanvragen"
+    },
+    "taxPreparation": {
+      "title": "Belastingaangifte",
+      "description1": "Onze belastingaangiftediensten zorgen ervoor dat uw zakelijke en persoonlijke belastingaangiften nauwkeurig, compliant en geoptimaliseerd zijn om uw belastingdruk te minimaliseren.",
+      "description2": "Wij blijven op de hoogte van de nieuwste Nederlandse belastingvoorschriften om u van deskundig advies en ondersteuning te voorzien.",
+      "included": "Wat is inbegrepen:",
+      "items": [
+        "Inkomstenbelastingaangifte voor particulieren",
+        "Vennootschapsbelastingaangifte voor bedrijven",
+        "BTW-aangifte voorbereiden en indienen",
+        "Belastingplanning en optimalisatiestrategieën",
+        "Vertegenwoordiging in belastingzaken bij de Nederlandse Belastingdienst"
+      ],
+      "requestQuote": "Offerte Aanvragen"
+    },
+    "pricing": {
+      "title": "Prijsoverzicht",
+      "subtitle": "Transparante prijzen voor onze kerndiensten",
+      "zzpPackage": {
+        "title": "ZZP Pakket",
+        "price": "€130",
+        "period": "/maand ex BTW",
+        "features": [
+          "Maandelijkse boekhouding",
+          "BTW-aangiftes",
+          "Jaarlijkse financiële overzichten",
+          "Inkomstenbelastingaangifte"
+        ],
+        "getStarted": "Aan de slag"
+      },
+      "bvPackage": {
+        "title": "BV Pakket",
+        "price": "€250",
+        "period": "/maand ex BTW",
+        "mostPopular": "Meest Gekozen",
+        "features": [
+          "Maandelijkse boekhouding",
+          "BTW-aangiftes",
+          "Jaarlijkse financiële overzichten",
+          "Vennootschapsbelastingaangifte",
+          "Directeurssalarisadministratie"
+        ],
+        "getStarted": "Aan de slag"
+      },
+      "customPackage": {
+        "title": "Aangepast Pakket",
+        "price": "Aangepaste",
+        "period": "prijzen",
+        "features": [
+          "Op maat gemaakte boekhoudkundige diensten",
+          "Bedrijfsoprichting",
+          "Salarisadministratie",
+          "Persoonlijke leningassistentie"
+        ],
+        "contactUs": "Neem Contact Op"
+      }
+    },
+    "cta": {
+      "title": "Klaar om te beginnen?",
+      "subtitle": "Neem vandaag nog contact met ons op om uw specifieke behoeften te bespreken en hoe Glodinas Finance B.V. uw bedrijf kan helpen groeien.",
+      "requestConsultation": "Consultatie Aanvragen"
+    },
+    "moneybird": {
+      "title": "Aan de slag met Moneybird",
+      "subtitle": "Schrijf u direct in voor onze boekhoudkundige diensten via Moneybird",
+      "zzpBookkeeping": {
+        "title": "ZZP Boekhouding",
+        "description": "Complete boekhoudservice voor zelfstandige professionals (ZZP'ers)",
+        "signUp": "Nu Inschrijven"
+      },
+      "loanAdministration": {
+        "title": "Leningadministratie",
+        "description": "Stroomlijn uw leningaanvraagproces met onze gespecialiseerde administratiedienst",
+        "description2": "Wij helpen u bij het navigeren door het leningaanvraagproces bij grote Nederlandse banken, zodat u de beste kans op goedkeuring heeft met gunstige voorwaarden.",
+        "getStarted": "Aan de slag"
+      }
+    }
+  },
+  "blog": {
+    "hero": {
+      "title": "Onze Blog",
+      "subtitle": "Inzichten en updates over financiële zaken voor Nederlandse bedrijven"
+    },
+    "readMore": "Lees Meer",
+    "featuredArticle": "Uitgelicht Artikel",
+    "minRead": "min leestijd",
+    "posts": {
+      "vat": {
+        "title": "BTW begrijpen voor Nederlandse bedrijven",
+        "date": "15 mei 2025",
+        "excerpt": "Een uitgebreide gids voor Belasting Toegevoegde Waarde (BTW) in Nederland, inclusief tarieven, aangiftevereisten en veelvoorkomende valkuilen om te vermijden.",
+        "imageAlt": "BTW begrijpen voor Nederlandse bedrijven"
+      },
+      "businessStructure": {
+        "title": "De juiste bedrijfsstructuur kiezen in Nederland",
+        "date": "28 april 2025",
+        "excerpt": "Ontdek de verschillen tussen ZZP, Eenmanszaak en BV-structuren, en leer welke optie het beste past bij uw bedrijfsdoelen.",
+        "imageAlt": "De juiste bedrijfsstructuur kiezen in Nederland"
+      },
+      "zzpPlanning": {
+        "title": "Financiële planning voor ZZP-professionals",
+        "date": "10 april 2025",
+        "excerpt": "Essentiële financiële planningstips voor zelfstandige professionals in Nederland, inclusief belastingoptimalisatie en pensioenplanning.",
+        "imageAlt": "Financiële planning voor ZZP-professionals"
+      },
+      "taxDeductions": {
+        "title": "Topbelastingaftrekposten voor Nederlandse ondernemers",
+        "date": "22 maart 2025",
+        "excerpt": "Ontdek de meest waardevolle belastingaftrekposten die beschikbaar zijn voor ondernemers in Nederland en hoe u deze correct kunt claimen.",
+        "imageAlt": "Topbelastingaftrekposten voor Nederlandse ondernemers"
+      },
+      "moneybird": {
+        "title": "Efficiëntie maximaliseren met Moneybird",
+        "date": "5 maart 2025",
+        "excerpt": "Leer hoe u de functies van Moneybird kunt benutten om uw boekhoudprocessen te stroomlijnen en waardevolle tijd te besparen.",
+        "imageAlt": "Efficiëntie maximaliseren met Moneybird"
+      },
+      "personalLoans": {
+        "title": "Navigeren door persoonlijke leningen in Nederland",
+        "date": "18 februari 2025",
+        "excerpt": "Een vergelijking van persoonlijke leningopties van grote Nederlandse banken en tips om uw kansen op goedkeuring te verbeteren.",
+        "imageAlt": "Navigeren door persoonlijke leningen in Nederland"
+      }
+    },
+    "featuredContent": {
+      "title": "BTW begrijpen voor Nederlandse bedrijven",
+      "date": "15 mei 2025",
+      "readTime": "8 min leestijd",
+      "imageAlt": "BTW begrijpen voor Nederlandse bedrijven",
+      "intro": "Belasting Toegevoegde Waarde (BTW) is een verbruiksbelasting die wordt geheven op producten en diensten. Als bedrijfseigenaar in Nederland is het begrijpen van BTW cruciaal voor goed financieel beheer en naleving van Nederlandse belastingvoorschriften.",
+      "rates": {
+        "title": "BTW-tarieven in Nederland",
+        "intro": "Nederland heeft momenteel drie BTW-tarieven:",
+        "standard": "21% (standaardtarief): Van toepassing op de meeste goederen en diensten",
+        "reduced": "9% (verlaagd tarief): Van toepassing op essentiële zaken zoals voedsel, boeken, medicijnen en bepaalde diensten",
+        "zero": "0% (nultarief): Van toepassing op export en bepaalde internationale diensten"
+      },
+      "filing": {
+        "title": "BTW-aangiftevereisten",
+        "paragraph1": "Nederlandse bedrijven moeten doorgaans per kwartaal BTW-aangifte doen. Als uw jaarlijkse BTW-verplichting echter meer dan €15.000 bedraagt, moet u mogelijk maandelijks aangifte doen. Omgekeerd, als uw jaarlijkse BTW-verplichting minder dan €1.883 bedraagt, komt u mogelijk in aanmerking voor jaarlijkse aangifte.",
+        "paragraph2": "De deadline voor het indienen en betalen van BTW is over het algemeen de laatste dag van de maand na het einde van de aangifteperiode. Voor Q1 (januari-maart) zou de deadline bijvoorbeeld 30 april zijn."
+      },
+      "pitfalls": {
+        "title": "Veelvoorkomende BTW-valkuilen om te vermijden",
+        "intro": "Veel Nederlandse bedrijven ondervinden uitdagingen met BTW-compliance. Hier zijn enkele veelvoorkomende valkuilen om te vermijden:",
+        "items": [
+          "Niet registreren voor BTW wanneer dit vereist is",
+          "Onjuiste BTW-tarieven toepassen op producten of diensten",
+          "Indieningsdeadlines missen",
+          "Onvoldoende administratie voor BTW-doeleinden",
+          "Onjuist BTW claimen op uitgaven"
+        ],
+        "conclusion": "Bij Glodinas Finance B.V. helpen we bedrijven bij het navigeren door de complexiteit van Nederlandse BTW-voorschriften, waarbij we zorgen voor compliance en tegelijkertijd uw belastingpositie optimaliseren."
+      },
+      "contactLink": "Neem contact met ons op voor professionele BTW-assistentie"
+    },
+    "newsletter": {
+      "title": "Blijf op de hoogte",
+      "subtitle": "Abonneer u op onze nieuwsbrief voor de nieuwste financiële inzichten en updates relevant voor Nederlandse bedrijven.",
+      "placeholder": "Uw e-mailadres",
+      "subscribe": "Abonneren"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact",
+      "subtitle": "Neem contact op met Glodinas Finance B.V. voor professionele boekhouding en financiële diensten"
+    },
+    "getInTouch": {
+      "title": "Neem Contact Op",
+      "description": "Wij zijn er om uw vragen te beantwoorden en de financiële ondersteuning te bieden die uw bedrijf nodig heeft. Neem contact met ons op via de onderstaande contactgegevens of vul het formulier in.",
+      "address": "Adres",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "businessHours": "Openingstijden",
+      "weekdays": "Maandag - Vrijdag: 9:00 - 17:00",
+      "weekend": "Zaterdag - Zondag: Gesloten",
+      "googleMaps": "Google Maps Locatie"
+    },
+    "form": {
+      "title": "Consultatie Aanvragen",
+      "fullName": "Volledige Naam",
+      "emailAddress": "E-mailadres",
+      "phoneNumber": "Telefoonnummer",
+      "company": "Bedrijfsnaam",
+      "serviceInterest": "Interesse in Dienst",
+      "selectService": "Selecteer een dienst",
+      "message": "Bericht",
+      "privacyConsent": "Ik ga akkoord met het privacybeleid en geef toestemming om gecontacteerd te worden met betrekking tot mijn aanvraag.",
+      "submitRequest": "Aanvraag Indienen",
+      "steps": {
+        "personal": "Persoonlijke Informatie",
+        "details": "Details",
+        "message": "Bericht",
+        "review": "Beoordelen",
+        "success": "Succes"
+      },
+      "validation": {
+        "nameRequired": "Naam is verplicht",
+        "nameLength": "Naam moet minimaal 2 tekens bevatten",
+        "emailRequired": "E-mail is verplicht",
+        "emailValid": "Voer een geldig e-mailadres in",
+        "phoneValid": "Voer een geldig telefoonnummer in",
+        "serviceRequired": "Selecteer een dienst",
+        "messageRequired": "Bericht is verplicht",
+        "messageLength": "Bericht moet minimaal 10 tekens bevatten",
+        "privacyRequired": "U moet akkoord gaan met het privacybeleid"
+      },
+      "success": {
+        "title": "Bedankt voor uw aanvraag!",
+        "message": "We hebben uw aanvraag ontvangen en zullen binnen 24 uur contact met u opnemen.",
+        "button": "Terug naar Home"
+      }
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen",
+      "subtitle": "Vind antwoorden op veelgestelde vragen over onze diensten",
+      "questions": [
+        {
+          "question": "Wat zijn uw boekhoudtarieven?",
+          "answer": "Onze boekhoudkundige diensten beginnen bij €130 per maand (exclusief BTW) voor ZZP'ers en €250 per maand (exclusief BTW) voor BV's, inclusief DGA-salarisadministratie. Het exacte tarief is afhankelijk van de complexiteit en het volume van uw financiële administratie."
+        },
+        {
+          "question": "Hoe vaak communiceren we over mijn financiën?",
+          "answer": "Wij geven maandelijkse updates over uw financiële status, inclusief winst- en verliesrekeningen en kasstroomoverzichten. Daarnaast zijn we gedurende de maand beschikbaar voor vragen en consultaties indien nodig."
+        },
+        {
+          "question": "Kunt u helpen bij bedrijfsregistratie?",
+          "answer": "Ja, via onze samenwerking met Firm24 bieden wij uitgebreide diensten voor bedrijfsoprichting, inclusief registratie bij de Kamer van Koophandel (KVK), BTW-registratie en het opzetten van de juiste juridische structuur voor uw bedrijf."
+        },
+        {
+          "question": "Biedt u diensten aan in andere talen dan Nederlands?",
+          "answer": "Ja, wij bieden onze diensten aan in meerdere talen, waaronder Nederlands, Engels, Roemeens, Turks en Russisch, om tegemoet te komen aan onze diverse klantenkring."
+        },
+        {
+          "question": "Hoe schakel ik mijn boekhouding over naar Glodinas Finance?",
+          "answer": "Overschakelen is eenvoudig. Wij verzorgen het overgangsproces, inclusief het verzamelen van uw financiële geschiedenis, het opzetten van uw accounts in onze systemen en het zorgen voor een soepele overdracht van uw vorige boekhouder of accountant."
+        }
+      ]
     }
   },
   "footer": {
-    "companyInfo": "Bedrijfsinformatie",
+    "companyInfo": "Glodinas Finance B.V.",
     "quickLinks": "Snelle Links",
     "ourServices": "Onze Diensten",
     "bookkeepingZZP": "Boekhouding voor ZZP'ers",
     "bookkeepingBV": "Boekhouding voor BV's",
     "payrollServices": "Salarisadministratie",
     "businessFormation": "Bedrijfsoprichting",
-    "personalLoans": "Persoonlijke Leningen",
-    "privacyPolicy": "Privacybeleid",
-    "termsOfService": "Algemene Voorwaarden",
+    "personalLoans": "Persoonlijke Leningassistentie",
     "copyright": "Alle rechten voorbehouden.",
-    "company": "Glodinas Finance B.V.",
-    "address": "Schiphol Boulevard 127, Schiphol 1118 BG",
-    "phone": "+31 20 123 4567",
-    "email": "info@glodinasfinance.nl"
-  },
-  "gettingStarted": {
-    "hero": {
-      "title": "Aan de Slag met Glodinas Finance",
-      "subtitle": "Volg ons eenvoudige driestappenproces om uw boekhouding op te zetten en soepel te laten verlopen."
-    },
-    "process": {
-      "title": "Ons Onboardingproces",
-      "subtitle": "We hebben een gestroomlijnd proces ontworpen om u snel op weg te helpen",
-      "step1": {
-        "title": "Aanmelden voor Moneybird",
-        "description": "Begin met het aanmelden voor Moneybird via onze verwijzingslink. Deze cloudgebaseerde boekhoudsoftware vormt de basis van uw financiële administratie.",
-        "items": [
-          "Maak uw Moneybird-account aan",
-          "Voeg Glodinas Finance toe als uw boekhouder",
-          "Vul uw basis bedrijfsinformatie in"
-        ],
-        "button": "Aanmelden voor Moneybird"
-      },
-      "step2": {
-        "title": "Plan een Installatiegesprek",
-        "description": "Boek een installatiegesprek met ons team om uw administratie te configureren. We bieden zowel persoonlijke als externe TeamViewer-sessies voor uw gemak.",
-        "items": [
-          "Betaal de eenmalige installatiekosten (€150 excl. BTW)",
-          "Kies tussen een persoonlijke of TeamViewer-sessie",
-          "We zetten bankverbindingen, klantendatabase en factuurstructuur op"
-        ],
-        "button": "Installatiegesprek Plannen"
-      },
-      "step3": {
-        "title": "Selecteer Uw Abonnement",
-        "description": "Kies het abonnement dat bij uw zakelijke behoeften past. We bieden op maat gemaakte pakketten voor zowel ZZP'ers als BV's.",
-        "items": [
-          "ZZP Boekhouding: €130/maand (excl. BTW)",
-          "BV Boekhouding: €150/maand (excl. BTW)",
-          "Automatische facturering voor zorgeloze service"
-        ],
-        "button1": "ZZP/BV Abonnement",
-        "button2": "Leningadministratie"
-      }
-    },
-    "expectations": {
-      "title": "Wat te Verwachten",
-      "subtitle": "Dit gebeurt er nadat u ons onboardingproces heeft voltooid",
-      "item1": {
-        "title": "Directe Installatie",
-        "description": "Uw boekhoudsysteem wordt binnen 24-48 uur na uw installatiegesprek volledig geconfigureerd en klaar voor gebruik."
-      },
-      "item2": {
-        "title": "Doorlopende Ondersteuning",
-        "description": "U ontvangt continue ondersteuning van ons team om ervoor te zorgen dat uw boekhouding soepel en efficiënt verloopt."
-      },
-      "item3": {
-        "title": "Maandelijkse Updates",
-        "description": "Ontvang regelmatige updates over uw financiële status, zodat u altijd een duidelijk beeld heeft van uw bedrijfsfinanciën."
-      },
-      "item4": {
-        "title": "Belastingcompliance",
-        "description": "We zorgen ervoor dat uw bedrijf voldoet aan alle Nederlandse belastingvoorschriften en aangiftevereisten."
-      }
-    },
-    "faq": {
-      "title": "Veelgestelde Vragen",
-      "subtitle": "Veelvoorkomende vragen over ons onboardingproces",
-      "questions": [
-        {
-          "question": "Hoe lang duurt het installatieproces?",
-          "answer": "Het volledige onboardingproces duurt meestal 2-3 werkdagen vanaf de eerste aanmelding tot de volledige installatie. Het installatiegesprek zelf duurt ongeveer 1-2 uur."
-        },
-        {
-          "question": "Moet ik iets voorbereiden voor het installatiegesprek?",
-          "answer": "Ja, zorg ervoor dat u uw bankrekeninggegevens, bedrijfsregistratie-informatie en eventuele bestaande klant-/factuurgegevens bij de hand heeft voor het installatiegesprek. Dit helpt ons om uw systeem efficiënt te configureren."
-        },
-        {
-          "question": "Kan ik overstappen van een andere boekhoudservice?",
-          "answer": "Absoluut! We kunnen u helpen bij de overgang van uw huidige boekhoudservice naar ons systeem. We begeleiden u door het proces van het overdragen van uw financiële gegevens en zorgen voor een soepele overgang."
-        },
-        {
-          "question": "Wat als ik hulp nodig heb na de eerste installatie?",
-          "answer": "Onze ondersteuning eindigt niet na de installatie. U heeft doorlopend toegang tot ons team voor vragen of hulp die u nodig heeft. We zijn slechts een telefoontje of e-mail verwijderd."
-        },
-        {
-          "question": "Is er een minimale contractperiode?",
-          "answer": "Ons standaard abonnement is maandelijks zonder langetermijnverplichting. U kunt op elk moment opzeggen met een opzegtermijn van 30 dagen."
-        }
-      ]
-    },
-    "cta": {
-      "title": "Klaar om te Beginnen?",
-      "subtitle": "Begin vandaag nog uw reis met Glodinas Finance en ervaar zorgeloos financieel beheer.",
-      "button1": "Aanmelden voor Moneybird",
-      "button2": "Contact Opnemen"
-    }
+    "privacyPolicy": "Privacybeleid",
+    "termsOfService": "Algemene Voorwaarden"
   }
 }

@@ -3,32 +3,11 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useTranslation } from 'react-i18next';
+import { GettingStartedTranslationProvider, useGettingStartedTranslations } from '@/components/GettingStartedTranslationProvider';
 
-export default function GettingStarted() {
-  const { t } = useTranslation();
-  
-  // Helper function to safely get arrays from translations
-  const getTranslatedArray = (key: string, defaultArray: string[] = []) => {
-    try {
-      const result = t(key, { returnObjects: true });
-      return Array.isArray(result) ? result : defaultArray;
-    } catch (error) {
-      console.error(`Error getting translation array for key: ${key}`, error);
-      return defaultArray;
-    }
-  };
-  
-  // Helper function to safely get FAQ questions
-  const getFAQQuestions = () => {
-    try {
-      const result = t('gettingStarted.faq.questions', { returnObjects: true });
-      return Array.isArray(result) ? result : [];
-    } catch (error) {
-      console.error('Error getting FAQ questions', error);
-      return [];
-    }
-  };
+// Separate component that uses the isolated translation context
+const GettingStartedContent = () => {
+  const { t, getTranslatedArray, getFAQQuestions } = useGettingStartedTranslations();
   
   return (
     <div className="flex flex-col min-h-screen">
@@ -291,5 +270,14 @@ export default function GettingStarted() {
         </div>
       </section>
     </div>
+  );
+};
+
+// Main component that wraps the content with the provider
+export default function GettingStarted() {
+  return (
+    <GettingStartedTranslationProvider>
+      <GettingStartedContent />
+    </GettingStartedTranslationProvider>
   );
 }
