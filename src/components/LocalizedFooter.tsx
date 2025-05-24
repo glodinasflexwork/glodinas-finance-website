@@ -34,22 +34,22 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link href={`/${locale}`} className="text-gray-300 hover:text-white transition duration-300">
-                  {nav.home}
+                  {nav('home')}
                 </Link>
               </li>
               <li>
                 <Link href={`/${locale}/about`} className="text-gray-300 hover:text-white transition duration-300">
-                  {nav.about}
+                  {nav('about')}
                 </Link>
               </li>
               <li>
                 <Link href={`/${locale}/services`} className="text-gray-300 hover:text-white transition duration-300">
-                  {nav.services}
+                  {nav('services')}
                 </Link>
               </li>
               <li>
                 <Link href={`/${locale}/contact`} className="text-gray-300 hover:text-white transition duration-300">
-                  {nav.contact}
+                  {nav('contact')}
                 </Link>
               </li>
             </ul>
@@ -57,7 +57,7 @@ const Footer = () => {
           
           {/* Services */}
           <div>
-            <h3 className="text-xl font-bold mb-4">{nav.services}</h3>
+            <h3 className="text-xl font-bold mb-4">{nav('services')}</h3>
             <ul className="space-y-2">
               <li>
                 <Link href={`/${locale}/services#bookkeeping-zzp`} className="text-gray-300 hover:text-white transition duration-300">
