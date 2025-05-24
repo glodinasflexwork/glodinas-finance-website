@@ -80,7 +80,7 @@ const GettingStartedPage = () => {
     
     // Handle language change
     const handleLanguageChange = (langCode: string) => {
-      const path = getLocalizedPath('/getting-started', langCode);
+      const path = getLocalizedPath('/getting-started', langCode as any);
       router.push(`/${langCode}${path}`);
     };
     
@@ -219,7 +219,7 @@ const GettingStartedPage = () => {
                     </li>
                   ))}
                 </ul>
-                <Link href="/contact" className="block w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-center transition duration-150">
+                <Link href={`/${locale}/contact`} className="block w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-center transition duration-150">
                   {t('process.step2.button')}
                 </Link>
               </div>
@@ -242,10 +242,10 @@ const GettingStartedPage = () => {
                   ))}
                 </ul>
                 <div className="grid grid-cols-2 gap-4">
-                  <Link href="/services" className="block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-center transition duration-150">
+                  <Link href={`/${locale}/services`} className="block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-center transition duration-150">
                     {t('process.step3.button1')}
                   </Link>
-                  <Link href="/services#personal-loans" className="block bg-white border border-blue-600 text-blue-600 hover:bg-blue-50 font-bold py-2 px-4 rounded text-center transition duration-150">
+                  <Link href={`/${locale}/services#personal-loans`} className="block bg-white border border-blue-600 text-blue-600 hover:bg-blue-50 font-bold py-2 px-4 rounded text-center transition duration-150">
                     {t('process.step3.button2')}
                   </Link>
                 </div>
@@ -316,11 +316,11 @@ const GettingStartedPage = () => {
           </div>
           
           <div className="max-w-3xl mx-auto">
-            <div className="space-y-8">
-              {renderFaqItems('faq.questions').map((faq, index) => (
+            <div className="space-y-6">
+              {renderFaqItems('faq.items').map((item: any, index: number) => (
                 <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-xl font-bold mb-4">{faq.question}</h3>
-                  <p className="text-gray-600">{faq.answer}</p>
+                  <h3 className="text-xl font-bold mb-3">{item.question}</h3>
+                  <p className="text-gray-600">{item.answer}</p>
                 </div>
               ))}
             </div>
@@ -331,13 +331,13 @@ const GettingStartedPage = () => {
       {/* CTA Section */}
       <div className={`py-16 ${layout.ctaClass}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('cta.title')}</h2>
-          <p className="text-xl max-w-3xl mx-auto mb-8">{t('cta.subtitle')}</p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="https://moneybird.com/" target="_blank" rel="noopener noreferrer" className="bg-white text-blue-600 hover:bg-blue-50 font-bold py-3 px-6 rounded-md text-lg transition duration-150">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">{t('cta.title')}</h2>
+          <p className="text-xl mb-8 max-w-3xl mx-auto">{t('cta.subtitle')}</p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href={`/${locale}/contact`} className="bg-white text-blue-700 hover:bg-blue-50 px-8 py-3 rounded-md font-medium transition duration-300">
               {t('cta.button1')}
-            </a>
-            <Link href="/contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 font-bold py-3 px-6 rounded-md text-lg transition duration-150">
+            </Link>
+            <Link href={`/${locale}/services`} className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-700 px-8 py-3 rounded-md font-medium transition duration-300">
               {t('cta.button2')}
             </Link>
           </div>

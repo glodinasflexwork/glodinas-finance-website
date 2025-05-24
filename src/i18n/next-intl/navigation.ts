@@ -1,4 +1,4 @@
-import { createSharedPathnamesNavigation } from 'next-intl/navigation';
+import { createPathnameDictionary } from 'next-intl/navigation';
 
 // Define the locales supported by the application
 export const locales = ['en', 'nl', 'ro', 'tr', 'ru'] as const;
@@ -46,5 +46,19 @@ export const pathnames = {
   }
 };
 
-// Create navigation utilities
-export const { Link, redirect, usePathname, useRouter } = createSharedPathnamesNavigation({ locales, pathnames });
+// Helper function to get localized path
+export function getLocalizedPath(path: string, locale: string) {
+  if (path === '/') {
+    return '/';
+  }
+  
+  const pathKey = Object.keys(pathnames).find(key => key === path);
+  if (pathKey && pathnames[pathKey as keyof typeof pathnames][locale as Locale]) {
+    return pathnames[pathKey as keyof typeof pathnames][locale as Locale];
+  }
+  
+  return path;
+}
+
+// Create navigation utilities using available APIs
+export const pathnamesDictionary = createPathnameDictionary(pathnames);
