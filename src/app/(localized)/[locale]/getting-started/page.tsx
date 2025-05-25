@@ -4,8 +4,6 @@ import React from 'react';
 import {useLocale, useTranslations} from 'next-intl';
 import Link from 'next/link';
 import PlaceholderImage from '@/components/PlaceholderImage';
-import {getLocalizedPath} from '@/i18n/next-intl/navigation';
-import {useRouter} from 'next/navigation';
 import Head from 'next/head';
 
 // Create a layout component for the Getting Started page with language-specific layouts
@@ -13,7 +11,6 @@ const GettingStartedPage = () => {
   // Use next-intl hooks for translations and locale
   const t = useTranslations('GettingStarted');
   const locale = useLocale();
-  const router = useRouter();
   
   // Define language-specific layout variations
   const getLayoutVariation = () => {
@@ -68,40 +65,6 @@ const GettingStartedPage = () => {
   
   const layout = getLayoutVariation();
   
-  // Language switcher component
-  const LanguageSwitcher = () => {
-    const languages = [
-      { code: 'en', name: 'English', flag: '🇬🇧' },
-      { code: 'nl', name: 'Nederlands', flag: '🇳🇱' },
-      { code: 'ro', name: 'Română', flag: '🇷🇴' },
-      { code: 'tr', name: 'Türkçe', flag: '🇹🇷' },
-      { code: 'ru', name: 'Русский', flag: '🇷🇺' }
-    ];
-    
-    // Handle language change
-    const handleLanguageChange = (langCode: string) => {
-      const path = getLocalizedPath('/getting-started', langCode as any);
-      router.push(`/${langCode}${path}`);
-    };
-    
-    return (
-      <div className="fixed top-4 right-4 z-50">
-        <div className="bg-white shadow-md rounded-lg p-2 flex gap-2">
-          {languages.map((lang) => (
-            <button 
-              key={lang.code} 
-              onClick={() => handleLanguageChange(lang.code)}
-              className={`text-2xl hover:opacity-75 transition-opacity ${locale === lang.code ? 'border-b-2 border-blue-600' : ''}`}
-              title={lang.name}
-            >
-              {lang.flag}
-            </button>
-          ))}
-        </div>
-      </div>
-    );
-  };
-  
   // Helper function to safely render array items
   const renderItems = (key: string) => {
     try {
@@ -150,9 +113,6 @@ const GettingStartedPage = () => {
         <link rel="alternate" hrefLang="tr" href="https://www.glodinasfinance.nl/tr/baslangic" />
         <link rel="alternate" hrefLang="ru" href="https://www.glodinasfinance.nl/ru/nachalo-raboty" />
       </Head>
-      
-      {/* Language Switcher */}
-      <LanguageSwitcher />
       
       {/* Hero Section */}
       <div className={layout.heroClass}>
@@ -317,10 +277,12 @@ const GettingStartedPage = () => {
           
           <div className="max-w-3xl mx-auto">
             <div className="space-y-6">
-              {renderFaqItems('faq.items').map((item: any, index: number) => (
-                <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-xl font-bold mb-3">{item.question}</h3>
-                  <p className="text-gray-600">{item.answer}</p>
+              {renderFaqItems('faq.items').map((item, index) => (
+                <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
+                  <div className="p-6">
+                    <h3 className="text-xl font-bold mb-2">{item.question}</h3>
+                    <p className="text-gray-600">{item.answer}</p>
+                  </div>
                 </div>
               ))}
             </div>
@@ -331,13 +293,13 @@ const GettingStartedPage = () => {
       {/* CTA Section */}
       <div className={`py-16 ${layout.ctaClass}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">{t('cta.title')}</h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">{t('cta.subtitle')}</p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href={`/${locale}/contact`} className="bg-white text-blue-700 hover:bg-blue-50 px-8 py-3 rounded-md font-medium transition duration-300">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('cta.title')}</h2>
+          <p className="text-xl max-w-3xl mx-auto mb-8">{t('cta.subtitle')}</p>
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <Link href={`/${locale}/contact`} className="bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-6 rounded-lg text-center transition duration-150">
               {t('cta.button1')}
             </Link>
-            <Link href={`/${locale}/services`} className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-700 px-8 py-3 rounded-md font-medium transition duration-300">
+            <Link href={`/${locale}/services`} className="bg-transparent border-2 border-white text-white hover:bg-white hover:bg-opacity-10 font-bold py-3 px-6 rounded-lg text-center transition duration-150">
               {t('cta.button2')}
             </Link>
           </div>
