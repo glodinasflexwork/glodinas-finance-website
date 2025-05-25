@@ -15,6 +15,8 @@ const Header = () => {
   
   // Mobile menu state
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  // Language dropdown state
+  const [langDropdownOpen, setLangDropdownOpen] = useState(false);
   
   // Check if we're on mobile
   const [isMobile, setIsMobile] = useState(false);
@@ -38,6 +40,15 @@ const Header = () => {
   // Toggle mobile menu
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
+    // Close language dropdown when opening mobile menu
+    if (!mobileMenuOpen) {
+      setLangDropdownOpen(false);
+    }
+  };
+  
+  // Toggle language dropdown
+  const toggleLangDropdown = () => {
+    setLangDropdownOpen(!langDropdownOpen);
   };
   
   // Get localized path for navigation
@@ -108,43 +119,69 @@ const Header = () => {
             </Link>
           </nav>
           
-          {/* Language Switcher - Flag Style from Getting Started */}
-          <div className="flex items-center space-x-2">
-            <Link 
-              href={pathname.replace(`/${locale}`, '/en')} 
-              locale="en"
-              className={`${locale === 'en' ? 'opacity-100 scale-110' : 'opacity-70 hover:opacity-100'} transition-all duration-300`}
+          {/* Language Dropdown Switcher */}
+          <div className="relative">
+            <button 
+              onClick={toggleLangDropdown}
+              className="flex items-center text-gray-700 hover:text-blue-600 transition duration-300"
             >
-              <span className="text-2xl">🇬🇧</span>
-            </Link>
-            <Link 
-              href={pathname.replace(`/${locale}`, '/nl')} 
-              locale="nl"
-              className={`${locale === 'nl' ? 'opacity-100 scale-110' : 'opacity-70 hover:opacity-100'} transition-all duration-300`}
-            >
-              <span className="text-2xl">🇳🇱</span>
-            </Link>
-            <Link 
-              href={pathname.replace(`/${locale}`, '/ro')} 
-              locale="ro"
-              className={`${locale === 'ro' ? 'opacity-100 scale-110' : 'opacity-70 hover:opacity-100'} transition-all duration-300`}
-            >
-              <span className="text-2xl">🇷🇴</span>
-            </Link>
-            <Link 
-              href={pathname.replace(`/${locale}`, '/tr')} 
-              locale="tr"
-              className={`${locale === 'tr' ? 'opacity-100 scale-110' : 'opacity-70 hover:opacity-100'} transition-all duration-300`}
-            >
-              <span className="text-2xl">🇹🇷</span>
-            </Link>
-            <Link 
-              href={pathname.replace(`/${locale}`, '/ru')} 
-              locale="ru"
-              className={`${locale === 'ru' ? 'opacity-100 scale-110' : 'opacity-70 hover:opacity-100'} transition-all duration-300`}
-            >
-              <span className="text-2xl">🇷🇺</span>
-            </Link>
+              {locale === 'nl' && <span className="mr-1">🇳🇱</span>}
+              {locale === 'en' && <span className="mr-1">🇬🇧</span>}
+              {locale === 'ro' && <span className="mr-1">🇷🇴</span>}
+              {locale === 'tr' && <span className="mr-1">🇹🇷</span>}
+              {locale === 'ru' && <span className="mr-1">🇷🇺</span>}
+              <svg className="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path>
+              </svg>
+            </button>
+            
+            {/* Language Dropdown */}
+            {langDropdownOpen && (
+              <div className={`absolute ${isMobile ? 'left-0' : 'right-0'} mt-2 w-40 bg-white rounded-md shadow-lg z-20`}>
+                <div className="py-1">
+                  <Link 
+                    href={pathname.replace(`/${locale}`, '/nl')} 
+                    locale="nl"
+                    className="flex items-center px-4 py-2 text-gray-700 hover:bg-gray-100"
+                    onClick={() => setLangDropdownOpen(false)}
+                  >
+                    <span className="mr-2">🇳🇱</span> Nederlands
+                  </Link>
+                  <Link 
+                    href={pathname.replace(`/${locale}`, '/en')} 
+                    locale="en"
+                    className="flex items-center px-4 py-2 text-gray-700 hover:bg-gray-100"
+                    onClick={() => setLangDropdownOpen(false)}
+                  >
+                    <span className="mr-2">🇬🇧</span> English
+                  </Link>
+                  <Link 
+                    href={pathname.replace(`/${locale}`, '/ro')} 
+                    locale="ro"
+                    className="flex items-center px-4 py-2 text-gray-700 hover:bg-gray-100"
+                    onClick={() => setLangDropdownOpen(false)}
+                  >
+                    <span className="mr-2">🇷🇴</span> Română
+                  </Link>
+                  <Link 
+                    href={pathname.replace(`/${locale}`, '/tr')} 
+                    locale="tr"
+                    className="flex items-center px-4 py-2 text-gray-700 hover:bg-gray-100"
+                    onClick={() => setLangDropdownOpen(false)}
+                  >
+                    <span className="mr-2">🇹🇷</span> Türkçe
+                  </Link>
+                  <Link 
+                    href={pathname.replace(`/${locale}`, '/ru')} 
+                    locale="ru"
+                    className="flex items-center px-4 py-2 text-gray-700 hover:bg-gray-100"
+                    onClick={() => setLangDropdownOpen(false)}
+                  >
+                    <span className="mr-2">🇷🇺</span> Русский
+                  </Link>
+                </div>
+              </div>
+            )}
             
             {/* Mobile Menu Button */}
             <button 

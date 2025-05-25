@@ -105,44 +105,7 @@ const Footer = () => {
             {t('copyright').replace('2025', currentYear.toString())}
           </p>
           
-          {/* Language Switcher */}
-          <div className="flex space-x-4">
-            <Link 
-              href={pathname.replace(`/${locale}`, '/nl')} 
-              locale="nl"
-              className={`flex items-center ${locale === 'nl' ? 'text-white' : 'text-gray-400 hover:text-white'} transition duration-300`}
-            >
-              <span className="mr-1">🇳🇱</span> NL
-            </Link>
-            <Link 
-              href={pathname.replace(`/${locale}`, '/en')} 
-              locale="en"
-              className={`flex items-center ${locale === 'en' ? 'text-white' : 'text-gray-400 hover:text-white'} transition duration-300`}
-            >
-              <span className="mr-1">🇬🇧</span> EN
-            </Link>
-            <Link 
-              href={pathname.replace(`/${locale}`, '/ro')} 
-              locale="ro"
-              className={`flex items-center ${locale === 'ro' ? 'text-white' : 'text-gray-400 hover:text-white'} transition duration-300`}
-            >
-              <span className="mr-1">🇷🇴</span> RO
-            </Link>
-            <Link 
-              href={pathname.replace(`/${locale}`, '/tr')} 
-              locale="tr"
-              className={`flex items-center ${locale === 'tr' ? 'text-white' : 'text-gray-400 hover:text-white'} transition duration-300`}
-            >
-              <span className="mr-1">🇹🇷</span> TR
-            </Link>
-            <Link 
-              href={pathname.replace(`/${locale}`, '/ru')} 
-              locale="ru"
-              className={`flex items-center ${locale === 'ru' ? 'text-white' : 'text-gray-400 hover:text-white'} transition duration-300`}
-            >
-              <span className="mr-1">🇷🇺</span> RU
-            </Link>
-          </div>
+          {/* Language Switcher - Removed to avoid duplication with header dropdown */}
         </div>
       </div>
     </footer>
