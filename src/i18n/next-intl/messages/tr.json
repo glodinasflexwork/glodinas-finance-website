@@ -1,351 +1,206 @@
 {
-  "home": {
+  "blog": {
     "hero": {
-      "title": "Hollanda İşletmeleri için Uzman Finansal Hizmetler",
-      "subtitle": "Hollanda'daki ZZP'ler ve BV'ler için kapsamlı muhasebe, vergi hazırlama ve finansal yönetim çözümleri.",
-      "requestConsultation": "Danışmanlık Talep Et",
-      "ourServices": "Hizmetlerimiz"
+      "title": "Blogumuz",
+      "subtitle": "Hollanda finansal konuları hakkında bilgiler, ipuçları ve güncellemeler"
     },
-    "services": {
-      "title": "Hizmetlerimiz",
-      "subtitle": "İşletmenizin gelişmesine yardımcı olacak özel finansal çözümler",
-      "bookkeepingZZP": {
-        "title": "ZZP'ler için Muhasebe",
-        "description": "Hollanda'daki serbest çalışan profesyoneller için özel olarak tasarlanmış eksiksiz muhasebe hizmetleri.",
-        "learnMore": "Daha Fazla Bilgi"
+    "readMore": "Daha Fazla Oku",
+    "posts": {
+      "vat": {
+        "title": "Hollanda İşletmeleri için KDV Anlama Rehberi",
+        "date": "15 Mayıs 2025",
+        "excerpt": "Hollanda'da faaliyet gösteren işletmeler için Katma Değer Vergisi (BTW) düzenlemeleri ve gereklilikleri hakkında kapsamlı bir rehber.",
+        "imageAlt": "Hollanda KDV vergi formu ve hesap makinesi"
       },
-      "bookkeepingBV": {
-        "title": "BV'ler için Muhasebe",
-        "description": "Yıllık raporlama ve vergi beyannameleri dahil Hollanda limited şirketleri için kapsamlı finansal yönetim.",
-        "learnMore": "Daha Fazla Bilgi"
+      "businessStructure": {
+        "title": "Hollanda'da Doğru İş Yapısını Seçmek",
+        "date": "28 Nisan 2025",
+        "excerpt": "Hollanda'daki işletmeniz için ZZP'den BV'ye kadar farklı yasal kuruluşların avantajlarını ve değerlendirmelerini karşılaştırın.",
+        "imageAlt": "Hollanda iş kayıt belgeleri"
       },
-      "payroll": {
-        "title": "Bordro Hizmetleri",
-        "description": "Hollanda iş kanunları ve düzenlemelerine uygunluğu sağlayan, çalışanlarınız için verimli bordro yönetimi.",
-        "learnMore": "Daha Fazla Bilgi"
+      "zzpPlanning": {
+        "title": "ZZP Profesyonelleri için Finansal Planlama",
+        "date": "10 Nisan 2025",
+        "excerpt": "Hollanda'daki serbest çalışan profesyoneller için özel olarak hazırlanmış temel finansal planlama stratejileri ve ipuçları.",
+        "imageAlt": "Finansal işlerle uğraşan serbest çalışan profesyonel"
       },
-      "businessFormation": {
-        "title": "Şirket Kuruluşu",
-        "description": "Hollanda'da işletme kurma sürecinde uzman rehberlik.",
-        "learnMore": "Daha Fazla Bilgi"
+      "taxDeductions": {
+        "title": "Hollandalı Girişimciler için En İyi Vergi İndirimleri",
+        "date": "22 Mart 2025",
+        "excerpt": "Hollanda'daki girişimciler ve işletme sahipleri için genellikle gözden kaçırılan vergi indirimleriyle vergi tasarruflarınızı en üst düzeye çıkarın.",
+        "imageAlt": "Vergi formları ve hesap makinesi"
+      },
+      "moneybird": {
+        "title": "Moneybird ile Verimliliği En Üst Düzeye Çıkarmak",
+        "date": "5 Mart 2025",
+        "excerpt": "Hollandalı bir girişimci olarak muhasebe ve finansal yönetiminizi kolaylaştırmak için Moneybird kullanımına ilişkin ipuçları ve en iyi uygulamalar.",
+        "imageAlt": "Moneybird yazılım arayüzü"
       },
       "personalLoans": {
-        "title": "Kişisel Krediler",
-        "description": "Hollanda'da ikamet edenler için kişisel kredi başvuruları ve yönetimi konusunda yardım.",
-        "learnMore": "Daha Fazla Bilgi"
-      },
-      "taxPreparation": {
-        "title": "Vergi Hazırlama",
-        "description": "İşletmeler ve bireyler için gerekli tüm vergi beyannamelerinin profesyonel hazırlanması ve dosyalanması.",
-        "learnMore": "Daha Fazla Bilgi"
+        "title": "Hollanda'da Kişisel Kredilerde Yol Almak",
+        "date": "18 Şubat 2025",
+        "excerpt": "Hollanda bankacılık sistemindeki kişisel kredi seçeneklerini, gerekliliklerini ve başvuru süreçlerini anlamak için bir rehber.",
+        "imageAlt": "Hollanda bankacılık belgeleri ve hesap makinesi"
       }
     },
-    "whyChooseUs": {
-      "title": "Neden Bizi Seçmelisiniz",
-      "subtitle": "Glodinas Finance ile ortaklığın faydaları",
-      "expertise": {
-        "title": "Finansal Uzmanlık",
-        "description": "Ekibimiz, Hollanda finansal düzenlemeleri ve iş uygulamalarında yıllarca uzmanlaşmış deneyim sunmaktadır."
+    "featuredArticle": {
+      "heading": "Öne Çıkan Makale",
+      "title": "Hollanda İşletmeleri için KDV Anlama Rehberi",
+      "meta": "15 Mayıs 2025 tarihinde yayınlandı | 8 dk okuma",
+      "imageAlt": "Hollanda KDV vergi formu ve hesap makinesi",
+      "intro": "Katma Değer Vergisi (KDV), Hollanda'da BTW olarak bilinen, Hollanda pazarında bir işletme yürütmenin önemli bir yönüdür. Düzenlemeleri, oranları ve raporlama gerekliliklerini anlamak, uyumluluğu sürdürmek ve cezalardan kaçınmak için gereklidir.",
+      "section1": {
+        "title": "Hollanda'da KDV Oranları",
+        "content": "Hollanda'da şu anda farklı mal ve hizmetlere uygulanan üç KDV oranı bulunmaktadır:",
+        "items": "<li>%21 - Çoğu mal ve hizmete uygulanan standart oran</li><li>%9 - Gıda, kitap ve belirli hizmetler gibi temel mallar için indirimli oran</li><li>%0 - İhracat ve belirli uluslararası hizmetler için</li>"
       },
-      "timeSaving": {
-        "title": "Değerli Zaman Tasarrufu",
-        "description": "Karmaşık finansal yönetimi biz hallederken siz işletmenizi büyütmeye odaklanın."
+      "section2": {
+        "title": "KDV Kayıt Gereklilikleri",
+        "content1": "Hollanda'da yıllık cirosu 20.000 €'yu aşan tüm işletmelerin KDV için kayıt yaptırması gerekir. Cironuz bu eşiğin altında olsa bile, işletme giderleri için ödediğiniz KDV'yi geri talep etmenize olanak tanıdığı için kayıt yaptırmak yine de faydalı olabilir.",
+        "content2": "Kayıt, Hollanda Vergi Dairesi (Belastingdienst) aracılığıyla yapılır ve kayıt olduktan sonra, tüm faturalarda ve resmi iletişimlerde gösterilmesi gereken bir KDV kimlik numarası alırsınız."
       },
-      "costEffective": {
-        "title": "Maliyet Etkin Çözümler",
-        "description": "Rekabetçi fiyatlarla profesyonel finansal yönetim sunan özel paketler."
+      "section3": {
+        "title": "KDV Beyannamesi Verme",
+        "content": "Hollanda'da KDV beyannameleri genellikle üç ayda bir verilir, ancak belirli durumlarda aylık veya yıllık beyanname verilmesi geçerli olabilir. KDV beyannamesi vermenin temel yönleri şunları içerir:",
+        "items": "<li>Uygulanabilir KDV ile tüm satışları ve alımları raporlamak</li><li>Müşterilere uygulanan KDV ile tedarikçilere ödenen KDV arasındaki farkı hesaplamak</li><li>Beyannameyi ve ödemeyi Belastingdienst web sitesi üzerinden elektronik olarak göndermek</li><li>En az 7 yıl boyunca uygun kayıtları tutmak</li>"
+      },
+      "conclusion": "Uygun KDV yönetimi, her büyüklükteki Hollanda işletmeleri için gereklidir. Sistem başlangıçta karmaşık görünse de, baştan iyi uygulamalar oluşturmak size zaman kazandıracak, stresi azaltacak ve maliyetli cezalardan kaçınmanıza yardımcı olacaktır. Glodinas Finance olarak, işletmelerin Hollanda KDV sisteminde verimli bir şekilde yol almasına yardımcı olmakta uzmanız.",
+      "cta": "KDV yönetiminizde yardıma mı ihtiyacınız var? İşletmenizin ihtiyaçlarına uygun profesyonel destek için ekibimizle iletişime geçin."
+    },
+    "newsletter": {
+      "title": "Bültenimize Abone Olun",
+      "subtitle": "Hollanda işletmeleri için en son finansal bilgiler ve ipuçlarından haberdar olun",
+      "placeholder": "E-posta adresiniz",
+      "button": "Abone Ol"
+    }
+  },
+  "terms": {
+    "title": "Hizmet Şartları",
+    "subtitle": "Hizmetlerimizi kullanmadan önce lütfen bu şartları dikkatlice okuyun",
+    "lastUpdated": "Son güncelleme: 1 Mayıs 2025",
+    "sections": {
+      "introduction": {
+        "title": "Giriş",
+        "content": "Bu Hizmet Şartları (\"Şartlar\"), Glodinas Finance B.V. (\"biz,\" \"bizim\" veya \"bize\") tarafından sağlanan, web sitemiz, muhasebe hizmetleri, vergi hazırlama ve finansal danışmanlık hizmetleri dahil olmak üzere finansal hizmetlerin kullanımını düzenler. Hizmetlerimizi kullanarak, bu Şartları tamamen kabul etmiş olursunuz."
+      },
+      "services": {
+        "title": "Hizmet Açıklaması",
+        "content1": "Glodinas Finance B.V., Hollanda'daki işletmelere ve bireylere muhasebe, vergi hazırlama, işletme kurulumu ve finansal danışmanlık hizmetleri sağlar. Sağlanacak belirli hizmetler, ayrı bir hizmet sözleşmesinde veya taahhüt mektubunda belirtilecektir.",
+        "content2": "Hizmetlerimizin herhangi bir kısmını herhangi bir zamanda, bildirimde bulunarak veya bulunmadan değiştirme, askıya alma veya sonlandırma hakkını saklı tutarız. Bu tür bir değişiklik, askıya alma veya sonlandırma için size veya herhangi bir üçüncü tarafa karşı sorumlu olmayacağız."
+      },
+      "fees": {
+        "title": "Ücretler ve Ödeme",
+        "content1": "Hizmetlerimiz için ücretlerimiz, hizmet sözleşmenizde belirtildiği gibi veya size başka şekilde iletildiği gibidir. Ödeme koşulları, aksi belirtilmedikçe fatura tarihinden itibaren net 14 gündür. Ücretlerimizi 30 gün önceden bildirimde bulunarak değiştirme hakkını saklı tutarız.",
+        "content2": "Geç ödemeler yasal oranda faiz ücretlerine tabi olabilir. 30 günden daha eski bakiyesi olan hesaplar için hizmetleri askıya alma hakkını saklı tutarız."
+      },
+      "intellectual": {
+        "title": "Fikri Mülkiyet",
+        "content1": "Web sitemizdeki metin, grafikler, logolar, görseller ve yazılım dahil olmak üzere tüm içerik, Glodinas Finance B.V. veya içerik sağlayıcılarının mülkiyetindedir ve Hollanda ve uluslararası telif hakkı yasaları tarafından korunmaktadır.",
+        "content2": "Açık yazılı iznimiz olmadan herhangi bir içeriği çoğaltamaz, dağıtamaz, değiştiremez veya türev çalışmalar oluşturamazsınız."
+      },
+      "userContent": {
+        "title": "Kullanıcı İçeriği ve Bilgileri",
+        "content1": "Hizmetlerimizle bağlantılı olarak bize sağladığınız herhangi bir bilgi, belge veya diğer içeriklerin mülkiyetini korursunuz. Bu tür içerikler sağlayarak, size hizmetlerimizi sağlama amacıyla kullanmak için bize münhasır olmayan, telifsiz bir lisans vermiş olursunuz.",
+        "content2": "Sağladığınız herhangi bir içeriğin üçüncü tarafların haklarını ihlal etmediğinden ve bu tür içeriği bizimle paylaşmak için gerekli tüm haklara ve izinlere sahip olduğunuzdan emin olmakla sorumlusunuz."
+      },
+      "privacy": {
+        "title": "Gizlilik ve Veri Koruma",
+        "content": "Kişisel bilgilerinizin toplanması ve kullanımı, bu Şartlara referansla dahil edilen Gizlilik Politikamız tarafından yönetilir.",
+        "link": "Gizlilik Politikamızı Görüntüle"
+      },
+      "termination": {
+        "title": "Fesih",
+        "content1": "Taraflardan herhangi biri, diğer tarafa yazılı bildirimde bulunarak hizmet ilişkisini herhangi bir zamanda sonlandırabilir. Fesih üzerine, fesih tarihine kadar verilen hizmetler için ödenmemiş ücretleri ödemekle yükümlü olacaksınız.",
+        "content2": "Bu Şartların doğası gereği fesihten sonra da geçerli olması gereken bölümleri, fikri mülkiyet, sorumluluk sınırlaması ve geçerli yasayla ilgili hükümler dahil olmak üzere geçerli kalacaktır."
+      },
+      "disclaimer": {
+        "title": "Garantilerin Reddi",
+        "content1": "Hizmetlerimiz, satılabilirlik, belirli bir amaca uygunluk veya ihlal etmeme dahil ancak bunlarla sınırlı olmamak üzere, açık veya zımni herhangi bir garanti olmaksızın \"olduğu gibi\" sağlanır.",
+        "content2": "Tüm çalışmalarımızda doğruluğu hedeflesek de, hizmetlerimizin hatasız olacağını veya hizmetlerimizi kullanmanızdan kaynaklanan herhangi bir sonucun başarılı olacağını veya özel durumlarınıza uygun olacağını garanti etmiyoruz."
+      },
+      "limitation": {
+        "title": "Sorumluluk Sınırlaması",
+        "content1": "Yasaların izin verdiği azami ölçüde, Glodinas Finance B.V., doğrudan veya dolaylı olarak maruz kalınan herhangi bir dolaylı, arızi, özel, sonuç olarak ortaya çıkan veya cezai zararlardan veya kâr veya gelir kaybından veya veri, kullanım, iyi niyet veya diğer maddi olmayan kayıplardan sorumlu olmayacaktır.",
+        "content2": "Hiçbir durumda, hizmetlerimizle ilgili tüm talepler için toplam sorumluluğumuz, sorumluluğa yol açan olaydan önceki altı (6) ay içinde söz konusu hizmetler için ödediğiniz tutarı aşmayacaktır."
+      },
+      "governing": {
+        "title": "Geçerli Yasa",
+        "content": "Bu Şartlar, çatışma yasası hükümleri dikkate alınmaksızın Hollanda yasalarına göre yönetilecek ve yorumlanacaktır. Bu Şartlar kapsamında veya bunlarla bağlantılı olarak ortaya çıkan herhangi bir anlaşmazlık, Hollanda, Amsterdam'daki mahkemelerin münhasır yargı yetkisine tabi olacaktır."
+      },
+      "changes": {
+        "title": "Şartlardaki Değişiklikler",
+        "content": "Bu Şartları herhangi bir zamanda değiştirme hakkını saklı tutarız. Önemli değişiklikler hakkında, güncellenmiş Şartları web sitemizde yayınlayarak veya size bir e-posta göndererek bildirimde bulunacağız. Bu tür değişikliklerden sonra hizmetlerimizi kullanmaya devam etmeniz, yeni Şartları kabul ettiğiniz anlamına gelir."
+      },
+      "contact": {
+        "title": "Bize Ulaşın",
+        "content": "Bu Şartlar hakkında herhangi bir sorunuz varsa, lütfen bizimle şu adresten iletişime geçin:",
+        "link": "Bize Ulaşın"
       }
-    },
-    "partners": {
-      "title": "Ortaklarımız",
-      "subtitle": "Önde gelen finansal hizmet sağlayıcılarıyla çalışıyoruz"
-    },
-    "cta": {
-      "title": "Finanslarınızı Düzenlemeye Hazır mısınız?",
-      "subtitle": "İşletmenizin finansal netlik ve uygunluk elde etmesine nasıl yardımcı olabileceğimizi görüşmek için bugün bize ulaşın.",
-      "contactUs": "Bize Ulaşın"
     }
   },
-  "about": {
-    "hero": {
-      "title": "Glodinas Finance Hakkında",
-      "subtitle": "Hollanda'da finansal hizmetler için güvenilir ortağınız"
-    },
-    "company": {
-      "title": "Şirketimiz",
-      "paragraph1": "Glodinas Finance B.V., net bir misyonla kuruldu: Hollanda'daki girişimcilere ve işletmelere erişilebilir, profesyonel finansal hizmetler sunmak. Hem serbest çalışan profesyonellere (ZZP'ler) hem de limited şirketlere (BV'ler) Hollanda finansal düzenlemelerinin karmaşıklıklarında yol gösterme konusunda uzmanlaşmış durumdayız.",
-      "paragraph2": "Ekibimiz, Hollanda vergi hukuku, muhasebe standartları ve işletme yönetiminde geniş deneyimi kişiselleştirilmiş hizmet taahhüdü ile birleştirmektedir. Her müşterinin benzersiz ihtiyaçları olduğunu anlıyoruz, bu nedenle tek tip paketler yerine özel çözümler sunuyoruz.",
-      "paragraph3": "Schiphol merkezli olarak, Hollanda genelinde müşterilere hizmet veriyoruz ve özellikle Hollanda pazarında varlık kuran uluslararası girişimcileri ve işletmeleri destekleme konusunda uzmanlığa sahibiz.",
-      "imageAlt": "Schiphol'deki Glodinas Finance ofisi"
-    },
-    "team": {
-      "title": "Ekibimiz",
-      "subtitle": "Glodinas Finance'in arkasındaki profesyonellerle tanışın",
-      "linkedinProfile": "LinkedIn Profili",
-      "member1": {
-        "name": "Cihat Kaya",
-        "role": "Kurucu & Finansal Danışman",
-        "bio": "Cihat, Hollanda finansal sektöründe yıllarca deneyim kazandıktan sonra Glodinas Finance'i kurdu. Küçük işletmeler ve serbest çalışan profesyoneller için vergi optimizasyon stratejileri konusunda uzmanlaşmıştır.",
-        "imageAlt": "Cihat Kaya - Glodinas Finance'in Kurucusu"
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "subtitle": "Bilgilerinizi nasıl topladığımız, kullandığımız ve koruduğumuz",
+    "lastUpdated": "Son güncelleme: 1 Mayıs 2025",
+    "sections": {
+      "introduction": {
+        "title": "Giriş",
+        "content": "Glodinas Finance B.V. olarak, gizliliğinizi korumaya ve kişisel bilgilerinizin güvenliğini sağlamaya kararlıyız. Bu Gizlilik Politikası, hizmetlerimizi kullandığınızda veya web sitemizi ziyaret ettiğinizde bilgilerinizi nasıl topladığımızı, kullandığımızı, açıkladığımızı ve koruduğumuzu açıklar. Kişisel verilerinizle ilgili uygulamalarımızı anlamak için lütfen bu politikayı dikkatlice okuyun."
       },
-      "member2": {
-        "name": "Gabriel Stan",
-        "role": "Kıdemli Muhasebeci",
-        "bio": "Gabriel, finansal yönetim ve muhasebe alanında 8 yılı aşkın deneyim getiriyor. Müşteri hesaplarını denetliyor ve doğru finansal raporlamayı sağlıyor.",
-        "imageAlt": "Gabriel Stan - Glodinas Finance'de Kıdemli Muhasebeci"
+      "information": {
+        "title": "Topladığımız Bilgiler",
+        "content": "Aşağıdaki türde bilgileri toplayabiliriz:",
+        "items": "<li>Kişisel tanımlama bilgileri (isim, e-posta adresi, telefon numarası vb.)</li><li>İşletme bilgileri (şirket adı, KVK numarası, KDV numarası vb.)</li><li>Hizmetlerimizi sağlamak için gerekli finansal bilgiler</li><li>Sizinle ekibimiz arasındaki iletişim kayıtları</li><li>Cihazınız ve web sitemizle nasıl etkileşimde bulunduğunuz hakkında teknik bilgiler</li>"
       },
-      "member3": {
-        "name": "Ana Dogotari",
-        "role": "Müşteri İlişkileri Yöneticisi",
-        "bio": "Ana, müşteri iletişimlerini yönetiyor ve hizmetlerimizin tutarlı bir şekilde en yüksek kalite ve müşteri memnuniyeti standartlarını karşılamasını sağlıyor.",
-        "imageAlt": "Ana Dogotari - Glodinas Finance'de Müşteri İlişkileri Yöneticisi"
+      "usage": {
+        "title": "Bilgilerinizi Nasıl Kullanıyoruz",
+        "content": "Toplanan bilgileri çeşitli amaçlar için kullanıyoruz, bunlar arasında:",
+        "items": "<li>Hizmetlerimizi sağlamak ve sürdürmek</li><li>İşlemleri işlemek ve hesabınızı yönetmek</li><li>Hizmetlerimiz hakkında sizinle iletişim kurmak</li><li>Yasal yükümlülüklere uymak</li><li>Web sitemizi ve hizmetlerimizi geliştirmek</li><li>Tanıtım materyalleri göndermek (izninizle)</li>"
+      },
+      "cookies": {
+        "title": "Çerezler ve İzleme Teknolojileri",
+        "content1": "Web sitemiz, gezinme etkinlikleriniz hakkında bilgi toplamak için çerezler ve benzer izleme teknolojileri kullanır. Bu teknolojiler, web sitesi trafiğini analiz etmemize, içeriği kişiselleştirmemize ve deneyiminizi geliştirmemize yardımcı olur.",
+        "content2": "Çerezleri tarayıcı ayarlarınız aracılığıyla kontrol edebilirsiniz. Ancak, çerezleri devre dışı bırakmak, web sitemizin belirli özelliklerini kullanma yeteneğinizi sınırlayabilir."
+      },
+      "thirdParty": {
+        "title": "Üçüncü Taraf Açıklaması",
+        "content": "Bilgilerinizi, web sitemizi işletmemize, işimizi yürütmemize veya size hizmet vermemize yardımcı olan güvenilir üçüncü taraflarla paylaşabiliriz. Bu üçüncü taraflar gizlilik anlaşmalarıyla bağlıdır ve bilgilerinizi Glodinas Finance B.V. için hizmet sunmanın dışında herhangi bir amaçla kullanmaları yasaktır."
+      },
+      "security": {
+        "title": "Veri Güvenliği",
+        "content": "Kişisel bilgilerinizi yetkisiz erişime, değişikliğe, açıklamaya veya imhaya karşı korumak için uygun teknik ve organizasyonel önlemler uyguluyoruz. Ancak, İnternet üzerinden hiçbir iletim yöntemi veya elektronik depolama %100 güvenli değildir ve mutlak güvenliği garanti edemeyiz."
+      },
+      "dataRetention": {
+        "title": "Veri Saklama",
+        "content": "Kişisel bilgilerinizi, vergi, muhasebe veya diğer yasal gereklilikler gibi daha uzun bir saklama süresi gerekmedikçe veya yasalarca izin verilmedikçe, bu Gizlilik Politikasında belirtilen amaçları yerine getirmek için gerekli olduğu sürece saklarız."
+      },
+      "rights": {
+        "title": "Haklarınız",
+        "content": "Genel Veri Koruma Yönetmeliği (GDPR) kapsamında, kişisel verilerinizle ilgili belirli haklara sahipsiniz, bunlar arasında:",
+        "items": "<li>Kişisel verilerinize erişim hakkı</li><li>Yanlış veya eksik verileri düzeltme hakkı</li><li>Silme hakkı (\"unutulma hakkı\")</li><li>İşlemeyi kısıtlama hakkı</li><li>Veri taşınabilirliği hakkı</li><li>İşlemeye itiraz etme hakkı</li><li>İstediğiniz zaman onayınızı geri çekme hakkı</li>"
+      },
+      "children": {
+        "title": "Çocukların Gizliliği",
+        "content": "Hizmetlerimiz 18 yaşın altındaki kişiler için tasarlanmamıştır. Bilerek çocuklardan kişisel bilgi toplamıyoruz. Eğer bir ebeveyn veya vasi iseniz ve çocuğunuzun bize kişisel bilgi sağladığına inanıyorsanız, uygun önlemleri alabilmemiz için lütfen bizimle iletişime geçin."
+      },
+      "changes": {
+        "title": "Bu Gizlilik Politikasındaki Değişiklikler",
+        "content": "Gizlilik Politikamızı zaman zaman güncelleyebiliriz. Herhangi bir değişikliği, yeni Gizlilik Politikasını bu sayfada yayınlayarak ve \"son güncelleme\" tarihini güncelleyerek size bildireceğiz. Herhangi bir değişiklik için bu Gizlilik Politikasını periyodik olarak gözden geçirmeniz önerilir."
+      },
+      "contact": {
+        "title": "Bize Ulaşın",
+        "content": "Bu Gizlilik Politikası veya veri uygulamalarımız hakkında herhangi bir sorunuz varsa, lütfen bizimle şu adresten iletişime geçin:",
+        "link": "Bize Ulaşın"
       }
-    },
-    "partners": {
-      "title": "Ortaklarımız",
-      "subtitle": "Kapsamlı çözümler sunmak için önde gelen hizmet sağlayıcılarla işbirliği yapıyoruz",
-      "partner1": {
-        "name": "Moneybird",
-        "description": "Girişimciler için finansal yönetimi basitleştiren bulut tabanlı muhasebe yazılımı.",
-        "imageAlt": "Moneybird - Muhasebe Yazılımı Ortağı"
-      },
-      "partner2": {
-        "name": "Employes",
-        "description": "Her büyüklükteki işletme için kapsamlı bordro ve İK yönetim platformu.",
-        "imageAlt": "Employes - Bordro Hizmetleri Ortağı"
-      },
-      "partner3": {
-        "name": "Firm24",
-        "description": "Hollanda'da yasal kuruluşlar oluşturmak için kolaylaştırılmış şirket kuruluş hizmetleri.",
-        "imageAlt": "Firm24 - Şirket Kuruluşu Ortağı"
-      },
-      "bankingTitle": "Bankacılık Ortakları",
-      "bankingImageAlt": "Kişisel Krediler için Hollanda Bankacılık Ortakları"
-    },
-    "cta": {
-      "title": "Birlikte Çalışmaya Hazır mısınız?",
-      "subtitle": "İşletmenizin finansal ihtiyaçlarını nasıl destekleyebileceğimizi görüşmek için bugün bize ulaşın.",
-      "buttonText": "Bize Ulaşın"
     }
   },
-  "services": {
-    "hero": {
-      "title": "Hizmetlerimiz",
-      "subtitle": "İşletme ihtiyaçlarınıza göre özelleştirilmiş kapsamlı finansal çözümler"
-    },
-    "bookkeepingZZP": {
-      "title": "ZZP'ler için Muhasebe",
-      "description1": "Serbest çalışan profesyoneller (ZZP'ler) için muhasebe hizmetimiz, idari yükünüzü en aza indirirken Hollanda vergi düzenlemelerine uygun kalmanızı sağlayan eksiksiz bir finansal yönetim çözümü sunar.",
-      "description2": "Finansal kayıtlarınızı verimli bir şekilde yönetmek için kullanıcı dostu bir bulut tabanlı platform olan Moneybird'ü kullanıyoruz. Bu, finansal durumunuzun tam görünürlüğünü korurken temel işletme faaliyetlerinize odaklanmanızı sağlar.",
-      "included": "Neler Dahil",
-      "items": [
-        "Tüm finansal işlemlerin aylık işlenmesi",
-        "Üç aylık KDV (BTW) beyannamesi hazırlama ve dosyalama",
-        "Yıllık gelir vergisi beyannamesi hazırlama",
-        "Sürekli finansal tavsiye ve destek",
-        "Moneybird bulut muhasebe yazılımına erişim",
-        "Düzenli finansal durum raporları"
-      ],
-      "requestQuote": "Teklif İsteyin"
-    },
-    "bookkeepingBV": {
-      "title": "BV'ler için Muhasebe",
-      "description1": "Hollanda limited şirketleri (BV'ler) için kapsamlı muhasebe hizmetimiz, işletme kararları için değerli bilgiler sağlarken tüm yasal finansal raporlama gerekliliklerine tam uyum sağlar.",
-      "description2": "Şirketinizin finansal yönetiminin günlük işlem işlemeden yıllık hesap hazırlamaya ve kurumsal vergi beyannamelerine kadar tüm yönlerini ele alıyoruz.",
-      "included": "Neler Dahil",
-      "items": [
-        "Eksiksiz finansal yönetim",
-        "Aylık ve üç aylık finansal raporlama",
-        "KDV (BTW) beyannamesi hazırlama ve dosyalama",
-        "Yıllık hesapların hazırlanması",
-        "Kurumlar vergisi beyannamesi dosyalama",
-        "Direktör maaşı (DGA) yönetimi",
-        "Temettü ödemesi işleme"
-      ],
-      "requestQuote": "Teklif İsteyin"
-    },
-    "payroll": {
-      "title": "Bordro Hizmetleri",
-      "description1": "Bordro hizmetlerimiz, Hollanda iş kanunları ve vergi düzenlemelerine uygunluğu korurken çalışanlarınızın tazminatının doğru ve zamanında işlenmesini sağlar.",
-      "description2": "Maaşların ve vergilerin hesaplanmasından bordro fişlerinin oluşturulmasına ve Hollanda Vergi Dairesi'ne gerekli raporların dosyalanmasına kadar bordro yönetiminin tüm yönlerini ele alıyoruz.",
-      "included": "Neler Dahil",
-      "items": [
-        "Aylık maaş hesaplamaları ve işleme",
-        "Dijital bordro fişleri oluşturma",
-        "Ücret vergisi beyannamesi hazırlama ve dosyalama",
-        "Yıl sonu bildirimleri (jaaropgaaf)",
-        "Tatil ödeneği yönetimi",
-        "Hastalık izni ve devamsızlık takibi",
-        "Muhasebe sisteminizle entegrasyon"
-      ],
-      "requestQuote": "Teklif İsteyin"
-    },
-    "businessFormation": {
-      "title": "Şirket Kuruluşu",
-      "description1": "Şirket kuruluş hizmetimiz, girişimcileri Hollanda'da bir şahıs şirketi (eenmanszaak) veya limited şirket (BV) olarak yasal bir kuruluş kurma sürecinde yönlendirir.",
-      "description2": "Hollanda pazarında işletme faaliyetlerinizin sorunsuz ve verimli bir başlangıcını sağlayarak tüm gerekli kayıtları ve idari gereksinimleri ele alıyoruz.",
-      "included": "Neler Dahil",
-      "items": [
-        "İşletme yapısı danışmanlığı ve tavsiyesi",
-        "Ticaret Odası (KVK) kaydı",
-        "Vergi kaydı (BTW/KDV ve gelir vergisi)",
-        "Şirket ana sözleşmesi hazırlama (BV'ler için)",
-        "Noter koordinasyonu (BV'ler için)",
-        "Banka hesabı kurulum yardımı",
-        "İlk muhasebe sistemi kurulumu"
-      ],
-      "requestQuote": "Teklif İsteyin"
-    },
-    "personalLoans": {
-      "title": "Kişisel Kredi Yardımı",
-      "description1": "Kişisel kredi yardım hizmetimiz, bireylerin kişisel ihtiyaçlar, ev alımları veya diğer önemli harcamalar için uygun kredi koşulları elde etmek üzere Hollanda bankacılık sisteminde yol bulmalarına yardımcı olur.",
-      "description2": "Başvuru süreci boyunca rehberlik sağlıyor, gerekli belgeleri hazırlamaya yardımcı oluyor ve onay şansınızı artırmak için finansal kurumlarla irtibat kuruyoruz.",
-      "included": "Neler Dahil",
-      "items": [
-        "Kişisel finansal durum değerlendirmesi",
-        "Birden fazla bankada kredi seçeneklerinin karşılaştırılması",
-        "Başvuru belgelerinin hazırlanması",
-        "Faiz oranı müzakere yardımı",
-        "Kredi yönetimi kurulumu",
-        "Devam eden kredi yönetimi desteği",
-        "Yeniden finansman fırsatları değerlendirmesi"
-      ],
-      "requestConsultation": "Danışmanlık Talep Et"
-    },
-    "taxPreparation": {
-      "title": "Vergi Hazırlama",
-      "description1": "Vergi hazırlama hizmetimiz, Hollanda'da faaliyet gösteren hem bireyler hem de işletmeler için gerekli tüm vergi beyannamelerinin doğru ve zamanında dosyalanmasını sağlar.",
-      "description2": "Vergi yükümlülüğünüzü en aza indirirken vergi düzenlemelerine tam uyumu koruyarak, uygulanabilir tüm indirimleri ve kredileri belirlemek için Hollanda vergi hukukundaki uzmanlığımızdan yararlanıyoruz.",
-      "included": "Neler Dahil",
-      "items": [
-        "Kişisel gelir vergisi beyannamesi hazırlama",
-        "Kurumlar vergisi beyannamesi hazırlama",
-        "KDV (BTW) beyannamesi işleme",
-        "Ücret vergisi beyannamesi dosyalama",
-        "Vergi ödeme planlaması",
-        "Vergi dairesi yazışmaları yönetimi",
-        "Vergi optimizasyon stratejileri"
-      ],
-      "requestQuote": "Teklif İsteyin"
-    },
-    "pricing": {
-      "title": "Fiyatlandırmamız",
-      "subtitle": "Finansal hizmetlerimiz için şeffaf ve rekabetçi oranlar",
-      "popular": "En Popüler",
-      "zzpPackage": {
-        "title": "ZZP Muhasebe",
-        "price": "€130",
-        "period": "/ay KDV hariç",
-        "features": [
-          "Eksiksiz finansal yönetim",
-          "Üç aylık KDV beyannameleri",
-          "Yıllık gelir vergisi beyannamesi",
-          "Moneybird yazılımı erişimi",
-          "Sınırsız e-posta desteği",
-          "Aylık finansal raporlar"
-        ],
-        "getStarted": "Başlayın"
-      },
-      "bvPackage": {
-        "title": "BV Muhasebe",
-        "price": "€150",
-        "period": "/ay KDV hariç",
-        "features": [
-          "Eksiksiz finansal yönetim",
-          "Üç aylık KDV beyannameleri",
-          "Yıllık hesapların hazırlanması",
-          "Kurumlar vergisi beyannamesi",
-          "Direktör maaşı yönetimi",
-          "Sınırsız e-posta ve telefon desteği",
-          "Üç aylık finansal raporlar"
-        ],
-        "getStarted": "Başlayın"
-      },
-      "customPackage": {
-        "title": "Özel Çözümler",
-        "description": "İşletmenizin özel gereksinimleri için özelleştirilmiş bir pakete mi ihtiyacınız var? Kişiselleştirilmiş bir teklif için bizimle iletişime geçin.",
-        "features": [
-          "Özelleştirilmiş hizmet seçimi",
-          "Esnek fiyatlandırma seçenekleri",
-          "İşletmeniz büyüdükçe ölçeklenebilir",
-          "Kişiselleştirilmiş destek"
-        ],
-        "contactUs": "Bize Ulaşın"
-      }
-    },
-    "moneybird": {
-      "title": "Moneybird ile Başlayın",
-      "subtitle": "Hizmetlerimizle başlamak için yönlendirme bağlantımız üzerinden Moneybird'e kaydolun"
-    }
-  },
-  "contact": {
-    "hero": {
-      "title": "Bize Ulaşın",
-      "subtitle": "Finansal ihtiyaçlarınızı nasıl destekleyebileceğimizi görüşmek için iletişime geçin"
-    },
-    "getInTouch": {
-      "title": "İletişime Geçin",
-      "description": "Sorularınızı yanıtlamak ve işletmenizin ihtiyaç duyduğu finansal rehberliği sağlamak için buradayız. Aşağıdaki yöntemlerden herhangi biri aracılığıyla bizimle iletişime geçin veya bize mesaj göndermek için formu kullanın.",
-      "address": "Adres",
-      "email": "E-posta",
-      "phone": "Telefon",
-      "businessHours": "Çalışma Saatleri",
-      "weekdays": "Pazartesi - Cuma: 9:00 - 17:30",
-      "weekend": "Cumartesi - Pazar: Kapalı"
-    },
-    "form": {
-      "title": "Bize Mesaj Gönderin",
-      "name": "Adınız",
-      "email": "E-posta Adresi",
-      "phone": "Telefon Numarası",
-      "subject": "Konu",
-      "message": "Mesajınız",
-      "submit": "Mesaj Gönder",
-      "success": "Mesajınız başarıyla gönderildi. Yakında size geri döneceğiz!",
-      "error": "Mesajınızı gönderirken bir hata oluştu. Lütfen tekrar deneyin."
-    },
-    "faq": {
-      "title": "Sık Sorulan Sorular",
-      "subtitle": "Yaygın sorulara hızlı yanıtlar bulun",
-      "questions": [
-        {
-          "question": "ZZP'ler için hangi hizmetleri sunuyorsunuz?",
-          "answer": "Hollanda'daki serbest çalışan profesyoneller (ZZP'ler) için özel olarak uyarlanmış kapsamlı muhasebe, vergi hazırlama, işletme kuruluş yardımı ve finansal danışmanlık hizmetleri sunuyoruz."
-        },
-        {
-          "question": "Muhasebe hizmetiniz ne kadara mal oluyor?",
-          "answer": "ZZP'ler için standart muhasebe paketimiz aylık €130'dan (KDV hariç) başlarken, BV muhasebe paketimiz aylık €150'dan (KDV hariç) başlıyor. Ayrıca özel ihtiyaçlarınıza göre özelleştirilmiş paketler de sunuyoruz."
-        },
-        {
-          "question": "İngilizce hizmet sunuyor musunuz?",
-          "answer": "Evet, tüm hizmetlerimizi hem İngilizce hem de Hollandaca olarak sunuyoruz, bu da bizi Hollanda'da faaliyet gösteren uluslararası girişimciler ve işletmeler için ideal bir ortak yapıyor."
-        },
-        {
-          "question": "Hizmetlerinizle nasıl başlarım?",
-          "answer": "Bu form aracılığıyla bizimle iletişime geçerek, doğrudan arayarak veya ofisimizi ziyaret ederek başlayabilirsiniz. İhtiyaçlarınızı görüşmek ve durumunuz için en uygun hizmetleri önermek için ilk danışma randevusu ayarlayacağız."
-        },
-        {
-          "question": "KVK'da işletme kaydı konusunda yardımcı olabilir misiniz?",
-          "answer": "Evet, işletme kuruluş hizmetimiz, işletmenizi Hollanda Ticaret Odası'na (KVK) kaydetme ve tüm gerekli vergi kayıtlarını yönetme konusunda tam yardım içerir."
-        }
-      ]
-    }
-  },
-  "navigation": {
-    "home": "Ana Sayfa",
-    "about": "Hakkımızda",
-    "services": "Hizmetler",
-    "contact": "İletişim",
-    "gettingStarted": "Başlangıç",
-    "blog": "Blog",
-    "login": "Giriş"
-  },
-  "footer": {
-    "address": "Schiphol Boulevard 127, Schiphol 1118 BG",
-    "copyright": "© 2025 Glodinas Finance B.V. Tüm hakları saklıdır.",
-    "links": {
-      "privacyPolicy": "Gizlilik Politikası",
-      "termsOfService": "Hizmet Şartları"
-    }
+  "common": {
+    "needHelp": "Yardıma mı İhtiyacınız Var?",
+    "contactUs": "Bize Ulaşın",
+    "backToBlog": "Blog'a Geri Dön",
+    "relatedPosts": "İlgili Yazılar",
+    "relatedPostsPlaceholder": "Daha Fazla Makale Keşfedin",
+    "relatedPostsDescription": "Hollanda finansal konuları hakkında daha fazla bilgi için diğer makalelerimize göz atın.",
+    "viewAllPosts": "Tüm Yazıları Görüntüle"
   }
 }

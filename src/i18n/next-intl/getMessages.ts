@@ -1,18 +1,13 @@
-import type {Messages} from 'next-intl';
+import { pathnames } from './navigation';
 
-// Function to load messages for a specific locale
-export async function getMessages(locale: string): Promise<Messages> {
-  try {
-    // Import the messages for the requested locale
-    const messages = (await import(`./messages/${locale}.json`)).default;
-    return messages;
-  } catch (error) {
-    console.error(`Error loading messages for locale ${locale}:`, error);
-    // Fallback to English if the requested locale is not available
-    if (locale !== 'en') {
-      return getMessages('en');
-    }
-    // If even English fails, return an empty object
-    return {};
-  }
+// Define the locales supported by the application
+export const locales = ['en', 'nl', 'ro', 'tr', 'ru'] as const;
+export type Locale = (typeof locales)[number];
+
+// Define the default locale
+export const defaultLocale: Locale = 'en';
+
+// Function to get messages for a specific locale
+export async function getMessages(locale: string) {
+  return (await import(`./messages/${locale}.json`)).default;
 }

@@ -41,6 +41,27 @@ export const pathnames = {
     ro: '/primii-pasi',
     tr: '/baslangic',
     ru: '/nachalo-raboty'
+  },
+  '/blog': {
+    en: '/blog',
+    nl: '/blog',
+    ro: '/blog',
+    tr: '/blog',
+    ru: '/blog'
+  },
+  '/terms-of-service': {
+    en: '/terms-of-service',
+    nl: '/voorwaarden',
+    ro: '/termeni-si-conditii',
+    tr: '/hizmet-sartlari',
+    ru: '/usloviya-obsluzhivaniya'
+  },
+  '/privacy-policy': {
+    en: '/privacy-policy',
+    nl: '/privacybeleid',
+    ro: '/politica-de-confidentialitate',
+    tr: '/gizlilik-politikasi',
+    ru: '/politika-konfidentsialnosti'
   }
 };
 
@@ -53,6 +74,12 @@ export function getLocalizedPath(path: string, locale: string) {
   const pathKey = Object.keys(pathnames).find(key => key === path);
   if (pathKey && pathnames[pathKey as keyof typeof pathnames][locale as Locale]) {
     return pathnames[pathKey as keyof typeof pathnames][locale as Locale];
+  }
+  
+  // For blog posts, maintain the slug but use localized blog path
+  if (path.startsWith('/blog/')) {
+    const slug = path.replace('/blog/', '');
+    return `/${locale}/blog/${slug}`;
   }
   
   return path;

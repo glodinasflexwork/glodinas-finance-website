@@ -82,7 +82,7 @@ const Header = () => {
                 pathname === `/${locale}` ? 'font-semibold text-blue-600' : ''
               }`}
             >
-              {nav.home}
+              {nav('home')}
             </Link>
             <Link 
               href={getLocalizedPath('/about')}
@@ -90,7 +90,7 @@ const Header = () => {
                 pathname.includes('/about') ? 'font-semibold text-blue-600' : ''
               }`}
             >
-              {nav.about}
+              {nav('about')}
             </Link>
             <Link 
               href={getLocalizedPath('/services')}
@@ -98,7 +98,7 @@ const Header = () => {
                 pathname.includes('/services') ? 'font-semibold text-blue-600' : ''
               }`}
             >
-              {nav.services}
+              {nav('services')}
             </Link>
             <Link 
               href={getLocalizedPath('/getting-started')}
@@ -106,7 +106,7 @@ const Header = () => {
                 pathname.includes('/getting-started') ? 'font-semibold text-blue-600' : ''
               }`}
             >
-              {nav.gettingStarted}
+              {nav('gettingStarted')}
             </Link>
             <Link 
               href={getLocalizedPath('/contact')}
@@ -114,7 +114,7 @@ const Header = () => {
                 pathname.includes('/contact') ? 'font-semibold text-blue-600' : ''
               }`}
             >
-              {nav.contact}
+              {nav('contact')}
             </Link>
             
             {/* Language Switcher */}
@@ -278,7 +278,7 @@ const Header = () => {
                 }`}
                 onClick={() => setMobileMenuOpen(false)}
               >
-                {nav.home}
+                {nav('home')}
               </Link>
               <Link 
                 href={getLocalizedPath('/about')}
@@ -287,7 +287,7 @@ const Header = () => {
                 }`}
                 onClick={() => setMobileMenuOpen(false)}
               >
-                {nav.about}
+                {nav('about')}
               </Link>
               <Link 
                 href={getLocalizedPath('/services')}
@@ -296,7 +296,7 @@ const Header = () => {
                 }`}
                 onClick={() => setMobileMenuOpen(false)}
               >
-                {nav.services}
+                {nav('services')}
               </Link>
               <Link 
                 href={getLocalizedPath('/getting-started')}
@@ -305,7 +305,7 @@ const Header = () => {
                 }`}
                 onClick={() => setMobileMenuOpen(false)}
               >
-                {nav.gettingStarted}
+                {nav('gettingStarted')}
               </Link>
               <Link 
                 href={getLocalizedPath('/contact')}
@@ -314,7 +314,7 @@ const Header = () => {
                 }`}
                 onClick={() => setMobileMenuOpen(false)}
               >
-                {nav.contact}
+                {nav('contact')}
               </Link>
             </div>
           </nav>
