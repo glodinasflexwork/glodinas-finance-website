@@ -20,10 +20,12 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="flex items-center">
-              {/* Placeholder for logo - will be replaced with actual logo */}
-              <div className="h-10 w-40 bg-blue-600 text-white flex items-center justify-center font-bold">
-                Glodinas Finance
-              </div>
+              {/* Official Glodinas Finance logo */}
+              <img 
+                src="/images/logo/glodinas-logo.png" 
+                alt="Glodinas Finance Logo" 
+                className="h-10 w-auto" 
+              />
             </Link>
           </div>
           
