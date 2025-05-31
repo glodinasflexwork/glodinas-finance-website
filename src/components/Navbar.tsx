@@ -6,6 +6,13 @@ import LanguageSwitcher from './LanguageSwitcher';
 import { useTranslation } from 'react-i18next';
 import { useRouter } from 'next/navigation';
 
+// Define proper TypeScript interfaces
+interface NavLinkProps {
+  href: string;
+  className: string;
+  children: React.ReactNode;
+}
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -38,7 +45,7 @@ const Navbar = () => {
   };
 
   // Custom Link component that closes the menu when clicked
-  const NavLink = ({ href, className, children }) => {
+  const NavLink = ({ href, className, children }: NavLinkProps) => {
     return (
       <Link href={href} className={className} onClick={handleLinkClick}>
         {children}
