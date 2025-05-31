@@ -7,20 +7,13 @@ export async function GET() {
   // Generate a random state parameter to prevent CSRF attacks
   const state = Math.random().toString(36).substring(2, 15);
   
-  // Add the required scopes for user invitations and other necessary functionality
-  const scopes = [
-    'sales_invoices',
-    'documents',
-    'estimates',
-    'bank',
-    'settings',
-    'contacts',
-    'time_entries'
-  ].join(' ');
+  // Use the correct scope format for Moneybird
+  // Based on common OAuth practices and Moneybird's likely scope format
+  const scope = 'sales_invoice administration_invite administration_view contact_view document_view estimate_view bank_view settings_view';
   
   // Store state in a cookie for verification when callback is received
   const response = NextResponse.redirect(
-    `https://moneybird.com/oauth/authorize?client_id=${MONEYBIRD_CLIENT_ID}&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&response_type=code&state=${state}&scope=${encodeURIComponent(scopes)}`
+    `https://moneybird.com/oauth/authorize?client_id=${MONEYBIRD_CLIENT_ID}&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&response_type=code&state=${state}&scope=${encodeURIComponent(scope)}`
   );
   
   response.cookies.set('moneybird_oauth_state', state, {
@@ -30,7 +23,7 @@ export async function GET() {
     path: '/',
   });
   
-  console.log('Redirecting to Moneybird OAuth with scopes:', scopes);
+  console.log('Redirecting to Moneybird OAuth with scope:', scope);
   
   return response;
 }
