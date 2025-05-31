@@ -59,6 +59,33 @@ const LanguageSwitcher = () => {
   
   const currentLang = languages.find(lang => lang.code === currentLanguage);
   
+  // Mobile horizontal flag switcher
+  if (isMobile) {
+    return (
+      <div className="w-full flex flex-col items-center">
+        <div className="flex justify-center items-center space-x-4 py-3 px-2 bg-white rounded-lg shadow-sm">
+          {languages.map((lang) => (
+            <button
+              key={lang.code}
+              onClick={() => changeLanguage(lang.code)}
+              className={`flex flex-col items-center justify-center p-2 rounded-md transition-all duration-150 ${
+                currentLanguage === lang.code 
+                  ? 'bg-blue-100 text-blue-700 transform scale-110' 
+                  : 'text-gray-600 hover:bg-blue-50'
+              }`}
+              aria-label={`Switch to ${lang.name}`}
+              aria-current={currentLanguage === lang.code ? 'true' : 'false'}
+            >
+              <span className="text-xl mb-1">{lang.flag}</span>
+              <span className="text-xs font-medium">{lang.code.toUpperCase()}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+    );
+  }
+  
+  // Desktop dropdown
   return (
     <div className="relative inline-block text-left">
       <div>
@@ -71,7 +98,7 @@ const LanguageSwitcher = () => {
           onClick={toggleDropdown}
         >
           <span className="text-lg mr-2">{currentLang?.flag}</span>
-          <span className={`${isMobile ? 'hidden' : 'inline'} md:inline`}>{currentLang?.name}</span>
+          <span className="inline">{currentLang?.name}</span>
           <svg 
             className={`ml-2 h-5 w-5 text-blue-500 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`} 
             xmlns="http://www.w3.org/2000/svg" 
@@ -86,7 +113,7 @@ const LanguageSwitcher = () => {
       
       {/* Dropdown menu with animation */}
       <div
-        className={`absolute ${isMobile ? 'left-0' : 'right-0'} mt-2 w-56 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-50 transition-all duration-200 ease-in-out transform ${
+        className={`absolute right-0 mt-2 w-56 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-50 transition-all duration-200 ease-in-out transform ${
           isOpen 
             ? 'opacity-100 scale-100' 
             : 'opacity-0 scale-95 pointer-events-none'
