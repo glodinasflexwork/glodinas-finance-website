@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import MoneyBirdInviteForm from '@/components/MoneyBirdInviteForm';
+import ClientInfoForm from '@/components/ClientInfoForm';
 
 export default function GettingStarted() {
   return (
@@ -29,7 +29,7 @@ export default function GettingStarted() {
           </div>
 
           <div className="flex flex-col md:flex-row justify-between items-start space-y-12 md:space-y-0 md:space-x-8">
-            {/* Step 1 - Updated with MoneyBirdInviteForm */}
+            {/* Step 1 - Updated with ClientInfoForm */}
             <div className="flex-1 bg-white p-8 rounded-lg shadow-md border border-gray-200 relative">
               <div className="absolute -top-5 -left-5 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center text-xl font-bold">
                 1
@@ -43,7 +43,11 @@ export default function GettingStarted() {
                   className="h-16 w-auto"
                 />
               </div>
-              <MoneyBirdInviteForm />
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4 text-center">Get Started with Moneybird</h3>
+              <p className="text-gray-600 mb-6 text-center">
+                Submit your information below and we'll send you a Moneybird invitation to create your own administration.
+              </p>
+              <ClientInfoForm />
             </div>
 
             {/* Step 2 */}
@@ -157,7 +161,8 @@ export default function GettingStarted() {
         </div>
       </section>
 
-      {/* What to Expect */}
+      {/* Rest of the page content remains unchanged */}
+      {/* What to Expect Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -278,7 +283,7 @@ export default function GettingStarted() {
             </Link>
             <Link 
               href="/contact" 
-              className="border border-white text-white hover:bg-blue-700 px-8 py-3 rounded-md font-medium inline-block transition-colors"
+              className="bg-transparent border border-white text-white hover:bg-white/10 px-8 py-3 rounded-md font-medium inline-block transition-colors"
             >
               Contact Us
             </Link>
