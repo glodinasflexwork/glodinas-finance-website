@@ -3,6 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import MoneyBirdInviteForm from '@/components/MoneyBirdInviteForm';
 
 export default function GettingStarted() {
   return (
@@ -28,7 +29,7 @@ export default function GettingStarted() {
           </div>
 
           <div className="flex flex-col md:flex-row justify-between items-start space-y-12 md:space-y-0 md:space-x-8">
-            {/* Step 1 */}
+            {/* Step 1 - Updated with MoneyBirdInviteForm */}
             <div className="flex-1 bg-white p-8 rounded-lg shadow-md border border-gray-200 relative">
               <div className="absolute -top-5 -left-5 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center text-xl font-bold">
                 1
@@ -42,40 +43,7 @@ export default function GettingStarted() {
                   className="h-16 w-auto"
                 />
               </div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4 text-center">Sign Up for Moneybird</h3>
-              <p className="text-gray-600 mb-6">
-                Start by signing up for Moneybird using our referral link. This cloud-based bookkeeping software will be the foundation of your financial administration.
-              </p>
-              <ul className="text-gray-600 mb-6 space-y-2">
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-blue-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Create your Moneybird account</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-blue-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Add Glodinas Finance as your bookkeeper</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-blue-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Complete your basic company information</span>
-                </li>
-              </ul>
-              <div className="text-center">
-                <a 
-                  href="https://www.moneybird.nl/aanmelden?referrer=bfd6ac8168" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="bg-blue-600 text-white hover:bg-blue-700 px-6 py-3 rounded-md font-medium inline-block transition-colors"
-                >
-                  Sign Up for Moneybird
-                </a>
-              </div>
+              <MoneyBirdInviteForm />
             </div>
 
             {/* Step 2 */}
@@ -276,9 +244,9 @@ export default function GettingStarted() {
 
             {/* FAQ Item 3 */}
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Can I change my subscription plan later?</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Can I switch subscription plans later?</h3>
               <p className="text-gray-600">
-                Yes, you can upgrade or downgrade your subscription plan as your business needs change. Simply contact us, and we'll help you make the transition smoothly.
+                Yes, you can upgrade or downgrade your subscription plan at any time based on your business needs. Simply contact our support team, and we'll assist you with the transition.
               </p>
             </div>
 
@@ -286,7 +254,7 @@ export default function GettingStarted() {
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold text-gray-900 mb-2">What if I need help after the initial setup?</h3>
               <p className="text-gray-600">
-                Our support team is available to assist you with any questions or issues that may arise. You can reach us via email, phone, or through the contact form on our website.
+                Our support team is available during business hours to assist with any questions or issues you may encounter. All subscription plans include ongoing support via email and phone.
               </p>
             </div>
           </div>
@@ -296,22 +264,21 @@ export default function GettingStarted() {
       {/* CTA Section */}
       <section className="py-16 bg-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to streamline your bookkeeping?</h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Start your journey with Glodinas Finance today and experience hassle-free financial management.
+          <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
+          <p className="text-xl max-w-3xl mx-auto mb-8">
+            Begin your journey to streamlined financial administration today. Our team is ready to help you every step of the way.
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <a 
-              href="https://www.moneybird.nl/aanmelden?referrer=bfd6ac8168" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-md font-medium inline-block"
+            <Link 
+              href="#" 
+              onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
+              className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-md font-medium inline-block transition-colors"
             >
-              Sign Up for Moneybird
-            </a>
+              Start Onboarding
+            </Link>
             <Link 
               href="/contact" 
-              className="bg-transparent border border-white text-white hover:bg-blue-700 px-8 py-3 rounded-md font-medium inline-block"
+              className="border border-white text-white hover:bg-blue-700 px-8 py-3 rounded-md font-medium inline-block transition-colors"
             >
               Contact Us
             </Link>
