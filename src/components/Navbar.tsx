@@ -4,11 +4,13 @@ import Link from 'next/link';
 // import Image from 'next/image';
 import LanguageSwitcher from './LanguageSwitcher';
 import { useTranslation } from 'react-i18next';
+import { useRouter } from 'next/navigation';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const { t } = useTranslation();
+  const router = useRouter();
 
   // Handle scroll event for sticky header
   useEffect(() => {
@@ -30,12 +32,26 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  // Close menu when a link is clicked
+  const handleLinkClick = () => {
+    setIsMenuOpen(false);
+  };
+
+  // Custom Link component that closes the menu when clicked
+  const NavLink = ({ href, className, children }) => {
+    return (
+      <Link href={href} className={className} onClick={handleLinkClick}>
+        {children}
+      </Link>
+    );
+  };
+
   return (
     <nav className={`bg-white shadow-md sticky top-0 z-50 transition-all duration-300 ${isScrolled ? 'shadow-lg' : ''}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
-            <Link href="/" className="flex items-center">
+            <Link href="/" className="flex items-center" onClick={handleLinkClick}>
               {/* Official Glodinas Finance logo */}
               <img 
                 src="/images/logo/glodinas-logo.png" 
@@ -139,26 +155,26 @@ const Navbar = () => {
           </a>
           
           <div className="space-y-2">
-            <Link href="/" className="block px-4 py-3 text-blue-600 hover:text-blue-800 font-medium rounded-lg hover:bg-blue-50 transition-colors">
+            <NavLink href="/" className="block px-4 py-3 text-blue-600 hover:text-blue-800 font-medium rounded-lg hover:bg-blue-50 transition-colors">
               {t('navigation.home')}
-            </Link>
-            <Link href="/about" className="block px-4 py-3 text-blue-600 hover:text-blue-800 font-medium rounded-lg hover:bg-blue-50 transition-colors">
+            </NavLink>
+            <NavLink href="/about" className="block px-4 py-3 text-blue-600 hover:text-blue-800 font-medium rounded-lg hover:bg-blue-50 transition-colors">
               {t('navigation.about')}
-            </Link>
-            <Link href="/services" className="block px-4 py-3 text-blue-600 hover:text-blue-800 font-medium rounded-lg hover:bg-blue-50 transition-colors">
+            </NavLink>
+            <NavLink href="/services" className="block px-4 py-3 text-blue-600 hover:text-blue-800 font-medium rounded-lg hover:bg-blue-50 transition-colors">
               {t('navigation.services')}
-            </Link>
-            <Link href="/blog" className="block px-4 py-3 text-blue-600 hover:text-blue-800 font-medium rounded-lg hover:bg-blue-50 transition-colors">
+            </NavLink>
+            <NavLink href="/blog" className="block px-4 py-3 text-blue-600 hover:text-blue-800 font-medium rounded-lg hover:bg-blue-50 transition-colors">
               {t('navigation.blog')}
-            </Link>
-            <Link href="/contact" className="block px-4 py-3 text-blue-600 hover:text-blue-800 font-medium rounded-lg hover:bg-blue-50 transition-colors">
+            </NavLink>
+            <NavLink href="/contact" className="block px-4 py-3 text-blue-600 hover:text-blue-800 font-medium rounded-lg hover:bg-blue-50 transition-colors">
               {t('navigation.contact')}
-            </Link>
+            </NavLink>
           </div>
           
-          <Link href="/getting-started" className="block w-full px-4 py-3 mt-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium text-center shadow-sm">
+          <NavLink href="/getting-started" className="block w-full px-4 py-3 mt-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium text-center shadow-sm">
             {t('navigation.gettingStarted', 'Get Started')}
-          </Link>
+          </NavLink>
           
           <div className="mt-6 pt-4 border-t border-gray-100">
             <LanguageSwitcher />
