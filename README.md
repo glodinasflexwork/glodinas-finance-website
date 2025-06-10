@@ -22,7 +22,7 @@ EMAIL_FROM="noreply@glodinasfinance.nl"
 
 ## Getting Started
 
-Install dependencies and run the development server:
+
 
 ```bash
 npm run dev
@@ -55,4 +55,4 @@ npm start
 
 ## Deployment
 
-The project can be deployed on platforms that support Node.js such as **Vercel**. For a static export suitable for GitHub Pages you can run `next export`, but API routes will require a server environment.
+
