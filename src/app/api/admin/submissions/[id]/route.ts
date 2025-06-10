@@ -1,9 +1,7 @@
 // src/app/api/admin/submissions/[id]/route.ts
 import { NextRequest, NextResponse } from 'next/server';
-import { PrismaClient } from '@prisma/client';
+import prisma from '@/lib/prisma';
 import jwt from 'jsonwebtoken';
-
-const prisma = new PrismaClient();
 const JWT_SECRET = process.env.JWT_SECRET || 'glodinas-finance-secret-key';
 
 // Middleware to verify JWT token
