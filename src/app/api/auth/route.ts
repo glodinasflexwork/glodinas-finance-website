@@ -47,8 +47,18 @@ export async function POST(request: NextRequest) {
       JWT_SECRET,
       { expiresIn: '24h' }
     );
-    
-    return NextResponse.json({ token });
+
+    const response = NextResponse.json({ success: true });
+    response.cookies.set({
+      name: 'adminToken',
+      value: token,
+      httpOnly: true,
+      sameSite: 'strict',
+      secure: process.env.NODE_ENV === 'production',
+      maxAge: 60 * 60 * 24, // 24 hours
+      path: '/',
+    });
+    return response;
   } catch (error) {
     console.error('Authentication error:', error);
     return NextResponse.json(
@@ -56,4 +66,15 @@ export async function POST(request: NextRequest) {
       { status: 500 }
     );
   }
+}
+
+export async function DELETE() {
+  const response = NextResponse.json({ success: true });
+  response.cookies.set({
+    name: 'adminToken',
+    value: '',
+    path: '/',
+    expires: new Date(0),
+  });
+  return response;
 }

@@ -22,30 +22,17 @@ export default function AdminDashboard() {
   const router = useRouter();
 
   useEffect(() => {
-    // Check if user is authenticated
-    const token = localStorage.getItem('adminToken');
-    if (!token) {
-      router.push('/admin/login');
-      return;
-    }
-
-    // Fetch contact submissions
+    // Attempt to fetch submissions; if unauthorized the API will respond with 401
     fetchSubmissions();
   }, [router]);
 
   const fetchSubmissions = async () => {
     try {
-      const token = localStorage.getItem('adminToken');
-      const response = await fetch('/api/admin/submissions', {
-        headers: {
-          'Authorization': `Bearer ${token}`
-        }
-      });
+      const response = await fetch('/api/admin/submissions');
 
       if (!response.ok) {
         if (response.status === 401) {
           // Token expired or invalid
-          localStorage.removeItem('adminToken');
           router.push('/admin/login');
           return;
         }
@@ -62,19 +49,17 @@ export default function AdminDashboard() {
     }
   };
 
-  const handleLogout = () => {
-    localStorage.removeItem('adminToken');
+  const handleLogout = async () => {
+    await fetch('/api/auth', { method: 'DELETE' });
     router.push('/admin/login');
   };
 
   const updateSubmissionStatus = async (id: number, status: string) => {
     try {
-      const token = localStorage.getItem('adminToken');
       const response = await fetch(`/api/admin/submissions/${id}`, {
         method: 'PATCH',
         headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({ status })
       });

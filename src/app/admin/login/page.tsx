@@ -38,10 +38,7 @@ export default function AdminLogin() {
         throw new Error(data.error || 'Login failed');
       }
 
-      // Store token in localStorage
-      localStorage.setItem('adminToken', data.token);
-      
-      // Redirect to admin dashboard
+      // Successful login will set httpOnly cookie
       router.push('/admin/dashboard');
     } catch (error) {
       console.error('Login error:', error);

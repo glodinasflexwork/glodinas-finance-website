@@ -9,12 +9,19 @@ const JWT_SECRET = process.env.JWT_SECRET || 'glodinas-finance-secret-key';
 // Middleware to verify JWT token
 const verifyToken = (request: NextRequest) => {
   try {
+    let token: string | undefined | null = null;
+
     const authHeader = request.headers.get('authorization');
-    if (!authHeader || !authHeader.startsWith('Bearer ')) {
+    if (authHeader && authHeader.startsWith('Bearer ')) {
+      token = authHeader.split(' ')[1];
+    } else {
+      token = request.cookies.get('adminToken')?.value;
+    }
+
+    if (!token) {
       return null;
     }
-    
-    const token = authHeader.split(' ')[1];
+
     return jwt.verify(token, JWT_SECRET);
   } catch (error) {
     return null;
