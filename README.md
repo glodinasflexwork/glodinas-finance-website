@@ -34,3 +34,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Creating the admin user
+
+The project includes a script to create the initial admin account. Pass the
+credentials either as CLI arguments or environment variables:
+
+```bash
+# using arguments
+node src/scripts/create-admin.js admin@example.com StrongPassword123
+
+# using environment variables
+ADMIN_USERNAME=admin@example.com ADMIN_PASSWORD=StrongPassword123 \
+  node src/scripts/create-admin.js
+```
+
+If the username or password is missing, the script exits with an error message.
