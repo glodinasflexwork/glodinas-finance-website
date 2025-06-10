@@ -1,7 +1,20 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
+import PersonalStep from './contact/PersonalStep';
+import DetailsStep from './contact/DetailsStep';
+import MessageStep from './contact/MessageStep';
+import ReviewStep from './contact/ReviewStep';
+import SuccessStep from './contact/SuccessStep';
+import {
+  validateName,
+  validateEmail,
+  validatePhone,
+  validateService,
+  validateMessage,
+  validatePrivacy,
+} from '@/utils/validation';
+import type { FormDataType, ValidationErrors, TouchedFields } from './contact/types';
 
 // Define form steps
 type FormStep = 'personal' | 'details' | 'message' | 'review' | 'success';
@@ -19,14 +32,14 @@ const serviceOptions = [
 
 export default function ContactForm() {
   // Form data state
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormDataType>({
     name: '',
     email: '',
     phone: '',
     company: '',
     service: '',
     message: '',
-    privacy: false
+    privacy: false,
   });
   
   // Form state management
@@ -36,24 +49,10 @@ export default function ContactForm() {
   const [errorMessage, setErrorMessage] = useState('');
   
   // Field validation state
-  const [validationErrors, setValidationErrors] = useState<{
-    name?: string;
-    email?: string;
-    phone?: string;
-    service?: string;
-    message?: string;
-    privacy?: string;
-  }>({});
+  const [validationErrors, setValidationErrors] = useState<ValidationErrors>({});
   
   // Field touched state for real-time validation
-  const [touchedFields, setTouchedFields] = useState<{
-    name?: boolean;
-    email?: boolean;
-    phone?: boolean;
-    service?: boolean;
-    message?: boolean;
-    privacy?: boolean;
-  }>({});
+  const [touchedFields, setTouchedFields] = useState<TouchedFields>({});
 
   // Auto-save form data to localStorage
   useEffect(() => {
@@ -114,46 +113,6 @@ export default function ContactForm() {
       };
     }
   }, [currentStep]);
-
-  // Validation functions
-  const validateName = (name: string): string | undefined => {
-    if (!name.trim()) return 'Name is required';
-    if (name.trim().length < 2) return 'Name must be at least 2 characters';
-    return undefined;
-  };
-
-  const validateEmail = (email: string): string | undefined => {
-    if (!email.trim()) return 'Email is required';
-    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    if (!emailRegex.test(email)) return 'Please enter a valid email address';
-    return undefined;
-  };
-
-  const validatePhone = (phone: string): string | undefined => {
-    // Allow empty phone (it's optional)
-    if (!phone) return undefined;
-    
-    // Dutch phone format (also accepts international format)
-    const phoneRegex = /^(\+[0-9]{1,3})?[-\s]?([0-9]{1,4}[-\s]?){1,3}[0-9]{1,4}$/;
-    if (!phoneRegex.test(phone)) return 'Please enter a valid phone number';
-    return undefined;
-  };
-
-  const validateService = (service: string): string | undefined => {
-    if (!service) return 'Please select a service';
-    return undefined;
-  };
-
-  const validateMessage = (message: string): string | undefined => {
-    if (!message.trim()) return 'Message is required';
-    if (message.trim().length < 10) return 'Message must be at least 10 characters';
-    return undefined;
-  };
-
-  const validatePrivacy = (privacy: boolean): string | undefined => {
-    if (!privacy) return 'You must agree to the privacy policy';
-    return undefined;
-  };
 
   // Validate current step fields
   const validateCurrentStep = (): boolean => {
@@ -457,322 +416,49 @@ export default function ContactForm() {
     switch (currentStep) {
       case 'personal':
         return (
-          <div className="space-y-6 animate-fadeIn">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">Personal Information</h3>
-            
-            <div className="relative">
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                Full Name <span className="text-red-500">*</span>
-              </label>
-              <div className="relative">
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  onBlur={handleBlur}
-                  className={`w-full px-4 py-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${
-                    validationErrors.name ? 'border-red-500' : touchedFields.name && !validationErrors.name ? 'border-green-500' : 'border-gray-300'
-                  }`}
-                  placeholder="John Doe"
-                  required
-                />
-                {renderFieldStatus('name')}
-              </div>
-              {validationErrors.name && (
-                <p className="mt-1 text-sm text-red-600">{validationErrors.name}</p>
-              )}
-            </div>
-            
-            <div className="relative">
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                Email Address <span className="text-red-500">*</span>
-              </label>
-              <div className="relative">
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  onBlur={handleBlur}
-                  className={`w-full px-4 py-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${
-                    validationErrors.email ? 'border-red-500' : touchedFields.email && !validationErrors.email ? 'border-green-500' : 'border-gray-300'
-                  }`}
-                  placeholder="john.doe@example.com"
-                  required
-                />
-                {renderFieldStatus('email')}
-              </div>
-              {validationErrors.email && (
-                <p className="mt-1 text-sm text-red-600">{validationErrors.email}</p>
-              )}
-            </div>
-            
-            <div className="relative">
-              <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
-                Phone Number
-              </label>
-              <div className="relative">
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
-                  onBlur={handleBlur}
-                  className={`w-full px-4 py-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${
-                    validationErrors.phone ? 'border-red-500' : touchedFields.phone && formData.phone && !validationErrors.phone ? 'border-green-500' : 'border-gray-300'
-                  }`}
-                  placeholder="+31 6 12345678"
-                />
-                {formData.phone && renderFieldStatus('phone')}
-              </div>
-              {validationErrors.phone && (
-                <p className="mt-1 text-sm text-red-600">{validationErrors.phone}</p>
-              )}
-              <p className="mt-1 text-xs text-gray-500">Format: +31 6 12345678 or 06-12345678</p>
-            </div>
-            
-            <div className="relative">
-              <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-1">
-                Company Name
-              </label>
-              <input
-                type="text"
-                id="company"
-                name="company"
-                value={formData.company}
-                onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                placeholder="Your Company Ltd."
-              />
-            </div>
-          </div>
+          <PersonalStep
+            formData={formData}
+            validationErrors={validationErrors}
+            touchedFields={touchedFields}
+            handleChange={handleChange}
+            handleBlur={handleBlur}
+            renderFieldStatus={renderFieldStatus}
+          />
         );
-        
       case 'details':
         return (
-          <div className="space-y-6 animate-fadeIn">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">Service Details</h3>
-            
-            <div className="relative">
-              <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-1">
-                Service of Interest <span className="text-red-500">*</span>
-              </label>
-              <div className="relative">
-                <select
-                  id="service"
-                  name="service"
-                  value={formData.service}
-                  onChange={handleChange}
-                  onBlur={handleBlur}
-                  className={`w-full px-4 py-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${
-                    validationErrors.service ? 'border-red-500' : touchedFields.service && !validationErrors.service ? 'border-green-500' : 'border-gray-300'
-                  }`}
-                  required
-                >
-                  <option value="">Select a service</option>
-                  {serviceOptions.map(option => (
-                    <option key={option.value} value={option.value}>{option.label}</option>
-                  ))}
-                </select>
-                {renderFieldStatus('service')}
-              </div>
-              {validationErrors.service && (
-                <p className="mt-1 text-sm text-red-600">{validationErrors.service}</p>
-              )}
-            </div>
-            
-            <div className="bg-blue-50 p-4 rounded-md border border-blue-200">
-              <h4 className="font-medium text-blue-800 mb-2">Service Information</h4>
-              <div className="text-sm text-blue-700">
-                {formData.service === 'bookkeeping-zzp' && (
-                  <p>Our bookkeeping services for ZZP'ers start at €130/month (ex VAT) and include monthly financial reports, tax preparation, and Moneybird integration.</p>
-                )}
-                {formData.service === 'bookkeeping-bv' && (
-                  <p>Our bookkeeping services for BVs start at €150/month (ex VAT) and include comprehensive financial management, tax preparation, and corporate compliance.</p>
-                )}
-                {formData.service === 'payroll' && (
-                  <p>Our payroll services through Employes ensure accurate and timely salary processing, tax withholding, and compliance with Dutch labor laws.</p>
-                )}
-                {formData.service === 'business-formation' && (
-                  <p>We partner with Firm24 to provide seamless business registration services, including KVK registration and legal structure setup.</p>
-                )}
-                {formData.service === 'personal-loans' && (
-                  <p>We assist with personal loan applications at major Dutch banks including ING, ABN AMRO, RABOBANK, and SNS.</p>
-                )}
-                {formData.service === 'tax-preparation' && (
-                  <p>Our tax preparation services ensure compliance with Dutch tax regulations while maximizing available deductions and credits.</p>
-                )}
-                {formData.service === 'other' && (
-                  <p>Please describe your specific needs in the message section, and we'll be happy to discuss how we can assist you.</p>
-                )}
-                {!formData.service && (
-                  <p>Please select a service to see more information.</p>
-                )}
-              </div>
-            </div>
-          </div>
+          <DetailsStep
+            formData={formData}
+            validationErrors={validationErrors}
+            touchedFields={touchedFields}
+            handleChange={handleChange}
+            handleBlur={handleBlur}
+            renderFieldStatus={renderFieldStatus}
+            serviceOptions={serviceOptions}
+          />
         );
-        
       case 'message':
         return (
-          <div className="space-y-6 animate-fadeIn">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">Your Message</h3>
-            
-            <div className="relative">
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                Message <span className="text-red-500">*</span>
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-                onBlur={handleBlur}
-                rows={6}
-                className={`w-full px-4 py-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${
-                  validationErrors.message ? 'border-red-500' : touchedFields.message && !validationErrors.message ? 'border-green-500' : 'border-gray-300'
-                }`}
-                placeholder="Please describe your inquiry or requirements..."
-                required
-              ></textarea>
-              {validationErrors.message && (
-                <p className="mt-1 text-sm text-red-600">{validationErrors.message}</p>
-              )}
-              <p className="mt-1 text-xs text-gray-500">Please provide details about your specific needs or questions.</p>
-            </div>
-          </div>
+          <MessageStep
+            formData={formData}
+            validationErrors={validationErrors}
+            touchedFields={touchedFields}
+            handleChange={handleChange}
+            handleBlur={handleBlur}
+          />
         );
-        
       case 'review':
         return (
-          <div className="space-y-6 animate-fadeIn">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">Review Your Information</h3>
-            
-            <div className="bg-gray-50 p-4 rounded-md border border-gray-200">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                  <h4 className="text-sm font-medium text-gray-500">Name</h4>
-                  <p className="text-gray-800">{formData.name}</p>
-                </div>
-                
-                <div>
-                  <h4 className="text-sm font-medium text-gray-500">Email</h4>
-                  <p className="text-gray-800">{formData.email}</p>
-                </div>
-                
-                <div>
-                  <h4 className="text-sm font-medium text-gray-500">Phone</h4>
-                  <p className="text-gray-800">{formData.phone || 'Not provided'}</p>
-                </div>
-                
-                <div>
-                  <h4 className="text-sm font-medium text-gray-500">Company</h4>
-                  <p className="text-gray-800">{formData.company || 'Not provided'}</p>
-                </div>
-                
-                <div>
-                  <h4 className="text-sm font-medium text-gray-500">Service</h4>
-                  <p className="text-gray-800">
-                    {serviceOptions.find(option => option.value === formData.service)?.label || 'Not selected'}
-                  </p>
-                </div>
-              </div>
-              
-              <div className="mt-4">
-                <h4 className="text-sm font-medium text-gray-500">Message</h4>
-                <p className="text-gray-800 whitespace-pre-line">{formData.message}</p>
-              </div>
-            </div>
-            
-            <div className="flex items-start">
-              <input
-                id="privacy"
-                name="privacy"
-                type="checkbox"
-                checked={formData.privacy}
-                onChange={handleChange}
-                onBlur={handleBlur}
-                className={`h-5 w-5 text-blue-600 focus:ring-blue-500 border-gray-300 rounded mt-1 ${
-                  validationErrors.privacy ? 'border-red-500' : ''
-                }`}
-                required
-              />
-              <label htmlFor="privacy" className="ml-2 block text-sm text-gray-700">
-                I agree to the <Link href="/privacy-policy" className="text-blue-600 hover:text-blue-800">privacy policy</Link> and consent to being contacted regarding my inquiry.
-              </label>
-            </div>
-            {validationErrors.privacy && (
-              <p className="mt-1 text-sm text-red-600">{validationErrors.privacy}</p>
-            )}
-            
-            <div className="bg-blue-50 p-4 rounded-md border border-blue-200">
-              <div className="flex items-start">
-                <svg className="w-5 h-5 text-blue-600 mt-0.5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                </svg>
-                <div>
-                  <h4 className="font-medium text-blue-800">What happens next?</h4>
-                  <p className="text-sm text-blue-700 mt-1">
-                    After submitting your request, our team will review your information and contact you within 1-2 business days to discuss your needs in more detail.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <ReviewStep
+            formData={formData}
+            validationErrors={validationErrors}
+            handleChange={handleChange}
+            handleBlur={handleBlur}
+            serviceOptions={serviceOptions}
+          />
         );
-        
       case 'success':
-        return (
-          <div className="text-center py-10 animate-fadeIn">
-            <div className="inline-flex items-center justify-center w-16 h-16 mb-6 bg-green-100 rounded-full">
-              <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-              </svg>
-            </div>
-            
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">Thank You!</h3>
-            <p className="text-lg text-gray-600 mb-6">
-              Your message has been successfully submitted. We appreciate your interest in Glodinas Finance B.V.
-            </p>
-            
-            <div className="bg-blue-50 p-4 rounded-md border border-blue-200 text-left mb-8 max-w-md mx-auto">
-              <h4 className="font-medium text-blue-800 mb-2">What happens next?</h4>
-              <ul className="text-sm text-blue-700 space-y-2">
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                  </svg>
-                  <span>You'll receive a confirmation email shortly.</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                  </svg>
-                  <span>Our team will review your request within 1-2 business days.</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                  </svg>
-                  <span>A representative will contact you to discuss your needs.</span>
-                </li>
-              </ul>
-            </div>
-            
-            <button
-              type="button"
-              onClick={handleReset}
-              className="px-6 py-3 bg-blue-600 text-white rounded-md font-medium hover:bg-blue-700 transition-colors"
-            >
-              Submit Another Request
-            </button>
-          </div>
-        );
-        
+        return <SuccessStep handleReset={handleReset} />;
       default:
         return null;
     }
