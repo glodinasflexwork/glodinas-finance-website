@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import Link from 'next/link';
 
 interface ContactSubmission {
   id: number;
@@ -102,7 +101,7 @@ export default function AdminDashboard() {
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    return new Intl.DateTimeFormat('en-NL', {
+    return new Intl.DateTimeFormat('nl-NL', {
       year: 'numeric',
       month: 'short',
       day: 'numeric',
