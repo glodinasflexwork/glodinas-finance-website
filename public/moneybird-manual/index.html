@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moneybird Manual - Glodinas Finance B.V.</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .slide-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .slide-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .download-btn {
+            background: linear-gradient(135deg, #10b981, #059669);
+            transition: all 0.3s ease;
+        }
+        .download-btn:hover {
+            background: linear-gradient(135deg, #059669, #047857);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(16, 185, 129, 0.3);
+        }
+        .nav-link {
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: #3b82f6;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <img src="glodinas_finance_logo.png" alt="Glodinas Finance B.V." class="w-12 h-12 mr-4">
+                    <div>
+                        <h1 class="text-xl font-bold text-gray-900">Glodinas Finance B.V.</h1>
+                        <p class="text-sm text-gray-600">Moneybird Training Manual</p>
+                    </div>
+                </div>
+                <nav class="hidden md:flex space-x-6">
+                    <a href="#overview" class="nav-link text-gray-700 hover:text-blue-600">Overview</a>
+                    <a href="#slides" class="nav-link text-gray-700 hover:text-blue-600">Slides</a>
+                    <a href="#download" class="nav-link text-gray-700 hover:text-blue-600">Download</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl font-bold mb-6">Moneybird Manual for Interns</h1>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">
+                A comprehensive step-by-step guide to mastering Moneybird accounting software. 
+                Perfect for new interns at Glodinas Finance B.V.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#slides" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+                    <i class="fas fa-play mr-2"></i>Start Learning
+                </a>
+                <a href="/api/download-pdf" class="download-btn text-white px-8 py-3 rounded-lg font-semibold">
+                    <i class="fas fa-download mr-2"></i>Download PDF
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">What You'll Learn</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    This manual covers everything you need to know to start using Moneybird effectively in your daily work.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="text-center p-6 bg-blue-50 rounded-lg">
+                    <div class="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-desktop text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Navigation Basics</h3>
+                    <p class="text-gray-600">Learn to navigate the Moneybird interface with confidence</p>
+                </div>
+                
+                <div class="text-center p-6 bg-green-50 rounded-lg">
+                    <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-file-invoice text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Invoice Creation</h3>
+                    <p class="text-gray-600">Create professional invoices step-by-step</p>
+                </div>
+                
+                <div class="text-center p-6 bg-purple-50 rounded-lg">
+                    <div class="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-users text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Contact Management</h3>
+                    <p class="text-gray-600">Organize and manage client information efficiently</p>
+                </div>
+                
+                <div class="text-center p-6 bg-orange-50 rounded-lg">
+                    <div class="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-receipt text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Expense Tracking</h3>
+                    <p class="text-gray-600">Record and categorize business expenses</p>
+                </div>
+                
+                <div class="text-center p-6 bg-red-50 rounded-lg">
+                    <div class="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-chart-bar text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Financial Reports</h3>
+                    <p class="text-gray-600">Generate and export essential business reports</p>
+                </div>
+                
+                <div class="text-center p-6 bg-indigo-50 rounded-lg">
+                    <div class="w-16 h-16 bg-indigo-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-lightbulb text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Best Practices</h3>
+                    <p class="text-gray-600">Tips and tricks for efficient workflow</p>
+                </div>
+                
+                <div class="text-center p-6 bg-yellow-50 rounded-lg">
+                    <div class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-calculator text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Accounting Fundamentals</h3>
+                    <p class="text-gray-600">Essential accounting terms and concepts</p>
+                </div>
+                
+                <div class="text-center p-6 bg-pink-50 rounded-lg">
+                    <div class="w-16 h-16 bg-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-file-contract text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Document Types</h3>
+                    <p class="text-gray-600">Understanding invoices, quotes, and financial documents</p>
+                </div>
+                
+                <div class="text-center p-6 bg-teal-50 rounded-lg">
+                    <div class="w-16 h-16 bg-teal-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-percentage text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Dutch VAT System</h3>
+                    <p class="text-gray-600">VAT rates, compliance, and regulations</p>
+                </div>
+                
+                <div class="text-center p-6 bg-indigo-50 rounded-lg">
+                    <div class="w-16 h-16 bg-indigo-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-balance-scale text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Bank Reconciliation</h3>
+                    <p class="text-gray-600">Matching bank statements with your records</p>
+                </div>
+                
+                <div class="text-center p-6 bg-purple-50 rounded-lg">
+                    <div class="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-chart-line text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Advanced Analytics</h3>
+                    <p class="text-gray-600">Deep insights and custom reporting</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slides Section -->
+    <section id="slides" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Training Slides</h2>
+                <p class="text-lg text-gray-600">Click on any slide to view the detailed content - now with advanced features!</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <a href="title_slide.html" class="slide-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold mr-3">1</div>
+                            <h3 class="text-lg font-semibold text-gray-900">Title Slide</h3>
+                        </div>
+                        <p class="text-gray-600 text-sm">Introduction to the Moneybird manual for Glodinas Finance B.V. interns</p>
+                    </div>
+                </a>
+                
+                <a href="welcome_intro.html" class="slide-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white font-bold mr-3">2</div>
+                            <h3 class="text-lg font-semibold text-gray-900">Welcome & Introduction</h3>
+                        </div>
+                        <p class="text-gray-600 text-sm">Welcome message and overview of what you'll learn</p>
+                    </div>
+                </a>
+                
+                <a href="what_is_moneybird.html" class="slide-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold mr-3">3</div>
+                            <h3 class="text-lg font-semibold text-gray-900">What is Moneybird?</h3>
+                        </div>
+                        <p class="text-gray-600 text-sm">Introduction to Moneybird and its key features</p>
+                    </div>
+                </a>
+                
+                <a href="getting_started.html" class="slide-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold mr-3">4</div>
+                            <h3 class="text-lg font-semibold text-gray-900">Getting Started</h3>
+                        </div>
+                        <p class="text-gray-600 text-sm">Login process and navigation basics</p>
+                    </div>
+                </a>
+                
+                <a href="creating_invoice.html" class="slide-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 bg-red-500 rounded-full flex items-center justify-center text-white font-bold mr-3">5</div>
+                            <h3 class="text-lg font-semibold text-gray-900">Creating Your First Invoice</h3>
+                        </div>
+                        <p class="text-gray-600 text-sm">Step-by-step invoice creation process</p>
+                    </div>
+                </a>
+                
+                <a href="managing_contacts.html" class="slide-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 bg-indigo-500 rounded-full flex items-center justify-center text-white font-bold mr-3">6</div>
+                            <h3 class="text-lg font-semibold text-gray-900">Managing Contacts</h3>
+                        </div>
+                        <p class="text-gray-600 text-sm">Adding, editing, and organizing client information</p>
+                    </div>
+                </a>
+                
+                <a href="recording_expenses.html" class="slide-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold mr-3">7</div>
+                            <h3 class="text-lg font-semibold text-gray-900">Recording Expenses</h3>
+                        </div>
+                        <p class="text-gray-600 text-sm">Expense tracking and receipt management</p>
+                    </div>
+                </a>
+                
+                <a href="basic_reporting.html" class="slide-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center text-white font-bold mr-3">8</div>
+                            <h3 class="text-lg font-semibold text-gray-900">Basic Reporting</h3>
+                        </div>
+                        <p class="text-gray-600 text-sm">Accessing and exporting financial reports</p>
+                    </div>
+                </a>
+                
+                <a href="tips_best_practices.html" class="slide-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 bg-teal-500 rounded-full flex items-center justify-center text-white font-bold mr-3">9</div>
+                            <h3 class="text-lg font-semibold text-gray-900">Tips & Best Practices</h3>
+                        </div>
+                        <p class="text-gray-600 text-sm">Do's, don'ts, and efficiency tips</p>
+                    </div>
+                </a>
+                
+                <a href="basic_accounting_terms.html" class="slide-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-3">10</div>
+                            <h3 class="text-lg font-semibold text-gray-900">Basic Accounting Terms</h3>
+                        </div>
+                        <p class="text-gray-600 text-sm">Essential accounting concepts for Moneybird users</p>
+                    </div>
+                </a>
+                
+                <a href="understanding_documents.html" class="slide-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold mr-3">11</div>
+                            <h3 class="text-lg font-semibold text-gray-900">Understanding Financial Documents</h3>
+                        </div>
+                        <p class="text-gray-600 text-sm">Learn about invoices, quotes, and other financial documents</p>
+                    </div>
+                </a>
+                
+                <a href="dutch_vat_basics.html" class="slide-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center text-white font-bold mr-3">12</div>
+                            <h3 class="text-lg font-semibold text-gray-900">Dutch VAT Basics</h3>
+                        </div>
+                        <p class="text-gray-600 text-sm">Understanding VAT rates and compliance in the Netherlands</p>
+                    </div>
+                </a>
+                
+                <a href="bank_reconciliation.html" class="slide-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold mr-3">13</div>
+                            <h3 class="text-lg font-semibold text-gray-900">Bank Reconciliation</h3>
+                        </div>
+                        <p class="text-gray-600 text-sm">Matching bank statements with Moneybird records</p>
+                    </div>
+                </a>
+                
+                <a href="advanced_reporting.html" class="slide-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 bg-purple-700 rounded-full flex items-center justify-center text-white font-bold mr-3">14</div>
+                            <h3 class="text-lg font-semibold text-gray-900">Advanced Reporting & Analysis</h3>
+                        </div>
+                        <p class="text-gray-600 text-sm">Unlocking deeper insights from your financial data</p>
+                    </div>
+                </a>
+                
+                <a href="resources_support.html" class="slide-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 bg-gray-500 rounded-full flex items-center justify-center text-white font-bold mr-3">15</div>
+                            <h3 class="text-lg font-semibold text-gray-900">Resources & Support</h3>
+                        </div>
+                        <p class="text-gray-600 text-sm">Help resources and next steps</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Download PDF Manual</h2>
+            <p class="text-lg text-gray-600 mb-8">
+                Get the complete Moneybird manual as a PDF for offline reference and printing.
+            </p>
+            
+            <div class="bg-gradient-to-r from-blue-50 to-green-50 rounded-lg p-8 mb-8">
+                <div class="flex items-center justify-center mb-6">
+                    <div class="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center">
+                        <i class="fas fa-file-pdf text-white text-3xl"></i>
+                    </div>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Complete Training Manual</h3>
+                <p class="text-gray-600 mb-6">
+                    All 15 slides compiled into a professional PDF document, including basic concepts and advanced features, perfect for printing or offline study.
+                </p>
+                <a href="/api/download-pdf" class="download-btn text-white px-8 py-4 rounded-lg font-semibold text-lg inline-flex items-center">
+                    <i class="fas fa-download mr-3"></i>Download PDF Manual
+                </a>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-6 text-sm text-gray-600">
+                <div class="flex items-center justify-center">
+                    <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                    <span>Print-friendly format</span>
+                </div>
+                <div class="flex items-center justify-center">
+                    <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                    <span>Offline accessibility</span>
+                </div>
+                <div class="flex items-center justify-center">
+                    <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                    <span>Professional layout</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <img src="glodinas_finance_logo.png" alt="Glodinas Finance B.V." class="w-8 h-8 mr-3">
+                    <div>
+                        <p class="font-semibold">Glodinas Finance B.V.</p>
+                        <p class="text-sm text-gray-400">Professional Financial Services</p>
+                    </div>
+                </div>
+                <div class="text-center md:text-right">
+                    <p class="text-sm text-gray-400">
+                        📧 info@glodinasfinance.nl | 🌐 glodinasfinance.nl
+                    </p>
+                    <p class="text-xs text-gray-500 mt-1">
+                        © 2025 Glodinas Finance B.V. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Smooth scrolling script -->
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+

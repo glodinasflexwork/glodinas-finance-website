@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Reporting & Analysis</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+        .logo-container {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            z-index: 10;
+        }
+        .feature-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1rem;
+            transition: transform 0.2s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-2px);
+        }
+        .icon-circle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            margin-right: 1rem;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Logo -->
+        <div class="logo-container">
+            <img src="glodinas_finance_logo.png" alt="Glodinas Finance B.V." class="w-16 h-16 object-contain">
+        </div>
+        
+        <!-- Main Content -->
+        <div class="flex h-full">
+            <!-- Left Side - Introduction -->
+            <div class="w-1/2 flex flex-col justify-center px-10">
+                <h1 class="text-3xl font-bold text-gray-800 mb-4">Advanced Reporting & Analysis</h1>
+                <p class="text-base text-gray-600 mb-6">Unlocking deeper insights from your Moneybird data</p>
+                
+                <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg mb-4">
+                    <h3 class="font-bold text-blue-800 mb-2">Beyond Basic Reports</h3>
+                    <p class="text-blue-700 text-sm">While Moneybird offers standard reports, its true power lies in its ability to generate custom reports and allow for detailed data analysis. This helps in making informed business decisions.</p>
+                </div>
+                
+                <div class="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg">
+                    <h3 class="font-bold text-green-800 mb-2">Why Go Deeper?</h3>
+                    <p class="text-green-700 text-sm">In-depth analysis helps identify trends, forecast future performance, optimize cash flow, and ensure compliance with financial regulations. It moves beyond just recording transactions to understanding their impact.</p>
+                </div>
+            </div>
+            
+            <!-- Right Side - Features -->
+            <div class="w-1/2 flex flex-col justify-center px-10">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Key Features for In-depth Analysis</h2>
+                
+                <div class="feature-card">
+                    <div class="flex items-start">
+                        <div class="icon-circle bg-purple-500">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-800 text-lg mb-1">Customizable Reports</h3>
+                            <p class="text-gray-600 text-sm">Tailor reports to your specific needs by selecting data points, date ranges, and filters. Create reports for specific projects, clients, or expense categories.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="flex items-start">
+                        <div class="icon-circle bg-red-500">
+                            <i class="fas fa-filter"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-800 text-lg mb-1">Advanced Filtering & Grouping</h3>
+                            <p class="text-gray-600 text-sm">Utilize powerful filtering options to drill down into specific data sets. Group transactions by various criteria for a more granular view of your finances.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="flex items-start">
+                        <div class="icon-circle bg-yellow-500">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-800 text-lg mb-1">Export for External Analysis</h3>
+                            <p class="text-gray-600 text-sm">Export data in various formats (e.g., CSV, Excel) for further analysis in external tools like spreadsheets or business intelligence software.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="flex items-start">
+                        <div class="icon-circle bg-teal-500">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-800 text-lg mb-1">Integration with Other Tools</h3>
+                            <p class="text-gray-600 text-sm">Moneybird can integrate with other financial tools and platforms, allowing for a more holistic view of financial data and automated workflows.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moneybird Manual for Interns</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+        .logo-container {
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            z-index: 10;
+        }
+        .content-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+        }
+        .geometric-pattern {
+            position: absolute;
+            top: -50px;
+            right: -50px;
+            width: 400px;
+            height: 400px;
+            background: linear-gradient(45deg, #3b82f6, #1e40af);
+            border-radius: 50%;
+            opacity: 0.1;
+        }
+        .geometric-pattern-2 {
+            position: absolute;
+            bottom: -100px;
+            left: -100px;
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(45deg, #60a5fa, #3b82f6);
+            border-radius: 50%;
+            opacity: 0.08;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex items-center justify-center">
+        <!-- Geometric Background Elements -->
+        <div class="geometric-pattern"></div>
+        <div class="geometric-pattern-2"></div>
+        
+        <!-- Logo Container -->
+        <div class="logo-container">
+            <img src="/home/ubuntu/glodinas_finance_logo.png" alt="Glodinas Finance B.V." class="w-20 h-20 object-contain">
+        </div>
+        
+        <!-- Content Overlay -->
+        <div class="content-overlay flex items-center justify-center">
+            <div class="text-center max-w-4xl px-8">
+                <!-- Main Title -->
+                <h1 class="text-6xl font-bold text-gray-800 mb-6 leading-tight">
+                    Moneybird Manual
+                    <span class="block text-5xl text-blue-600 mt-2">for Interns</span>
+                </h1>
+                
+                <!-- Subtitle -->
+                <p class="text-2xl text-gray-600 mb-8 font-light">
+                    A Step-by-Step Guide for Glodinas Finance B.V.
+                </p>
+                
+                <!-- Welcome Message -->
+                <div class="bg-white bg-opacity-80 rounded-lg p-6 shadow-lg max-w-2xl mx-auto">
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        Welcome to your comprehensive guide for mastering Moneybird accounting software. 
+                        This manual will help you navigate daily tasks with confidence and efficiency.
+                    </p>
+                </div>
+                
+                <!-- Decorative Elements -->
+                <div class="flex justify-center items-center mt-8 space-x-4">
+                    <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                    <div class="w-3 h-3 bg-blue-400 rounded-full"></div>
+                    <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

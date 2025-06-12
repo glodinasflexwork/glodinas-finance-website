@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recording Expenses</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://d3js.org/d3.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+        .logo-container {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            z-index: 10;
+        }
+        .expense-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.25rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1rem;
+        }
+        .category-tag {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        .receipt-preview {
+            background: white;
+            border: 2px dashed #cbd5e1;
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Logo -->
+        <div class="logo-container">
+            <img src="/home/ubuntu/glodinas_finance_logo.png" alt="Glodinas Finance B.V." class="w-16 h-16 object-contain">
+        </div>
+        
+        <!-- Main Content -->
+        <div class="flex h-full">
+            <!-- Left Side - Expense Recording Process -->
+            <div class="w-1/2 flex flex-col justify-center px-10">
+                <h1 class="text-3xl font-bold text-gray-800 mb-4">Recording Expenses</h1>
+                <p class="text-base text-gray-600 mb-4">Track and categorize all business expenses efficiently</p>
+                
+                <div class="expense-card">
+                    <div class="flex items-start justify-between">
+                        <div class="flex-1">
+                            <h3 class="font-bold text-gray-800 mb-2">
+                                <i class="fas fa-upload text-blue-500 mr-2"></i>
+                                Upload Receipt/Invoice
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-2">Go to "Inkomend" → "Document toevoegen"</p>
+                            <ul class="text-xs text-gray-500 space-y-1">
+                                <li>• Drag & drop or browse files</li>
+                                <li>• Supports PDF, JPG, PNG</li>
+                                <li>• Mobile app for quick scanning</li>
+                            </ul>
+                        </div>
+                        <div class="category-tag">Upload</div>
+                    </div>
+                </div>
+                
+                <div class="expense-card">
+                    <div class="flex items-start justify-between">
+                        <div class="flex-1">
+                            <h3 class="font-bold text-gray-800 mb-2">
+                                <i class="fas fa-tags text-green-500 mr-2"></i>
+                                Categorize Expense
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-2">Select appropriate expense category</p>
+                            <ul class="text-xs text-gray-500 space-y-1">
+                                <li>• Office supplies</li>
+                                <li>• Travel & accommodation</li>
+                                <li>• Professional services</li>
+                                <li>• Equipment & software</li>
+                            </ul>
+                        </div>
+                        <div class="category-tag">Categorize</div>
+                    </div>
+                </div>
+                
+                <div class="expense-card">
+                    <div class="flex items-start justify-between">
+                        <div class="flex-1">
+                            <h3 class="font-bold text-gray-800 mb-2">
+                                <i class="fas fa-check-circle text-purple-500 mr-2"></i>
+                                Verify & Approve
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-2">Review details and approve for processing</p>
+                            <ul class="text-xs text-gray-500 space-y-1">
+                                <li>• Check VAT amounts</li>
+                                <li>• Verify supplier details</li>
+                                <li>• Add project codes if needed</li>
+                            </ul>
+                        </div>
+                        <div class="category-tag">Verify</div>
+                    </div>
+                </div>
+                
+                <div class="bg-orange-50 border-l-4 border-orange-500 p-3 rounded-r-lg">
+                    <p class="text-orange-800 text-sm">
+                        <i class="fas fa-exclamation-triangle mr-2"></i>
+                        <strong>Important:</strong> Always keep original receipts for tax compliance!
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Right Side - Categories & Tips -->
+            <div class="w-1/2 flex flex-col justify-center px-10">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Common Expense Categories</h2>
+                
+                <div class="grid grid-cols-2 gap-3 mb-6">
+                    <div class="bg-white p-3 rounded-lg shadow-sm">
+                        <div class="flex items-center mb-2">
+                            <i class="fas fa-laptop text-blue-500 mr-2"></i>
+                            <span class="font-medium text-gray-800 text-sm">Equipment</span>
+                        </div>
+                        <p class="text-xs text-gray-600">Computers, software, office equipment</p>
+                    </div>
+                    
+                    <div class="bg-white p-3 rounded-lg shadow-sm">
+                        <div class="flex items-center mb-2">
+                            <i class="fas fa-car text-green-500 mr-2"></i>
+                            <span class="font-medium text-gray-800 text-sm">Travel</span>
+                        </div>
+                        <p class="text-xs text-gray-600">Transportation, hotels, meals</p>
+                    </div>
+                    
+                    <div class="bg-white p-3 rounded-lg shadow-sm">
+                        <div class="flex items-center mb-2">
+                            <i class="fas fa-building text-purple-500 mr-2"></i>
+                            <span class="font-medium text-gray-800 text-sm">Office</span>
+                        </div>
+                        <p class="text-xs text-gray-600">Rent, utilities, supplies</p>
+                    </div>
+                    
+                    <div class="bg-white p-3 rounded-lg shadow-sm">
+                        <div class="flex items-center mb-2">
+                            <i class="fas fa-handshake text-orange-500 mr-2"></i>
+                            <span class="font-medium text-gray-800 text-sm">Services</span>
+                        </div>
+                        <p class="text-xs text-gray-600">Legal, accounting, consulting</p>
+                    </div>
+                </div>
+                
+                <h3 class="text-xl font-bold text-gray-800 mb-3">Receipt Scanning Tips</h3>
+                
+                <div class="receipt-preview mb-4">
+                    <i class="fas fa-camera text-3xl mb-2"></i>
+                    <p class="font-medium">Mobile App Scanning</p>
+                    <p class="text-sm">Use the Moneybird mobile app for instant receipt capture</p>
+                </div>
+                
+                <div class="space-y-2">
+                    <div class="flex items-center bg-white p-2 rounded-lg shadow-sm">
+                        <i class="fas fa-check-circle text-green-500 w-5 mr-2"></i>
+                        <span class="text-gray-700 text-sm">Ensure good lighting and focus</span>
+                    </div>
+                    
+                    <div class="flex items-center bg-white p-2 rounded-lg shadow-sm">
+                        <i class="fas fa-check-circle text-green-500 w-5 mr-2"></i>
+                        <span class="text-gray-700 text-sm">Capture all four corners of receipt</span>
+                    </div>
+                    
+                    <div class="flex items-center bg-white p-2 rounded-lg shadow-sm">
+                        <i class="fas fa-check-circle text-green-500 w-5 mr-2"></i>
+                        <span class="text-gray-700 text-sm">Scan immediately to avoid loss</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

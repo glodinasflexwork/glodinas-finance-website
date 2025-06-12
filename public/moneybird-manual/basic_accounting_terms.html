@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Accounting Terms</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+        .logo-container {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            z-index: 10;
+        }
+        .term-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.25rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1rem;
+            border-left: 4px solid #3b82f6;
+        }
+        .term-number {
+            background: linear-gradient(135deg, #3b82f6, #1e40af);
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            margin-right: 1rem;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Logo -->
+        <div class="logo-container">
+            <img src="glodinas_finance_logo.png" alt="Glodinas Finance B.V." class="w-16 h-16 object-contain">
+        </div>
+        
+        <!-- Main Content -->
+        <div class="flex h-full">
+            <!-- Left Side - Introduction -->
+            <div class="w-1/3 flex flex-col justify-center px-8">
+                <h1 class="text-3xl font-bold text-gray-800 mb-4">Basic Accounting Terms</h1>
+                <p class="text-base text-gray-600 mb-6">Essential accounting concepts every Moneybird user should understand</p>
+                
+                <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg mb-4">
+                    <h3 class="font-bold text-blue-800 mb-2">Why Learn These Terms?</h3>
+                    <p class="text-blue-700 text-sm">Understanding basic accounting terminology will help you navigate Moneybird more effectively and communicate better with your colleagues about financial matters.</p>
+                </div>
+                
+                <div class="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg">
+                    <h3 class="font-bold text-green-800 mb-2">Foundation for Success</h3>
+                    <p class="text-green-700 text-sm">These terms form the foundation of all accounting work and will be essential throughout your career at Glodinas Finance B.V.</p>
+                </div>
+            </div>
+            
+            <!-- Right Side - Terms List -->
+            <div class="w-2/3 flex flex-col justify-center px-8 max-h-full overflow-y-auto">
+                <div class="space-y-3">
+                    <div class="term-card">
+                        <div class="flex items-start">
+                            <div class="term-number">1</div>
+                            <div>
+                                <h3 class="font-bold text-gray-800 text-sm mb-1">Accounts Payable (AP)</h3>
+                                <p class="text-gray-600 text-xs">Money your company owes to suppliers for goods/services purchased on credit</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="term-card">
+                        <div class="flex items-start">
+                            <div class="term-number">2</div>
+                            <div>
+                                <h3 class="font-bold text-gray-800 text-sm mb-1">Accounts Receivable (AR)</h3>
+                                <p class="text-gray-600 text-xs">Money owed to your company by customers for goods/services sold on credit</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="term-card">
+                        <div class="flex items-start">
+                            <div class="term-number">3</div>
+                            <div>
+                                <h3 class="font-bold text-gray-800 text-sm mb-1">Revenue</h3>
+                                <p class="text-gray-600 text-xs">Total income generated from sales before expenses are deducted</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="term-card">
+                        <div class="flex items-start">
+                            <div class="term-number">4</div>
+                            <div>
+                                <h3 class="font-bold text-gray-800 text-sm mb-1">Expenses</h3>
+                                <p class="text-gray-600 text-xs">Costs incurred in the process of generating revenue</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="term-card">
+                        <div class="flex items-start">
+                            <div class="term-number">5</div>
+                            <div>
+                                <h3 class="font-bold text-gray-800 text-sm mb-1">Profit & Loss (P&L)</h3>
+                                <p class="text-gray-600 text-xs">Statement showing revenues, costs, and expenses over a period</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="term-card">
+                        <div class="flex items-start">
+                            <div class="term-number">6</div>
+                            <div>
+                                <h3 class="font-bold text-gray-800 text-sm mb-1">Balance Sheet</h3>
+                                <p class="text-gray-600 text-xs">Snapshot of company's assets, liabilities, and equity at a specific time</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="term-card">
+                        <div class="flex items-start">
+                            <div class="term-number">7</div>
+                            <div>
+                                <h3 class="font-bold text-gray-800 text-sm mb-1">VAT (Value Added Tax)</h3>
+                                <p class="text-gray-600 text-xs">Consumption tax added at each stage of the supply chain</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="term-card">
+                        <div class="flex items-start">
+                            <div class="term-number">8</div>
+                            <div>
+                                <h3 class="font-bold text-gray-800 text-sm mb-1">Journal Entry</h3>
+                                <p class="text-gray-600 text-xs">First step in accounting where financial transactions are recorded</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="term-card">
+                        <div class="flex items-start">
+                            <div class="term-number">9</div>
+                            <div>
+                                <h3 class="font-bold text-gray-800 text-sm mb-1">Reconciliation</h3>
+                                <p class="text-gray-600 text-xs">Comparing records to ensure figures are accurate and in agreement</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="term-card">
+                        <div class="flex items-start">
+                            <div class="term-number">10</div>
+                            <div>
+                                <h3 class="font-bold text-gray-800 text-sm mb-1">Trial Balance</h3>
+                                <p class="text-gray-600 text-xs">Worksheet showing all ledger balances to check arithmetical equality</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

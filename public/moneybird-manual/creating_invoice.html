@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Your First Invoice</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+        .logo-container {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            z-index: 10;
+        }
+        .step-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 0.75rem;
+        }
+        .step-number {
+            background: linear-gradient(135deg, #10b981, #059669);
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            margin-right: 0.75rem;
+            font-size: 0.875rem;
+        }
+        .invoice-preview {
+            background: white;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Logo -->
+        <div class="logo-container">
+            <img src="/home/ubuntu/glodinas_finance_logo.png" alt="Glodinas Finance B.V." class="w-16 h-16 object-contain">
+        </div>
+        
+        <!-- Main Content -->
+        <div class="flex h-full">
+            <!-- Left Side - Step-by-Step Process -->
+            <div class="w-1/2 flex flex-col justify-center px-10">
+                <h1 class="text-3xl font-bold text-gray-800 mb-4">Creating Your First Invoice</h1>
+                <p class="text-base text-gray-600 mb-4">Follow these steps to create a professional invoice</p>
+                
+                <div class="step-card">
+                    <div class="flex items-center">
+                        <div class="step-number">1</div>
+                        <div>
+                            <h3 class="font-bold text-gray-800 text-sm">Navigate to Facturen</h3>
+                            <p class="text-gray-600 text-xs">Click on "Facturen" in the main menu</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="step-card">
+                    <div class="flex items-center">
+                        <div class="step-number">2</div>
+                        <div>
+                            <h3 class="font-bold text-gray-800 text-sm">Click "Nieuwe factuur"</h3>
+                            <p class="text-gray-600 text-xs">Start creating a new invoice</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="step-card">
+                    <div class="flex items-center">
+                        <div class="step-number">3</div>
+                        <div>
+                            <h3 class="font-bold text-gray-800 text-sm">Select Client</h3>
+                            <p class="text-gray-600 text-xs">Choose from existing contacts or add new</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="step-card">
+                    <div class="flex items-center">
+                        <div class="step-number">4</div>
+                        <div>
+                            <h3 class="font-bold text-gray-800 text-sm">Add Invoice Details</h3>
+                            <p class="text-gray-600 text-xs">Date, reference, and payment terms</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="step-card">
+                    <div class="flex items-center">
+                        <div class="step-number">5</div>
+                        <div>
+                            <h3 class="font-bold text-gray-800 text-sm">Add Line Items</h3>
+                            <p class="text-gray-600 text-xs">Description, quantity, and price</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="step-card">
+                    <div class="flex items-center">
+                        <div class="step-number">6</div>
+                        <div>
+                            <h3 class="font-bold text-gray-800 text-sm">Review & Send</h3>
+                            <p class="text-gray-600 text-xs">Check details and send to client</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-blue-50 border-l-4 border-blue-500 p-3 rounded-r-lg mt-3">
+                    <p class="text-blue-800 text-sm">
+                        <i class="fas fa-lightbulb mr-2"></i>
+                        <strong>Tip:</strong> Always double-check VAT rates and client details before sending!
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Right Side - Invoice Preview & Best Practices -->
+            <div class="w-1/2 flex flex-col justify-center px-10">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Invoice Preview</h2>
+                
+                <div class="invoice-preview mb-4">
+                    <div class="flex justify-between items-start mb-3">
+                        <div>
+                            <h3 class="font-bold text-gray-800">FACTUUR</h3>
+                            <p class="text-sm text-gray-600">Factuurnummer: 2024-001</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-sm text-gray-600">Datum: 12-06-2025</p>
+                            <p class="text-sm text-gray-600">Vervaldatum: 26-06-2025</p>
+                        </div>
+                    </div>
+                    
+                    <div class="border-t border-gray-200 pt-3 mb-3">
+                        <p class="font-medium text-gray-800">Aan:</p>
+                        <p class="text-sm text-gray-600">Client Name</p>
+                        <p class="text-sm text-gray-600">Address</p>
+                    </div>
+                    
+                    <div class="border-t border-gray-200 pt-3">
+                        <div class="flex justify-between text-sm">
+                            <span>Service Description</span>
+                            <span>€ 100,00</span>
+                        </div>
+                        <div class="flex justify-between text-sm text-gray-600">
+                            <span>BTW (21%)</span>
+                            <span>€ 21,00</span>
+                        </div>
+                        <div class="flex justify-between font-bold border-t border-gray-200 pt-2 mt-2">
+                            <span>Totaal</span>
+                            <span>€ 121,00</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <h3 class="text-xl font-bold text-gray-800 mb-3">Best Practices</h3>
+                
+                <div class="space-y-2">
+                    <div class="flex items-center bg-white p-2 rounded-lg shadow-sm">
+                        <i class="fas fa-check-circle text-green-500 w-5 mr-2"></i>
+                        <span class="text-gray-700 text-sm">Use clear, descriptive line items</span>
+                    </div>
+                    
+                    <div class="flex items-center bg-white p-2 rounded-lg shadow-sm">
+                        <i class="fas fa-check-circle text-green-500 w-5 mr-2"></i>
+                        <span class="text-gray-700 text-sm">Set appropriate payment terms (14 days)</span>
+                    </div>
+                    
+                    <div class="flex items-center bg-white p-2 rounded-lg shadow-sm">
+                        <i class="fas fa-check-circle text-green-500 w-5 mr-2"></i>
+                        <span class="text-gray-700 text-sm">Include project reference if applicable</span>
+                    </div>
+                    
+                    <div class="flex items-center bg-white p-2 rounded-lg shadow-sm">
+                        <i class="fas fa-check-circle text-green-500 w-5 mr-2"></i>
+                        <span class="text-gray-700 text-sm">Verify VAT rates are correct</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
