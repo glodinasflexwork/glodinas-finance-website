@@ -1,9 +1,7 @@
 // src/app/api/admin/setup/route.ts
 import { NextRequest, NextResponse } from 'next/server';
-import { PrismaClient } from '@prisma/client';
+import prisma from '@/lib/prisma';
 import bcrypt from 'bcryptjs';
-
-const prisma = new PrismaClient();
 
 // This is a one-time setup endpoint to create the initial admin user
 // In production, this should be disabled after first use or protected

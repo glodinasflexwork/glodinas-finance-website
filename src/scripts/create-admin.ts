@@ -1,8 +1,6 @@
 // src/scripts/create-admin.ts
-import { PrismaClient } from '@prisma/client';
+import prisma from '@/lib/prisma';
 import bcrypt from 'bcryptjs';
-
-const prisma = new PrismaClient();
 
 async function createAdmin() {
   const username = process.argv[2] || process.env.ADMIN_USERNAME;
