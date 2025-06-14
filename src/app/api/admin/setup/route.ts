@@ -2,6 +2,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { PrismaClient } from '@prisma/client';
 import bcrypt from 'bcryptjs';
+import env from '@/lib/env';
 
 const prisma = new PrismaClient();
 
@@ -13,7 +14,7 @@ export async function POST(request: NextRequest) {
     const { username, password, setupKey } = body;
     
     // Verify setup key (this should be a strong, unique key known only to the site owner)
-    const expectedSetupKey = process.env.ADMIN_SETUP_KEY || 'glodinas-finance-initial-setup-key';
+    const expectedSetupKey = env.ADMIN_SETUP_KEY;
     if (setupKey !== expectedSetupKey) {
       return NextResponse.json(
         { error: 'Invalid setup key' },

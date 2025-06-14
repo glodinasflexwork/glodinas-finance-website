@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import I18nProvider from "@/components/I18nProvider";
+import "@/lib/env"; // Validate required environment variables on startup
 
 const inter = Inter({ subsets: ["latin"] });
 

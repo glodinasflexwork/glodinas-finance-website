@@ -2,9 +2,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { PrismaClient } from '@prisma/client';
 import jwt from 'jsonwebtoken';
+import env from '@/lib/env';
 
 const prisma = new PrismaClient();
-const JWT_SECRET = process.env.JWT_SECRET || 'glodinas-finance-secret-key';
+const { JWT_SECRET } = env;
 
 // Middleware to verify JWT token
 const verifyToken = (request: NextRequest) => {
