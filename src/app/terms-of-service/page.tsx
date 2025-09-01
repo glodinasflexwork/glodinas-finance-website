@@ -145,6 +145,22 @@ export default function TermsOfService() {
               {t('termsOfService.sections.feesAndPayment.latePayments.additionalParagraph')}
             </p>
 
+            <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('termsOfService.sections.feesAndPayment.meetingCancellation.title')}</h3>
+            <p className="text-gray-600 mb-4">
+              {t('termsOfService.sections.feesAndPayment.meetingCancellation.paragraph')}
+            </p>
+            <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
+              {(() => {
+                const items = t('termsOfService.sections.feesAndPayment.meetingCancellation.items', { returnObjects: true });
+                return Array.isArray(items) && typeof items.map === 'function'
+                  ? items.map((item, index) => <li key={index}>{item}</li>)
+                  : <li>{t('termsOfService.sections.feesAndPayment.meetingCancellation.items')}</li>;
+              })()}
+            </ul>
+            <p className="text-gray-600 mb-4">
+              {t('termsOfService.sections.feesAndPayment.meetingCancellation.additionalParagraph')}
+            </p>
+
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('termsOfService.sections.termAndTermination.title')}</h2>
             
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{t('termsOfService.sections.termAndTermination.term.title')}</h3>

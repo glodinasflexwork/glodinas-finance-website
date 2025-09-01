@@ -763,6 +763,17 @@
             "You will be responsible for all costs incurred in collecting overdue payments, including reasonable legal fees"
           ],
           "additionalParagraph": "In accordance with Dutch law, the payment term for business-to-business transactions shall not exceed 60 days, unless expressly agreed otherwise and provided that this is not manifestly unfair to the creditor."
+        },
+        "meetingCancellation": {
+          "title": "5.4 Meeting and Consultation Cancellation Policy",
+          "paragraph": "To ensure efficient scheduling and protect both parties' time and resources, the following cancellation policy applies to all scheduled meetings, consultations, and appointments:",
+          "items": [
+            "Cancellations with 48 hours or more advance notice: No cancellation fee will be charged, and appointments may be rescheduled at no additional cost",
+            "Cancellations with 24-48 hours advance notice: A cancellation fee of €47.50 (50% of our standard consultation rate of €95, exclusive of BTW) will be charged to cover administrative costs and lost scheduling opportunities",
+            "Cancellations with less than 24 hours notice or no-shows: The full consultation fee of €95 (exclusive of BTW) will be charged as compensation for the reserved time slot",
+            "Late arrivals: Clients arriving more than 15 minutes after the scheduled appointment time will be considered a no-show and subject to the full cancellation fee"
+          ],
+          "additionalParagraph": "All cancellation notices must be provided in writing via email or through our scheduling system. Cancellation fees will be invoiced separately with payment due within 14 days. Emergency situations or circumstances beyond reasonable control may be considered for fee waiver at our sole discretion. This policy ensures fair compensation for reserved professional time and maintains scheduling efficiency for all clients. By booking an appointment, you acknowledge and agree to these cancellation terms."
         }
       },
       "termAndTermination": {
